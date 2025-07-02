@@ -48,7 +48,7 @@ const ManagementSection = () => {
         <div className="mb-20">
           <div className="relative group">
             <img 
-              src="/luca_bazzanella/lovable-uploads/2eb21475-ef8c-4054-ab76-420edc702a76.png" 
+              src="https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/2eb21475-ef8c-4054-ab76-420edc702a76.png" 
               alt="PNRR Conference at Ferrari Wineries"
               className="w-full h-96 object-cover rounded-2xl shadow-lg group-hover:shadow-xl transition-shadow"
             />
@@ -101,7 +101,7 @@ const ManagementSection = () => {
             {/* Presentation Slide */}
             <div className="relative group">
               <img 
-                src="/luca_bazzanella/lovable-uploads/8753dece-6e38-48a2-bd4a-63e561d3b76d.png" 
+                src="https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/8753dece-6e38-48a2-bd4a-63e561d3b76d.png" 
                 alt="Training Module Presentation"
                 className="w-full h-64 object-cover rounded-2xl shadow-lg group-hover:shadow-xl transition-shadow"
               />
@@ -116,7 +116,7 @@ const ManagementSection = () => {
             {/* PPP Advantages Diagram */}
             <div className="relative group">
               <img 
-                src="/luca_bazzanella/lovable-uploads/b110177f-ef62-4148-98d1-7abe0ca70cea.png" 
+                src="https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/b110177f-ef62-4148-98d1-7abe0ca70cea.png" 
                 alt="PPP Advantages Analysis"
                 className="w-full h-64 object-cover rounded-2xl shadow-lg group-hover:shadow-xl transition-shadow"
               />
@@ -162,7 +162,7 @@ const ManagementSection = () => {
 
               <div className="relative group">
                 <img 
-                  src="/luca_bazzanella/lovable-uploads/e952218f-9df4-4ad8-a897-cbe669097655.png" 
+                  src="https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/e952218f-9df4-4ad8-a897-cbe669097655.png" 
                   alt="Sustainable Development Event"
                   className="w-full h-80 object-cover rounded-2xl shadow-lg group-hover:shadow-xl transition-shadow"
                 />
@@ -249,7 +249,7 @@ const ManagementSection = () => {
               </div>
               <div>
                 <img 
-                  src="/luca_bazzanella/lovable-uploads/23c7b670-139e-412c-a1d4-9e6a3bc94767.png"
+                  src="https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/23c7b670-139e-412c-a1d4-9e6a3bc94767.png"
                   alt="International development project"
                   className="w-full h-80 object-cover rounded-2xl shadow-lg"
                 />
