@@ -24,7 +24,7 @@ const ConferencesSection = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-20">
           <div className="relative group">
             <img 
-              src="/luca_bazzanella/lovable-uploads/b1a73995-544a-4b73-bd74-b646ce643574.png" 
+              src="https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/b1a73995-544a-4b73-bd74-b646ce643574.png" 
               alt="Smart City Conference"
               className="w-full h-64 object-cover rounded-2xl shadow-lg group-hover:shadow-xl transition-shadow"
             />
@@ -38,7 +38,7 @@ const ConferencesSection = () => {
           
           <div className="relative group">
             <img 
-              src="/luca_bazzanella/lovable-uploads/87e71afe-46ae-4a4c-8838-97af8a8d9357.png" 
+              src="https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/87e71afe-46ae-4a4c-8838-97af8a8d9357.png" 
               alt="Mohammed Yunus Conference Brussels 2017"
               className="w-full h-64 object-cover rounded-2xl shadow-lg group-hover:shadow-xl transition-shadow"
             />
@@ -52,7 +52,7 @@ const ConferencesSection = () => {
           
           <div className="relative group">
             <img 
-              src="/luca_bazzanella/lovable-uploads/3c48d014-5dac-4244-a390-2011f5f4917f.png" 
+              src="https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/3c48d014-5dac-4244-a390-2011f5f4917f.png" 
               alt="Business Presentation"
               className="w-full h-64 object-cover object-[50%_25%] rounded-2xl shadow-lg group-hover:shadow-xl transition-shadow"
             />
@@ -160,7 +160,7 @@ const ConferencesSection = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <div className="relative group">
             <img 
-              src="/luca_bazzanella/lovable-uploads/06797e83-b04d-4211-a8ef-13b5a23fa472.png" 
+              src="https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/06797e83-b04d-4211-a8ef-13b5a23fa472.png" 
               alt="Business Conference"
               className="w-full h-80 object-cover rounded-2xl shadow-lg group-hover:shadow-xl transition-shadow"
             />
@@ -174,7 +174,7 @@ const ConferencesSection = () => {
           
           <div className="relative group">
             <img 
-              src="/luca_bazzanella/lovable-uploads/0b83ced8-5fdd-4d8a-956e-211fbcb1e621.png" 
+              src="https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/0b83ced8-5fdd-4d8a-956e-211fbcb1e621.png" 
               alt="Virtual Conference"
               className="w-full h-80 object-cover rounded-2xl shadow-lg group-hover:shadow-xl transition-shadow"
             />

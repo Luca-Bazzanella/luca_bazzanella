@@ -8,7 +8,7 @@ const HeroSection = () => {
 
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-50 via-blue-50/30 to-slate-100">
-      <div className="absolute inset-0 bg-[url('/luca_bazzanella/lovable-uploads/1b7e0beb-45ba-40b5-8a81-de8170b13551.png')] bg-cover bg-center opacity-10"></div>
+      <div className="absolute inset-0 bg-[url('https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/1b7e0beb-45ba-40b5-8a81-de8170b13551.png')] bg-cover bg-center opacity-10"></div>
       
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid lg:grid-cols-2 gap-16 items-stretch">
@@ -53,7 +53,7 @@ const HeroSection = () => {
           <div className="relative flex items-center justify-center h-full order-1 lg:order-2">
             <div className="relative z-10 w-full h-full flex items-center justify-center">
               <img 
-                src="/luca_bazzanella/lovable-uploads/1b7e0beb-45ba-40b5-8a81-de8170b13551.png" 
+                src="https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/1b7e0beb-45ba-40b5-8a81-de8170b13551.png" 
                 alt="Dott. Luca Bazzanella"
                 className="w-full max-w-lg h-full object-cover rounded-3xl shadow-2xl"
               />
