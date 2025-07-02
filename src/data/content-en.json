@@ -1,0 +1,389 @@
+
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "management": "Management",
+    "conferences": "Conferences",
+    "sustainability": "Sustainability",
+    "videos": "Videos",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Luca Bazzanella",
+    "description": "Trentino manager, born in 1991, with a background as an advisor within the European Parliament. Specialized in outsourced business management and process digitalization with particular experience in public policy analysis and institutional relations. Always interested in social issues, he is president of the Ermetes scs cooperative and the Sustainable Economy Association, a non-profit organization engaged in international projects with particular focus on North Africa and advocacy actions in favor of new technologies for decarbonization. From 2019 to 2021 Head of the Europe Office of Confcommercio Trentino, the main Category Association in Italy for small and medium enterprises, and since 2020 administrator and operational director of the consulting company European Management Institute. He previously held various political coordination roles at regional and national level in Forza Italia – PDL, leaving all positions in December 2022. Always interested in finding the right balance between business efficiency and social impact.",
+    "cta": "Discover my work",
+    "contact": "Contact",
+    "linkedin": "LinkedIn"
+  },
+  "about": {
+    "title": "Who is",
+    "name": "Luca Bazzanella",
+    "description1": "Trentino manager, born in 1991, with a background as an advisor within the European Parliament. Specialized in outsourced business management and process digitalization with particular experience in public policy analysis and institutional relations.",
+    "description2": "Since 2016 President of the Sustainable Economy Association, a non-profit organization engaged in international projects with particular focus on North Africa and advocacy actions in the environmental field. Always interested in finding the right balance between business efficiency and social impact.",
+    "stats": {
+      "experience": "Years Experience",
+      "projects": "Completed Projects",
+      "conferences": "Conferences",
+      "countries": "Countries"
+    },
+    "currentRoles": "Current Positions",
+    "roles": [
+      "Director - European Management Institute",
+      "President - Sustainable Economy Association ODV",
+      "President - Cooperativa Ermetes SCS"
+    ],
+    "skills": "Core Competencies",
+    "skillsList": [
+      "Outsourced management",
+      "Process digitalization",
+      "Public policies",
+      "Institutional relations",
+      "Public-private partnerships",
+      "Environmental sustainability"
+    ],
+    "externalLinks": [
+      {
+        "name": "European Management Institute",
+        "url": "https://www.europeanmanagement.eu/"
+      },
+      {
+        "name": "Sustainable Economy Association",
+        "url": "https://www.sustainableeconomy.eu/"
+      },
+      {
+        "name": "Cooperativa Ermetes",
+        "url": "https://www.ermetes.it/"
+      }
+    ],
+    "imageDescriptions": {
+      "veniceFilmFestival": {
+        "title": "Venice Film Festival",
+        "subtitle": "Exclusive cocktail party"
+      },
+      "professionalPortrait": {
+        "title": "Professional Portrait",
+        "subtitle": "The Italian Good Living"
+      },
+      "businessNetworking": {
+        "title": "Business Networking",
+        "subtitle": "Professional meeting"
+      },
+      "europeanParliament": {
+        "title": "European Parliament",
+        "subtitle": "Advisor experience at EU institutions"
+      },
+      "institutionalMeeting": {
+        "title": "Villa San Martino Arcore",
+        "subtitle": "November 2015 with Silvio Berlusconi at his private residence where political and personal meetings were often held"
+      }
+    }
+  },
+  "management": {
+    "title": "Management",
+    "subtitle": "Consulting",
+    "description": "Strategic and operational support for SMEs through outsourced management services and specialized consulting focused on digitalization and sustainability.",
+    "services": [
+      {
+        "title": "Outsourced Management",
+        "description": "Outsourced corporate management services for SMEs that need specialized managerial skills without incurring high fixed costs."
+      },
+      {
+        "title": "Process Digitalization",
+        "description": "Optimization and digitalization of business processes to improve operational efficiency and market competitiveness."
+      },
+      {
+        "title": "Institutional Relations",
+        "description": "Management of relations with public entities and institutions to maximize business opportunities and access to funding."
+      },
+      {
+        "title": "Public Policy Analysis",
+        "description": "Monitoring and analysis of public policies to identify opportunities and risks for business operations."
+      }
+    ],
+    "ferrariConference": {
+      "title": "NRRP Conference at Ferrari Wineries",
+      "subtitle": "Institutional speakers and representatives from Trentino's economic sector"
+    },
+    "currentPositions": "Current Positions",
+    "positions": [
+      {
+        "title": "Director European Management Institute",
+        "description": "Next-generation consulting company specialized in outsourced management, digital transformation, and executive training. Structured in three different business units that support companies and institutions in their reorganization, efficiency, and market development processes.",
+        "additionalInfo": "European Management contrasts with traditional consulting approaches. It offers selected clients high-value-added solutions that are difficult to find in the market. Uses a \"data driven\" approach and accepts challenging contracts including \"outcome based\" types, compensated based on agreed performance indicators.",
+        "links": [
+          {
+            "name": "www.europeanmanagement.eu",
+            "url": "https://www.europeanmanagement.eu/"
+          }
+        ]
+      },
+      {
+        "title": "Co-Founder and Director Cooperativa Ermetes SCS",
+        "description": "Mutual cooperative that supports professional integration and work continuity for people in difficulty through contracts and jobs in residential building maintenance and other related services.",
+        "additionalInfo": "The challenge is to bring managerial and organizational skills to a sector not always focused on efficiency and productivity. The distinctive aspect is the introduction of a \"C-level\" business management system with worker-member enhancement through efficiency bonuses based on agreed performance indicators for each contract and a specific social impact measurement system.",
+        "links": [
+          {
+            "name": "www.ermetes.it",
+            "url": "https://www.ermetes.it/"
+          },
+          {
+            "name": "Social Impact Report",
+            "url": "https://docs.google.com/document/d/1dcWfhXJwSif4_Ty30bg4AOjOMucbZL0yRBEGCc3pvdg/edit?tab=t.0"
+          }
+        ]
+      }
+    ],
+    "trainingModule": {
+      "title": "Training Module - Public-Private Dialogue",
+      "subtitle": "Training for public managers and officials"
+    },
+    "pppAdvantages": {
+      "title": "Public-Private Partnership Advantages",
+      "subtitle": "Strategic analysis for public administrations"
+    },
+    "executiveTraining": "Executive Training and International Projects",
+    "mozambiqueProject": {
+      "title": "Executive Trainer for the Government of Mozambique (2024)",
+      "description": "Design and implementation of a customized training program for managers and senior public officials titled: \"Public-Private Partnership for Local Development\".",
+      "details": "The European-supported initiative aims to strengthen institutional capacity to effectively manage dialogue between Government and citizens both relationally, through active citizen involvement and monitoring satisfaction levels in various areas, and contractually, to enhance public assets and resources while reducing corruption risks and market distortions.",
+      "impact": "The executive program combines brief theoretical contributions with numerous practical case studies, ensuring concrete learning oriented toward operational application of best practices. A particularly appreciated chapter concerns citizen needs mapping activities aimed at creating \"citizen engagement\" strategies.",
+      "links": [
+        {
+          "name": "MudAR Project",
+          "url": "https://www.mudarbeira.org/it/o-projecto-it/"
+        },
+        {
+          "name": "Trentino Mozambique",
+          "url": "https://www.trentinomozambico.org/progetti-cooperazione-internazionale/altri-progetti/capacity-building-istituzionale-a-livello-nazionale/"
+        }
+      ]
+    },
+    "sustainableEvent": {
+      "title": "Sustainable Development Debate",
+      "subtitle": "\"American-style\" political confrontation at Palazzo Benvenuti"
+    },
+    "constructionAutomation": {
+      "title": "Executive Trainer – \"Digital Automation in Construction\"",
+      "description": "Design and implementation of an advanced training program for managers and entrepreneurs in the construction sector to introduce innovative digital automation and robotics tools.",
+      "topics": [
+        "Planning and monitoring cash flows to prevent liquidity crises",
+        "Digitalization and automation of processes to optimize public and private tender preparation",
+        "Advanced management control through multi-project management tools",
+        "Administrative management automation, including deadlines and debt collection"
+      ]
+    },
+    "decarbonization": {
+      "title": "Decarbonization and Digital \"Carbontrack\" and \"Ship 24 Green\"",
+      "description": "Direction of integrated digital projects for measuring, tracking, and reducing environmental impact applied in energy efficiency and international logistics.",
+      "solutions": [
+        "LCA (Life Cycle Assessment) analysis to evaluate emissions throughout the entire life cycle",
+        "Mapping and optimization of business processes with innovative technologies",
+        "Compensation of residual emissions through certified carbon offsetting projects",
+        "Ship24Green digital platform to measure CO₂eq emissions from ecommerce deliveries"
+      ]
+    },
+    "recentProjects": "Recent Projects",
+    "projects": [
+      {
+        "title": "Green Energy Innovation Hub - Siram-Veolia SPA",
+        "description": "Conception and co-design of sustainable energy innovation hub",
+        "year": "2024",
+        "link": "https://trentinosviluppo.it/it/ELE0019520/progetto-green-energy-innovation-hub"
+      },
+      {
+        "title": "Direction A.T.I. Dolomiti Grow - Defense Industries Agency",
+        "description": "Expression of interest 1st position",
+        "year": "2022-2024",
+        "link": "https://www.agenziaindustriedifesa.it/"
+      },
+      {
+        "title": "Redefinition of Priority Lines PR ESF and ERDF – Trentino 2021–2027",
+        "description": "Contribution to European programming as Monitoring Committee member",
+        "year": "2021-2027"
+      },
+      {
+        "title": "Head of Europe Office Confcommercio Trentino",
+        "description": "European policy monitoring and SME support in tenders and public contracts",
+        "year": "2019-2021"
+      },
+      {
+        "title": "Railway Bypass communication strategy",
+        "description": "Province of Trento - citizen awareness",
+        "year": "2024",
+        "link": "https://corridoiodelbrennero.provincia.tn.it/"
+      }
+    ]
+  },
+  "conferences": {
+    "title": "Conferences &",
+    "subtitle": "Speaking",
+    "description": "Organization and participation in conferences on management, sustainability and technological innovation topics with focus on public-private partnerships.",
+    "organizedTitle": "Organized Conferences",
+    "topicsTitle": "Topics of Interest",
+    "requestTitle": "Request a Speaking Engagement",
+    "requestDescription": "Interested in organizing a conference or requesting a speaking engagement? Let's discuss how I can contribute to your event.",
+    "availableFor": "Available for: Keynotes • Workshops • Panel Discussions • Corporate Events",
+    "conferences": [
+      {
+        "title": "NRRP in Trentino: Between opportunities and risks",
+        "date": "2022",
+        "location": "Ferrari Wineries, Trento",
+        "attendees": "200+",
+        "topic": "Involvement of main local and national stakeholders",
+        "link": "https://www.sustainableeconomy.eu/eventi/comunicato-stampa-conferenza-31-05-2022-cantine-ferrari-trento/"
+      },
+      {
+        "title": "Public Private Partnership - Opportunities for SMEs and Local Authorities",
+        "date": "2021",
+        "location": "Trento",
+        "attendees": "150+",
+        "topic": "Seminar with Province, Cassa del Trentino and Confcommercio",
+        "link": "https://www.cassadeltrentino.it/News/Il-PPP-un-opportunita-per-PMI-ed-Enti-locali.-Il-seminario-di-Confcommercio-con-Cassa-del-Trentino-e-Consorzio-dei-Comuni"
+      },
+      {
+        "title": "Sustainable Technologies for Mobility",
+        "date": "2018-2019",
+        "location": "Trentino",
+        "attendees": "100+",
+        "topic": "Focus on fuel cell technologies applied to the railway sector"
+      }
+    ],
+    "topics": [
+      "Public Private Partnership",
+      "Public Services Digitalization",
+      "Sustainable Technologies",
+      "European Policies",
+      "Business Management",
+      "Innovation and Sustainability"
+    ]
+  },
+  "sustainability": {
+    "title": "Sustainability &",
+    "subtitle": "Impact",
+    "description": "Building a sustainable future through responsible business practices, technological innovation and social impact projects with international focus.",
+    "approachTitle": "Our Approach to Sustainability",
+    "approachDescription": "Sustainability is not just environmental protection, but creating long-term value for all stakeholders. My approach integrates environmental, social and governance (ESG) factors into every aspect of business strategy.",
+    "initiatives": [
+      {
+        "title": "Green Technologies",
+        "description": "Development and implementation of sustainable technologies for decarbonization and energy efficiency."
+      },
+      {
+        "title": "International Projects",
+        "description": "Sustainable development projects in North Africa through the Sustainable Economy Association."
+      },
+      {
+        "title": "Circular Economy",
+        "description": "Development of business models based on circular economy and waste reduction."
+      },
+      {
+        "title": "Social Impact",
+        "description": "Job integration projects through Cooperativa Ermetes for disadvantaged people."
+      }
+    ],
+    "projects": [
+      {
+        "title": "Shams Al Atlas - Morocco",
+        "description": "Social sports center 'Sun of the Atlas' for sustainable development",
+        "link": "https://www.sustainableeconomy.eu/progetti/chiusura-lavori-e-inaugurazione-del-centro-sociale-sportivo-shams-al-atlas-sole-dellatlante/"
+      },
+      {
+        "title": "Green Desert - Morocco",
+        "description": "Partnership agreement for sustainable agricultural development Rehamna Province",
+        "link": "https://www.sustainableeconomy.eu/progetti/siglato-un-nuovo-accordo-di-partenariato-per-lo-sviluppo-agricolo-sostenibile-con-la-provincia-di-rehamna-marocco/"
+      },
+      {
+        "title": "Cooperativa Ermetes",
+        "description": "Job integration for disadvantaged people through targeted training",
+        "link": "https://www.ermetes.it/"
+      }
+    ],
+    "stats": {
+      "commitment": "Years of Commitment",
+      "projects": "Sustainable Projects",
+      "organizations": "Organizations Chaired"
+    }
+  },
+  "videos": {
+    "title": "Featured",
+    "subtitle": "Videos",
+    "description": "Watch interviews and discussions on business strategy, sustainability and leadership from conferences and speaking engagements.",
+    "channelDescription": "Subscribe to my YouTube channel for more insights on business strategy and sustainability",
+    "visitChannel": "Visit YouTube Channel",
+    "videos": [
+      {
+        "title": "Strategic Leadership in Modern Business",
+        "description": "Insights on effective leadership strategies for today's dynamic business environment."
+      },
+      {
+        "title": "Sustainability in Business Strategy",
+        "description": "How to integrate sustainable practices into core business strategy."
+      },
+      {
+        "title": "Best Practices for Innovation Management",
+        "description": "Proven methodologies for managing innovation in organizations."
+      },
+      {
+        "title": "The Digital Transformation Journey",
+        "description": "Navigating the complexities of digital transformation in business."
+      },
+      {
+        "title": "Future of Business Consulting",
+        "description": "Exploring emerging trends and the evolution of management consulting."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get in",
+    "subtitle": "Touch",
+    "description": "Ready to transform your business? Let's discuss how we can work together to achieve your goals.",
+    "info": "Contact Information",
+    "bookConsultation": "Book a Consultation",
+    "consultationDescription": "Book a free 30-minute consultation to discuss your company's challenges and explore possible solutions.",
+    "bookMeeting": "Book Meeting",
+    "sendMessage": "Send a Message",
+    "form": {
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "Your full name",
+      "email": "Email",
+      "emailPlaceholder": "your.email@example.com",
+      "company": "Company",
+      "companyPlaceholder": "Your company name",
+      "message": "Message",
+      "messagePlaceholder": "Tell me about your project or request...",
+      "send": "Send Message"
+    },
+    "contactInfo": [
+      {
+        "label": "Personal Email",
+        "value": "lucabazzanella.tn@gmail.com"
+      },
+      {
+        "label": "Business Email",
+        "value": "direzione@europeanmanagement.eu"
+      },
+      {
+        "label": "Phone",
+        "value": "+39 392 997 9051"
+      },
+      {
+        "label": "Address",
+        "value": "Via della Torre Franca n.33, 38123 Trento (TN)"
+      }
+    ]
+  },
+  "footer": {
+    "description": "Management consultant, speaker and sustainability expert dedicated to transforming companies for a better future.",
+    "services": "Services",
+    "servicesList": [
+      "Management Consulting",
+      "Conferences and Speaking",
+      "Sustainability",
+      "Outsourced Management"
+    ],
+    "contacts": "Contacts",
+    "location": "Trento, Italy",
+    "copyright": "2025 Sintija Birgele. All rights reserved."
+  }
+}

@@ -1,0 +1,35 @@
+
+{
+  "title": "Featured",
+  "subtitle": "Videos",
+  "description": "Watch interviews and discussions on business strategy, sustainability and leadership from conferences and speaking engagements.",
+  "channelDescription": "Subscribe to my YouTube channel for more insights on business strategy and sustainability",
+  "visitChannel": "Visit YouTube Channel",
+  "videos": [
+    {
+      "title": "Strategic Leadership in Modern Business",
+      "description": "Insights on effective leadership strategies for today's dynamic business environment.",
+      "videoId": "snQOcYceCRA"
+    },
+    {
+      "title": "Sustainability in Business Strategy",
+      "description": "How to integrate sustainable practices into core business strategy.",
+      "videoId": "CKc0PJ04pTA"
+    },
+    {
+      "title": "Best Practices for Innovation Management",
+      "description": "Proven methodologies for managing innovation in organizations.",
+      "videoId": "bOAJ3T29zNo"
+    },
+    {
+      "title": "The Digital Transformation Journey",
+      "description": "Navigating the complexities of digital transformation in business.",
+      "videoId": "z5zt4k9T2FA"
+    },
+    {
+      "title": "Future of Business Consulting",
+      "description": "Exploring emerging trends and the evolution of management consulting.",
+      "videoId": "U741bC5dUVk"
+    }
+  ]
+}
