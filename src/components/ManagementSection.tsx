@@ -1,4 +1,3 @@
-
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Target, TrendingUp, Users, Lightbulb, ExternalLink } from 'lucide-react';
 import { useLanguage } from '@/hooks/useLanguage';
@@ -132,12 +131,12 @@ const ManagementSection = () => {
 
         {/* Executive Training Projects */}
         <Card className="glass-effect border-0 shadow-2xl mb-20">
-          <div className="p-12">
+          <div className="p-6 sm:p-8 lg:p-12">
             <h3 className="text-3xl font-serif font-semibold text-slate-900 mb-8 text-center">
               {content.management.executiveTraining}
             </h3>
             
-            <div className="grid lg:grid-cols-2 gap-12 items-start mb-12">
+            <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-start mb-8 lg:mb-12">
               <div>
                 <h4 className="text-2xl font-semibold text-slate-900 mb-6">{content.management.mozambiqueProject.title}</h4>
                 <p className="text-slate-700 leading-relaxed font-light mb-4">{content.management.mozambiqueProject.description}</p>
@@ -176,7 +175,7 @@ const ManagementSection = () => {
             </div>
 
             {/* Additional Training Programs */}
-            <div className="grid md:grid-cols-2 gap-8">
+            <div className="grid md:grid-cols-2 gap-6 lg:gap-8">
               <Card className="glass-effect border-0 shadow-lg">
                 <CardContent className="p-6">
                   <h4 className="text-xl font-semibold text-slate-900 mb-4">{content.management.constructionAutomation.title}</h4>
@@ -212,8 +211,8 @@ const ManagementSection = () => {
 
         {/* Recent Projects */}
         <Card className="glass-effect border-0 shadow-2xl">
-          <div className="p-12">
-            <div className="grid lg:grid-cols-2 gap-12 items-start">
+          <div className="p-6 sm:p-8 lg:p-12">
+            <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-start">
               <div>
                 <h3 className="text-3xl font-serif font-semibold text-slate-900 mb-8">
                   {content.management.recentProjects}
