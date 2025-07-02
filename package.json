@@ -11,8 +11,8 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Sintija Birgele",
+  "license": "UNLICENSED",
   "description": "",
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
