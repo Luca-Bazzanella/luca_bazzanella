@@ -104,7 +104,7 @@ const AboutSection = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-16">
           <div className="relative group">
             <img 
-              src="/lovable-uploads/eb2e8793-572c-4b65-a042-7a8f863f0165.png" 
+              src="/luca_bazzanella/lovable-uploads/eb2e8793-572c-4b65-a042-7a8f863f0165.png" 
               alt="Venice Film Festival Event"
               className="w-full h-64 object-cover rounded-2xl shadow-lg group-hover:shadow-xl transition-shadow"
             />
@@ -118,7 +118,7 @@ const AboutSection = () => {
           
           <div className="relative group">
             <img 
-              src="/lovable-uploads/97abf5a8-c17f-4bd6-bc05-8bfeb2c3962f.png" 
+              src="/luca_bazzanella/lovable-uploads/97abf5a8-c17f-4bd6-bc05-8bfeb2c3962f.png" 
               alt="Professional Portrait"
               className="w-full h-64 object-cover rounded-2xl shadow-lg group-hover:shadow-xl transition-shadow object-[50%_25%]"
             />
@@ -132,7 +132,7 @@ const AboutSection = () => {
           
           <div className="relative group">
             <img 
-              src="/lovable-uploads/efd483a6-8573-4ab1-a16a-dc8e325e3ee1.png" 
+              src="/luca_bazzanella/lovable-uploads/efd483a6-8573-4ab1-a16a-dc8e325e3ee1.png" 
               alt="Business Networking"
               className="w-full h-64 object-cover rounded-2xl shadow-lg group-hover:shadow-xl transition-shadow"
             />
@@ -149,7 +149,7 @@ const AboutSection = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <div className="relative group">
             <img 
-              src="/lovable-uploads/0ff9547c-a290-4d02-9230-b56db457a5da.png" 
+              src="/luca_bazzanella/lovable-uploads/0ff9547c-a290-4d02-9230-b56db457a5da.png" 
               alt="European Parliament"
               className="w-full h-80 object-cover object-[50%_25%] rounded-2xl shadow-lg group-hover:shadow-xl transition-shadow"
             />
@@ -163,7 +163,7 @@ const AboutSection = () => {
           
           <div className="relative group">
             <img 
-              src="/lovable-uploads/3932719d-5527-45ed-b9a5-fa4418b6e9a3.png" 
+              src="/luca_bazzanella/lovable-uploads/3932719d-5527-45ed-b9a5-fa4418b6e9a3.png" 
               alt="High-level Meeting"
               className="w-full h-80 object-cover rounded-2xl shadow-lg group-hover:shadow-xl transition-shadow"
             />
