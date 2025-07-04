@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-950 text-white py-12">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
           <div>
             <h3 className="text-2xl font-serif font-semibold text-luca-blue-400 mb-4">
               Luca Bazzanella
@@ -30,19 +30,6 @@ const Footer = () => {
                 <Linkedin className="h-5 w-5" />
               </a>
             </div>
-          </div>
-
-          <div>
-            <h4 className="text-lg font-semibold text-white mb-4">{content.footer.services}</h4>
-            <ul className="space-y-2 text-gray-400">
-              {content.footer.servicesList.map((service, index) => (
-                <li key={index}>
-                  <a href="#management" className="hover:text-luca-blue-400 transition-colors">
-                    {service}
-                  </a>
-                </li>
-              ))}
-            </ul>
           </div>
 
           <div>
