@@ -50,7 +50,7 @@ const AboutSection = () => {
   return (
     <>
       {/* Expertise Areas Section */}
-      <section className="py-6 bg-blue-600">
+      <section className="py-6 bg-sky-950">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
             {expertiseAreas.map((area, index) => {
@@ -58,7 +58,7 @@ const AboutSection = () => {
               return (
                 <div 
                   key={index} 
-                  className="flex items-center gap-3 text-white group cursor-pointer hover:bg-blue-500/30 p-2 rounded-lg transition-colors duration-300"
+                  className="flex items-center gap-3 text-white group cursor-pointer hover:bg-sky-800/30 p-2 rounded-lg transition-colors duration-300"
                   onClick={() => scrollToOrganization(area.target)}
                 >
                   <div className="w-8 h-8 flex items-center justify-center flex-shrink-0">
