@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 
 // Import only the videos files that we want to keep separate
@@ -22,8 +21,6 @@ export const useLanguage = () => {
     videos: videosIt,
     management: contentIt.management,
     conferences: contentIt.conferences,
-    sustainability: contentIt.sustainability,
-    contact: contentIt.contact,
     footer: contentIt.footer
   } : {
     navigation: contentEn.navigation,
@@ -32,8 +29,6 @@ export const useLanguage = () => {
     videos: videosEn,
     management: contentEn.management,
     conferences: contentEn.conferences,
-    sustainability: contentEn.sustainability,
-    contact: contentEn.contact,
     footer: contentEn.footer
   };
 

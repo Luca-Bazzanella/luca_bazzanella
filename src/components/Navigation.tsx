@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Menu, X, Globe } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -9,13 +8,10 @@ const Navigation = () => {
   const { language, content, toggleLanguage } = useLanguage();
 
   const navItems = [
-    { name: content.navigation.home, href: '#home' },
-    { name: content.navigation.about, href: '#about' },
-    { name: content.navigation.management, href: '#management' },
-    { name: content.navigation.conferences, href: '#conferences' },
-    { name: content.navigation.sustainability, href: '#sustainability' },
-    { name: content.navigation.videos, href: '#videos' },
-    { name: content.navigation.contact, href: '#contact' },
+    { name: content.navigation.management, href: '#outsourced-management' },
+    { name: content.navigation.digitalization, href: '#process-digitalization' },
+    { name: content.navigation.efficiency, href: '#business-efficiency' },
+    { name: content.navigation.policy, href: '#policy' },
   ];
 
   const scrollToSection = (href: string) => {
@@ -26,14 +22,22 @@ const Navigation = () => {
     }
   };
 
+  const scrollToHome = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    setIsMenuOpen(false);
+  };
+
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
-            <h2 className="text-xl font-serif font-semibold text-luca-blue-600">
-              Luca Bazzanella
-            </h2>
+            <button 
+              onClick={scrollToHome}
+              className="text-xl font-serif font-semibold text-luca-blue-600 hover:text-luca-blue-700 transition-colors duration-200"
+            >
+              {content.navigation.name}
+            </button>
           </div>
 
           {/* Desktop Navigation */}
