@@ -1,100 +1,112 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Mail, Phone, MapPin, Calendar } from 'lucide-react';
-import { useLanguage } from '@/hooks/useLanguage';
+import { Input } from '@/components/ui/input';
+import { Label } from '@/components/ui/label';
+import { Textarea } from '@/components/ui/textarea';
+import { Mail, Phone, MapPin, Send } from 'lucide-react';
 
 const ContactSection = () => {
-  const { content } = useLanguage();
-
-  const contactIcons = [Mail, Mail, Phone, MapPin];
-
-  const contactInfo = content.contact.contactInfo.map((info, index) => ({
-    ...info,
-    icon: contactIcons[index],
-    link: index < 2 ? `mailto:${info.value}` : index === 2 ? `tel:${info.value.replace(/\s/g, '')}` : null
-  }));
-
-  const handleBookMeeting = () => {
-    const subject = encodeURIComponent('Meeting Request - Business Consultation');
-    const body = encodeURIComponent(`Dear Luca,
-
-I would like to schedule a business consultation meeting with you.
-
-Please let me know your availability for the following options:
-- Video call (Zoom/Teams/Meet)
-- In-person meeting
-- Phone call
-
-I look forward to hearing from you.
-
-Best regards`);
-    
-    const mailtoLink = `mailto:lucabazzanella.tn@gmail.com?subject=${subject}&body=${body}`;
-    window.open(mailtoLink, '_blank');
-  };
-
   return (
-    <section id="contact" className="py-20 bg-gradient-to-br from-luca-blue-900 to-gray-900 text-white">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-serif font-bold text-white mb-6">
-            {content.contact.title} <span className="bg-gradient-to-r from-luca-blue-400 to-luca-earth-400 bg-clip-text text-transparent">{content.contact.subtitle}</span>
+    <section id="contact" className="py-8 bg-gradient-to-br from-slate-50 to-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-20">
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-semibold text-slate-900 mb-6 text-balance">
+            Get in <span className="text-gradient">Touch</span>
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-luca-blue-400 to-luca-earth-400 mx-auto mb-6"></div>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            {content.contact.description}
+          <div className="w-24 h-1 bg-gradient-to-r from-luca-blue-600 to-luca-earth-600 mx-auto mb-8"></div>
+          <p className="text-xl text-slate-700 max-w-4xl mx-auto font-light leading-relaxed text-balance">
+            Ready to transform your business? Let's discuss how we can work together.
           </p>
         </div>
 
-        <div className="max-w-2xl mx-auto">
+        <div className="grid lg:grid-cols-2 gap-16">
           <div>
-            <h3 className="text-2xl font-serif font-semibold text-white mb-8 text-center">
-              {content.contact.info}
+            <h3 className="text-3xl font-serif font-semibold text-slate-900 mb-8">
+              Let's Connect
             </h3>
+            <p className="text-slate-600 font-light mb-8 leading-relaxed">
+              Whether you need strategic consulting, want to organize a conference, or explore partnership opportunities, I'm here to help you achieve your goals.
+            </p>
+
             <div className="space-y-6">
-              {contactInfo.map((info, index) => (
-                <div key={index} className="flex items-start group">
-                  <div className="w-12 h-12 bg-gradient-to-br from-luca-blue-600 to-luca-earth-600 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
-                    <info.icon className="h-6 w-6 text-white" />
+              <div className="flex items-center">
+                <div className="w-12 h-12 bg-luca-blue-100 rounded-xl flex items-center justify-center mr-4">
+                  <Mail className="h-6 w-6 text-luca-blue-600" />
+                </div>
+                <div>
+                  <p className="font-medium text-slate-900">Email</p>
+                  <p className="text-slate-600">luca@example.com</p>
+                </div>
+              </div>
+
+              <div className="flex items-center">
+                <div className="w-12 h-12 bg-luca-blue-100 rounded-xl flex items-center justify-center mr-4">
+                  <Phone className="h-6 w-6 text-luca-blue-600" />
+                </div>
+                <div>
+                  <p className="font-medium text-slate-900">Phone</p>
+                  <p className="text-slate-600">+39 123 456 7890</p>
+                </div>
+              </div>
+
+              <div className="flex items-center">
+                <div className="w-12 h-12 bg-luca-blue-100 rounded-xl flex items-center justify-center mr-4">
+                  <MapPin className="h-6 w-6 text-luca-blue-600" />
+                </div>
+                <div>
+                  <p className="font-medium text-slate-900">Location</p>
+                  <p className="text-slate-600">Trento, Italy</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <Card className="glass-effect border-0 shadow-xl">
+            <CardHeader>
+              <CardTitle className="text-2xl font-serif font-semibold text-slate-900">
+                Send a Message
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <form className="space-y-6">
+                <div className="grid grid-cols-2 gap-4">
+                  <div>
+                    <Label htmlFor="firstName">First Name</Label>
+                    <Input id="firstName" placeholder="Your first name" />
                   </div>
-                  <div className="flex-1">
-                    <div className="text-sm text-gray-400">{info.label}</div>
-                    {info.link ? (
-                      <a 
-                        href={info.link}
-                        className="text-white hover:text-luca-blue-400 transition-colors duration-200 break-words"
-                      >
-                        {info.value}
-                      </a>
-                    ) : (
-                      <div className="text-white break-words">{info.value}</div>
-                    )}
+                  <div>
+                    <Label htmlFor="lastName">Last Name</Label>
+                    <Input id="lastName" placeholder="Your last name" />
                   </div>
                 </div>
-              ))}
-            </div>
-
-            <Card className="mt-8 bg-white/10 backdrop-blur-sm border-white/20">
-              <CardHeader>
-                <CardTitle className="text-white flex items-center justify-center">
-                  <Calendar className="h-5 w-5 mr-2" />
-                  {content.contact.bookConsultation}
-                </CardTitle>
-              </CardHeader>
-              <CardContent className="text-center">
-                <p className="text-gray-300 mb-4">
-                  {content.contact.consultationDescription}
-                </p>
-                <Button 
-                  onClick={handleBookMeeting}
-                  className="bg-luca-blue-600 hover:bg-luca-blue-700 text-white"
-                >
-                  {content.contact.bookMeeting}
+                
+                <div>
+                  <Label htmlFor="email">Email</Label>
+                  <Input id="email" type="email" placeholder="your.email@example.com" />
+                </div>
+                
+                <div>
+                  <Label htmlFor="subject">Subject</Label>
+                  <Input id="subject" placeholder="What is this regarding?" />
+                </div>
+                
+                <div>
+                  <Label htmlFor="message">Message</Label>
+                  <Textarea 
+                    id="message" 
+                    rows={4} 
+                    placeholder="Tell me about your project or inquiry..."
+                  />
+                </div>
+                
+                <Button className="w-full bg-slate-900 hover:bg-slate-800 text-white">
+                  Send Message
+                  <Send className="ml-2 h-4 w-4" />
                 </Button>
-              </CardContent>
-            </Card>
-          </div>
+              </form>
+            </CardContent>
+          </Card>
         </div>
       </div>
     </section>
