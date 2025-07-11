@@ -40,7 +40,7 @@ const AllConferences = () => {
         {/* Featured Conferences */}
         <section>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold text-slate-900 mb-12">{content.allConferences.featuredTitle}</h2>
+            <h2 className="text-3xl font-bold text-slate-900 mb-12 mt-12">{content.allConferences.featuredTitle}</h2>
             
             <Card className="glass-effect border-0 shadow-lg">
               <CardContent className="p-8">
@@ -113,7 +113,7 @@ const AllConferences = () => {
         {/* All Conferences Grid */}
         <section className="bg-slate-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold text-slate-900 mb-12">{content.allConferences.allTitle}</h2>
+            <h2 className="text-3xl font-bold text-slate-900 mb-12 mt-12">{content.allConferences.allTitle}</h2>
             <div className="grid md:grid-cols-2 gap-8">
               {content.allConferences.allConferences.map((conference, index) => (
                 <Card key={index} className="glass-effect hover-scale border-0 shadow-lg">
