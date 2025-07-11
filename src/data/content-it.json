@@ -1,10 +1,9 @@
-
 {
   "navigation": {
     "management": "Management esternalizzato",
     "digitalization": "Digitalizzazione processi", 
-    "efficiency": "Efficienza aziendale",
-    "policy": "Public policy",
+    "efficiency": "Sostenibilità",
+    "policy": "Conferenze",
     "name": "dott. Luca Bazzanella"
   },
   "hero": {
@@ -18,7 +17,7 @@
     "title": "Chi è",
     "name": "Luca Bazzanella",
     "description1": "Manager trentino, classe 1991, con un background come advisor all'interno del Parlamento Europeo. Specializzato in gestione aziendale esternalizzata e digitalizzazione di processi con particolare esperienza nell'analisi delle politiche pubbliche e relazioni istituzionali.",
-    "description2": "Dal 2016 Presidente della Sustainable Economy Association, organizzazione no profit impegnata in progetti internazionali con particolare focus sul Nord Africa e in azioni di advocacy in campo ambientale. Da sempre interessato a trovare il giusto compromesso tra efficienza aziendale e impatto sociale.",
+    "description2": "Dal 2016 Presidente della Sustainable Economy Association, organizzazione no profit impegnata in progetti internazionali con focus su Nord Africa e azioni di advocacy in campo ambientale. Da sempre interessato a trovare il giusto compromesso tra efficienza aziendale e impatto sociale.",
     "stats": {
       "experience": "Anni di Esperienza",
       "projects": "Progetti Completati",
@@ -37,8 +36,7 @@
       "Digitalizzazione processi",
       "Politiche pubbliche",
       "Relazioni istituzionali",
-      "Partenariati pubblico-privati",
-      "Sostenibilità ambientale"
+      "Partenariati pubblico-privati"
     ],
     "externalLinks": [
       {
@@ -56,200 +54,313 @@
     ],
     "images": [
       {
-        "src": "./lovable-uploads/eb2e8793-572c-4b65-a042-7a8f863f0165.png",
-        "alt": "Venice Film Festival Event"
+        "src": "./lovable-uploads/06797e83-b04d-4211-a8ef-13b5a23fa472.png",
+        "alt": "European Management Institute"
       },
       {
-        "src": "./lovable-uploads/97abf5a8-c17f-4bd6-bc05-8bfeb2c3962f.png",
-        "alt": "Professional Portrait"
-      },
-      {
-        "src": "./lovable-uploads/efd483a6-8573-4ab1-a16a-dc8e325e3ee1.png",
-        "alt": "Business Networking"
-      },
-      {
-        "src": "./lovable-uploads/0ff9547c-a290-4d02-9230-b56db457a5da.png",
-        "alt": "European Parliament"
-      },
-      {
-        "src": "./lovable-uploads/3932719d-5527-45ed-b9a5-fa4418b6e9a3.png",
-        "alt": "High-level Meeting"
+        "src": "./lovable-uploads/0b83ced8-5fdd-4d8a-956e-211fbcb1e621.png",
+        "alt": "Sustainable Economy Association"
       }
     ],
     "imageDescriptions": {
-      "veniceFilmFestival": {
-        "title": "Venice Film Festival",
-        "subtitle": "Cocktail party esclusivo"
+      "europeanManagement": {
+        "title": "European Management Institute",
+        "subtitle": "Consulenza e formazione manageriale"
       },
-      "professionalPortrait": {
-        "title": "Ritratto Professionale",
-        "subtitle": "The Italian Good Living"
-      },
-      "businessNetworking": {
-        "title": "Business Networking",
-        "subtitle": "Incontro professionale"
-      },
-      "europeanParliament": {
-        "title": "Parlamento Europeo",
-        "subtitle": "Esperienza come advisor presso le istituzioni UE"
-      },
-      "institutionalMeeting": {
-        "title": "Villa San Martino Arcore",
-        "subtitle": "Novembre 2015 con Silvio Berlusconi presso la residenza privata dove spesso si svolgevano incontri politici e personali"
+      "sustainableEconomy": {
+        "title": "Sustainable Economy Association",
+        "subtitle": "Progetti internazionali per la sostenibilità"
       }
     },
+    "carouselImages": [
+      {
+        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/3c48d014-5dac-4244-a390-2011f5f4917f.png",
+        "alt": "Intervista media alla conferenza",
+        "title": "Copertura mediatica",
+        "subtitle": "Intervista televisiva durante evento conferenziale"
+      },
+      {
+        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/0ff9547c-a290-4d02-9230-b56db457a5da.png",
+        "alt": "Incontro Parlamento Europeo",
+        "title": "Parlamento Europeo",
+        "subtitle": "Incontro ufficiale con rappresentanti UE"
+      },
+      {
+        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/87e71afe-46ae-4a4c-8838-97af8a8d9357.png",
+        "alt": "Collaborazione Parlamento Europeo",
+        "title": "Cooperazione internazionale",
+        "subtitle": "Incontro con Premio Nobel per la Pace al Parlamento Europeo"
+      },
+      {
+        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/97abf5a8-c17f-4bd6-bc05-8bfeb2c3962f.png",
+        "alt": "Ritratto professionale",
+        "title": "Profilo leadership",
+        "subtitle": "Rappresentanza professionale e networking"
+      },
+      {
+        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/06797e83-b04d-4211-a8ef-13b5a23fa472.png",
+        "alt": "Conferenza presso Gallerie Venue",
+        "title": "Conferenza business",
+        "subtitle": "Intervento presso evento aziendale Gallerie"
+      },
+      {
+        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/3932719d-5527-45ed-b9a5-fa4418b6e9a3.png",
+        "alt": "Incontro diplomatico di alto livello",
+        "title": "Relazioni diplomatiche",
+        "subtitle": "Incontro strategico con leader politici"
+      },
+      {
+        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/eb2e8793-572c-4b65-a042-7a8f863f0165.png",
+        "alt": "Evento Festival del Cinema di Venezia",
+        "title": "Festival del Cinema di Venezia",
+        "subtitle": "Cocktail party esclusivo durante il festival"
+      },
+      {
+        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/efd483a6-8573-4ab1-a16a-dc8e325e3ee1.png",
+        "alt": "Evento networking",
+        "title": "Networking professionale",
+        "subtitle": "Evento di networking aziendale di alto profilo"
+      }
+    ],
     "organizations": [
       {
         "id": "european-management",
         "title": "European Management Institute",
-        "role": "Direttore",
-        "description": "Azienda di consulenza di nuova generazione, specializzata nel management esternalizzato, digitale e formazione executive. Si struttura in tre diverse business unit che si occupano di supportare aziende e istituzioni nei loro percorsi di riorganizzazione, efficienza e sviluppo di mercato.",
-        "approach": "European Management si contrappone all'approccio consulenziale tradizionale. Offre a clienti selezionati soluzioni ad alto valore aggiunto difficilmente reperibili sul mercato. Utilizza un approccio \"data driven\" e accetta contratti sfidanti anche di tipo \"outcome based\" ovvero remunerati in base agli indicatori di performance concordati.",
-        "link": "https://www.europeanmanagement.eu"
+        "role": "Direttore e Amministratore (2022-oggi)",
+        "description": "Società di consulenza specializzata in management esternalizzato, trasformazione digitale e formazione executive. Offriamo soluzioni ad alto valore aggiunto con approccio data-driven e contratti outcome-based.",
+        "approach": "Il nostro approccio si contrappone alla consulenza tradizionale fornendo risultati tangibili e misurabili attraverso metodologie innovative e partnership strategiche.",
+        "link": "https://www.europeanmanagement.eu/"
       },
       {
         "id": "ermetes",
         "title": "Cooperativa Ermetes SCS",
-        "role": "Co-Fondatore e Direttore",
-        "description": "Cooperativa a mutualità prevalente che supporta l'inserimento professionale e la continuità lavorativa di personale in difficoltà tramite commesse e lavori nell'ambito delle manutenzioni dell'edilizia residenziale e altri servizi connessi.",
-        "approach": "La sfida è quella di portare competenze manageriali e organizzative in un settore non sempre attento all'efficienza e alla produttività. L'aspetto distintivo è l'introduzione di un sistema di gestione aziendale di tipo \"C-level\" con valorizzazione dei soci lavoratori con premi efficienza in base agli indicatori di performance concordati per ogni commessa e un sistema apposito di misurazione dell'impatto sociale.",
+        "role": "Presidente (2024-oggi)",
+        "description": "Cooperativa trentina a mutualità prevalente che supporta l'inserimento nel lavoro di personale svantaggiato attraverso formazione mirata e attività sul campo.",
+        "approach": "Abbiamo introdotto un sistema di gestione aziendale 'C-level' con bonus basati sulle performance e misurazione dell'impatto sociale per garantire sostenibilità e crescita.",
         "link": "https://www.ermetes.it"
       },
       {
         "id": "sustainable-economy",
-        "title": "Sustainable Economy Association",
-        "role": "Presidente",
-        "description": "Organizzazione no profit impegnata in progetti internazionali con particolare focus sul Nord Africa e in azioni di advocacy a favore delle nuove tecnologie per la decarbonizzazione.",
-        "approach": "Focus sul colmare il divario tra innovazione sostenibile e implementazione pratica nei mercati europei, con enfasi sull'impatto ambientale e sociale misurabile.",
+        "title": "Sustainable Economy Association ODV",
+        "role": "Presidente (2016-oggi)",
+        "description": "Organizzazione no profit impegnata in progetti internazionali con focus su Nord Africa e azioni di advocacy per tecnologie sostenibili e decarbonizzazione.",
+        "approach": "Organizziamo conferenze, sviluppiamo progetti internazionali e promuoviamo politiche per l'innovazione sostenibile con particolare attenzione alle tecnologie emergenti.",
         "link": "https://www.sustainableeconomy.eu/"
-      }
-    ],
-    "outsourcedManagement": "Management Esternalizzato",
-    "outsourcedManagementProjects": [
-      {
-        "title": "Cooperativa Ermetes SCS",
-        "description": "Cooperativa a mutualità prevalente che supporta l'inserimento professionale e la continuità lavorativa di personale in difficoltà tramite commesse e lavori nell'ambito delle manutenzioni dell'edilizia residenziale e altri servizi connessi. La sfida è quella di portare competenze manageriali e organizzative in un settore non sempre attento all'efficienza e alla produttività. L'aspetto distintivo è l'introduzione di un sistema di gestione aziendale di tipo \"C-level\" con valorizzazione dei soci lavoratori con premi efficienza in base agli indicatori di performance concordati per ogni commessa e un sistema apposito di misurazione dell'impatto sociale.",
-        "link": "https://www.ermetes.it"
-      },
-      {
-        "title": "Formatore Executive per il Governo del Mozambico",
-        "description": "Progettazione e realizzazione di un percorso formativo su misura per dirigenti e alti funzionari pubblici dal titolo \"Il Partenariato Pubblico-Privato per lo Sviluppo Locale\". L'iniziativa supportata a livello Europeo mira a rafforzare la capacità istituzionale nel gestire in modo efficace il dialogo tra Governo e cittadini sia sul piano relazionale, attraverso il coinvolgimento attivo dei cittadini e il monitoraggio dei livelli di soddisfazione nei vari ambiti sia su quello contrattuale, per valorizzare asset e risorse pubbliche riducendo rischi di corruzione e distorsioni di mercato.",
-        "link": "https://www.mudarbeira.org/it/o-projecto-it/"
-      }
-    ],
-    "processDigitalization": "Digitalizzazione Processi",
-    "digitalizationProjects": [
-      {
-        "title": "Decarbonizzazione e Digitale \"Carbontrack\" e \"Ship 24 Green\"",
-        "description": "Direzione di progetti digitali integrati per la misurazione, la tracciabilità e la riduzione dell'impatto ambientale applicati nell'efficienza energetica e logistica internazionale. Sono stati sviluppati percorsi su misura di misurazione e riduzione dell'impatto ambientale, basati su analisi LCA, mappatura e ottimizzazione dei processi aziendali, compensazione delle emissioni residue tramite progetti certificati di carbon offsetting. È stata realizzata una piattaforma digitale \"Ship24Green\" che consente di misurare le emissioni di CO₂eq generate dalle consegne di ogni cliente, producendo report mensili automatizzati."
-      },
-      {
-        "title": "Formatore Executive – \"Automazione Digitale in Edilizia\"",
-        "description": "Ideazione e realizzazione di un percorso formativo avanzato rivolto a manager e imprenditori del settore edile per introdurre strumenti digitali innovativi di automazione e robotica. Il programma affronta pianificazione e monitoraggio dei flussi di cassa per prevenire crisi di liquidità, digitalizzazione e automazione dei processi per ottimizzare offerte pubbliche e private, controllo di gestione avanzato attraverso strumenti di multi-project management, automazione della gestione amministrativa incluse scadenze e recupero crediti."
-      }
-    ],
-    "businessEfficiency": "Efficienza Aziendale",
-    "businessEfficiencyDescription": "Supporto strategico per il rafforzamento delle capacità istituzionali e formazione executive con focus su governance, coinvolgimento dei cittadini e pratiche di sviluppo sostenibile.",
-    "mozambiqueProject": {
-      "title": "Formatore Executive per il Governo del Mozambico (2024)",
-      "description": "Progettazione e realizzazione di un percorso formativo su misura per dirigenti e alti funzionari pubblici dal titolo: \"Il Partenariato Pubblico-Privato per lo Sviluppo Locale\".",
-      "details": "L'iniziativa supportata a livello Europeo mira a rafforzare la capacità istituzionale nel gestire in modo efficace il dialogo tra Governo e cittadini sia sul piano relazionale, attraverso il coinvolgimento attivo dei cittadini e il monitoraggio dei livelli di soddisfazione nei vari ambiti sia su quello contrattuale, per valorizzare asset e risorse pubbliche riducendo rischi di corruzione e distorsioni di mercato.",
-      "impact": "Il percorso executive combina brevi contributi teorici con numerosi casi studio pratici, per garantire un apprendimento concreto e orientato all'applicazione operativa delle buone pratiche. Un capitolo particolarmente apprezzato riguarda l'attività di mappatura delle necessità del cittadino con l'obiettivo di creare strategie di \"citizen engagement\".",
-      "links": [
-        {
-          "name": "Progetto MudAR",
-          "url": "https://www.mudarbeira.org/it/o-projetto-it/"
-        },
-        {
-          "name": "Trentino Mozambico",
-          "url": "https://www.trentinomozambico.org/progetti-cooperazione-internazionale/altri-progetti/capacity-building-istituzionale-a-livello-nazionale/"
-        }
-      ]
-    },
-    "sustainableEvent": {
-      "title": "Dibattito Sviluppo Sostenibile",
-      "subtitle": "Confronto politico \"all'americana\" a Palazzo Benvenuti"
-    },
-    "businessEfficiencyProjects": [
-      {
-        "title": "Programma Formativo Decentramento",
-        "description": "Programma formativo completo per il rafforzamento delle capacità istituzionali con focus sui processi di decentramento e governance locale. Il programma affronta strutture di governance, efficienza amministrativa e erogazione di servizi centrata sul cittadino per rafforzare le istituzioni locali.",
-        "link": "https://www.trentinomozambico.org/decentramento-concluso-il-corso-per-i-quadri/"
-      },
-      {
-        "title": "Capacity Building Istituzionale",
-        "description": "Supporto strategico per lo sviluppo istituzionale a livello nazionale attraverso programmi formativi mirati. Focus sul rafforzamento dei framework di governance, miglioramento dell'erogazione dei servizi pubblici e potenziamento dell'efficacia istituzionale a vari livelli amministrativi.",
-        "link": "https://www.trentinomozambico.org/progetti-cooperazione-internazionale/altri-progetti/capacity-building-istituzionale-a-livello-nazionale/"
-      }
-    ],
-    "publicPolicy": "Public Policy",
-    "publicPolicyDescription": "Analisi e implementazione di politiche pubbliche con focus sui framework europei, relazioni istituzionali e sviluppo di politiche strategiche per la crescita sostenibile.",
-    "publicPolicyProjects": [
-      {
-        "title": "Monitoraggio Politiche Europee - Confcommercio Trentino",
-        "description": "Come Responsabile Ufficio Europa, ha condotto un monitoraggio completo delle politiche europee e fornito supporto strategico alle PMI nella comprensione dell'impatto legislativo. Focus su appalti pubblici, opportunità di finanziamento e compliance normativa per piccole e medie imprese."
-      },
-      {
-        "title": "Programmazione UE Trentino 2021-2027",
-        "description": "Partecipazione attiva alla definizione della nuova programmazione europea 2021-2027 per il Trentino come membro del Comitato di Sorveglianza per i programmi FSE/FESR. Ha contribuito con documenti di policy finalizzati alla revisione dei criteri di distribuzione dei fondi europei per renderli più accessibili ed efficaci per le PMI."
       }
     ]
   },
-  "management": {
-    "title": "Consulenza",
-    "subtitle": "Manageriale",
-    "description": "Supporto strategico e operativo per PMI attraverso servizi di management esternalizzato e consulenza specialistica con focus su digitalizzazione e sostenibilità.",
-    "trainingModule": {
-      "title": "Modulo Formativo - Dialogo Pubblico-Privato",
-      "subtitle": "Formazione per dirigenti e funzionari pubblici",
-      "image": "./lovable-uploads/8753dece-6e38-48a2-bd4a-63e561d3b76d.png"
-    },
-    "pppAdvantages": {
-      "title": "Vantaggi del Partenariato Pubblico-Privato",
-      "subtitle": "Analisi strategica per amministrazioni pubbliche",
-      "image": "./lovable-uploads/b110177f-ef62-4148-98d1-7abe0ca70cea.png"
+  "digitalization": {
+    "title": "Digitalizzazione Processi",
+    "description": "Trasformazione digitale e automazione dei processi aziendali per migliorare efficienza, competitività e sostenibilità attraverso soluzioni innovative e data-driven.",
+    "content": {
+      "intro": "La digitalizzazione dei processi aziendali rappresenta una leva strategica fondamentale per l'evoluzione delle organizzazioni moderne. Attraverso l'implementazione di soluzioni tecnologiche avanzate, supportiamo le aziende nella trasformazione digitale completa.",
+      "approach": "Il nostro approccio si basa sull'analisi dei processi esistenti, l'identificazione delle aree di miglioramento e l'implementazione di soluzioni digitali personalizzate che garantiscono risultati misurabili e sostenibili nel tempo.",
+      "services": [
+        {
+          "title": "Automazione Processi",
+          "description": "Digitalizzazione e automazione dei processi core business per aumentare efficienza e ridurre errori."
+        },
+        {
+          "title": "Integrazione Dati",
+          "description": "Sviluppo di sistemi integrati per la gestione e l'analisi dei dati aziendali in tempo reale."
+        },
+        {
+          "title": "Trasformazione Digitale",
+          "description": "Accompagnamento completo nella trasformazione digitale dell'organizzazione e dei processi."
+        }
+      ],
+      "projects": [
+        {
+          "title": "Ship 24 Green e Carbontrack",
+          "description": "Progetti digitali integrati per la misurazione, tracciabilità e riduzione dell'impatto ambientale nella logistica internazionale. Sviluppo di piattaforma digitale per misurare emissioni CO₂eq con report automatizzati.",
+          "link": "https://www.europeanmanagement.eu"
+        },
+        {
+          "title": "European Digital Innovation Hub",
+          "description": "Progetto DIPS - Digitalizzazione e Innovazione dei Servizi Pubblici in collaborazione con FBK, UNITN, HIT, Confindustria e FTC per supportare la digitalizzazione delle PMI.",
+          "link": "https://european-digital-innovation-hubs.ec.europa.eu/edih-catalogue/dips"
+        },
+        {
+          "title": "E-commerce Trentino - TRACES",
+          "description": "Coordinamento progetto ATI per il bando Provincia Autonoma di Trento dedicato allo sviluppo dell'e-commerce locale e digitalizzazione del commercio.",
+          "link": "https://www.europeanmanagement.eu"
+        },
+        {
+          "title": "Automazione Digitale in Edilizia",
+          "description": "Formazione avanzata per manager del settore edile su automazione, robotica, controllo di gestione digitale e amministrazione automatizzata."
+        }
+      ]
     }
+  },
+  "outsourcedManagement": {
+    "title": "Management Esternalizzato",
+    "description": "Viviamo in un'epoca di cambiamenti economici, sociali e tecnologici epocali che necessitano di nuove competenze e rapiditá d'azione. Fattori complessi da ottenere senza i corretti investimenti e con il solo utilizzo di risorse interne.",
+    "content": {
+      "intro": "European Management Institute offre servizi di consulenza di nuova generazione specializzati in management esternalizzato, trasformazione digitale e formazione executive. Il nostro approccio si contrappone alla consulenza tradizionale fornendo soluzioni ad alto valore aggiunto difficilmente reperibili sul mercato.",
+      "approach": "Utilizziamo un approccio \"data driven\" e accettiamo contratti sfidanti anche di tipo \"outcome based\", remunerati in base agli indicatori di performance concordati. Questo garantisce che i nostri clienti ricevano risultati tangibili e miglioramenti misurabili.",
+      "projects": [
+        {
+          "title": "Coordinamento ATI Dolomiti Grow",
+          "description": "Coordinamento e relazioni istituzionali per startup trentina nel settore cannabis terapeutica di stato."
+        },
+        {
+          "title": "Progetto Ship 24 Green",
+          "description": "Coordinamento progetto per decarbonizzazione logistica internazionale con soluzioni digitali innovative."
+        },
+        {
+          "title": "E-commerce Trentino TRACES",
+          "description": "Coordinamento ATI per bando Provincia Autonoma di Trento dedicato allo sviluppo dell'e-commerce locale."
+        },
+        {
+          "title": "Comitato di Sorveglianza FESR/FSE+",
+          "description": "Membro sostituto nel comitato congiunto per monitoraggio fondi europei e sviluppo regionale."
+        }
+      ],
+      "services": [
+        {
+          "title": "Management Strategico",
+          "description": "Pianificazione strategica completa e supporto all'esecuzione per PMI che cercano di scalare e ottimizzare le operazioni."
+        },
+        {
+          "title": "Trasformazione Digitale",
+          "description": "Digitalizzazione end-to-end dei processi aziendali per migliorare efficienza e competitività."
+        },
+        {
+          "title": "Formazione Executive",
+          "description": "Programmi formativi personalizzati per manager e alti funzionari sia nel settore pubblico che privato."
+        }
+      ],
+      "caseStudies": [
+        {
+          "title": "Cooperativa Ermetes SCS",
+          "description": "Cooperativa a mutualità prevalente che supporta l'integrazione professionale attraverso approcci manageriali innovativi. Abbiamo introdotto un sistema di gestione aziendale \"C-level\" con bonus basati sulle performance e misurazione dell'impatto sociale.",
+          "link": "https://www.ermetes.it"
+        },
+        {
+          "title": "Governo del Mozambico",
+          "description": "Progettazione e implementazione di un programma formativo personalizzato per funzionari pubblici su \"Partenariato Pubblico-Privato per lo Sviluppo Locale\" con focus sul rafforzamento delle capacità istituzionali.",
+          "link": "https://www.mudarbeira.org/it/o-projetto-it/"
+        }
+      ]
+    },
+    "videoId": "1_0FOnf7V40",
+    "inAction": "In Azione",
+    "learnMore": "Scopri di più sulle nostre soluzioni di management",
+    "videoDescription": "Guarda la nostra presentazione sulla Commissione di Vigilanza FESR/FSE per Confcommercio Trentino, che dimostra la nostra esperienza in partnership pubblico-private e soluzioni di management."
+  },
+  "sustainability": {
+    "title": "Sostenibilità",
+    "description": "Progetti e iniziative dedicate alla sostenibilità ambientale, economia circolare e innovazione tecnologica per la decarbonizzazione.",
+    "keyProjects": [
+      {
+        "title": "Sustainable Economy Association ODV",
+        "role": "Presidente (2016-oggi)",
+        "description": "Organizzazione no profit impegnata in conferenze su tecnologie sostenibili e azioni di advocacy per la decarbonizzazione con focus su progetti internazionali in Nord Africa."
+      },
+      {
+        "title": "Green Energy Innovation Hub",
+        "role": "Co-progettazione (2024)",
+        "description": "Ideazione e sviluppo di hub per l'innovazione energetica in collaborazione con Siram-Veolia SPA e Trentino Sviluppo."
+      },
+      {
+        "title": "Ship 24 Green e Carbontrack",
+        "role": "Capoprogetto (2021-2022)",
+        "description": "Progetti per la decarbonizzazione della logistica internazionale attraverso soluzioni digitali innovative per la misurazione e riduzione delle emissioni."
+      },
+      {
+        "title": "Bypass Ferroviario Trento",
+        "role": "Consulente comunicazione (2024)",
+        "description": "Incarico Provincia Autonoma di Trento per strategia di comunicazione pubblica e sensibilizzazione cittadini sull'opera infrastrutturale sostenibile."
+      }
+    ],
+    "keyProjectsTitle": "Progetti Principali",
+    "sustainabilityFocus": "Focus Sostenibilità",
+    "sustainabilityDescription": "Progetti e iniziative dedicate alla sostenibilità ambientale, economia circolare e innovazione tecnologica per la decarbonizzazione con particolare focus su Nord Africa e sviluppo internazionale.",
+    "learnMore": "Scopri di più sul nostro lavoro per la sostenibilità"
   },
   "conferences": {
     "title": "Conferenze &",
     "subtitle": "Speaking",
-    "description": "Organizzazione e partecipazione a conferenze su temi di management, sostenibilità e innovazione tecnologica con focus su partenariato pubblico-privato.",
-    "organizedTitle": "Conferenze Organizzate",
-    "images": {
-      "smartCity": "./lovable-uploads/b1a73995-544a-4b73-bd74-b646ce643574.png",
-      "yunus": "./lovable-uploads/87e71afe-46ae-4a4c-8838-97af8a8d9357.png",
-      "businessPresentation": "./lovable-uploads/3c48d014-5dac-4244-a390-2011f5f4917f.png",
-      "businessConference": "./lovable-uploads/06797e83-b04d-4211-a8ef-13b5a23fa472.png",
-      "virtualConference": "./lovable-uploads/0b83ced8-5fdd-4d8a-956e-211fbcb1e621.png"
-    },
-    "conferences": [
+    "featuredConferences": [
       {
-        "title": "PNRR in Trentino: Tra opportunità e rischi",
-        "date": "31 maggio 2022",
-        "location": "Cantine Ferrari, Trento",
-        "attendees": "200+",
-        "topic": "Una conferenza di alto profilo che ha riunito i principali stakeholder locali e nazionali per discutere delle opportunità e delle sfide del Piano Nazionale di Ripresa e Resilienza per il territorio trentino. L'evento ha visto la partecipazione di rappresentanti istituzionali, imprenditori e esperti del settore per analizzare le strategie di implementazione dei fondi europei e le loro ricadute sul tessuto economico locale.",
-        "speakers": "La conferenza ha ospitato relatori di primo piano tra cui rappresentanti della Provincia Autonoma di Trento, dirigenti di Cassa del Trentino, vertici di Confcommercio e esperti di politiche europee. Un momento di confronto costruttivo sulle modalità di accesso ai fondi del PNRR e sulle migliori pratiche per massimizzarne l'efficacia sul territorio.",
-        "link": "https://www.sustainableeconomy.eu/eventi/comunicato-stampa-conferenza-31-05-2022-cantine-ferrari-trento/"
+        "title": "Sostenibilità e mobilità elettrica urbana",
+        "subtitle": "Esperienze e casi a confronto",
+        "location": "Villa Madruzzo",
+        "links": [
+          {
+            "name": "Sustainable Economy",
+            "url": "https://www.sustainableeconomy.eu/progetti/conferenza-sostenibilita-e-mobilita-elettrica-urbana-esperienze-e-casi-aconfronto/"
+          }
+        ]
       },
       {
-        "title": "Partenariato Pubblico Privato - Opportunità per PMI ed Enti locali",
-        "date": "2021",
-        "location": "Trento",
-        "attendees": "150+",
-        "topic": "Seminario tecnico-operativo organizzato in collaborazione con Provincia Autonoma di Trento, Cassa del Trentino e Confcommercio per esplorare le potenzialità del Partenariato Pubblico-Privato come strumento di sviluppo economico. L'evento ha approfondito gli aspetti normativi, finanziari e operativi dei contratti PPP, fornendo strumenti concreti per PMI ed enti locali.",
-        "speakers": "Panel di esperti composto da funzionari pubblici, rappresentanti del sistema creditizio locale, consulenti specializzati e imprenditori che hanno condiviso esperienze pratiche di implementazione di progetti PPP. Focus particolare sulle opportunità di finanziamento e sui modelli contrattuali innovativi per il territorio trentino.",
-        "link": "https://www.cassadeltrentino.it/News/Il-PPP-un-opportunita-per-PMI-ed-Enti-locali.-Il-seminario-di-Confcommercio-con-Cassa-del-Trentino-e-Consorzio-dei-Comuni"
+        "title": "Sostenibilità nel trasporto ferroviario",
+        "subtitle": "Quali prospettive per il treno delle Dolomiti?",
+        "location": "Palazzo Perlerhof",
+        "links": [
+          {
+            "name": "Sustainable Economy",
+            "url": "https://www.sustainableeconomy.eu/progetti/sostenibilita-nel-trasporto-ferroviario-quali-prospettive-per-il-trenodelle-dolomiti/"
+          }
+        ]
       },
       {
-        "title": "Tecnologie Sostenibili per la Mobilità",
-        "date": "2018-2019",
-        "location": "Trentino",
-        "attendees": "100+",
-        "topic": "Serie di eventi dedicati all'innovazione nel settore della mobilità sostenibile con particolare attenzione alle tecnologie a celle a combustibile per il trasporto ferroviario. Gli incontri hanno esplorato le possibilità di applicazione di tecnologie innovative nel contesto della mobilità alpina e dell'efficientamento energetico delle infrastrutture di trasporto.",
-        "speakers": "Esperti internazionali del settore energetico, ricercatori universitari, rappresentanti di aziende tecnologiche innovative e funzionari di enti di trasporto pubblico. Gli eventi hanno favorito il dialogo tra mondo della ricerca, industria e istituzioni per promuovere soluzioni tecnologiche avanzate nel settore della mobilità sostenibile."
+        "title": "Green is not left",
+        "subtitle": "Conferenza stampa Parlamento Europeo",
+        "location": "Brussels",
+        "videoId": "cfM3aVlyXCY",
+        "links": [
+          {
+            "name": "TG Video",
+            "url": "https://www.youtube.com/watch?v=cfM3aVlyXCY"
+          },
+          {
+            "name": "CagliariPad",
+            "url": "https://www.cagliaripad.it/394624/europa-conferenza-green-is-not-left-lambiente-non-e-di-sinistra-a-bruxelles/"
+          },
+          {
+            "name": "Informazione.it",
+            "url": "https://www.informazione.it/c/74E3E8CC-4B26-4441-9943-D5B8B214CD5F/SFIDE-GLOBALI-GREEN-IS-NOT-LEFT-L-AMBIENTE-NON-e-DI-SINISTRA"
+          },
+          {
+            "name": "SEA",
+            "url": "https://www.sustainableeconomy.eu/progetti/conferenza-stampa-green-is-not-left/"
+          }
+        ]
+      },
+      {
+        "title": "Il futuro della mobilità sostenibile in Trentino",
+        "subtitle": "MUSE",
+        "location": "MUSE, Trento",
+        "videoId": "WTpy8q6fPdQ",
+        "links": [
+          {
+            "name": "SEA",
+            "url": "https://www.sustainableeconomy.eu/progetti/conferenza-pubblica-il-futuro-della-mobilita-sostenibile/"
+          },
+          {
+            "name": "PAT",
+            "url": "https://www.ufficiostampa.provincia.tn.it/Comunicati/Mobility-il-futuro-della-mobilita-sostenibile-in-Trentino-domani-una-conferenza-al-Muse-con-esperti-internazionali"
+          }
+        ]
+      },
+      {
+        "title": "Il Partenariato Pubblico Privato per uno sviluppo sostenibile del Trentino",
+        "subtitle": "Palazzo Roccabruna",
+        "videoId": "hLtzAH29ti8",
+        "links": [
+          {
+            "name": "PAT",
+            "url": "https://agenda2030.provincia.tn.it/In-evidenza/Il-Partenariato-Pubblico-Privato-per-uno-sviluppo-sostenibile-del-Trentino"
+          },
+          {
+            "name": "Confcommercio",
+            "url": "https://unione.tn.it/notizia/il-partenariato-pubblico-privato-per-uno-sviluppo-sostenibile-del-trentino"
+          }
+        ]
       }
-    ]
+    ],
+    "allConferencesLink": "/all-conferences"
   },
   "videos": {
     "title": "Video",

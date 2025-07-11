@@ -19,7 +19,9 @@ export const useLanguage = () => {
     hero: contentIt.hero,
     about: contentIt.about,
     videos: videosIt,
-    management: contentIt.management,
+    outsourcedManagement: contentIt.outsourcedManagement,
+    digitalization: contentIt.digitalization,
+    sustainability: contentIt.sustainability,
     conferences: contentIt.conferences,
     footer: contentIt.footer
   } : {
@@ -27,7 +29,9 @@ export const useLanguage = () => {
     hero: contentEn.hero,
     about: contentEn.about,
     videos: videosEn,
-    management: contentEn.management,
+    outsourcedManagement: contentEn.outsourcedManagement,
+    digitalization: contentEn.digitalization,
+    sustainability: contentEn.sustainability,
     conferences: contentEn.conferences,
     footer: contentEn.footer
   };

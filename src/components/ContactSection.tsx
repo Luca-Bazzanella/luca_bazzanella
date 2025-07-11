@@ -8,10 +8,10 @@ import { Mail, Phone, MapPin, Send } from 'lucide-react';
 
 const ContactSection = () => {
   return (
-    <section id="contact" className="py-8 bg-gradient-to-br from-slate-50 to-white">
+    <section id="contact" className="py-24 bg-gradient-to-br from-slate-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-20">
-          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-semibold text-slate-900 mb-6 text-balance">
+        <div className="text-center mb-8">
+          <h2 className="text-4xl sm:text-3xl sm:text-3xl font-serif font-semibold text-slate-900 mb-6 text-balance">
             Get in <span className="text-gradient">Touch</span>
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-luca-blue-600 to-luca-earth-600 mx-auto mb-8"></div>
