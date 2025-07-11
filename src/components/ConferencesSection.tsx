@@ -1,6 +1,6 @@
 
 import { Card, CardContent } from '@/components/ui/card';
-import { ExternalLink } from 'lucide-react';
+import { ExternalLink, Link } from 'lucide-react';
 import { useLanguage } from '@/hooks/useLanguage';
 
 const ConferencesSection = () => {
@@ -22,13 +22,13 @@ const ConferencesSection = () => {
           </h3>
         </div>
 
-        <Card className="glass-effect hover-scale border-0 shadow-lg">
-          <CardContent className="p-4 md:p-8">
-            <div className="space-y-6 md:space-y-8">
-              {sortedConferences.map((conference, index) => (
-                <div key={index} className="border-b border-slate-200 last:border-b-0 pb-6 md:pb-8 last:pb-0">
-                  <div className="grid lg:grid-cols-3 gap-6 md:gap-8 items-start">
-                    <div className="lg:col-span-2">
+        <div className="grid lg:grid-cols-3 gap-8 mb-8">
+          <div className="lg:col-span-2">
+            <Card className="glass-effect hover-scale border-0 shadow-lg">
+              <CardContent className="p-4 md:p-8">
+                <div className="space-y-6 md:space-y-8">
+                  {sortedConferences.map((conference, index) => (
+                    <div key={index} className="border-b border-slate-200 last:border-b-0 pb-6 md:pb-8 last:pb-0">
                       <div className="flex items-start justify-between mb-4">
                         <div className="flex-1">
                           <h4 className="text-lg md:text-xl font-serif font-semibold text-slate-900 mb-2">{conference.title}</h4>
@@ -62,29 +62,16 @@ const ConferencesSection = () => {
                         </div>
                       </div>
                     </div>
-                    
-                    <div className="lg:col-span-1">
-                      {conference.videoId && (
-                        <div className="aspect-video rounded-lg overflow-hidden shadow-md">
-                          <iframe
-                            width="100%"
-                            height="100%"
-                            src={`https://www.youtube.com/embed/${conference.videoId}`}
-                            title={conference.title}
-                            frameBorder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen
-                            className="w-full h-full"
-                          ></iframe>
-                        </div>
-                      )}
-                    </div>
-                  </div>
+                  ))}
                 </div>
-              ))}
-            </div>
-          </CardContent>
-        </Card>
+              </CardContent>
+            </Card>
+          </div>
+          
+          <div className="lg:col-span-1">
+            <div className="elfsight-app-4ffbb871-1dff-4847-a403-65d32a1735db" data-elfsight-app-lazy></div>
+          </div>
+        </div>
         
         <div className="text-center pt-6">
           <a 
