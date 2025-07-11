@@ -70,6 +70,7 @@ const ConferencesSection = () => {
           
           <div className="lg:col-span-1">
             <div className="elfsight-app-4ffbb871-1dff-4847-a403-65d32a1735db" data-elfsight-app-lazy></div>
+            <div className="elfsight-app-603e351f-a287-44ac-8830-ece59d855b5b" data-elfsight-app-lazy></div>
           </div>
         </div>
         
