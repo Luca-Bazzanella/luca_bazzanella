@@ -1,7 +1,8 @@
 
 import { Card, CardContent } from '@/components/ui/card';
-import { ExternalLink, Link } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
 import { useLanguage } from '@/hooks/useLanguage';
+import { Link } from 'react-router-dom';
 
 const ConferencesSection = () => {
   const { content } = useLanguage();
@@ -64,6 +65,13 @@ const ConferencesSection = () => {
                     </div>
                   ))}
                 </div>
+                <Link 
+                  to="/all-conferences" 
+                  className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium"
+                >
+                  {content.conferences.viewAllText}
+                  <ExternalLink className="h-5 w-5 ml-2" />
+                </Link>
               </CardContent>
             </Card>
           </div>
@@ -72,16 +80,6 @@ const ConferencesSection = () => {
             <div className="elfsight-app-4ffbb871-1dff-4847-a403-65d32a1735db" data-elfsight-app-lazy></div>
             <div className="elfsight-app-603e351f-a287-44ac-8830-ece59d855b5b" data-elfsight-app-lazy></div>
           </div>
-        </div>
-        
-        <div className="text-center pt-6">
-          <a 
-            href={`${content.navigation.baseUrl}${content.conferences.allConferencesLink}`}
-            className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium text-lg"
-          >
-            {content.conferences.viewAllText}
-            <ExternalLink className="h-5 w-5 ml-2" />
-          </a>
         </div>
       </div>
     </section>
