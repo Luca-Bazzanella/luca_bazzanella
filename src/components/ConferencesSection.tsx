@@ -14,9 +14,9 @@ const ConferencesSection = () => {
   });
 
   return (
-    <section id="conferences" className="py-12 md:py-24 bg-gradient-to-br from-white to-slate-50">
+    <section id="conferences" className="py-12 md:py-16 bg-gradient-to-br from-white to-slate-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="mb-12 md:mb-20">
+        <div className="mb-12">
           <h3 className="text-2xl md:text-3xl font-serif font-semibold text-slate-900 mb-6 text-left">
             {content.conferences.title} <span className="text-gradient">{content.conferences.subtitle}</span>
           </h3>

@@ -2,8 +2,8 @@
 import HeroSection from '@/components/HeroSection';
 import AboutSection from '@/components/AboutSection';
 import OutsourcedManagementSection from '@/components/OutsourcedManagementSection';
-import DigitalizationSection from '@/components/DigitalizationSection';
-import SustainabilitySection from '@/components/SustainabilitySection';
+import PublicPolicySection from '@/components/PublicPolicySection';
+import SocialImpactSection from '@/components/SocialImpactSection';
 import ConferencesSection from '@/components/ConferencesSection';
 import VideosSection from '@/components/VideosSection';
 import SocialMediaSection from '@/components/SocialMediaSection';
@@ -17,8 +17,8 @@ const Index = () => {
       <HeroSection />
       <AboutSection />
       <OutsourcedManagementSection />
-      <DigitalizationSection />
-      <SustainabilitySection />
+      <PublicPolicySection />
+      <SocialImpactSection />
       <ConferencesSection />
       <VideosSection />
       <SocialMediaSection />

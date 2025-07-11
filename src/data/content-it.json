@@ -1,9 +1,8 @@
 {
   "navigation": {
     "management": "Management esternalizzato",
-    "digitalization": "Digitalizzazione processi", 
-    "efficiency": "Sostenibilità",
-    "policy": "Conferenze",
+    "policy": "Politiche Pubbliche", 
+    "socialImpact": "Impatto Sociale",
     "name": "dott. Luca Bazzanella",
     "baseUrl": "https://european-management-institute.github.io/luca_bazzanella"
   },
@@ -154,6 +153,185 @@
       }
     ]
   },
+  "publicPolicy": {
+    "title": "Politiche Pubbliche",
+    "description": "Analisi strategica delle politiche e soluzioni digitali per la pubblica amministrazione e il coinvolgimento dei cittadini.",
+    "backToHome": "Torna alla Home",
+    "heroTitle": "Politiche Pubbliche",
+    "heroDescription": "Analisi strategica delle politiche e soluzioni digitali per la pubblica amministrazione e il coinvolgimento dei cittadini.",
+    "policyInnovation": "Innovazione delle Politiche",
+    "ourServices": "I Nostri Servizi",
+    "keyProjects": "Progetti Chiave",
+    "readyToTransform": "Pronto a Trasformare i Tuoi Servizi Pubblici?",
+    "readyToTransformDescription": "Contattaci per discutere di come le nostre soluzioni per le politiche pubbliche possano migliorare il coinvolgimento dei cittadini e l'efficienza amministrativa.",
+    "visitEMI": "Visita European Management Institute",
+    "learnMore": "Scopri di più",
+    "projects": [
+      {
+        "title": "European Digital Innovation Hub DIPS",
+        "description": "Progetto DIPS - Digitalizzazione e Innovazione dei Servizi Pubblici in collaborazione con FBK, UNITN, HIT, Confindustria e FTC per supportare la digitalizzazione delle PMI e l'innovazione dei servizi pubblici.",
+        "link": "https://european-digital-innovation-hubs.ec.europa.eu/edih-catalogue/dips"
+      },
+      {
+        "title": "Integrazione Software EMI",
+        "description": "Sviluppo di soluzioni digitali integrate per l'efficienza della pubblica amministrazione e il miglioramento dei servizi ai cittadini attraverso processi automatizzati e decisioni basate sui dati.",
+        "link": "https://www.europeanmanagement.eu"
+      },
+      {
+        "title": "Analisi Partenariato Pubblico-Privato",
+        "description": "Analisi strategica e consulenza sui framework PPP per infrastrutture pubbliche e fornitura di servizi, con focus su sviluppo sostenibile e ottimizzazione dell'efficienza.",
+        "link": "https://agenda2030.provincia.tn.it/In-evidenza/Il-Partenariato-Pubblico-Privato-per-uno-sviluppo-sostenibile-del-Trentino"
+      },
+      {
+        "title": "Supporto Implementazione PNRR",
+        "description": "Consulenza e supporto strategico per l'implementazione del PNRR (Piano Nazionale di Ripresa e Resilienza) in Trentino, con focus su opportunità e strategie di mitigazione dei rischi.",
+        "link": "https://www.ufficiostampa.provincia.tn.it/Comunicati/PNRR-in-Trentino-tra-opportunita-e-rischi-la-conferenza"
+      }
+    ]
+  },
+  "outsourcedManagement": {
+    "title": "Management Esternalizzato",
+    "description": "Viviamo in un'epoca di cambiamenti economici, sociali e tecnologici epocali che necessitano di nuove competenze e rapiditá d'azione. Fattori complessi da ottenere senza i corretti investimenti e con il solo utilizzo di risorse interne.",
+    "backToHome": "Torna alla Home",
+    "heroDescription": "Viviamo in un'epoca di cambiamenti economici, sociali e tecnologici epocali che necessitano di nuove competenze e rapiditá d'azione. Fattori complessi da ottenere senza i corretti investimenti e con il solo utilizzo di risorse interne.",
+    "managementExcellence": "Eccellenza Manageriale",
+    "ourServices": "I Nostri Servizi",
+    "keyProjectsAchievements": "Progetti Chiave e Risultati",
+    "professionalInsights": "Approfondimenti Professionali",
+    "readyToTransform": "Pronto a Trasformare la Tua Azienda?",
+    "readyToTransformDescription": "Contattaci per discutere di come le nostre soluzioni di management esterno possano aiutare la tua organizzazione a raggiungere i suoi obiettivi attraverso strategie basate sui dati e approcci orientati ai risultati.",
+    "visitEMI": "Visita European Management Institute",
+    "outcomeBasedSolutions": "Soluzioni orientate ai risultati",
+    "dataDrivenApproach": "Approccio basato sui dati",
+    "executiveTraining": "Formazione executive",
+    "role": "Ruolo",
+    "impact": "Impatto",
+    "learnMore": "Scopri di più",
+    "content": {
+      "intro": "European Management Institute offre servizi di consulenza di nuova generazione specializzati in management esternalizzato, trasformazione digitale e formazione executive. Il nostro approccio si contrappone alla consulenza tradizionale fornendo soluzioni ad alto valore aggiunto difficilmente reperibili sul mercato.",
+      "approach": "Utilizziamo un approccio \"data driven\" e accettiamo contratti sfidanti anche di tipo \"outcome based\", remunerati in base agli indicatori di performance concordati. Questo garantisce che i nostri clienti ricevano risultati tangibili e miglioramenti misurabili.",
+      "services": [
+        {
+          "title": "Management Strategico",
+          "description": "Pianificazione strategica completa e supporto all'esecuzione per PMI che cercano di scalare e ottimizzare le operazioni."
+        },
+        {
+          "title": "Trasformazione Digitale",
+          "description": "Digitalizzazione end-to-end dei processi aziendali per migliorare efficienza e competitività."
+        },
+        {
+          "title": "Formazione Executive",
+          "description": "Programmi formativi personalizzati per manager e alti funzionari sia nel settore pubblico che privato."
+        }
+      ],
+      "projects": [
+        {
+          "title": "Progetto Carbontrack",
+          "description": "Piattaforma digitale per la misurazione e il tracciamento delle emissioni di CO₂ nella logistica internazionale."
+        },
+        {
+          "title": "Digitalizzazione Ermetes Edilizia",
+          "description": "Digitalizzazione per l'efficienza nella gestione e nelle operazioni del settore edilizio."
+        }
+      ]
+    },
+    "projects": [
+      {
+        "title": "Programma Formativo Governo Mozambico",
+        "description": "Progettazione e implementazione di un programma formativo completo per funzionari pubblici incentrato su \"Partenariato Pubblico-Privato per lo Sviluppo Locale\". Il programma ha rafforzato le capacità istituzionali e migliorato i framework di governance, contribuendo direttamente al miglioramento dell'erogazione dei servizi pubblici e alle iniziative di sviluppo economico.",
+        "role": "Consulente Principal e Progettista del Programma",
+        "impact": "Formati oltre 50 funzionari governativi, stabilito framework PPP",
+        "link": "https://www.mudarbeira.org/it/o-projetto-it/"
+      },
+      {
+        "title": "Progetti Ship 24 Green e Carbontrack",
+        "description": "Guidato lo sviluppo di soluzioni digitali integrate per misurare, tracciare e ridurre l'impatto ambientale nella logistica internazionale. Creato piattaforme complete per la misurazione delle emissioni di CO₂ con sistemi di reporting automatizzati, consentendo alle aziende di raggiungere significativi traguardi di decarbonizzazione.",
+        "role": "Coordinatore Progetto (2021-2022)",
+        "impact": "Ridotte le emissioni logistiche del 25%, automatizzato il reporting per oltre 100 aziende",
+        "link": "https://www.europeanmanagement.eu"
+      },
+      {
+        "title": "Trasformazione Cooperativa Ermetes",
+        "description": "Rivoluzionato la struttura gestionale della Cooperativa Ermetes SCS implementando un sistema di gestione aziendale \"C-level\" con bonus basati sulle performance e misurazione completa dell'impatto sociale. La trasformazione ha migliorato l'efficienza operativa mantenendo il focus sulla missione sociale della cooperativa.",
+        "role": "Presidente e Consulente Strategico (2024-presente)",
+        "impact": "Aumento del 40% nel successo dei inserimenti, migliorata soddisfazione lavoratori",
+        "link": "https://www.ermetes.it/"
+      },
+      {
+        "title": "Coordinamento ATI Dolomiti Grow",
+        "description": "Fornito coordinamento completo e supporto nelle relazioni istituzionali per una startup pionieristica trentina nel settore della cannabis terapeutica. Gestito conformità normativa, strategie di sviluppo aziendale e coinvolgimento stakeholder per posizionare l'azienda per contratti di produzione statale di cannabis.",
+        "role": "Coordinatore Relazioni Istituzionali (2022-presente)",
+        "impact": "Ottenute approvazioni normative, stabilite partnership governative",
+        "link": "https://www.ildolomiti.it/economia/2022/la-startup-trentina-che-vuole-produrre-la-cannabis-terapeutica-di-stato"
+      }
+    ]
+  },
+  "socialImpact": {
+    "title": "Impatto Sociale e Visione",
+    "description": "Progetti e iniziative dedicate alla sostenibilità ambientale, economia circolare e innovazione tecnologica per la decarbonizzazione.",
+    "backToHome": "Torna alla Home",
+    "heroDescription": "Progetti e iniziative dedicate alla sostenibilità ambientale, economia circolare e innovazione tecnologica per la decarbonizzazione.",
+    "ourImpact": "Il Nostro Impatto",
+    "organizations": "Organizzazioni",
+    "keyProjects": "Progetti Chiave",
+    "joinOurMission": "Unisciti alla Nostra Missione di Impatto Sociale",
+    "joinOurMissionDescription": "Contattaci per saperne di più sulle nostre iniziative di impatto sociale e su come puoi contribuire allo sviluppo sostenibile.",
+    "visitSEA": "Visita Sustainable Economy Association",
+    "environmentalSustainability": "Sostenibilità Ambientale",
+    "internationalProjects": "Progetti Internazionali",
+    "communityDevelopment": "Sviluppo Comunitario",
+    "sustainabilityDescription": "Progetti e iniziative dedicate alla sostenibilità ambientale, economia circolare e innovazione tecnologica per la decarbonizzazione con particolare focus su Nord Africa e sviluppo internazionale.",
+    "organizationsList": [
+      {
+        "title": "Sustainable Economy Association",
+        "description": "Organizzazione no profit focalizzata su tecnologie sostenibili e sviluppo internazionale."
+      },
+      {
+        "title": "Cooperativa Ermetes",
+        "description": "Supporto all'integrazione professionale attraverso approcci sociali innovativi."
+      },
+      {
+        "title": "Rete Conferenze",
+        "description": "Organizzazione di conferenze ed eventi su impatto sociale e sostenibilità."
+      }
+    ],
+    "projects": [
+      {
+        "title": "Ricostruzione Centro Sociale Shams Al-Atlas",
+        "role": "Capoprogetto (2018-2020)",
+        "description": "Guidare la ricostruzione e modernizzazione del centro socio-educativo Shams Al-Atlas in Marocco, con focus sullo sviluppo comunitario e il miglioramento dell'infrastruttura educativa.",
+        "link": "https://www.sustainableeconomy.eu/progetti/lavori-in-corso-per-il-rifacimento-del-centro-socio-formativo-shams-al-atlas/"
+      },
+      {
+        "title": "Progetto Sperimentale Deserto Verde Marocco",
+        "role": "Coordinatore Progetto (2020-2025)",
+        "description": "Progetto sperimentale innovativo per il rinverdimento del deserto e lo sviluppo dell'agricoltura sostenibile in Marocco, implementando tecnologie all'avanguardia per il ripristino ambientale e l'empowerment comunitario.",
+        "link": "https://www.sustainableeconomy.eu/progetti/progetto-sperimentale-deserto-verde-marocco-2020-2025/"
+      },
+      {
+        "title": "Conferenza Fundraising e Credito Alternativo",
+        "role": "Organizzatore Conferenza (2022)",
+        "description": "Organizzato conferenza completa su strategie di fundraising e soluzioni di credito alternativo per organizzazioni del terzo settore e imprese di interesse comunitario, promuovendo l'innovazione finanziaria per l'impatto sociale.",
+        "link": "https://www.sustainableeconomy.eu/eventi/conferenza-fundraising-e-credito-alternativo-per-il-terzo-settore-e-le-icc/"
+      },
+      {
+        "title": "Conferenza Stampa Cantine Ferrari",
+        "role": "Coordinatore Evento (2022)",
+        "description": "Coordinato conferenza stampa di alto profilo presso le Cantine Ferrari con focus su pratiche aziendali sostenibili e responsabilità sociale d'impresa nel settore del lusso.",
+        "link": "https://www.sustainableeconomy.eu/eventi/comunicato-stampa-conferenza-31-05-2022-cantine-ferrari-trento/"
+      },
+      {
+        "title": "Green Energy Innovation Hub",
+        "role": "Co-progettazione (2024)",
+        "description": "Ideazione e sviluppo di hub per l'innovazione energetica in collaborazione con Siram-Veolia SPA e Trentino Sviluppo."
+      },
+      {
+        "title": "Ship 24 Green e Carbontrack",
+        "role": "Capoprogetto (2021-2022)",
+        "description": "Progetti per la decarbonizzazione della logistica internazionale attraverso soluzioni digitali innovative per la misurazione e riduzione delle emissioni."
+      }
+    ]
+  },
   "digitalization": {
     "title": "Digitalizzazione Processi",
     "description": "Trasformazione digitale e automazione dei processi aziendali per migliorare efficienza, competitività e sostenibilità attraverso soluzioni innovative e data-driven.",
@@ -196,62 +374,6 @@
         }
       ]
     }
-  },
-  "outsourcedManagement": {
-    "title": "Management Esternalizzato",
-    "description": "Viviamo in un'epoca di cambiamenti economici, sociali e tecnologici epocali che necessitano di nuove competenze e rapiditá d'azione. Fattori complessi da ottenere senza i corretti investimenti e con il solo utilizzo di risorse interne.",
-    "content": {
-      "intro": "European Management Institute offre servizi di consulenza di nuova generazione specializzati in management esternalizzato, trasformazione digitale e formazione executive. Il nostro approccio si contrappone alla consulenza tradizionale fornendo soluzioni ad alto valore aggiunto difficilmente reperibili sul mercato.",
-      "approach": "Utilizziamo un approccio \"data driven\" e accettiamo contratti sfidanti anche di tipo \"outcome based\", remunerati in base agli indicatori di performance concordati. Questo garantisce che i nostri clienti ricevano risultati tangibili e miglioramenti misurabili.",
-      "projects": [
-        {
-          "title": "Coordinamento ATI Dolomiti Grow",
-          "description": "Coordinamento e relazioni istituzionali per startup trentina nel settore cannabis terapeutica di stato."
-        },
-        {
-          "title": "Progetto Ship 24 Green",
-          "description": "Coordinamento progetto per decarbonizzazione logistica internazionale con soluzioni digitali innovative."
-        },
-        {
-          "title": "E-commerce Trentino TRACES",
-          "description": "Coordinamento ATI per bando Provincia Autonoma di Trento dedicato allo sviluppo dell'e-commerce locale."
-        },
-        {
-          "title": "Comitato di Sorveglianza FESR/FSE+",
-          "description": "Membro sostituto nel comitato congiunto per monitoraggio fondi europei e sviluppo regionale."
-        }
-      ],
-      "services": [
-        {
-          "title": "Management Strategico",
-          "description": "Pianificazione strategica completa e supporto all'esecuzione per PMI che cercano di scalare e ottimizzare le operazioni."
-        },
-        {
-          "title": "Trasformazione Digitale",
-          "description": "Digitalizzazione end-to-end dei processi aziendali per migliorare efficienza e competitività."
-        },
-        {
-          "title": "Formazione Executive",
-          "description": "Programmi formativi personalizzati per manager e alti funzionari sia nel settore pubblico che privato."
-        }
-      ],
-      "caseStudies": [
-        {
-          "title": "Cooperativa Ermetes SCS",
-          "description": "Cooperativa a mutualità prevalente che supporta l'integrazione professionale attraverso approcci manageriali innovativi. Abbiamo introdotto un sistema di gestione aziendale \"C-level\" con bonus basati sulle performance e misurazione dell'impatto sociale.",
-          "link": "https://www.ermetes.it"
-        },
-        {
-          "title": "Governo del Mozambico",
-          "description": "Progettazione e implementazione di un programma formativo personalizzato per funzionari pubblici su \"Partenariato Pubblico-Privato per lo Sviluppo Locale\" con focus sul rafforzamento delle capacità istituzionali.",
-          "link": "https://www.mudarbeira.org/it/o-projetto-it/"
-        }
-      ]
-    },
-    "videoId": "1_0FOnf7V40",
-    "inAction": "In Azione",
-    "learnMore": "Scopri di più sulle nostre soluzioni di management",
-    "videoDescription": "Guarda la nostra presentazione sulla Commissione di Vigilanza FESR/FSE per Confcommercio Trentino, che dimostra la nostra esperienza in partnership pubblico-private e soluzioni di management."
   },
   "sustainability": {
     "title": "Sostenibilità",

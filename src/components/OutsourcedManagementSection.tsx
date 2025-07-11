@@ -7,10 +7,10 @@ const OutsourcedManagementSection = () => {
   const { content } = useLanguage();
 
   return (
-    <section id="outsourced-management" className="py-24 bg-gradient-to-br from-white to-slate-50">
+    <section id="outsourced-management" className="py-16 bg-gradient-to-br from-white to-slate-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="mb-8">
-          <h3 className="text-4xl sm:text-3xl sm:text-3xl font-serif font-semibold text-slate-900 mb-6 text-left">
+        <div>
+          <h3 className="text-3xl font-serif font-semibold text-slate-900 mb-6 text-left">
             {content.outsourcedManagement.title}
           </h3>
         </div>
@@ -29,6 +29,17 @@ const OutsourcedManagementSection = () => {
                     <p className="text-slate-600 text-sm">{project.description}</p>
                   </div>
                 ))}
+                
+                {/* Additional projects */}
+                <div className="border-l-4 border-blue-600 pl-4">
+                  <h4 className="font-semibold text-slate-900 mb-2">Carbontrack Project</h4>
+                  <p className="text-slate-600 text-sm">Digital platform for measuring and tracking CO₂ emissions in international logistics.</p>
+                </div>
+                
+                <div className="border-l-4 border-blue-600 pl-4">
+                  <h4 className="font-semibold text-slate-900 mb-2">Ermetes Construction Digitalization</h4>
+                  <p className="text-slate-600 text-sm">Digitalization for efficiency in construction sector management and operations.</p>
+                </div>
               </div>
               
               <Link 
@@ -41,22 +52,13 @@ const OutsourcedManagementSection = () => {
             </div>
 
             <div>
-              <h3 className="text-2xl font-bold text-slate-900 mb-6">{content.outsourcedManagement.inAction}</h3>
-              <div className="aspect-video bg-slate-100 rounded-xl overflow-hidden mb-6">
-                <iframe
-                  width="100%"
-                  height="100%"
-                  src="https://www.youtube.com/embed/1_0FOnf7V40"
-                  title="Commissione di Vigilanza FESR / FSE Confcommercio Trentino"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                  className="w-full h-full"
-                ></iframe>
+              <div className="bg-slate-100 rounded-xl overflow-hidden mb-6">
+                <img
+                  src="./lovable-uploads/d845b4f2-b16d-4c94-bdf0-364a3ebdf4d0.png"
+                  alt="Data-driven digital management tools"
+                  className="w-full h-full object-cover"
+                />
               </div>
-              <p className="text-slate-700 leading-relaxed">
-                {content.outsourcedManagement.videoDescription}
-              </p>
             </div>
           </div>
         </div>

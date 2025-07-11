@@ -4,24 +4,27 @@ import { Leaf, Target, Globe, Zap, ExternalLink } from 'lucide-react';
 import { useLanguage } from '@/hooks/useLanguage';
 import { Link } from 'react-router-dom';
 
-const SustainabilitySection = () => {
+const SocialImpactSection = () => {
   const { content } = useLanguage();
 
   // Take only the first 4 projects
   const featuredProjects = content.sustainability.keyProjects.slice(0, 4);
 
   return (
-    <section id="sustainability" className="py-16 bg-gradient-to-br from-white to-slate-50">
+    <section id="social-impact" className="py-16 bg-gradient-to-br from-white to-slate-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div>
-          <h3 className="text-4xl sm:text-3xl sm:text-3xl font-serif font-semibold text-slate-900 mb-6 text-left">
-            {content.sustainability.title}
+          <h3 className="text-3xl font-serif font-semibold text-slate-900 mb-6 text-left">
+            Social Impact and Vision
           </h3>
         </div>
 
         <div className="bg-white rounded-xl shadow-lg p-8">
           <div className="grid lg:grid-cols-2 gap-12">
             <div>
+              <p className="text-slate-700 leading-relaxed mb-8">
+                {content.sustainability.sustainabilityDescription}
+              </p>
               <div className="space-y-4 mb-8">
                 {featuredProjects.map((project, index) => (
                   <div key={index} className="border-l-4 border-green-600 pl-4">
@@ -43,7 +46,7 @@ const SustainabilitySection = () => {
               </div>
               <div>
                 <Link 
-                  to="/sustainability" 
+                  to="/social-impact" 
                   className="inline-flex items-center text-green-600 hover:text-green-700 font-medium"
                 >
                   {content.sustainability.learnMore}
@@ -53,21 +56,12 @@ const SustainabilitySection = () => {
             </div>
             
             <div>
-              <h3 className="text-2xl font-bold text-slate-900 mb-6 text-left">{content.sustainability.sustainabilityFocus}</h3>
-              <p className="text-slate-700 leading-relaxed mb-6">
-                {content.sustainability.sustainabilityDescription}
-              </p>
               <div className="aspect-video bg-slate-100 rounded-xl overflow-hidden mb-8">
-                <iframe
-                  width="100%"
-                  height="100%"
-                  src="https://www.youtube.com/embed/WTpy8q6fPdQ"
-                  title="Sustainable Mobility in Trentino"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                  className="w-full h-full"
-                ></iframe>
+                <img
+                  src="./lovable-uploads/cc431b90-c45c-4e9a-b0ab-450b39068096.png"
+                  alt="Social impact activities in North Africa"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
@@ -77,4 +71,4 @@ const SustainabilitySection = () => {
   );
 };
 
-export default SustainabilitySection;
+export default SocialImpactSection;

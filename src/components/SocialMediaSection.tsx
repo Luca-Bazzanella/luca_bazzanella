@@ -67,7 +67,7 @@ const SocialMediaSection = () => {
             {/* Twitter/X Profile */}
             <div>
               <h3 className="text-2xl font-bold text-slate-900 mb-8 flex items-center gap-2">
-                {language === 'it' ? 'Profilo X (Twitter)' : 'X (Twitter) Profile'}
+                {language === 'it' ? 'Profilo X' : 'X Profile'}
                 <ExternalLink className="h-5 w-5" />
               </h3>
               <div className="space-y-6">
