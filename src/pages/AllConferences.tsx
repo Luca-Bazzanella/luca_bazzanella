@@ -5,10 +5,12 @@ import { ArrowLeft, Calendar, MapPin, Users, ExternalLink } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { Card, CardContent } from '@/components/ui/card';
 import { useLanguage } from '@/hooks/useLanguage';
+import ScrollToTop from '@/hooks/ScrollToTop';
 
 const AllConferences = () => {
   const navigate = useNavigate();
   const { content } = useLanguage();
+  ScrollToTop();
 
   return (
     <div className="min-h-screen">

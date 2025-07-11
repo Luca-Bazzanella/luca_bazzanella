@@ -1,14 +1,16 @@
 
 import { useState } from 'react';
 import { Menu, X, Globe } from 'lucide-react';
+import { Link, useLocation } from 'react-router-dom';
 import { useLanguage } from '@/hooks/useLanguage';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const { language, toggleLanguage, content } = useLanguage();
+  const location = useLocation();
   
   const isActive = (path: string) => {
-    const currentPath = window.location.pathname;
+    const currentPath = location.pathname;
     if (path === '/') {
       return currentPath === '/' || currentPath === '/luca_bazzanella/' || currentPath === '/luca_bazzanella';
     }
@@ -16,9 +18,9 @@ const Navigation = () => {
   };
 
   const menuItems = [
-    { name: content.navigation.management, href: `${content.navigation.baseUrl}/outsourced-management` },
-    { name: content.navigation.policy, href: `${content.navigation.baseUrl}/public-policy` },
-    { name: content.navigation.socialImpact, href: `${content.navigation.baseUrl}/social-impact` },
+    { name: content.navigation.management, href: '/outsourced-management' },
+    { name: content.navigation.policy, href: '/public-policy' },
+    { name: content.navigation.socialImpact, href: '/social-impact' },
   ];
 
   return (
@@ -26,9 +28,9 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-4">
-            <a href={content.navigation.baseUrl} className="font-serif text-xl font-semibold text-slate-900 hover:text-slate-700 transition-colors">
+            <Link to="/" className="font-serif text-xl font-semibold text-slate-900 hover:text-slate-700 transition-colors">
               {content.navigation.name}
-            </a>
+            </Link>
             
             {/* Language selector next to logo */}
             <button
@@ -43,17 +45,17 @@ const Navigation = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             {menuItems.map((item) => (
-              <a
+              <Link
                 key={item.name}
-                href={item.href}
+                to={item.href}
                 className={`text-sm font-medium transition-colors ${
-                  isActive(item.href.split('/').pop() || '') 
+                  isActive(item.href) 
                     ? 'text-blue-600' 
                     : 'text-slate-700 hover:text-slate-900'
                 }`}
               >
                 {item.name}
-              </a>
+              </Link>
             ))}
           </div>
 
@@ -73,18 +75,18 @@ const Navigation = () => {
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 bg-white border-t border-slate-200">
               {menuItems.map((item) => (
-                <a
+                <Link
                   key={item.name}
-                  href={item.href}
+                  to={item.href}
                   className={`block px-3 py-2 text-base font-medium transition-colors ${
-                    isActive(item.href.split('/').pop() || '')
+                    isActive(item.href)
                       ? 'text-blue-600 bg-blue-50'
                       : 'text-slate-700 hover:text-slate-900 hover:bg-slate-50'
                   }`}
                   onClick={() => setIsOpen(false)}
                 >
                   {item.name}
-                </a>
+                </Link>
               ))}
             </div>
           </div>
