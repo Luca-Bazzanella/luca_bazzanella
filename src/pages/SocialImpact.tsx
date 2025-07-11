@@ -3,10 +3,12 @@ import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import { ArrowLeft, ExternalLink, Leaf, Target, Globe, Zap } from 'lucide-react';
 import { useLanguage } from '@/hooks/useLanguage';
+import ScrollToTop from '@/hooks/ScrollToTop';
 
 const SocialImpact = () => {
   const { content } = useLanguage();
   const baseUrl = 'https://european-management-institute.github.io/luca_bazzanella';
+  ScrollToTop();
 
   return (
     <div className="min-h-screen">

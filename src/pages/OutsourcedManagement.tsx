@@ -1,13 +1,14 @@
 
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
-import { ArrowLeft, ExternalLink, Users, TrendingUp, Target, FileText } from 'lucide-react';
+import { ArrowLeft, ExternalLink, Users, TrendingUp, Target } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import { useLanguage } from '@/hooks/useLanguage';
+import ScrollToTop from '@/hooks/ScrollToTop';
 
 const OutsourcedManagement = () => {
   const { content } = useLanguage();
-  const baseUrl = 'https://european-management-institute.github.io/luca_bazzanella';
-
+  ScrollToTop();
   return (
     <div className="min-h-screen">
       <Navigation />
@@ -16,13 +17,13 @@ const OutsourcedManagement = () => {
         {/* Hero Section */}
         <section className="py-20 bg-gradient-to-br from-slate-50 to-blue-50/30">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <a 
-              href={baseUrl}
+            <Link 
+              to="/"
               className="flex items-center text-blue-600 hover:text-blue-700 mb-8 transition-colors"
             >
               <ArrowLeft className="h-4 w-4 mr-2" />
               {content.outsourcedManagement.backToHome}
-            </a>
+            </Link>
             
             <div className="max-w-4xl">
               <h1 className="text-4xl md:text-6xl font-serif font-bold text-slate-900 mb-6">
