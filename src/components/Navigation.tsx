@@ -2,49 +2,48 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { useLanguage } from '@/hooks/useLanguage';
-import { Link, useLocation } from 'react-router-dom';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const { language, toggleLanguage, content } = useLanguage();
-  const location = useLocation();
-
+  
   const isActive = (path: string) => {
+    const currentPath = window.location.pathname;
     if (path === '/') {
-      return location.pathname === '/' || location.pathname === '';
+      return currentPath === '/' || currentPath === '/luca_bazzanella/' || currentPath === '/luca_bazzanella';
     }
-    return location.pathname === path;
+    return currentPath.includes(path);
   };
 
   const menuItems = [
-    { name: content.navigation.management, href: 'https://european-management-institute.github.io/luca_bazzanella/outsourced-management' },
-    { name: content.navigation.digitalization, href: 'https://european-management-institute.github.io/luca_bazzanella/digitalization' },
-    { name: content.navigation.efficiency, href: 'https://european-management-institute.github.io/luca_bazzanella/sustainability' },
-    { name: content.navigation.policy, href: 'https://european-management-institute.github.io/luca_bazzanella/all-conferences' },
+    { name: content.navigation.management, href: `${content.navigation.baseUrl}/outsourced-management` },
+    { name: content.navigation.digitalization, href: `${content.navigation.baseUrl}/digitalization` },
+    { name: content.navigation.efficiency, href: `${content.navigation.baseUrl}/sustainability` },
+    { name: content.navigation.policy, href: `${content.navigation.baseUrl}/all-conferences` },
   ];
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-slate-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <Link to="/" className="font-serif text-xl font-semibold text-slate-900 hover:text-slate-700 transition-colors">
+          <a href={content.navigation.baseUrl} className="font-serif text-xl font-semibold text-slate-900 hover:text-slate-700 transition-colors">
             {content.navigation.name}
-          </Link>
+          </a>
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             {menuItems.map((item) => (
-              <Link
+              <a
                 key={item.name}
-                to={item.href}
+                href={item.href}
                 className={`text-sm font-medium transition-colors ${
-                  isActive(item.href) 
+                  isActive(item.href.split('/').pop() || '') 
                     ? 'text-blue-600' 
                     : 'text-slate-700 hover:text-slate-900'
                 }`}
               >
                 {item.name}
-              </Link>
+              </a>
             ))}
             
             <button
@@ -77,18 +76,18 @@ const Navigation = () => {
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 bg-white border-t border-slate-200">
               {menuItems.map((item) => (
-                <Link
+                <a
                   key={item.name}
-                  to={item.href}
+                  href={item.href}
                   className={`block px-3 py-2 text-base font-medium transition-colors ${
-                    isActive(item.href)
+                    isActive(item.href.split('/').pop() || '')
                       ? 'text-blue-600 bg-blue-50'
                       : 'text-slate-700 hover:text-slate-900 hover:bg-slate-50'
                   }`}
                   onClick={() => setIsOpen(false)}
                 >
                   {item.name}
-                </Link>
+                </a>
               ))}
             </div>
           </div>

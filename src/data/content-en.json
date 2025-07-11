@@ -1,11 +1,11 @@
-
 {
   "navigation": {
     "management": "Outsourced Management",
     "digitalization": "Process Digitalization", 
     "efficiency": "Sustainability",
     "policy": "Conferences",
-    "name": "Dr. Luca Bazzanella"
+    "name": "Dr. Luca Bazzanella",
+    "baseUrl": "https://european-management-institute.github.io/luca_bazzanella"
   },
   "hero": {
     "name": "Luca Bazzanella",
@@ -55,11 +55,11 @@
     ],
     "images": [
       {
-        "src": "./lovable-uploads/06797e83-b04d-4211-a8ef-13b5a23fa472.png",
+        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/06797e83-b04d-4211-a8ef-13b5a23fa472.png",
         "alt": "European Management Institute"
       },
       {
-        "src": "./lovable-uploads/0b83ced8-5fdd-4d8a-956e-211fbcb1e621.png",
+        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/0b83ced8-5fdd-4d8a-956e-211fbcb1e621.png",
         "alt": "Sustainable Economy Association"
       }
     ],
@@ -286,11 +286,13 @@
   "conferences": {
     "title": "Conferences &",
     "subtitle": "Speaking",
+    "viewAllText": "View All Conferences",
     "featuredConferences": [
       {
         "title": "Urban electric mobility sustainability",
         "subtitle": "Experiences and cases compared",
         "location": "Villa Madruzzo",
+        "description": "Conference exploring sustainable urban mobility solutions, comparing different electric transportation initiatives and their environmental impact on city development.",
         "links": [
           {
             "name": "Sustainable Economy",
@@ -302,6 +304,7 @@
         "title": "Sustainability in railway transport",
         "subtitle": "What prospects for the Dolomites train?",
         "location": "Palazzo Perlerhof",
+        "description": "Analysis of sustainable railway transport systems in mountainous regions, examining the potential for eco-friendly tourism and regional connectivity through the Dolomites train project.",
         "links": [
           {
             "name": "Sustainable Economy",
@@ -313,6 +316,7 @@
         "title": "Green is not left",
         "subtitle": "European Parliament press conference",
         "location": "Brussels",
+        "description": "European Parliament press conference addressing environmental policies from a cross-party perspective, challenging political stereotypes in sustainability discourse.",
         "videoId": "cfM3aVlyXCY",
         "links": [
           {
@@ -337,6 +341,7 @@
         "title": "The future of sustainable mobility in Trentino",
         "subtitle": "MUSE",
         "location": "MUSE, Trento",
+        "description": "International conference at MUSE examining the future of sustainable mobility in Trentino, featuring expert presentations on innovative transportation solutions.",
         "videoId": "WTpy8q6fPdQ",
         "links": [
           {
@@ -352,6 +357,7 @@
       {
         "title": "Public-Private Partnership for sustainable development of Trentino",
         "subtitle": "Palazzo Roccabruna",
+        "description": "Discussion on public-private partnerships as a strategic tool for sustainable development in Trentino, exploring collaboration models between institutions and businesses.",
         "videoId": "hLtzAH29ti8",
         "links": [
           {
@@ -366,6 +372,87 @@
       }
     ],
     "allConferencesLink": "/all-conferences"
+  },
+  "allConferences": {
+    "title": "All Conferences",
+    "subtitle": "A comprehensive overview of conferences, events and speaking engagements on sustainability, management and innovation.",
+    "backToHome": "Back to Home",
+    "featuredTitle": "Featured Conferences",
+    "allTitle": "All Conferences & Events",
+    "attendees": "attendees",
+    "learnMore": "Learn more",
+    "featuredConferences": [
+      {
+        "title": "Sostenibilità e mobilità elettrica urbana. Esperienze e casi a confronto",
+        "subtitle": "Villa Madruzzo Conference",
+        "date": "2023",
+        "location": "Villa Madruzzo",
+        "attendees": "100+",
+        "description": "Conferenza dedicata alla sostenibilità della mobilità elettrica urbana, condivisione di esperienze e confronto tra diversi casi di città europee. L'evento ha riunito esperti internazionali, amministratori locali e rappresentanti del settore privato per discutere le migliori pratiche e le sfide nell'implementazione di sistemi di mobilità elettrica sostenibile nelle aree urbane.",
+        "videoId": null,
+        "links": [
+          { "name": "Sustainable Economy", "url": "https://www.sustainableeconomy.eu/progetti/conferenza-sostenibilita-e-mobilita-elettrica-urbana-esperienze-e-casi-aconfronto/" }
+        ]
+      },
+      {
+        "title": "Green is not left",
+        "subtitle": "Parlamento Europeo",
+        "date": "2022",
+        "location": "European Parliament, Brussels",
+        "attendees": "50+",
+        "description": "Conferenza stampa al Parlamento Europeo sulla trasversalità delle politiche ambientali e l'importanza della collaborazione cross-party sulle iniziative verdi. L'evento ha evidenziato come le questioni ambientali trascendano le divisioni politiche tradizionali e richiedano un approccio collaborativo per affrontare le sfide climatiche globali.",
+        "videoId": "cfM3aVlyXCY",
+        "links": [
+          { "name": "TG Video", "url": "https://www.youtube.com/watch?v=cfM3aVlyXCY" },
+          { "name": "CagliariPad", "url": "https://www.cagliaripad.it/394624/europa-conferenza-green-is-not-left-lambiente-non-e-di-sinistra-a-bruxelles/" }
+        ]
+      },
+      {
+        "title": "Il futuro della mobilità sostenibile in Trentino",
+        "subtitle": "MUSE Conference",
+        "date": "2022",
+        "location": "MUSE, Trento",
+        "attendees": "150+",
+        "description": "Conferenza pubblica sui temi della mobilità sostenibile con esperti internazionali e focus sulle soluzioni innovative per il territorio trentino. L'evento ha presentato le ultime tecnologie e strategie per implementare sistemi di trasporto sostenibile nelle regioni alpine, con particolare attenzione alle sfide specifiche del territorio montano.",
+        "videoId": "WTpy8q6fPdQ",
+        "links": [
+          { "name": "SEA", "url": "https://www.sustainableeconomy.eu/progetti/conferenza-pubblica-il-futuro-della-mobilita-sostenibile/" },
+          { "name": "PAT", "url": "https://www.ufficiostampa.provincia.tn.it/Comunicati/Mobility-il-futuro-della-mobilita-sostenibile-in-Trentino-domani-una-conferenza-al-Muse-con-esperti-internazionali" }
+        ]
+      }
+    ],
+    "allConferences": [
+      {
+        "title": "Sostenibilità e mobilità elettrica urbana. Esperienze e casi a confronto",
+        "date": "2023",
+        "location": "Villa Madruzzo",
+        "attendees": "100+",
+        "topic": "Conference focused on urban electric mobility sustainability, sharing experiences and comparing different cases from various European cities.",
+        "link": "https://www.sustainableeconomy.eu/progetti/conferenza-sostenibilita-e-mobilita-elettrica-urbana-esperienze-e-casi-aconfronto/"
+      },
+      {
+        "title": "Sostenibilità nel trasporto ferroviario. Quali prospettive per il treno delle Dolomiti?",
+        "date": "2023",
+        "location": "Palazzo Perlerhof",
+        "attendees": "80+",
+        "topic": "Analysis of sustainability in railway transport with focus on the Dolomites train and future prospects for sustainable mountain mobility.",
+        "link": "https://www.sustainableeconomy.eu/progetti/sostenibilita-nel-trasporto-ferroviario-quali-prospettive-per-il-trenodelle-dolomiti/"
+      },
+      {
+        "title": "Parlamento Europeo conferenza stampa 'Green is not left'",
+        "date": "2022",
+        "location": "European Parliament, Brussels",
+        "attendees": "50+",
+        "topic": "Press conference at the European Parliament discussing how environmental policies transcend political boundaries and the importance of cross-party collaboration on green initiatives.",
+        "links": [
+          { "name": "TG Video", "url": "https://www.youtube.com/watch?v=cfM3aVlyXCY&ab_channel=SustainableEconomyAssociation" },
+          { "name": "CagliariPad", "url": "https://www.cagliaripad.it/394624/europa-conferenza-green-is-not-left-lambiente-non-e-di-sinistra-a-bruxelles/" },
+          { "name": "Informazione.it", "url": "https://www.informazione.it/c/74E3E8CC-4B26-4441-9943-D5B8B214CD5F/SFIDE-GLOBALI-GREEN-IS-NOT-LEFT-L-AMBIENTE-NON-e-DI-SINISTRA" },
+          { "name": "SEA", "url": "https://www.sustainableeconomy.eu/progetti/conferenza-stampa-green-is-not-left/" },
+          { "name": "Video Dichiarazioni", "url": "https://www.youtube.com/watch?v=lseWzO_fOWs&t=20s&ab_channel=SustainableEconomyAssociation" }
+        ]
+      }
+    ]
   },
   "videos": {
     "title": "Featured",
