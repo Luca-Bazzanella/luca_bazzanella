@@ -1,5 +1,4 @@
 
-
 import { useLanguage } from '@/hooks/useLanguage';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
 import { Target, TrendingUp, Users, Lightbulb, Globe, Rocket, ExternalLink } from 'lucide-react';
@@ -8,7 +7,6 @@ import Autoplay from "embla-carousel-autoplay";
 const AboutSection = () => {
   const { content } = useLanguage();
 
-  // Enhanced images array combining content images and carousel images
   const enhancedImages = [
     ...content.about.images.map((image, index) => {
       const keys = Object.keys(content.about.imageDescriptions);
@@ -22,7 +20,6 @@ const AboutSection = () => {
         subtitle: description?.subtitle || '',
       };
     }),
-    // Add carousel images from JSON
     ...content.about.carouselImages
   ];
 
@@ -67,10 +64,10 @@ const AboutSection = () => {
         </div>
       </section>
 
-      <section id="about" className="py-8 bg-gradient-to-br from-slate-50 to-blue-50/30">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section id="about" className="py-4 md:py-8 bg-gradient-to-br from-slate-50 to-blue-50/30">
+        <div className="max-w-7xl mx-auto px-0 md:px-4 sm:px-6 lg:px-8">
           {/* Enhanced Carousel with navigation controls */}
-          <div className="mb-16 relative px-12">
+          <div className="mb-8 md:mb-16 relative">
             <Carousel
               opts={{
                 align: "start",
@@ -84,16 +81,16 @@ const AboutSection = () => {
               ]}
               className="relative"
             >
-              <CarouselContent className="-ml-2 md:-ml-4">
+              <CarouselContent className="ml-0 md:-ml-4">
                 {enhancedImages.map((image, index) => (
-                  <CarouselItem key={index} className="pl-2 md:pl-4 md:basis-1/3">
+                  <CarouselItem key={index} className="pl-0 md:pl-4 basis-full md:basis-1/3">
                     <div className="relative group/image overflow-hidden">
                       <img 
                         src={image.src}
                         alt={image.alt}
-                        className="w-full h-64 object-cover rounded-2xl shadow-lg transition-all duration-700 ease-out group-hover/image:shadow-2xl group-hover/image:scale-105 object-[70%_20%] lg:object-[75%_25%]"
+                        className="w-full h-48 md:h-64 object-cover rounded-none md:rounded-2xl shadow-lg transition-all duration-700 ease-out group-hover/image:shadow-2xl group-hover/image:scale-105 object-[70%_20%] lg:object-[75%_25%]"
                       />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent rounded-2xl opacity-0 group-hover/image:opacity-100 transition-all duration-500 ease-out">
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent rounded-none md:rounded-2xl opacity-0 group-hover/image:opacity-100 transition-all duration-500 ease-out">
                         <div className="absolute bottom-4 left-4 text-white transform translate-y-4 group-hover/image:translate-y-0 transition-transform duration-500 ease-out">
                           <p className="text-sm font-semibold mb-1">{image.title}</p>
                           <p className="text-xs opacity-90">{image.subtitle}</p>
@@ -103,8 +100,8 @@ const AboutSection = () => {
                   </CarouselItem>
                 ))}
               </CarouselContent>
-              <CarouselPrevious className="absolute left-0 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white shadow-lg border-0 h-10 w-10" />
-              <CarouselNext className="absolute right-0 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white shadow-lg border-0 h-10 w-10" />
+              <CarouselPrevious className="absolute left-2 md:left-0 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white shadow-lg border-0 h-8 w-8 md:h-10 md:w-10" />
+              <CarouselNext className="absolute right-2 md:right-0 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white shadow-lg border-0 h-8 w-8 md:h-10 md:w-10" />
             </Carousel>
           </div>
 
@@ -153,4 +150,3 @@ const AboutSection = () => {
 };
 
 export default AboutSection;
-
