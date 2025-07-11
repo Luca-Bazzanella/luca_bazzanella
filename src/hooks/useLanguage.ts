@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 
 // Import only the videos files that we want to keep separate
@@ -16,27 +15,11 @@ export const useLanguage = () => {
 
   // Compose content using main files for most content, separate files only for videos
   const content = language === 'it' ? {
-    navigation: contentIt.navigation,
-    hero: contentIt.hero,
-    about: contentIt.about,
+    ...contentIt,
     videos: videosIt,
-    outsourcedManagement: contentIt.outsourcedManagement,
-    digitalization: contentIt.digitalization,
-    sustainability: contentIt.sustainability,
-    conferences: contentIt.conferences,
-    allConferences: contentIt.allConferences,
-    footer: contentIt.footer
   } : {
-    navigation: contentEn.navigation,
-    hero: contentEn.hero,
-    about: contentEn.about,
+    ...contentEn,
     videos: videosEn,
-    outsourcedManagement: contentEn.outsourcedManagement,
-    digitalization: contentEn.digitalization,
-    sustainability: contentEn.sustainability,
-    conferences: contentEn.conferences,
-    allConferences: contentEn.allConferences,
-    footer: contentEn.footer
   };
 
   const toggleLanguage = () => {

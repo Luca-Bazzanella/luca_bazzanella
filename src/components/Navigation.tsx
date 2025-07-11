@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Globe } from 'lucide-react';
 import { useLanguage } from '@/hooks/useLanguage';
 
 const Navigation = () => {
@@ -17,18 +17,28 @@ const Navigation = () => {
 
   const menuItems = [
     { name: content.navigation.management, href: `${content.navigation.baseUrl}/outsourced-management` },
-    { name: content.navigation.digitalization, href: `${content.navigation.baseUrl}/digitalization` },
-    { name: content.navigation.efficiency, href: `${content.navigation.baseUrl}/sustainability` },
-    { name: content.navigation.policy, href: `${content.navigation.baseUrl}/all-conferences` },
+    { name: content.navigation.policy, href: `${content.navigation.baseUrl}/public-policy` },
+    { name: content.navigation.socialImpact, href: `${content.navigation.baseUrl}/social-impact` },
   ];
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-slate-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <a href={content.navigation.baseUrl} className="font-serif text-xl font-semibold text-slate-900 hover:text-slate-700 transition-colors">
-            {content.navigation.name}
-          </a>
+          <div className="flex items-center space-x-4">
+            <a href={content.navigation.baseUrl} className="font-serif text-xl font-semibold text-slate-900 hover:text-slate-700 transition-colors">
+              {content.navigation.name}
+            </a>
+            
+            {/* Language selector next to logo */}
+            <button
+              onClick={toggleLanguage}
+              className="flex items-center text-sm font-medium text-slate-700 hover:text-slate-900 transition-colors px-3 py-1 border border-slate-300 rounded-md"
+            >
+              <Globe className="h-4 w-4 mr-2" />
+              {language === 'it' ? 'EN' : 'IT'}
+            </button>
+          </div>
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
@@ -45,23 +55,10 @@ const Navigation = () => {
                 {item.name}
               </a>
             ))}
-            
-            <button
-              onClick={toggleLanguage}
-              className="text-sm font-medium text-slate-700 hover:text-slate-900 transition-colors px-3 py-1 border border-slate-300 rounded-md"
-            >
-              {language === 'it' ? 'EN' : 'IT'}
-            </button>
           </div>
 
           {/* Mobile menu button */}
-          <div className="md:hidden flex items-center space-x-4">
-            <button
-              onClick={toggleLanguage}
-              className="text-sm font-medium text-slate-700 hover:text-slate-900 transition-colors px-2 py-1 border border-slate-300 rounded-md"
-            >
-              {language === 'it' ? 'EN' : 'IT'}
-            </button>
+          <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="text-slate-700 hover:text-slate-900 transition-colors"

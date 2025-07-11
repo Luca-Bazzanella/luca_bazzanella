@@ -1,9 +1,8 @@
 {
   "navigation": {
     "management": "Outsourced Management",
-    "digitalization": "Process Digitalization", 
-    "efficiency": "Sustainability",
-    "policy": "Conferences",
+    "policy": "Public Policy", 
+    "socialImpact": "Social Impact",
     "name": "Dr. Luca Bazzanella",
     "baseUrl": "https://european-management-institute.github.io/luca_bazzanella"
   },
@@ -154,6 +153,180 @@
       }
     ]
   },
+  "publicPolicy": {
+    "title": "Public Policy",
+    "description": "Strategic policy analysis and digital solutions for public administration and citizen engagement.",
+    "backToHome": "Back to Home",
+    "heroTitle": "Public Policy",
+    "heroDescription": "Strategic policy analysis and digital solutions for public administration and citizen engagement.",
+    "policyInnovation": "Policy Innovation",
+    "ourServices": "Our Services",
+    "keyProjects": "Key Projects",
+    "readyToTransform": "Ready to Transform Your Public Services?",
+    "readyToTransformDescription": "Contact us to discuss how our public policy solutions can improve citizen engagement and administrative efficiency.",
+    "visitEMI": "Visit European Management Institute",
+    "learnMore": "Learn more",
+    "projects": [
+      {
+        "title": "European Digital Innovation Hub DIPS",
+        "description": "Project DIPS - Digitalization and Innovation of Public Services in collaboration with FBK, UNITN, HIT, Confindustria and FTC to support SME digitalization and public service innovation.",
+        "link": "https://european-digital-innovation-hubs.ec.europa.eu/edih-catalogue/dips"
+      },
+      {
+        "title": "EMI Software Integration",
+        "description": "Development of integrated digital solutions for public administration efficiency and citizen services enhancement through automated processes and data-driven decision making.",
+        "link": "https://www.europeanmanagement.eu"
+      },
+      {
+        "title": "PNRR Implementation Support",
+        "description": "Consultation and strategic support for PNRR (National Recovery and Resilience Plan) implementation in Trentino, focusing on opportunities and risk mitigation strategies.",
+        "link": "https://www.ufficiostampa.provincia.tn.it/Comunicati/PNRR-in-Trentino-tra-opportunita-e-rischi-la-conferenza"
+      }
+    ]
+  },
+  "outsourcedManagement": {
+    "title": "Outsourced Management",
+    "description": "We live in an era of epochal economic, social and technological changes that require new skills and speed of action. Complex factors to obtain without the right investments and using only internal resources.",
+    "backToHome": "Back to Home",
+    "heroDescription": "We live in an era of epochal economic, social and technological changes that require new skills and speed of action. Complex factors to obtain without the right investments and using only internal resources.",
+    "managementExcellence": "Management Excellence",
+    "ourServices": "Our Services",
+    "keyProjectsAchievements": "Key Projects & Achievements",
+    "professionalInsights": "Professional Insights",
+    "readyToTransform": "Ready to Transform Your Business?",
+    "readyToTransformDescription": "Contact us to discuss how our outsourced management solutions can help your organization achieve its goals through data-driven strategies and outcome-based approaches.",
+    "visitEMI": "Visit European Management Institute",
+    "outcomeBasedSolutions": "Outcome-based solutions",
+    "dataDrivenApproach": "Data-driven approach",
+    "executiveTraining": "Executive training",
+    "role": "Role",
+    "impact": "Impact",
+    "learnMore": "Learn more",
+    "content": {
+      "intro": "European Management Institute offers next-generation consulting services specialized in outsourced management, digital transformation, and executive training. Our approach contrasts with traditional consulting by providing high-value-added solutions that are difficult to find in the market.",
+      "approach": "We use a \"data driven\" approach and accept challenging contracts including \"outcome based\" types, compensated based on agreed performance indicators. This ensures that our clients receive tangible results and measurable improvements.",
+      "services": [
+        {
+          "title": "Strategic Management",
+          "description": "Comprehensive strategic planning and execution support for SMEs looking to scale and optimize operations."
+        },
+        {
+          "title": "Digital Transformation",
+          "description": "End-to-end digitalization of business processes to improve efficiency and competitiveness."
+        },
+        {
+          "title": "Executive Training",
+          "description": "Customized training programs for managers and senior officials in both public and private sectors."
+        }
+      ],
+      "projects": [
+        {
+          "title": "Carbontrack Project",
+          "description": "Digital platform for measuring and tracking CO₂ emissions in international logistics."
+        },
+        {
+          "title": "Ermetes Construction Digitalization",
+          "description": "Digitalization for efficiency in construction sector management and operations."
+        }
+      ]
+    },
+    "projects": [
+      {
+        "title": "Government of Mozambique Training Program",
+        "description": "Designed and implemented a comprehensive training program for public officials focused on \"Public-Private Partnership for Local Development\". The program strengthened institutional capacity and improved governance frameworks, directly contributing to enhanced public service delivery and economic development initiatives.",
+        "role": "Lead Consultant & Program Designer",
+        "impact": "Trained 50+ government officials, established PPP framework",
+        "link": "https://www.mudarbeira.org/it/o-projetto-it/"
+      },
+      {
+        "title": "Ship 24 Green & Carbontrack Projects",
+        "description": "Led the development of integrated digital solutions for measuring, tracking, and reducing environmental impact in international logistics. Created comprehensive CO₂ emission measurement platforms with automated reporting systems, enabling companies to achieve significant decarbonization milestones.",
+        "role": "Project Coordinator (2021-2022)",
+        "impact": "Reduced logistics emissions by 25%, automated reporting for 100+ companies",
+        "link": "https://www.europeanmanagement.eu"
+      },
+      {
+        "title": "Cooperativa Ermetes Transformation",
+        "description": "Revolutionized the management structure of Cooperativa Ermetes SCS by implementing a \"C-level\" business management system with performance-based bonuses and comprehensive social impact measurement. The transformation enhanced operational efficiency while maintaining the cooperative's social mission focus.",
+        "role": "President & Strategic Advisor (2024-present)",
+        "impact": "40% increase in placement success, improved worker satisfaction",
+        "link": "https://www.ermetes.it/"
+      },
+      {
+        "title": "ATI Dolomiti Grow Coordination",
+        "description": "Provided comprehensive coordination and institutional relations support for a pioneering Trentino startup in the therapeutic cannabis sector. Managed regulatory compliance, business development strategies, and stakeholder engagement to position the company for state cannabis production contracts.",
+        "role": "Institutional Relations Coordinator (2022-present)",
+        "impact": "Secured regulatory approvals, established government partnerships",
+        "link": "https://www.ildolomiti.it/economia/2022/la-startup-trentina-che-vuole-produrre-la-cannabis-terapeutica-di-stato"
+      }
+    ]
+  },
+  "socialImpact": {
+    "title": "Social Impact and Vision",
+    "description": "Projects and initiatives dedicated to environmental sustainability, circular economy and technological innovation for decarbonization.",
+    "backToHome": "Back to Home",
+    "heroDescription": "Projects and initiatives dedicated to environmental sustainability, circular economy and technological innovation for decarbonization.",
+    "ourImpact": "Our Impact",
+    "organizations": "Organizations",
+    "keyProjects": "Key Projects",
+    "joinOurMission": "Join Our Social Impact Mission",
+    "joinOurMissionDescription": "Contact us to learn more about our social impact initiatives and how you can contribute to sustainable development.",
+    "visitSEA": "Visit Sustainable Economy Association",
+    "environmentalSustainability": "Environmental Sustainability",
+    "internationalProjects": "International Projects",
+    "communityDevelopment": "Community Development",
+    "sustainabilityDescription": "Projects and initiatives dedicated to environmental sustainability, circular economy and technological innovation for decarbonization with particular focus on North Africa and international development.",
+    "organizationsList": [
+      {
+        "title": "Sustainable Economy Association",
+        "description": "Non-profit organization focused on sustainable technology and international development."
+      },
+      {
+        "title": "Cooperativa Ermetes",
+        "description": "Supporting professional integration through innovative social approaches."
+      },
+      {
+        "title": "Conference Network",
+        "description": "Organizing conferences and events on social impact and sustainability."
+      }
+    ],
+    "projects": [
+      {
+        "title": "Shams Al-Atlas Social Center Reconstruction",
+        "role": "Project Leader (2018-2020)",
+        "description": "Leading the reconstruction and modernization of the Shams Al-Atlas social-educational center in Morocco, focusing on community development and educational infrastructure improvement.",
+        "link": "https://www.sustainableeconomy.eu/progetti/lavori-in-corso-per-il-rifacimento-del-centro-socio-formativo-shams-al-atlas/"
+      },
+      {
+        "title": "Green Desert Morocco Experimental Project",
+        "role": "Project Coordinator (2020-2025)",
+        "description": "Innovative experimental project for desert greening and sustainable agriculture development in Morocco, implementing cutting-edge technologies for environmental restoration and community empowerment.",
+        "link": "https://www.sustainableeconomy.eu/progetti/progetto-sperimentale-deserto-verde-marocco-2020-2025/"
+      },
+      {
+        "title": "Fundraising and Alternative Credit Conference",
+        "role": "Conference Organizer (2022)",
+        "description": "Organized comprehensive conference on fundraising strategies and alternative credit solutions for third sector organizations and community interest companies, fostering financial innovation for social impact.",
+        "link": "https://www.sustainableeconomy.eu/eventi/conferenza-fundraising-e-credito-alternativo-per-il-terzo-settore-e-le-icc/"
+      },
+      {
+        "title": "Ferrari Cellars Press Conference",
+        "role": "Event Coordinator (2022)",
+        "description": "Coordinated high-profile press conference at Ferrari Cellars focusing on sustainable business practices and corporate social responsibility in the luxury sector.",
+        "link": "https://www.sustainableeconomy.eu/eventi/comunicato-stampa-conferenza-31-05-2022-cantine-ferrari-trento/"
+      },
+      {
+        "title": "Green Energy Innovation Hub",
+        "role": "Co-design (2024)",
+        "description": "Conception and development of energy innovation hub in collaboration with Siram-Veolia SPA and Trentino Sviluppo."
+      },
+      {
+        "title": "Ship 24 Green and Carbontrack",
+        "role": "Project Leader (2021-2022)",
+        "description": "Projects for decarbonization of international logistics through innovative digital solutions for emissions measurement and reduction."
+      }
+    ]
+  },
   "digitalization": {
     "title": "Process Digitalization",
     "description": "Digital transformation and business process automation to improve efficiency, competitiveness and sustainability through innovative and data-driven solutions.",
@@ -197,62 +370,6 @@
       ]
     }
   },
-  "outsourcedManagement": {
-    "title": "Outsourced Management",
-    "description": "We live in an era of epochal economic, social and technological changes that require new skills and speed of action. Complex factors to obtain without the right investments and using only internal resources.",
-    "content": {
-      "intro": "European Management Institute offers next-generation consulting services specialized in outsourced management, digital transformation, and executive training. Our approach contrasts with traditional consulting by providing high-value-added solutions that are difficult to find in the market.",
-      "approach": "We use a \"data driven\" approach and accept challenging contracts including \"outcome based\" types, compensated based on agreed performance indicators. This ensures that our clients receive tangible results and measurable improvements.",
-      "projects": [
-        {
-          "title": "ATI Dolomiti Grow Coordination",
-          "description": "Coordination and institutional relations for Trentino startup in the therapeutic cannabis sector."
-        },
-        {
-          "title": "Ship 24 Green Project",
-          "description": "Project coordination for decarbonization of international logistics with innovative digital solutions."
-        },
-        {
-          "title": "E-commerce Trentino TRACES",
-          "description": "ATI coordination for Autonomous Province of Trento call dedicated to local e-commerce development."
-        },
-        {
-          "title": "ERDF/ESF+ Surveillance Committee",
-          "description": "Substitute member in joint committee for monitoring European funds and regional development."
-        }
-      ],
-      "services": [
-        {
-          "title": "Strategic Management",
-          "description": "Comprehensive strategic planning and execution support for SMEs looking to scale and optimize operations."
-        },
-        {
-          "title": "Digital Transformation",
-          "description": "End-to-end digitalization of business processes to improve efficiency and competitiveness."
-        },
-        {
-          "title": "Executive Training",
-          "description": "Customized training programs for managers and senior officials in both public and private sectors."
-        }
-      ],
-      "caseStudies": [
-        {
-          "title": "Cooperativa Ermetes SCS",
-          "description": "Mutual cooperative supporting professional integration through innovative management approaches. We introduced a \"C-level\" business management system with performance-based bonuses and social impact measurement.",
-          "link": "https://www.ermetes.it"
-        },
-        {
-          "title": "Government of Mozambique",
-          "description": "Designed and implemented customized training program for public officials on \"Public-Private Partnership for Local Development\" with focus on institutional capacity building.",
-          "link": "https://www.mudarbeira.org/it/o-projetto-it/"
-        }
-      ]
-    },
-    "videoId": "1_0FOnf7V40",
-    "inAction": "In Action",
-    "learnMore": "Learn more about our management solutions",
-    "videoDescription": "Watch our presentation on the FESR/FSE Monitoring Commission for Confcommercio Trentino, demonstrating our expertise in public-private partnerships and management solutions."
-  },
   "sustainability": {
     "title": "Sustainability",
     "description": "Projects and initiatives dedicated to environmental sustainability, circular economy and technological innovation for decarbonization.",
@@ -271,11 +388,6 @@
         "title": "Ship 24 Green and Carbontrack",
         "role": "Project Leader (2021-2022)",
         "description": "Projects for decarbonization of international logistics through innovative digital solutions for emissions measurement and reduction."
-      },
-      {
-        "title": "Trento Railway Bypass",
-        "role": "Communication Consultant (2024)",
-        "description": "Assignment from Autonomous Province of Trento for public communication strategy and citizen awareness on sustainable infrastructure work."
       }
     ],
     "keyProjectsTitle": "Key Projects",
@@ -351,22 +463,6 @@
           {
             "name": "PAT",
             "url": "https://www.ufficiostampa.provincia.tn.it/Comunicati/Mobility-il-futuro-della-mobilita-sostenibile-in-Trentino-domani-una-conferenza-al-Muse-con-esperti-internazionali"
-          }
-        ]
-      },
-      {
-        "title": "Public-Private Partnership for sustainable development of Trentino",
-        "subtitle": "Palazzo Roccabruna",
-        "description": "Discussion on public-private partnerships as a strategic tool for sustainable development in Trentino, exploring collaboration models between institutions and businesses.",
-        "videoId": "hLtzAH29ti8",
-        "links": [
-          {
-            "name": "PAT",
-            "url": "https://agenda2030.provincia.tn.it/In-evidenza/Il-Partenariato-Pubblico-Privato-per-uno-sviluppo-sostenibile-del-Trentino"
-          },
-          {
-            "name": "Confcommercio",
-            "url": "https://unione.tn.it/notizia/il-partenariato-pubblico-privato-per-uno-sviluppo-sostenibile-del-trentino"
           }
         ]
       }
@@ -451,40 +547,6 @@
           { "name": "SEA", "url": "https://www.sustainableeconomy.eu/progetti/conferenza-stampa-green-is-not-left/" },
           { "name": "Video Dichiarazioni", "url": "https://www.youtube.com/watch?v=lseWzO_fOWs&t=20s&ab_channel=SustainableEconomyAssociation" }
         ]
-      }
-    ]
-  },
-  "videos": {
-    "title": "Featured",
-    "subtitle": "Videos",
-    "description": "Watch interviews and discussions on business strategy, sustainability and leadership from conferences and speaking engagements.",
-    "channelDescription": "Subscribe to my YouTube channel for more insights on business strategy and sustainability",
-    "visitChannel": "Visit YouTube Channel",
-    "videos": [
-      {
-        "title": "Strategic Leadership in Modern Business",
-        "description": "Insights on effective leadership strategies for today's dynamic business environment.",
-        "videoId": "hLtzAH29ti8"
-      },
-      {
-        "title": "Sustainability in Business Strategy",
-        "description": "How to integrate sustainable practices into core business strategy.",
-        "videoId": "dQw4w9WgXcQ"
-      },
-      {
-        "title": "Best Practices for Innovation Management",
-        "description": "Proven methodologies for managing innovation in organizations.",
-        "videoId": "dQw4w9WgXcQ"
-      },
-      {
-        "title": "The Digital Transformation Journey",
-        "description": "Navigating the complexities of digital transformation in business.",
-        "videoId": "dQw4w9WgXcQ"
-      },
-      {
-        "title": "Future of Business Consulting",
-        "description": "Exploring emerging trends and the evolution of management consulting.",
-        "videoId": "dQw4w9WgXcQ"
       }
     ]
   },

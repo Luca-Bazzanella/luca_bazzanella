@@ -5,9 +5,9 @@ const VideosSection = () => {
   const { content } = useLanguage();
 
   return (
-    <section id="videos" className="py-24 bg-white">
+    <section id="videos" className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="mb-8">
+        <div>
           <h3 className="text-4xl sm:text-3xl sm:text-3xl font-serif font-semibold text-slate-900 mb-6 text-left">
             {content.videos.title}
           </h3>

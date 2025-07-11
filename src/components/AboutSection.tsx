@@ -7,6 +7,7 @@ import Autoplay from "embla-carousel-autoplay";
 const AboutSection = () => {
   const { content } = useLanguage();
 
+  // Enhanced images array combining content images and carousel images
   const enhancedImages = [
     ...content.about.images.map((image, index) => {
       const keys = Object.keys(content.about.imageDescriptions);
@@ -20,50 +21,12 @@ const AboutSection = () => {
         subtitle: description?.subtitle || '',
       };
     }),
+    // Add carousel images from JSON
     ...content.about.carouselImages
   ];
 
-  const expertiseAreas = [
-    { icon: Target, label: "Public Private Partnership", target: "european-management" },
-    { icon: Globe, label: "Public Services Digitalization", target: "ermetes" },
-    { icon: Rocket, label: "Sustainable Technologies", target: "sustainable-economy" },
-    { icon: TrendingUp, label: "European Policies", target: "european-management" },
-    { icon: Users, label: "Business Management", target: "ermetes" },
-    { icon: Lightbulb, label: "Innovation and Sustainability", target: "sustainable-economy" }
-  ];
-
-  const scrollToOrganization = (targetId: string) => {
-    const element = document.getElementById(targetId);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    }
-  };
-
   return (
     <>
-      {/* Expertise Areas Section */}
-      <section className="py-6 bg-sky-950">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
-            {expertiseAreas.map((area, index) => {
-              const IconComponent = area.icon;
-              return (
-                <div 
-                  key={index} 
-                  className="flex items-center gap-3 text-white group cursor-pointer hover:bg-sky-800/30 p-2 rounded-lg transition-colors duration-300"
-                  onClick={() => scrollToOrganization(area.target)}
-                >
-                  <div className="w-8 h-8 flex items-center justify-center flex-shrink-0">
-                    <IconComponent className="w-6 h-6 text-white" />
-                  </div>
-                  <p className="text-sm font-medium text-white leading-tight">{area.label}</p>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
       <section id="about" className="py-4 md:py-8 bg-gradient-to-br from-slate-50 to-blue-50/30">
         <div className="max-w-7xl mx-auto px-0 md:px-4 sm:px-6 lg:px-8">
           {/* Enhanced Carousel with navigation controls */}
@@ -113,7 +76,7 @@ const AboutSection = () => {
           {/* Organizations Cards */}
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
             {content.about.organizations.map((org) => (
-              <div key={org.id} id={org.id} className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+              <div key={org.id} id={org.id} className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col">
                 <div className="mb-6">
                   <h3 className="text-xl font-bold text-slate-800 mb-2">{org.title}</h3>
                   <div className="text-sm font-medium text-blue-600 bg-blue-50 px-3 py-1 rounded-full inline-block">
@@ -121,7 +84,7 @@ const AboutSection = () => {
                   </div>
                 </div>
                 
-                <div className="space-y-4 mb-6">
+                <div className="space-y-4 mb-6 flex-grow">
                   <p className="text-slate-600 text-sm leading-relaxed">
                     {org.description}
                   </p>
@@ -135,7 +98,7 @@ const AboutSection = () => {
                   href={org.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium text-sm transition-colors duration-200"
+                  className="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium text-sm transition-colors duration-200 mt-auto"
                 >
                   Learn more
                   <ExternalLink className="w-4 h-4 ml-1" />
