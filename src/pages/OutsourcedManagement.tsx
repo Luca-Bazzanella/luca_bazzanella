@@ -1,13 +1,11 @@
-
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
-import { ArrowLeft, ExternalLink, Users, TrendingUp, Target, FileText } from 'lucide-react';
-import { useNavigate } from 'react-router-dom';
+import { ArrowLeft, ExternalLink, Users, TrendingUp, Target } from 'lucide-react';
 import { useLanguage } from '@/hooks/useLanguage';
 
 const OutsourcedManagement = () => {
-  const navigate = useNavigate();
   const { content } = useLanguage();
+  const baseUrl = 'https://european-management-institute.github.io/luca_bazzanella';
 
   return (
     <div className="min-h-screen">
@@ -17,13 +15,13 @@ const OutsourcedManagement = () => {
         {/* Hero Section */}
         <section className="py-20 bg-gradient-to-br from-slate-50 to-blue-50/30">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <button 
-              onClick={() => navigate('/')}
+            <a 
+              href={baseUrl}
               className="flex items-center text-blue-600 hover:text-blue-700 mb-8 transition-colors"
             >
               <ArrowLeft className="h-4 w-4 mr-2" />
               Back to Home
-            </button>
+            </a>
             
             <div className="max-w-4xl">
               <h1 className="text-4xl md:text-6xl font-serif font-bold text-slate-900 mb-6">
@@ -37,7 +35,7 @@ const OutsourcedManagement = () => {
         </section>
 
         {/* Content Section */}
-        <section className="py-16">
+        <section>
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid lg:grid-cols-2 gap-12 mb-16">
               <div>
