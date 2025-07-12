@@ -130,17 +130,15 @@
       {
         "id": "european-management",
         "title": "European Management Institute",
-        "role": "Direttore e Amministratore (2022-oggi)",
-        "description": "Società di consulenza specializzata in management esternalizzato, trasformazione digitale e formazione executive. Offriamo soluzioni ad alto valore aggiunto con approccio data-driven e contratti outcome-based.",
-        "approach": "Il nostro approccio si contrappone alla consulenza tradizionale fornendo risultati tangibili e misurabili attraverso metodologie innovative e partnership strategiche.",
+        "role": "Direttore e Presidente CDA",
+        "description": "Azienda di consulenza specializzata in management esternalizzato, analisi delle politiche pubbliche ed efficienza aziendale. Offre a clienti selezionati soluzioni ad alto valore aggiunto difficilmente reperibili sul mercato. European Management si è fatta spazio nel mercato della consulenza aziendale utilizzando come strumenti di competitività contratti di tipo 'outcome based' che riducono i rischi dei clienti ovvero remunerati in base all’effettivo raggiunto di specifiche performance aziendali concordate.",
         "link": "https://www.europeanmanagement.eu/"
       },
       {
         "id": "ermetes",
         "title": "Cooperativa Ermetes SCS",
-        "role": "Presidente (2024-oggi)",
-        "description": "Cooperativa trentina a mutualità prevalente che supporta l'inserimento nel lavoro di personale svantaggiato attraverso formazione mirata e attività sul campo.",
-        "approach": "Abbiamo introdotto un sistema di gestione aziendale 'C-level' con bonus basati sulle performance e misurazione dell'impatto sociale per garantire sostenibilità e crescita.",
+        "role": "Presidente",
+        "description": "COrganizzazione no profit nata nel 2016 a Bruxelles e successivamente sviluppata in Italia a partire dal Trentino dove ha la sua sede principale. La sua mission è quella di ripensare lo sviluppo territoriale, le politiche pubbliche e più in generale la crescita economica in chiave sostenibile, in contrapposizione con la teoria della decrescita “felice” tipica dell’ambientalismo ideologico. Organizza conferenze, azioni di advocacy e partecipa a progetti europei e internazionali.",
         "link": "https://www.ermetes.it"
       },
       {
@@ -154,11 +152,11 @@
     ]
   },
   "publicPolicy": {
-    "title": "Politiche Pubbliche",
-    "description": "Analisi strategica delle politiche e soluzioni digitali per la pubblica amministrazione e il coinvolgimento dei cittadini.",
+    "title": "Public policy",
+    "description": "L’analisi delle politiche pubbliche è l’attività svolta da esperti specializzati di studio sistematico delle strategie, decisioni e azioni dei governi, con lo scopo di valutarne l’efficacia, l’efficienza e l’impatto sugli interessi dei propri clienti. Le aziende si avvalgono di questi professionisti ad esempio per essere più consapevoli sui rischi e sulle opportunità derivanti da cambiamenti politici e legislativi già in atto o futuri, per simularne l'impatto sui propri modelli di business e per poter pianificare di conseguenza la propria attività.",
     "backToHome": "Torna alla Home",
-    "heroTitle": "Politiche Pubbliche",
-    "heroDescription": "Analisi strategica delle politiche e soluzioni digitali per la pubblica amministrazione e il coinvolgimento dei cittadini.",
+    "heroTitle": "Public policy",
+    "heroDescription": "L’analisi delle politiche pubbliche è l’attività svolta da esperti specializzati di studio sistematico delle strategie, decisioni e azioni dei governi, con lo scopo di valutarne l’efficacia, l’efficienza e l’impatto sugli interessi dei propri clienti. Le aziende si avvalgono di questi professionisti ad esempio per essere più consapevoli sui rischi e sulle opportunità derivanti da cambiamenti politici e legislativi già in atto o futuri, per simularne l'impatto sui propri modelli di business e per poter pianificare di conseguenza la propria attività.",
     "policyInnovation": "Innovazione delle Politiche",
     "ourServices": "I Nostri Servizi",
     "keyProjects": "Progetti Chiave",
@@ -267,10 +265,10 @@
     ]
   },
   "socialImpact": {
-    "title": "Impatto Sociale e Visione",
-    "description": "Progetti e iniziative dedicate alla sostenibilità ambientale, economia circolare e innovazione tecnologica per la decarbonizzazione.",
+    "title": "Social Impact and Vision",
+    "description": "L’economia e la finanza fine a se stesse non servono a nulla se non generano un impatto positivo sull’uomo, sulla società e sul pianeta. Questa convinzione mi ha portato a investire gran parte dei miei ricavi in attività con un impatto sociale positivo e misurabile. Non ho mai creduto troppo alla beneficenza fatta da terzi tramite donazioni per questo preferisco dedicare in prima persona una parte del mio tempo ad attività concrete di volontariato locale e di cooperazione internazionale.",
     "backToHome": "Torna alla Home",
-    "heroDescription": "Progetti e iniziative dedicate alla sostenibilità ambientale, economia circolare e innovazione tecnologica per la decarbonizzazione.",
+    "heroDescription": "L’economia e la finanza fine a se stesse non servono a nulla se non generano un impatto positivo sull’uomo, sulla società e sul pianeta. Questa convinzione mi ha portato a investire gran parte dei miei ricavi in attività con un impatto sociale positivo e misurabile. Non ho mai creduto troppo alla beneficenza fatta da terzi tramite donazioni per questo preferisco dedicare in prima persona una parte del mio tempo ad attività concrete di volontariato locale e di cooperazione internazionale.",
     "ourImpact": "Il Nostro Impatto",
     "organizations": "Organizzazioni",
     "keyProjects": "Progetti Chiave",
@@ -280,7 +278,7 @@
     "environmentalSustainability": "Sostenibilità Ambientale",
     "internationalProjects": "Progetti Internazionali",
     "communityDevelopment": "Sviluppo Comunitario",
-    "sustainabilityDescription": "Progetti e iniziative dedicate alla sostenibilità ambientale, economia circolare e innovazione tecnologica per la decarbonizzazione con particolare focus su Nord Africa e sviluppo internazionale.",
+    "sustainabilityDescription": "L’economia e la finanza fine a se stesse non servono a nulla se non generano un impatto positivo sull’uomo, sulla società e sul pianeta. Questa convinzione mi ha portato a investire gran parte dei miei ricavi in attività con un impatto sociale positivo e misurabile. Non ho mai creduto troppo alla beneficenza fatta da terzi tramite donazioni per questo preferisco dedicare in prima persona una parte del mio tempo ad attività concrete di volontariato locale e di cooperazione internazionale.",
     "organizationsList": [
       {
         "title": "Sustainable Economy Association",
@@ -297,10 +295,21 @@
     ],
     "projects": [
       {
+        "title": "Accordo di Partenariato con la Provincia di Rehamna",
+        "role": "Partner",
+        "description": "Siglato a Ben Guerir in data 15.11.2019 un protocollo d’intesa e un documento di partenariato pubblico-privato tra la Sustainable Economy Association e la provincia di Rehamna. Il progetto ha come obiettivo principale la realizzazione di un modello sperimentale di lotta alla desertificazione e impatto sociale che, se applicato, compreso e replicato, permetterebbe il recupero e l’utilizzo produttivo di numerosi terreni abbandonati e in fase di desertificazione. L’accordo contempla: la realizzazione di un modello pilota locale su 10 ettari; una fase di 'co-research and development' nelle tecnologie agricole; la realizzazione di un 'contact point' dedicato; collaborazione e sinergia con il vicino centro di ricerca 'Green Energy Park'.",
+        "link": "https://www.sustainableeconomy.eu/progetti/siglato-un-nuovo-accordo-di-partenariato-per-lo-sviluppo-agricolo-sostenibile-con-la-provincia-di-rehamna-marocco/"
+      },
+      {
         "title": "Ricostruzione Centro Sociale Shams Al-Atlas",
-        "role": "Capoprogetto (2018-2020)",
-        "description": "Guidare la ricostruzione e modernizzazione del centro socio-educativo Shams Al-Atlas in Marocco, con focus sullo sviluppo comunitario e il miglioramento dell'infrastruttura educativa.",
+        "role": "Presidente",
+        "description": "Organizzazione no profit impegnata in conferenze su tecnologie sostenibili e azioni di advocacy per la decarbonizzazione con focus su progetti internazionali in Nord Africa.",
         "link": "https://www.sustainableeconomy.eu/progetti/lavori-in-corso-per-il-rifacimento-del-centro-socio-formativo-shams-al-atlas/"
+      },
+      {
+        "title": "Cooperativa Ermetes SCS",
+        "role": "Presidente",
+        "description": "Cooperativa Trentina che supporta l’inserimento nel lavoro di personale svantaggiato tramite formazione mirata e attività sul campo."
       },
       {
         "title": "Progetto Sperimentale Deserto Verde Marocco",
@@ -380,29 +389,24 @@
     "description": "Progetti e iniziative dedicate alla sostenibilità ambientale, economia circolare e innovazione tecnologica per la decarbonizzazione.",
     "keyProjects": [
       {
-        "title": "Sustainable Economy Association ODV",
-        "role": "Presidente (2016-oggi)",
-        "description": "Organizzazione no profit impegnata in conferenze su tecnologie sostenibili e azioni di advocacy per la decarbonizzazione con focus su progetti internazionali in Nord Africa."
+        "title": "Accordo di Partenariato con la Provincia di Rehamna",
+        "role": "Partner",
+        "description": "Protocollo d’intesa siglato nel 2019 tra Sustainable Economy Association e la provincia di Rehamna per un progetto pilota di lotta alla desertificazione su 10 ettari, con ricerca agricola, un contact point dedicato e collaborazione con il centro Green Energy Park."
       },
       {
-        "title": "Green Energy Innovation Hub",
-        "role": "Co-progettazione (2024)",
-        "description": "Ideazione e sviluppo di hub per l'innovazione energetica in collaborazione con Siram-Veolia SPA e Trentino Sviluppo."
+        "title": "Shams al Atlas",
+        "role": "Presidente",
+        "description": "Inaugurazione del centro socio-formativo 'Shams al Atlas' a Sid El Mokhtar, ristrutturato e riattivato nonostante le difficoltà della pandemia. La struttura su tre piani ospita spazi per formazione, sport e incontri associativi."
       },
       {
-        "title": "Ship 24 Green e Carbontrack",
-        "role": "Capoprogetto (2021-2022)",
-        "description": "Progetti per la decarbonizzazione della logistica internazionale attraverso soluzioni digitali innovative per la misurazione e riduzione delle emissioni."
-      },
-      {
-        "title": "Bypass Ferroviario Trento",
-        "role": "Consulente comunicazione (2024)",
-        "description": "Incarico Provincia Autonoma di Trento per strategia di comunicazione pubblica e sensibilizzazione cittadini sull'opera infrastrutturale sostenibile."
+        "title": "Cooperativa Ermetes SCS",
+        "role": "Presidente",
+        "description": "Cooperativa Trentina che supporta l’inserimento nel lavoro di personale svantaggiato tramite formazione mirata e attività sul campo."
       }
     ],
     "keyProjectsTitle": "Progetti Principali",
     "sustainabilityFocus": "Focus Sostenibilità",
-    "sustainabilityDescription": "Progetti e iniziative dedicate alla sostenibilità ambientale, economia circolare e innovazione tecnologica per la decarbonizzazione con particolare focus su Nord Africa e sviluppo internazionale.",
+    "sustainabilityDescription": "L’economia e la finanza fine a se stesse non servono a nulla se non generano un impatto positivo sull’uomo, sulla società e sul pianeta. Questa convinzione mi ha portato a investire gran parte dei miei ricavi in attività con un impatto sociale positivo e misurabile. Non ho mai creduto troppo alla beneficenza fatta da terzi tramite donazioni per questo preferisco dedicare in prima persona una parte del mio tempo ad attività concrete di volontariato locale e di cooperazione internazionale.",
     "learnMore": "Scopri di più sul nostro lavoro per la sostenibilità"
   },
   "conferences": {
@@ -473,7 +477,11 @@
           {
             "name": "PAT",
             "url": "https://www.ufficiostampa.provincia.tn.it/Comunicati/Mobility-il-futuro-della-mobilita-sostenibile-in-Trentino-domani-una-conferenza-al-Muse-con-esperti-internazionali"
-          }
+          },
+          {
+          "name": "YouTube Video",
+          "url": "https://www.youtube.com/watch?v=WTpy8q6fPdQ&t=2s&ab_channel=SustainableEconomyAssociation"
+        }
         ]
       },
       {
@@ -483,12 +491,24 @@
         "videoId": "hLtzAH29ti8",
         "links": [
           {
-            "name": "PAT",
-            "url": "https://agenda2030.provincia.tn.it/In-evidenza/Il-Partenariato-Pubblico-Privato-per-uno-sviluppo-sostenibile-del-Trentino"
+          "name": "Link PAT",
+          "url": "https://agenda2030.provincia.tn.it/In-evidenza/Il-Partenariato-Pubblico-Privato-per-uno-sviluppo-sostenibile-del-Trentino"
           },
           {
-            "name": "Confcommercio",
+            "name": "Link Confcommercio",
             "url": "https://unione.tn.it/notizia/il-partenariato-pubblico-privato-per-uno-sviluppo-sostenibile-del-trentino"
+          },
+          {
+            "name": "Locandina PDF",
+            "url": "https://unione.tn.it/sites/default/files/inline-files/Locandina%20Partenariato%20pubblico%20privato.pdf"
+          },
+          {
+            "name": "YouTube Intervento Luca Bazzanella",
+            "url": "https://www.youtube.com/watch?v=hLtzAH29ti8&pp=ygUWbHVjYSBiYXp6YW5lbGxhIHRyZW50bw%3D%3D"
+          },
+          {
+            "name": "YouTube Video diretta",
+            "url": "https://www.youtube.com/watch?v=nVIz903jFKY&t=80s&ab_channel=ConfcommercioTrentino%C2%A0"
           }
         ]
       }
@@ -507,26 +527,35 @@
       {
         "title": "Sostenibilità e mobilità elettrica urbana. Esperienze e casi a confronto",
         "subtitle": "Villa Madruzzo Conference",
-        "date": "2023",
-        "location": "Villa Madruzzo",
+        "date": "2018",
+        "location": "Villa Madruzzo, Trento",
         "attendees": "100+",
-        "description": "Conferenza dedicata alla sostenibilità della mobilità elettrica urbana, condivisione di esperienze e confronto tra diversi casi di città europee. L'evento ha riunito esperti internazionali, amministratori locali e rappresentanti del settore privato per discutere le migliori pratiche e le sfide nell'implementazione di sistemi di mobilità elettrica sostenibile nelle aree urbane.",
+        "description": "Conferenza dedicata all’elettrificazione del trasporto urbano e alla condivisione di casi studio europei. Esperti del settore hanno discusso soluzioni sostenibili per la mobilità urbana.",
         "videoId": null,
         "links": [
-          { "name": "Sustainable Economy", "url": "https://www.sustainableeconomy.eu/progetti/conferenza-sostenibilita-e-mobilita-elettrica-urbana-esperienze-e-casi-aconfronto/" }
+          {
+            "name": "Sustainable Economy",
+            "url": "https://www.sustainableeconomy.eu/progetti/conferenza-sostenibilita-e-mobilita-elettrica-urbana-esperienze-e-casi-a-confronto/"
+          }
         ]
       },
       {
         "title": "Green is not left",
-        "subtitle": "Parlamento Europeo",
-        "date": "2022",
-        "location": "European Parliament, Brussels",
+        "subtitle": "European Parliament",
+        "date": "2019",
+        "location": "Bruxelles",
         "attendees": "50+",
-        "description": "Conferenza stampa al Parlamento Europeo sulla trasversalità delle politiche ambientali e l'importanza della collaborazione cross-party sulle iniziative verdi. L'evento ha evidenziato come le questioni ambientali trascendano le divisioni politiche tradizionali e richiedano un approccio collaborativo per affrontare le sfide climatiche globali.",
+        "description": "Conferenza stampa sul rischio di politicizzazione dei temi ambientali e la necessità di soluzioni pragmatiche. Approfondimento sul concetto di greenwashing istituzionale.",
         "videoId": "cfM3aVlyXCY",
         "links": [
-          { "name": "TG Video", "url": "https://www.youtube.com/watch?v=cfM3aVlyXCY" },
-          { "name": "CagliariPad", "url": "https://www.cagliaripad.it/394624/europa-conferenza-green-is-not-left-lambiente-non-e-di-sinistra-a-bruxelles/" }
+          {
+            "name": "TG Video",
+            "url": "https://www.youtube.com/watch?v=cfM3aVlyXCY"
+          },
+          {
+            "name": "SEA",
+            "url": "https://www.sustainableeconomy.eu/progetti/conferenza-stampa-green-is-not-left/"
+          }
         ]
       },
       {
@@ -535,44 +564,178 @@
         "date": "2022",
         "location": "MUSE, Trento",
         "attendees": "150+",
-        "description": "Conferenza pubblica sui temi della mobilità sostenibile con esperti internazionali e focus sulle soluzioni innovative per il territorio trentino. L'evento ha presentato le ultime tecnologie e strategie per implementare sistemi di trasporto sostenibile nelle regioni alpine, con particolare attenzione alle sfide specifiche del territorio montano.",
+        "description": "Conferenza pubblica sulle soluzioni sostenibili per la mobilità alpina, con focus su idrogeno e cogenerazione. Partecipazione di attori istituzionali e tecnologici.",
         "videoId": "WTpy8q6fPdQ",
         "links": [
-          { "name": "SEA", "url": "https://www.sustainableeconomy.eu/progetti/conferenza-pubblica-il-futuro-della-mobilita-sostenibile/" },
-          { "name": "PAT", "url": "https://www.ufficiostampa.provincia.tn.it/Comunicati/Mobility-il-futuro-della-mobilita-sostenibile-in-Trentino-domani-una-conferenza-al-Muse-con-esperti-internazionali" }
+          {
+            "name": "SEA",
+            "url": "https://www.youtube.com/watch?v=WTpy8q6fPdQ&t=2s"
+          }
         ]
       }
     ],
     "allConferences": [
       {
+        "title": "Bypass ferroviario rumori e vibrazioni lotto 3A",
+        "date": "2024",
+        "location": "Le Gallerie, Trento",
+        "attendees": "200+",
+        "topic": "Conferenza informativa sugli impatti delle vibrazioni e le tecniche di mitigazione legate al progetto di bypass ferroviario di Trento.",
+        "link": "https://corridoiodelbrennero.provincia.tn.it/content/download/2170/23270/version/1/file/Locandina+ordini.pdf"
+      },
+      {
         "title": "Sostenibilità e mobilità elettrica urbana. Esperienze e casi a confronto",
-        "date": "2023",
-        "location": "Villa Madruzzo",
+        "date": "2018",
+        "location": "Villa Madruzzo, Trento",
         "attendees": "100+",
-        "topic": "Conferenza focalizzata sulla sostenibilità della mobilità elettrica urbana, condivisione di esperienze e confronto tra diversi casi di città europee.",
-        "link": "https://www.sustainableeconomy.eu/progetti/conferenza-sostenibilita-e-mobilita-elettrica-urbana-esperienze-e-casi-aconfronto/"
+        "topic": "Conferenza sulla mobilità urbana elettrica sostenibile, con tavoli di esperti e casi di best practice europei.",
+        "link": "https://www.sustainableeconomy.eu/progetti/conferenza-sostenibilita-e-mobilita-elettrica-urbana-esperienze-e-casi-a-confronto/"
       },
       {
         "title": "Sostenibilità nel trasporto ferroviario. Quali prospettive per il treno delle Dolomiti?",
-        "date": "2023",
-        "location": "Palazzo Perlerhof",
+        "date": "2018",
+        "location": "Palazzo Perlerhof, Mezzocorona",
         "attendees": "80+",
-        "topic": "Analisi della sostenibilità nel trasporto ferroviario con focus sul treno delle Dolomiti e prospettive future per la mobilità montana sostenibile.",
-        "link": "https://www.sustainableeconomy.eu/progetti/sostenibilita-nel-trasporto-ferroviario-quali-prospettive-per-il-trenodelle-dolomiti/"
+        "topic": "Esplorazione di treni a idrogeno, economia circolare nelle infrastrutture ferroviarie e innovazioni nel trasporto sostenibile in Trentino.",
+        "link": "https://www.sustainableeconomy.eu/progetti/sostenibilita-nel-trasporto-ferroviario-quali-prospettive-per-il-treno-delle-dolomiti/"
       },
       {
         "title": "Parlamento Europeo conferenza stampa 'Green is not left'",
-        "date": "2022",
-        "location": "European Parliament, Brussels",
+        "date": "2019",
+        "location": "Parlamento Europeo, Bruxelles",
         "attendees": "50+",
-        "topic": "Conferenza stampa al Parlamento Europeo su come le politiche ambientali trascendano i confini politici e l'importanza della collaborazione trasversale sulle iniziative verdi.",
+        "topic": "Conferenza stampa sulla depoliticizzazione delle tematiche ambientali e la promozione di approcci pragmatici alla sostenibilità.",
+        "link": "https://www.sustainableeconomy.eu/progetti/conferenza-stampa-green-is-not-left/",
         "links": [
-          { "name": "TG Video", "url": "https://www.youtube.com/watch?v=cfM3aVlyXCY&ab_channel=SustainableEconomyAssociation" },
-          { "name": "CagliariPad", "url": "https://www.cagliaripad.it/394624/europa-conferenza-green-is-not-left-lambiente-non-e-di-sinistra-a-bruxelles/" },
-          { "name": "Informazione.it", "url": "https://www.informazione.it/c/74E3E8CC-4B26-4441-9943-D5B8B214CD5F/SFIDE-GLOBALI-GREEN-IS-NOT-LEFT-L-AMBIENTE-NON-e-DI-SINISTRA" },
-          { "name": "SEA", "url": "https://www.sustainableeconomy.eu/progetti/conferenza-stampa-green-is-not-left/" },
-          { "name": "Video Dichiarazioni", "url": "https://www.youtube.com/watch?v=lseWzO_fOWs&t=20s&ab_channel=SustainableEconomyAssociation" }
+          {
+            "name": "TG Video",
+            "url": "https://www.youtube.com/watch?v=cfM3aVlyXCY"
+          },
+          {
+            "name": "SEA",
+            "url": "https://www.sustainableeconomy.eu/progetti/conferenza-stampa-green-is-not-left/"
+          }
         ]
+      },
+      {
+        "title": "Il futuro della mobilità sostenibile in Trentino",
+        "date": "2022",
+        "location": "MUSE, Trento",
+        "attendees": "150+",
+        "topic": "Evento che presenta treni a idrogeno, transizione energetica urbana e innovazioni nella mobilità con stakeholder nazionali e locali.",
+        "link": "https://www.youtube.com/watch?v=WTpy8q6fPdQ&t=2s"
+      },
+      {
+        "title": "Commissione di Vigilanza FESR / FSE Confcommercio Trentino",
+        "date": "2020",
+        "location": "Trento",
+        "attendees": "70+",
+        "topic": "Incontro di monitoraggio e discussione pubblica sulla ridefinizione dei fondi strutturali europei per i settori economici locali.",
+        "link": "https://www.youtube.com/watch?v=1_0FOnf7V40",
+        "links": [
+        {
+          "name": "YouTube Video",
+          "url": "https://www.youtube.com/watch?v=1_0FOnf7V40&pp=ygUWbHVjYSBiYXp6YW5lbGxhIHRyZW50bw%3D%3D"
+        },
+        {
+          "name": "Facebook Video",
+          "url": "https://www.facebook.com/watch/?v=573766943245518"
+        }
+      ]
+      },
+      {
+        "title": "Il Partenariato Pubblico Privato per uno sviluppo sostenibile del Trentino",
+        "date": "2021",
+        "location": "Palazzo Roccabruna, Trento",
+        "attendees": "60+",
+        "topic": "Strategie ed esempi di partenariati pubblico-privati per sostenere lo sviluppo sostenibile in Trentino.",
+        "link": "https://unione.tn.it/notizia/il-partenariato-pubblico-privato-per-uno-sviluppo-sostenibile-del-trentino",
+                "links": [
+          {
+          "name": "Link PAT",
+          "url": "https://agenda2030.provincia.tn.it/In-evidenza/Il-Partenariato-Pubblico-Privato-per-uno-sviluppo-sostenibile-del-Trentino"
+          },
+          {
+            "name": "Link Confcommercio",
+            "url": "https://unione.tn.it/notizia/il-partenariato-pubblico-privato-per-uno-sviluppo-sostenibile-del-trentino"
+          },
+          {
+            "name": "Locandina PDF",
+            "url": "https://unione.tn.it/sites/default/files/inline-files/Locandina%20Partenariato%20pubblico%20privato.pdf"
+          },
+          {
+            "name": "YouTube Intervento Luca Bazzanella",
+            "url": "https://www.youtube.com/watch?v=hLtzAH29ti8&pp=ygUWbHVjYSBiYXp6YW5lbGxhIHRyZW50bw%3D%3D"
+          },
+          {
+            "name": "YouTube Video diretta",
+            "url": "https://www.youtube.com/watch?v=nVIz903jFKY&t=80s&ab_channel=ConfcommercioTrentino%C2%A0"
+          }
+        ]
+      },
+      {
+        "title": "Il Partenariato Pubblico Privato: un’opportunità per PMI ed enti locali",
+        "date": "2021",
+        "location": "Online",
+        "attendees": "100+",
+        "topic": "Seminario online che presenta casi concreti di PPP per favorire investimenti locali e la partecipazione delle PMI.",
+        "link": "https://www.youtube.com/watch?v=nVIz903jFKY"
+      },
+      {
+        "title": "PNRR in Trentino tra opportunità e rischi",
+        "date": "2022",
+        "location": "Cantine Ferrari, Trento",
+        "attendees": "100+",
+        "topic": "Dibattito sugli impatti locali e le sfide nell’attuazione del piano di ripresa italiano per le transizioni sostenibili e digitali.",
+        "link": "https://www.youtube.com/watch?v=l8D61N_3-HA",
+        "links": [
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=l8D61N_3-HA&pp=ygUWbHVjYSBiYXp6YW5lbGxhIHRyZW50bw%3D%3D"
+          },
+          {
+            "name": "Conferenza regioni",
+            "url": "https://www.regioni.it/dalleregioni/2022/05/31/trento-pnrr-in-trentino-tra-opportunita-e-rischi-la-conferenza-648910/"
+          }
+        ]
+      },
+      {
+        "title": "Inaugurazione contest Smart City del Futuro",
+        "date": "2023",
+        "location": "MUSE, Trento",
+        "attendees": "120+",
+        "topic": "Evento educativo di lancio che coinvolge studenti delle scuole superiori nella co-progettazione di città future sostenibili e resilienti.",
+        "link": "https://www.cci.tn.it/contest-smart-city-del-futuro/",
+        "links": [
+        {
+          "name": "Link PAT",
+          "url": "https://educazioneambientale.provincia.tn.it/Catalogo-del-sistema-provinciale/Contest-Smart-City-del-Futuro"
+        },
+        {
+          "name": "Link CCI",
+          "url": "https://www.cci.tn.it/contest-smart-city-del-futuro/"
+        },
+        {
+          "name": "Adigetto Article",
+          "url": "https://www.ladigetto.it/interno/133319-la-premiazione-si-e-tenuta-stamattina-al-muse.html"
+        },
+        {
+          "name": "Voce Trentino Article",
+          "url": "https://www.lavocedeltrentino.it/2023/02/15/la-smart-city-del-futuro-ideata-e-progettata-dagli-studenti-trentini-venerdi-via-al-contest-nelle-scuole/"
+        },
+        {
+          "name": "Link SEA",
+          "url": "https://www.sustainableeconomy.eu/progetti/inaugurato-al-muse-il-contest-tra-istituti-scolastici-smart-city-del-futuro/"
+        }
+      ]
+      },
+      {
+        "title": "Confronto politico dal vivo all’americana: Sviluppo Sostenibile in Trentino",
+        "date": "2023",
+        "location": "Palazzo Benvenuti, Trento",
+        "attendees": "70+",
+        "topic": "Dibattito politico dal vivo sulle priorità di sviluppo sostenibile per il Trentino, in stile town-hall americano.",
+        "link": "https://www.sustainableeconomy.eu/progetti/sviluppo-sostenibile-in-trentino-confronto-dal-vivo-allamericanamartedi-17-ottobre-1700-1900-palazzo-benvenuti-trento/"
       }
     ]
   },

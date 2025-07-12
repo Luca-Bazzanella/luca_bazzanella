@@ -29,17 +29,6 @@ const OutsourcedManagementSection = () => {
                     <p className="text-slate-600 text-sm">{project.description}</p>
                   </div>
                 ))}
-                
-                {/* Additional projects */}
-                <div className="border-l-4 border-blue-600 pl-4">
-                  <h4 className="font-semibold text-slate-900 mb-2">Carbontrack Project</h4>
-                  <p className="text-slate-600 text-sm">Digital platform for measuring and tracking CO₂ emissions in international logistics.</p>
-                </div>
-                
-                <div className="border-l-4 border-blue-600 pl-4">
-                  <h4 className="font-semibold text-slate-900 mb-2">Ermetes Construction Digitalization</h4>
-                  <p className="text-slate-600 text-sm">Digitalization for efficiency in construction sector management and operations.</p>
-                </div>
               </div>
               
               <Link 

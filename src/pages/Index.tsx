@@ -5,7 +5,6 @@ import OutsourcedManagementSection from '@/components/OutsourcedManagementSectio
 import PublicPolicySection from '@/components/PublicPolicySection';
 import SocialImpactSection from '@/components/SocialImpactSection';
 import ConferencesSection from '@/components/ConferencesSection';
-import VideosSection from '@/components/VideosSection';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 
@@ -19,7 +18,6 @@ const Index = () => {
       <PublicPolicySection />
       <SocialImpactSection />
       <ConferencesSection />
-      <VideosSection />
       <Footer />
     </div>
   );
