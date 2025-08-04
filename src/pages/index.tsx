@@ -6,9 +6,6 @@ import OutsourcedManagementSection from '@/components/OutsourcedManagementSectio
 import PublicPolicySection from '@/components/PublicPolicySection';
 import SocialImpactSection from '@/components/SocialImpactSection';
 import ConferencesSection from '@/components/ConferencesSection';
-import Navigation from '@/components/Navigation';
-import Footer from '@/components/Footer';
-import { useState } from 'react';
 import { client } from '@/sanity/client';
 import {
   heroQuery,
