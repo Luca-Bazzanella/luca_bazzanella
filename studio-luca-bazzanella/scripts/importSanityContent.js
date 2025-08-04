@@ -30,16 +30,19 @@ async function uploadImages(imageList, baseDir) {
       } catch (err) {
         console.error('Image upload failed:', img.src, err);
       }
+    } else {
+      console.warn('Image file not found for upload:', filePath, 'from src:', img.src);
     }
-    // If image has title or subtitle, include them (for About carouselImages)
+    // Always push image object, even if assetRef is missing, so metadata is preserved
     const imageObj = {
       _type: 'image',
       asset: assetRef,
       _key: img._key || undefined,
-      alt: img.alt || undefined
+      alt: img.alt || '',
+      title: img.title || '',
+      subtitle: img.subtitle || '',
+      src: img.src || ''
     };
-    if (img.title) imageObj.title = img.title;
-    if (img.subtitle) imageObj.subtitle = img.subtitle;
     uploaded.push(imageObj);
   }
   return uploaded;
@@ -101,13 +104,18 @@ async function buildHeroDoc() {
 async function buildAboutDoc() {
   // Use carouselImages directly from JSON
   // Add _key to all carouselImages
-  let carouselImagesArr = Array.isArray(en.about.carouselImages) ? en.about.carouselImages.map((img, i) => ({
-    ...img,
-    _key: img._key || `carousel_${i}_${Math.random().toString(36).substr(2, 6)}`
-  })) : [];
-  const carouselImages = carouselImagesArr.length > 0
-    ? await uploadImages(carouselImagesArr, path.join(__dirname, '../public/lovable-uploads'))
+  let carouselImagesArr = Array.isArray(en.about.carouselImages)
+    ? en.about.carouselImages.map((img, i) => ({
+        // Always preserve all fields, even if src is missing
+        alt: img.alt || '',
+        title: img.title || '',
+        subtitle: img.subtitle || '',
+        src: img.src || '',
+        _key: img._key || `carousel_${i}_${Math.random().toString(36).substr(2, 6)}`
+      }))
     : [];
+  // Always call uploadImages, even if some entries have missing src
+  const carouselImages = await uploadImages(carouselImagesArr, path.join(__dirname, '../public/lovable-uploads'));
   return {
     _id: 'about-single',
     _type: 'about',
@@ -132,20 +140,6 @@ async function buildAboutDoc() {
       name: link.name || '',
       url: link.url || ''
     })) : undefined,
-    imageDescriptions: en.about.imageDescriptions && it.about.imageDescriptions ? {
-      europeanManagement: {
-        title: en.about.imageDescriptions.europeanManagement?.title || '',
-        subtitle: en.about.imageDescriptions.europeanManagement?.subtitle || ''
-      },
-      sustainableEconomy: {
-        title: en.about.imageDescriptions.sustainableEconomy?.title || '',
-        subtitle: en.about.imageDescriptions.sustainableEconomy?.subtitle || ''
-      },
-      ermetes: {
-        title: en.about.imageDescriptions.ermetes?.title || '',
-        subtitle: en.about.imageDescriptions.ermetes?.subtitle || ''
-      }
-    } : undefined,
     carouselImages,
     organizations: Array.isArray(en.about.organizations) ? (en.about.organizations || []).map((org, i) => ({
       _key: `org_${i}_${Math.random().toString(36).substr(2, 6)}`,

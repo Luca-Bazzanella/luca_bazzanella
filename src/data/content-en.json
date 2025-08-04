@@ -52,20 +52,6 @@
         "url": "https://www.ermetes.it/"
       }
     ],
-    "imageDescriptions": {
-      "europeanManagement": {
-        "title": "European Management Institute",
-        "subtitle": "Management consulting and training"
-      },
-      "sustainableEconomy": {
-        "title": "Sustainable Economy Association",
-        "subtitle": "International projects for sustainability"
-      },
-      "ermetes": {
-        "title": "Cooperativa Ermetes",
-        "subtitle": "Job placement and training"
-      }
-    },
     "carouselImages": [
       {
         "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/3c48d014-5dac-4244-a390-2011f5f4917f.png",

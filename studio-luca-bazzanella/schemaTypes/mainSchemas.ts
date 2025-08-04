@@ -47,7 +47,9 @@ export const hero = {
         type: 'image',
         options: { hotspot: true },
         fields: [
-          { name: 'alt', type: 'string', title: 'Alt' }
+          { name: 'alt', type: 'string', title: 'Alt' },
+          { name: 'title', type: 'string', title: 'Title' },
+          { name: 'subtitle', type: 'string', title: 'Subtitle' }
         ]
       }
     ] },
@@ -82,20 +84,6 @@ export const about = {
       { name: 'name', type: 'string', title: 'Name' },
       { name: 'url', type: 'url', title: 'URL' }
     ] }] },
-    { name: 'imageDescriptions', type: 'object', title: 'Image Descriptions', fields: [
-      { name: 'europeanManagement', type: 'object', title: 'European Management', fields: [
-        { name: 'title', type: 'string', title: 'Title' },
-        { name: 'subtitle', type: 'string', title: 'Subtitle' }
-      ] },
-      { name: 'sustainableEconomy', type: 'object', title: 'Sustainable Economy', fields: [
-        { name: 'title', type: 'string', title: 'Title' },
-        { name: 'subtitle', type: 'string', title: 'Subtitle' }
-      ] },
-      { name: 'ermetes', type: 'object', title: 'Ermetes', fields: [
-        { name: 'title', type: 'string', title: 'Title' },
-        { name: 'subtitle', type: 'string', title: 'Subtitle' }
-      ] }
-    ] },
     { name: 'carouselImages', type: 'array', title: 'Carousel Images', of: [
       {
         type: 'image',
