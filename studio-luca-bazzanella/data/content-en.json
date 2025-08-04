@@ -1,0 +1,681 @@
+{
+  "navigation": {
+    "management": "Outsourced Management",
+    "policy": "Public Policy",
+    "socialImpact": "Social Impact",
+    "name": "Dr. Luca Bazzanella",
+    "baseUrl": "https://european-management-institute.github.io/luca_bazzanella"
+  },
+  "hero": {
+    "name": "Luca Bazzanella",
+    "description": "Trentino manager, born in 1991, with a background as an advisor within the European Parliament. Specialized in outsourced business management and process digitalization with particular experience in public policy analysis and institutional relations. Always interested in social issues, he is president of the Ermetes scs cooperative and the Sustainable Economy Association, a non-profit organization engaged in international projects with particular focus on North Africa and advocacy actions in favor of new technologies for decarbonization. From 2019 to 2021 Head of the Europe Office of Confcommercio Trentino, the main Category Association in Italy for small and medium enterprises, and since 2020 administrator and operational director of the consulting company European Management Institute. He previously held various political coordination roles at regional and national level in Forza Italia – PDL, leaving all positions in December 2022. Always interested in finding the right balance between business efficiency and social impact.",
+    "cta": "Discover my work",
+    "contact": "Contact",
+    "linkedin": "LinkedIn"
+  },
+  "about": {
+    "title": "Who is",
+    "name": "Luca Bazzanella",
+    "description1": "Trentino manager, born in 1991, with a background as an advisor within the European Parliament. Specialized in outsourced business management and process digitalization with particular experience in public policy analysis and institutional relations.",
+    "description2": "Since 2016 President of the Sustainable Economy Association, a non-profit organization engaged in international projects with focus on North Africa and advocacy actions for sustainable technologies and decarbonization. Always interested in finding the right balance between business efficiency and social impact.",
+    "stats": {
+      "experience": "Years Experience",
+      "projects": "Completed Projects",
+      "conferences": "Conferences",
+      "countries": "Countries"
+    },
+    "currentRoles": "Current Positions",
+    "roles": [
+      "Director - European Management Institute",
+      "President - Sustainable Economy Association ODV",
+      "President - Cooperativa Ermetes SCS"
+    ],
+    "skills": "Core Competencies",
+    "skillsList": [
+      "Outsourced management",
+      "Process digitalization",
+      "Public policies",
+      "Institutional relations",
+      "Public-private partnerships"
+    ],
+    "externalLinks": [
+      {
+        "name": "European Management Institute",
+        "url": "https://www.europeanmanagement.eu/"
+      },
+      {
+        "name": "Sustainable Economy Association",
+        "url": "https://www.sustainableeconomy.eu/"
+      },
+      {
+        "name": "Cooperativa Ermetes",
+        "url": "https://www.ermetes.it/"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/06797e83-b04d-4211-a8ef-13b5a23fa472.png",
+        "alt": "European Management Institute"
+      },
+      {
+        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/0b83ced8-5fdd-4d8a-956e-211fbcb1e621.png",
+        "alt": "Sustainable Economy Association"
+      }
+    ],
+    "imageDescriptions": {
+      "europeanManagement": {
+        "title": "European Management Institute",
+        "subtitle": "Management consulting and training"
+      },
+      "sustainableEconomy": {
+        "title": "Sustainable Economy Association",
+        "subtitle": "International projects for sustainability"
+      },
+      "ermetes": {
+        "title": "Cooperativa Ermetes",
+        "subtitle": "Job placement and training"
+      }
+    },
+    "carouselImages": [
+      {
+        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/3c48d014-5dac-4244-a390-2011f5f4917f.png",
+        "alt": "Media Interview at Conference",
+        "title": "Media Coverage",
+        "subtitle": "Television interview during conference event"
+      },
+      {
+        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/0ff9547c-a290-4d02-9230-b56db457a5da.png",
+        "alt": "European Parliament Meeting",
+        "title": "European Parliament",
+        "subtitle": "Official meeting with EU representatives"
+      },
+      {
+        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/87e71afe-46ae-4a4c-8838-97af8a8d9357.png",
+        "alt": "European Parliament Collaboration",
+        "title": "International Cooperation",
+        "subtitle": "Meeting with Nobel Peace Prize winner at European Parliament"
+      },
+      {
+        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/97abf5a8-c17f-4bd6-bc05-8bfeb2c3962f.png",
+        "alt": "Professional Portrait",
+        "title": "Leadership Profile",
+        "subtitle": "Professional representation and networking"
+      },
+      {
+        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/06797e83-b04d-4211-a8ef-13b5a23fa472.png",
+        "alt": "Conference at Gallerie Venue",
+        "title": "Business Conference",
+        "subtitle": "Speaking at Gallerie venue business event"
+      },
+      {
+        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/3932719d-5527-45ed-b9a5-fa4418b6e9a3.png",
+        "alt": "High-Level Diplomatic Meeting",
+        "title": "Diplomatic Relations",
+        "subtitle": "Strategic meeting with political leaders"
+      },
+      {
+        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/eb2e8793-572c-4b65-a042-7a8f863f0165.png",
+        "alt": "Venice Film Festival Event",
+        "title": "Venice Film Festival",
+        "subtitle": "Exclusive cocktail party during film festival"
+      },
+      {
+        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/efd483a6-8573-4ab1-a16a-dc8e325e3ee1.png",
+        "alt": "Networking Event",
+        "title": "Professional Networking",
+        "subtitle": "High-profile business networking event"
+      }
+    ],
+    "organizations": [
+      {
+        "id": "european-management",
+        "title": "European Management Institute",
+        "role": "Director and Chairman of the Board of Directors",
+        "description": "A consulting firm specialized in outsourced management, public policy analysis, and corporate efficiency. It offers selected clients high value-added solutions that are rarely available on the market. European Management has made its mark in the business consulting market by using 'outcome-based' contracts as a competitive tool, which reduce client risk by tying compensation to the actual achievement of agreed-upon business performance targets.",
+        "link": "https://www.europeanmanagement.eu/"
+      },
+      {
+        "id": "ermetes",
+        "title": "Cooperativa Ermetes SCS",
+        "role": "President",
+        "description": "A Trentino-based cooperative with a prevalent mutualistic purpose that supports the employment of disadvantaged individuals through targeted training and fieldwork activities.",
+        "approach": "Under the new presidency and management, a new system for measuring social impact was introduced, along with a 'C-level' corporate management system aimed at bringing efficiency and competitiveness by proactively and more directly involving all worker-members.",
+        "link": "https://www.ermetes.it"
+      },
+      {
+        "id": "sustainable-economy",
+        "title": "Sustainable Economy Association ODV",
+        "role": "President",
+        "description": "A non-profit organization founded in 2016 in Brussels and later developed in Italy, starting from Trentino where it has its main headquarters. Its mission is to rethink territorial development, public policies, and, more broadly, economic growth from a sustainable perspective, in contrast to the theory of 'happy degrowth' typical of ideological environmentalism. It organizes conferences, advocacy actions, and participates in European and international projects.",
+        "link": "https://www.sustainableeconomy.eu/"
+      }
+    ]
+  },
+  "publicPolicy": {
+    "title": "Public Policy",
+    "description": "Public policy analysis is the activity carried out by specialized experts who systematically study government strategies, decisions, and actions, with the aim of assessing their effectiveness, efficiency, and impact on their clients' interests. Companies rely on these professionals, for example, to better understand the risks and opportunities arising from current or future political and legislative changes, to simulate their impact on business models, and to plan their operations accordingly.",
+    "backToHome": "Back to Home",
+    "heroTitle": "Public Policy",
+    "heroDescription": "Public policy analysis is the activity carried out by specialized experts who systematically study government strategies, decisions, and actions, with the aim of assessing their effectiveness, efficiency, and impact on their clients' interests. Companies rely on these professionals, for example, to better understand the risks and opportunities arising from current or future political and legislative changes, to simulate their impact on business models, and to plan their operations accordingly.",
+    "policyInnovation": "Policy Innovation",
+    "ourServices": "Our Services",
+    "keyProjects": "Key Projects",
+    "readyToTransform": "Ready to Transform Your Public Services?",
+    "readyToTransformDescription": "Contact us to discuss how our public policy solutions can improve citizen engagement and administrative efficiency.",
+    "visitEMI": "Visit European Management Institute",
+    "learnMore": "Learn more",
+    "projects": [
+      {
+        "title": "European Digital Innovation Hub DIPS",
+        "description": "Project DIPS - Digitalization and Innovation of Public Services in collaboration with FBK, UNITN, HIT, Confindustria and FTC to support SME digitalization and public service innovation.",
+        "link": "https://european-digital-innovation-hubs.ec.europa.eu/edih-catalogue/dips"
+      },
+      {
+        "title": "EMI Software Integration",
+        "description": "Development of integrated digital solutions for public administration efficiency and citizen services enhancement through automated processes and data-driven decision making.",
+        "link": "https://www.europeanmanagement.eu"
+      },
+      {
+        "title": "PNRR Implementation Support",
+        "description": "Consultation and strategic support for PNRR (National Recovery and Resilience Plan) implementation in Trentino, focusing on opportunities and risk mitigation strategies.",
+        "link": "https://www.ufficiostampa.provincia.tn.it/Comunicati/PNRR-in-Trentino-tra-opportunita-e-rischi-la-conferenza"
+      }
+    ],
+    "intro": "Business process digitalization represents a fundamental strategic lever for the evolution of modern organizations. Through the implementation of advanced technological solutions, we support companies in comprehensive digital transformation.",
+    "approach": "Our approach is based on analyzing existing processes, identifying areas for improvement and implementing customized digital solutions that guarantee measurable and sustainable results over time."
+  },
+  "outsourcedManagement": {
+    "title": "Outsourced Management",
+    "description": "We live in an era of epochal economic, social and technological changes that require new skills and speed of action. Complex factors to obtain without the right investments and using only internal resources.",
+    "backToHome": "Back to Home",
+    "heroDescription": "We live in an era of epochal economic, social and technological changes that require new skills and speed of action. Complex factors to obtain without the right investments and using only internal resources.",
+    "managementExcellence": "Management Excellence",
+    "ourServices": "Our Services",
+    "keyProjectsAchievements": "Key Projects & Achievements",
+    "professionalInsights": "Professional Insights",
+    "readyToTransform": "Ready to Transform Your Business?",
+    "readyToTransformDescription": "Contact us to discuss how our outsourced management solutions can help your organization achieve its goals through data-driven strategies and outcome-based approaches.",
+    "visitEMI": "Visit European Management Institute",
+    "outcomeBasedSolutions": "Outcome-based solutions",
+    "dataDrivenApproach": "Data-driven approach",
+    "executiveTraining": "Executive training",
+    "role": "Role",
+    "impact": "Impact",
+    "learnMore": "Learn more",
+    "content": {
+      "intro": "Outsourced management is the practice of entrusting one or more business operations or entire functions—such as finance, digitalization, tenders and bids, extraordinary transactions, market development, and more—to external experts outside the company. The client’s goal is to reduce costs, increase efficiency, and focus on the core business by delegating activities that require specialized skills not available in-house.",
+      "approach": "We use a \"data driven\" approach and accept challenging contracts including \"outcome based\" types, compensated based on agreed performance indicators. This ensures that our clients receive tangible results and measurable improvements.",
+      "services": [
+        {
+          "title": "Strategic Management",
+          "description": "Comprehensive strategic planning and execution support for SMEs looking to scale and optimize operations."
+        },
+        {
+          "title": "Digital Transformation",
+          "description": "End-to-end digitalization of business processes to improve efficiency and competitiveness."
+        },
+        {
+          "title": "Executive Training",
+          "description": "Customized training programs for managers and senior officials in both public and private sectors."
+        }
+      ],
+      "projects": [
+        {
+          "title": "Carbontrack Project",
+          "description": "Digital platform for measuring and tracking CO₂ emissions in international logistics."
+        },
+        {
+          "title": "Ermetes Construction Digitalization",
+          "description": "Digitalization for efficiency in construction sector management and operations."
+        }
+      ]
+    },
+    "projects": [
+      {
+        "title": "Government of Mozambique Training Program",
+        "description": "Designed and implemented a comprehensive training program for public officials focused on \"Public-Private Partnership for Local Development\". The program strengthened institutional capacity and improved governance frameworks, directly contributing to enhanced public service delivery and economic development initiatives.",
+        "role": "Lead Consultant & Program Designer",
+        "impact": "Trained 50+ government officials, established PPP framework",
+        "link": "https://www.mudarbeira.org/it/o-projetto-it/"
+      },
+      {
+        "title": "Ship 24 Green & Carbontrack Projects",
+        "description": "Led the development of integrated digital solutions for measuring, tracking, and reducing environmental impact in international logistics. Created comprehensive CO₂ emission measurement platforms with automated reporting systems, enabling companies to achieve significant decarbonization milestones.",
+        "role": "Project Coordinator (2021-2022)",
+        "impact": "Reduced logistics emissions by 25%, automated reporting for 100+ companies",
+        "link": "https://www.europeanmanagement.eu"
+      },
+      {
+        "title": "Cooperativa Ermetes Transformation",
+        "description": "Revolutionized the management structure of Cooperativa Ermetes SCS by implementing a \"C-level\" business management system with performance-based bonuses and comprehensive social impact measurement. The transformation enhanced operational efficiency while maintaining the cooperative's social mission focus.",
+        "role": "President & Strategic Advisor (2024-present)",
+        "impact": "40% increase in placement success, improved worker satisfaction",
+        "link": "https://www.ermetes.it/"
+      },
+      {
+        "title": "ATI Dolomiti Grow Coordination",
+        "description": "Provided comprehensive coordination and institutional relations support for a pioneering Trentino startup in the therapeutic cannabis sector. Managed regulatory compliance, business development strategies, and stakeholder engagement to position the company for state cannabis production contracts.",
+        "role": "Institutional Relations Coordinator (2022-present)",
+        "impact": "Secured regulatory approvals, established government partnerships",
+        "link": "https://www.ildolomiti.it/economia/2022/la-startup-trentina-che-vuole-produrre-la-cannabis-terapeutica-di-stato"
+      }
+    ]
+  },
+  "socialImpact": {
+    "title": "Social Impact and Vision",
+    "description": "Economy and finance, in and of themselves, are meaningless unless they generate a positive impact on people, society, and the planet. This belief has led me to invest a large part of my income in activities with a positive and measurable social impact. I’ve never fully believed in charity carried out by third parties through donations; for this reason, I prefer to personally dedicate part of my time to concrete local volunteer work and international cooperation initiatives.",
+    "backToHome": "Back to Home",
+    "heroDescription": "Economy and finance, in and of themselves, are meaningless unless they generate a positive impact on people, society, and the planet. This belief has led me to invest a large part of my income in activities with a positive and measurable social impact. I’ve never fully believed in charity carried out by third parties through donations; for this reason, I prefer to personally dedicate part of my time to concrete local volunteer work and international cooperation initiatives.",
+    "ourImpact": "Our Impact",
+    "organizations": "Organizations",
+    "keyProjectsTitle": "Key Projects",
+    "joinOurMission": "Join Our Social Impact Mission",
+    "joinOurMissionDescription": "Contact us to learn more about our social impact initiatives and how you can contribute to sustainable development.",
+    "visitSEA": "Visit Sustainable Economy Association",
+    "environmentalSustainability": "Environmental Sustainability",
+    "internationalProjects": "International Projects",
+    "communityDevelopment": "Community Development",
+    "impact": "Projects and initiatives dedicated to environmental sustainability, circular economy and technological innovation for decarbonization with particular focus on North Africa and international development.",
+    "learnMore": "Learn more",
+    "keyProjects": [
+      {
+        "title": "Partnership Agreement with the Province of Rehamna",
+        "role": "Partner",
+        "description": "Memorandum signed in 2019 between Sustainable Economy Association and the Province of Rehamna for a 10-hectare pilot project to combat desertification, including agricultural research, a dedicated contact point, and collaboration with the Green Energy Park center."
+      },
+      {
+        "title": "Shams al Atlas",
+        "role": "President",
+        "description": "Inauguration of the 'Shams al Atlas' socio-educational center in Sid El Mokhtar, renovated and reopened despite pandemic challenges. The three-floor facility includes spaces for training, sports, and community meetings."
+      },
+      {
+        "title": "Cooperativa Ermetes SCS",
+        "role": "President",
+        "description": "Trentino cooperative that supports the employment integration of disadvantaged personnel through targeted training and hands-on activities."
+      }
+    ],
+    "keyProjectsList": [
+      {
+        "description": "Memorandum signed in 2019 between Sustainable Economy Association and the Province of Rehamna for a 10-hectare pilot project to combat desertification, including agricultural research, a dedicated contact point, and collaboration with the Green Energy Park center."
+      },
+      {
+        "description": "Inauguration of the 'Shams al Atlas' socio-educational center in Sid El Mokhtar, renovated and reopened despite pandemic challenges. The three-floor facility includes spaces for training, sports, and community meetings."
+      }
+    ],
+    "organizationsList": [
+      {
+        "title": "Sustainable Economy Association",
+        "description": "Non-profit organization focused on sustainable technology and international development."
+      },
+      {
+        "title": "Cooperativa Ermetes",
+        "description": "Supporting professional integration through innovative social approaches."
+      },
+      {
+        "title": "Conference Network",
+        "description": "Organizing conferences and events on social impact and sustainability."
+      }
+    ],
+    "projects": [
+      {
+        "title": "Partnership Agreement with the Province of Rehamna",
+        "role": "Partner",
+        "description": "On November 15, 2019, in Ben Guerir, a memorandum of understanding and a public-private partnership document were signed between the Sustainable Economy Association and the Province of Rehamna. The project’s main goal is to develop an experimental model to combat desertification and create social impact, which, if applied, understood, and replicated, would allow the recovery and productive use of many abandoned and desertifying lands. The partnership agreement includes: the creation of a local pilot model on 10 hectares; a phase of 'co-research and development' in agricultural technologies; establishment of a dedicated 'contact point'; collaboration and synergy with the nearby 'Green Energy Park' research center.",
+        "link": "https://www.sustainableeconomy.eu/progetti/siglato-un-nuovo-accordo-di-partenariato-per-lo-sviluppo-agricolo-sostenibile-con-la-provincia-di-rehamna-marocco/"
+      },
+      {
+        "title": "Shams Al-Atlas Social Center Reconstruction",
+        "role": "President",
+        "description": "Non-profit organization engaged in conferences on sustainable technologies and advocacy actions for decarbonization, with a focus on international projects in North Africa.",
+        "link": "https://www.sustainableeconomy.eu/progetti/lavori-in-corso-per-il-rifacimento-del-centro-socio-formativo-shams-al-atlas/"
+      },
+      {
+        "title": "Cooperativa Ermetes SCS",
+        "role": "President",
+        "description": "Trentino cooperative that supports the employment integration of disadvantaged personnel through targeted training and hands-on activities.",
+        "link": "http://ermetes.it/"
+      },
+      {
+        "title": "Green Desert Morocco Experimental Project",
+        "role": "Project Coordinator (2020-2025)",
+        "description": "Innovative experimental project for desert greening and sustainable agriculture development in Morocco, implementing cutting-edge technologies for environmental restoration and community empowerment.",
+        "link": "https://www.sustainableeconomy.eu/progetti/progetto-sperimentale-deserto-verde-marocco-2020-2025/"
+      },
+      {
+        "title": "Fundraising and Alternative Credit Conference",
+        "role": "Conference Organizer (2022)",
+        "description": "Organized comprehensive conference on fundraising strategies and alternative credit solutions for third sector organizations and community interest companies, fostering financial innovation for social impact.",
+        "link": "https://www.sustainableeconomy.eu/eventi/conferenza-fundraising-e-credito-alternativo-per-il-terzo-settore-e-le-icc/"
+      },
+      {
+        "title": "Ferrari Cellars Press Conference",
+        "role": "Event Coordinator (2022)",
+        "description": "Coordinated high-profile press conference at Ferrari Cellars focusing on sustainable business practices and corporate social responsibility in the luxury sector.",
+        "link": "https://www.sustainableeconomy.eu/eventi/comunicato-stampa-conferenza-31-05-2022-cantine-ferrari-trento/"
+      },
+      {
+        "title": "Green Energy Innovation Hub",
+        "role": "Co-design (2024)",
+        "description": "Conception and development of energy innovation hub in collaboration with Siram-Veolia SPA and Trentino Sviluppo."
+      },
+      {
+        "title": "Ship 24 Green and Carbontrack",
+        "role": "Project Leader (2021-2022)",
+        "description": "Projects for decarbonization of international logistics through innovative digital solutions for emissions measurement and reduction."
+      }
+    ]
+  },
+  "conferences": {
+    "title": "Conferences &",
+    "subtitle": "Speaking",
+    "viewAllText": "View All Conferences",
+    "featuredConferences": [
+      {
+        "title": "Urban electric mobility sustainability",
+        "subtitle": "Experiences and cases compared",
+        "location": "Villa Madruzzo",
+        "description": "Conference exploring sustainable urban mobility solutions, comparing different electric transportation initiatives and their environmental impact on city development.",
+        "links": [
+          {
+            "name": "Sustainable Economy",
+            "url": "https://www.sustainableeconomy.eu/progetti/conferenza-sostenibilita-e-mobilita-elettrica-urbana-esperienze-e-casi-aconfronto/"
+          }
+        ]
+      },
+      {
+        "title": "Sustainability in railway transport",
+        "subtitle": "What prospects for the Dolomites train?",
+        "location": "Palazzo Perlerhof",
+        "description": "Analysis of sustainable railway transport systems in mountainous regions, examining the potential for eco-friendly tourism and regional connectivity through the Dolomites train project.",
+        "links": [
+          {
+            "name": "Sustainable Economy",
+            "url": "https://www.sustainableeconomy.eu/progetti/sostenibilita-nel-trasporto-ferroviario-quali-prospettive-per-il-trenodelle-dolomiti/"
+          }
+        ]
+      },
+      {
+        "title": "Green is not left",
+        "subtitle": "European Parliament press conference",
+        "location": "Brussels",
+        "description": "European Parliament press conference addressing environmental policies from a cross-party perspective, challenging political stereotypes in sustainability discourse.",
+        "videoId": "cfM3aVlyXCY",
+        "links": [
+          {
+            "name": "TG Video",
+            "url": "https://www.youtube.com/watch?v=cfM3aVlyXCY"
+          },
+          {
+            "name": "CagliariPad",
+            "url": "https://www.cagliaripad.it/394624/europa-conferenza-green-is-not-left-lambiente-non-e-di-sinistra-a-bruxelles/"
+          },
+          {
+            "name": "Informazione.it",
+            "url": "https://www.informazione.it/c/74E3E8CC-4B26-4441-9943-D5B8B214CD5F/SFIDE-GLOBALI-GREEN-IS-NOT-LEFT-L-AMBIENTE-NON-e-DI-SINISTRA"
+          },
+          {
+            "name": "SEA",
+            "url": "https://www.sustainableeconomy.eu/progetti/conferenza-stampa-green-is-not-left/"
+          }
+        ]
+      },
+      {
+        "title": "The future of sustainable mobility in Trentino",
+        "subtitle": "MUSE",
+        "location": "MUSE, Trento",
+        "description": "International conference at MUSE examining the future of sustainable mobility in Trentino, featuring expert presentations on innovative transportation solutions.",
+        "videoId": "WTpy8q6fPdQ",
+        "links": [
+          {
+            "name": "SEA",
+            "url": "https://www.sustainableeconomy.eu/progetti/conferenza-pubblica-il-futuro-della-mobilita-sostenibile/"
+          },
+          {
+            "name": "PAT",
+            "url": "https://www.ufficiostampa.provincia.tn.it/Comunicati/Mobility-il-futuro-della-mobilita-sostenibile-in-Trentino-domani-una-conferenza-al-Muse-con-esperti-internazionali"
+          }
+        ]
+      }
+    ],
+    "allConferencesLink": "/all-conferences"
+  },
+  "allConferences": {
+    "title": "All Conferences",
+    "subtitle": "A comprehensive overview of conferences, events and speaking engagements on sustainability, management and innovation.",
+    "backToHome": "Back to Home",
+    "featuredTitle": "Featured Conferences",
+    "allTitle": "All Conferences & Events",
+    "attendees": "attendees",
+    "learnMore": "Learn more",
+    "featuredConferences": [
+      {
+        "title": "Sustainability and Urban Electric Mobility. Experiences and Case Studies Compared",
+        "subtitle": "Villa Madruzzo Conference",
+        "date": "2018",
+        "location": "Villa Madruzzo, Trento",
+        "attendees": "100+",
+        "description": "Conference dedicated to the electrification of urban transport and the sharing of European case studies. Sector experts discussed sustainable solutions for urban mobility.",
+        "videoId": null,
+        "links": [
+          {
+            "name": "Sustainable Economy",
+            "url": "https://www.sustainableeconomy.eu/progetti/conferenza-sostenibilita-e-mobilita-elettrica-urbana-esperienze-e-casi-a-confronto/"
+          }
+        ]
+      },
+      {
+        "title": "Green is not left",
+        "subtitle": "European Parliament",
+        "date": "2019",
+        "location": "Brussels",
+        "attendees": "50+",
+        "description": "Press conference on the risk of politicizing environmental issues and the need for pragmatic solutions. Insight on the concept of institutional greenwashing.",
+        "videoId": "cfM3aVlyXCY",
+        "links": [
+          {
+            "name": "Informazione.it",
+            "url": "https://www.informazione.it/c/74E3E8CC-4B26-4441-9943-D5B8B214CD5F/SFIDE-GLOBALI-GREEN-IS-NOT-LEFT-L-AMBIENTE-NON-e-DI-SINISTRA"
+          },
+          {
+            "name": "Cagliari Pad",
+            "url": "https://www.cagliaripad.it/394624/europa-conferenza-green-is-not-left-lambiente-non-e-di-sinistra-a-bruxelles/"
+          },
+          {
+            "name": "YouTube Video Conferenza Stampa",
+            "url": "https://www.youtube.com/watch?v=cfM3aVlyXCY"
+          },
+          {
+            "name": "Sustainable Economy Association - Conferenza Stampa",
+            "url": "https://www.sustainableeconomy.eu/progetti/conferenza-stampa-green-is-not-left/"
+          },
+          {
+            "name": "YouTube Video dichiarazioni",
+            "url": "https://www.youtube.com/watch?v=lseWzO_fOWs&t=20s&ab_channel=SustainableEconomyAssociation"
+          }
+        ]
+      },
+      {
+        "title": "The Future of Sustainable Mobility in Trentino",
+        "subtitle": "MUSE Conference",
+        "date": "2022",
+        "location": "MUSE, Trento",
+        "attendees": "150+",
+        "description": "Public conference on sustainable solutions for alpine mobility, focusing on hydrogen and cogeneration. Participation of institutional and technological stakeholders.",
+        "videoId": "WTpy8q6fPdQ",
+        "links": [
+          {
+            "name": "SEA",
+            "url": "https://www.youtube.com/watch?v=WTpy8q6fPdQ&t=2s"
+          }
+        ]
+      }
+    ],
+    "allConferences": [
+      {
+        "title": "Railway Bypass Noise and Vibrations Lot 3A",
+        "date": "2024",
+        "location": "Le Gallerie, Trento",
+        "attendees": "200+",
+        "topic": "Informative conference on vibration impacts and mitigation techniques related to the Trento railway bypass project.",
+        "link": "https://corridoiodelbrennero.provincia.tn.it/content/download/2170/23270/version/1/file/Locandina+ordini.pdf"
+      },
+      {
+        "title": "Sustainability and Urban Electric Mobility. Experiences and Case Studies Compared",
+        "date": "2018",
+        "location": "Villa Madruzzo, Trento",
+        "attendees": "100+",
+        "topic": "Conference on sustainable electric urban mobility, featuring expert panels and best practices from European cities.",
+        "link": "https://www.sustainableeconomy.eu/progetti/conferenza-sostenibilita-e-mobilita-elettrica-urbana-esperienze-e-casi-a-confronto/"
+      },
+      {
+        "title": "Sustainability in Railway Transport. What Prospects for the Dolomites Train?",
+        "date": "2018",
+        "location": "Palazzo Perlerhof, Mezzocorona",
+        "attendees": "80+",
+        "topic": "Exploring hydrogen-powered trains, circular economy in railway infrastructure, and sustainable transport innovation in Trentino.",
+        "link": "https://www.sustainableeconomy.eu/progetti/sostenibilita-nel-trasporto-ferroviario-quali-prospettive-per-il-treno-delle-dolomiti/"
+      },
+      {
+        "title": "European Parliament Press Conference 'Green is not left'",
+        "date": "2019",
+        "location": "European Parliament, Brussels",
+        "attendees": "50+",
+        "topic": "Press conference addressing depoliticization of environmental issues and promoting pragmatic approaches to sustainability.",
+        "link": "https://www.sustainableeconomy.eu/progetti/conferenza-stampa-green-is-not-left/"
+      },
+      {
+        "title": "The Future of Sustainable Mobility in Trentino",
+        "date": "2022",
+        "location": "MUSE, Trento",
+        "attendees": "150+",
+        "topic": "Event showcasing hydrogen-powered trains, urban energy transition, and innovations in mobility with national and local stakeholders.",
+        "link": "https://www.youtube.com/watch?v=WTpy8q6fPdQ&t=2s"
+      },
+      {
+        "title": "FESR / FSE Oversight Commission Confcommercio Trentino",
+        "date": "2020",
+        "location": "Trento",
+        "attendees": "70+",
+        "topic": "Oversight meeting and public discussion on the redefinition of European structural funds for local economic sectors.",
+        "link": "https://www.youtube.com/watch?v=1_0FOnf7V40",
+        "links": [
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=1_0FOnf7V40&pp=ygUWbHVjYSBiYXp6YW5lbGxhIHRyZW50bw%3D%3D"
+          },
+          {
+            "name": "Facebook Video",
+            "url": "https://www.facebook.com/watch/?v=573766943245518"
+          }
+        ]
+      },
+      {
+        "title": "Public-Private Partnership for Sustainable Development in Trentino",
+        "date": "2021",
+        "location": "Palazzo Roccabruna, Trento",
+        "attendees": "60+",
+        "topic": "Strategies and examples of public-private partnerships to support sustainable development in Trentino.",
+        "link": "https://unione.tn.it/notizia/il-partenariato-pubblico-privato-per-uno-sviluppo-sostenibile-del-trentino",
+        "links": [
+          {
+            "name": "Link PAT",
+            "url": "https://agenda2030.provincia.tn.it/In-evidenza/Il-Partenariato-Pubblico-Privato-per-uno-sviluppo-sostenibile-del-Trentino"
+          },
+          {
+            "name": "Link Confcommercio",
+            "url": "https://unione.tn.it/notizia/il-partenariato-pubblico-privato-per-uno-sviluppo-sostenibile-del-trentino"
+          },
+          {
+            "name": "Locandina PDF",
+            "url": "https://unione.tn.it/sites/default/files/inline-files/Locandina%20Partenariato%20pubblico%20privato.pdf"
+          },
+          {
+            "name": "YouTube Intervento Luca Bazzanella",
+            "url": "https://www.youtube.com/watch?v=hLtzAH29ti8&pp=ygUWbHVjYSBiYXp6YW5lbGxhIHRyZW50bw%3D%3D"
+          },
+          {
+            "name": "YouTube Video diretta",
+            "url": "https://www.youtube.com/watch?v=nVIz903jFKY&t=80s&ab_channel=ConfcommercioTrentino%C2%A0"
+          }
+        ]
+      },
+      {
+        "title": "Public-Private Partnership: An Opportunity for SMEs and Local Authorities",
+        "date": "2021",
+        "location": "Online",
+        "attendees": "100+",
+        "topic": "Online seminar showcasing real-life PPP cases to foster local investments and SME participation.",
+        "link": "https://www.youtube.com/watch?v=nVIz903jFKY"
+      },
+      {
+        "title": "PNRR in Trentino Between Opportunities and Risks",
+        "date": "2022",
+        "location": "Cantine Ferrari, Trento",
+        "attendees": "100+",
+        "topic": "Debate on local impacts and challenges in implementing Italy’s recovery plan for sustainable and digital transitions.",
+        "link": "https://www.youtube.com/watch?v=l8D61N_3-HA",
+        "links": [
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=l8D61N_3-HA&pp=ygUWbHVjYSBiYXp6YW5lbGxhIHRyZW50bw%3D%3D"
+          },
+          {
+            "name": "Conferenza regioni",
+            "url": "https://www.regioni.it/dalleregioni/2022/05/31/trento-pnrr-in-trentino-tra-opportunita-e-rischi-la-conferenza-648910/"
+          }
+        ]
+      },
+      {
+        "title": "Inauguration of the Smart City of the Future Contest",
+        "date": "2023",
+        "location": "MUSE, Trento",
+        "attendees": "120+",
+        "topic": "Educational launch event encouraging high school students to co-design sustainable and resilient future cities.",
+        "link": "https://www.cci.tn.it/contest-smart-city-del-futuro/",
+        "links": [
+          {
+            "name": "Link PAT",
+            "url": "https://educazioneambientale.provincia.tn.it/Catalogo-del-sistema-provinciale/Contest-Smart-City-del-Futuro"
+          },
+          {
+            "name": "Link CCI",
+            "url": "https://www.cci.tn.it/contest-smart-city-del-futuro/"
+          },
+          {
+            "name": "Adigetto Article",
+            "url": "https://www.ladigetto.it/interno/133319-la-premiazione-si-e-tenuta-stamattina-al-muse.html"
+          },
+          {
+            "name": "Voce Trentino Article",
+            "url": "https://www.lavocedeltrentino.it/2023/02/15/la-smart-city-del-futuro-ideata-e-progettata-dagli-studenti-trentini-venerdi-via-al-contest-nelle-scuole/"
+          },
+          {
+            "name": "Link SEA",
+            "url": "https://www.sustainableeconomy.eu/progetti/inaugurato-al-muse-il-contest-tra-istituti-scolastici-smart-city-del-futuro/"
+          }
+        ]
+      },
+      {
+        "title": "Live American-style Political Debate: Sustainable Development in Trentino",
+        "date": "2023",
+        "location": "Palazzo Benvenuti, Trento",
+        "attendees": "70+",
+        "topic": "Live political debate on sustainable development priorities for Trentino, in American town-hall style.",
+        "link": "https://www.sustainableeconomy.eu/progetti/sviluppo-sostenibile-in-trentino-confronto-dal-vivo-allamericanamartedi-17-ottobre-1700-1900-palazzo-benvenuti-trento/"
+      }
+    ]
+  },
+  "footer": {
+    "description": "Management consultant, speaker and sustainability expert dedicated to transforming companies for a better future.",
+    "services": "Services",
+    "servicesList": [
+      "Management Consulting",
+      "Conferences and Speaking",
+      "Sustainability",
+      "Outsourced Management"
+    ],
+    "contacts": "Contacts",
+    "location": "Trento, Italy",
+    "copyright": "2025 Sintija Birgele. All rights reserved."
+  }
+}
