@@ -18,7 +18,9 @@
     "@sanity/vision": "^4.2.0",
     "react": "^19.1",
     "react-dom": "^19.1",
+    "react-dropzone": "^14.3.8",
     "sanity": "^4.2.0",
+    "sanity-plugin-media": "^4.0.0",
     "styled-components": "^6.1.18"
   },
   "devDependencies": {

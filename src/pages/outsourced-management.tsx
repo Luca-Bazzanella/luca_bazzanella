@@ -5,7 +5,7 @@ import { ArrowLeft, ExternalLink, Users, TrendingUp, Target } from 'lucide-react
 import { GetStaticProps } from 'next';
 import ScrollToTop from '@/hooks/ScrollToTop';
 import { client } from '@/sanity/client';
-import { navigationQuery, outsourcedManagementQuery } from '@/sanity/queries';
+import { footerQuery, outsourcedManagementQuery } from '@/sanity/queries';
 
 type OutsourcedManagementProps = {
   content: any;
@@ -14,6 +14,7 @@ type OutsourcedManagementProps = {
 
 const OutsourcedManagement = ({ content, locale }: OutsourcedManagementProps) => {
   ScrollToTop();
+  console.log(content)
   return (
     <div className="min-h-screen">
       <main className="pt-16">
@@ -158,12 +159,12 @@ const OutsourcedManagement = ({ content, locale }: OutsourcedManagementProps) =>
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   const usedLocale = locale || 'it';
   const content = await client.fetch(outsourcedManagementQuery, { locale: usedLocale });
-  const navigation = await client.fetch(navigationQuery, { locale: usedLocale });
+  const footer = await client.fetch(footerQuery);
   return {
     props: {
       content,
-      locale: usedLocale,
-      navigation
+      footer,
+      locale: usedLocale
     },
   };
 };

@@ -8,6 +8,12 @@
   },
   "hero": {
     "name": "Luca Bazzanella",
+    "images": [
+      {
+        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/1b7e0beb-45ba-40b5-8a81-de8170b13551.png",
+        "alt": "Dott. Luca Bazzanella"
+      }
+    ],
     "description": "Manager trentino, classe 1991, con un background come advisor all'interno del Parlamento Europeo. Specializzato in gestione aziendale esternalizzata e digitalizzazione di processi con particolare esperienza nell'analisi delle politiche pubbliche e relazioni istituzionali. Da sempre interessato al sociale è presidente della cooperativa Ermetes scs e della Sustainable Economy Association, organizzazione no profit impegnata in progetti internazionali con particolare focus sul Nord Africa e in azioni di advocacy a favore delle nuove tecnologie per la decarbonizzazione. Dal 2019 al 2021 Responsabile dell'Ufficio Europa di Confcommercio Trentino, la principale Associazione di Categoria in Italia per piccole e medie imprese e dal 2020 amministratore e direttore operativo della società di consulenza European Management Institute. Ricopre in passato vari ruoli di coordinamento politico a livello regionale e nazionale in Forza Italia – PDL lasciando ogni incarico nel dicembre 2022. Da sempre interessato a trovare il giusto compromesso tra efficienza aziendale e impatto sociale.",
     "cta": "Scopri il mio lavoro",
     "contact": "Contatti",
@@ -18,12 +24,6 @@
     "name": "Luca Bazzanella",
     "description1": "Manager trentino, classe 1991, con un background come advisor all'interno del Parlamento Europeo. Specializzato in gestione aziendale esternalizzata e digitalizzazione di processi con particolare esperienza nell'analisi delle politiche pubbliche e relazioni istituzionali.",
     "description2": "Dal 2016 Presidente della Sustainable Economy Association, organizzazione no profit impegnata in progetti internazionali con focus su Nord Africa e azioni di advocacy in campo ambientale. Da sempre interessato a trovare il giusto compromesso tra efficienza aziendale e impatto sociale.",
-    "stats": {
-      "experience": "Anni di Esperienza",
-      "projects": "Progetti Completati",
-      "conferences": "Conferenze",
-      "countries": "Paesi"
-    },
     "currentRoles": "Incarichi Attuali",
     "roles": [
       "Direttore - European Management Institute",
@@ -50,16 +50,6 @@
       {
         "name": "Cooperativa Ermetes",
         "url": "https://www.ermetes.it/"
-      }
-    ],
-    "images": [
-      {
-        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/06797e83-b04d-4211-a8ef-13b5a23fa472.png",
-        "alt": "European Management Institute"
-      },
-      {
-        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/0b83ced8-5fdd-4d8a-956e-211fbcb1e621.png",
-        "alt": "Sustainable Economy Association"
       }
     ],
     "imageDescriptions": {
@@ -124,6 +114,18 @@
         "alt": "Evento networking",
         "title": "Networking professionale",
         "subtitle": "Evento di networking aziendale di alto profilo"
+      },
+      {
+        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/06797e83-b04d-4211-a8ef-13b5a23fa472.png",
+        "alt": "European Management Institute",
+        "title": "European Management Institute",
+        "subtitle": "Conference at Gallerie Venue"
+      },
+      {
+        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/0b83ced8-5fdd-4d8a-956e-211fbcb1e621.png",
+        "alt": "Sustainable Economy Association",
+        "title": "Sustainable Economy Association",
+        "subtitle": "Evento di networking aziendale di alto profilo"
       }
     ],
     "organizations": [
@@ -153,6 +155,12 @@
   },
   "publicPolicy": {
     "title": "Public policy",
+    "images": [
+      {
+        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/0b83ced8-5fdd-4d8a-956e-211fbcb1e621.png",
+        "alt": "Soluzioni digitali per le politiche pubbliche"
+      }
+    ],
     "description": "L’analisi delle politiche pubbliche è l’attività svolta da esperti specializzati di studio sistematico delle strategie, decisioni e azioni dei governi, con lo scopo di valutarne l’efficacia, l’efficienza e l’impatto sugli interessi dei propri clienti. Le aziende si avvalgono di questi professionisti ad esempio per essere più consapevoli sui rischi e sulle opportunità derivanti da cambiamenti politici e legislativi già in atto o futuri, per simularne l'impatto sui propri modelli di business e per poter pianificare di conseguenza la propria attività.",
     "intro": "L’analisi delle politiche pubbliche è l’attività svolta da esperti specializzati di studio sistematico delle strategie, decisioni e azioni dei governi, con lo scopo di valutarne l’efficacia, l’efficienza e l’impatto sugli interessi dei propri clienti.",
     "approach": "Le aziende si avvalgono di questi professionisti per essere più consapevoli sui rischi e sulle opportunità derivanti da cambiamenti politici e legislativi già in atto o futuri, per simularne l'impatto sui propri modelli di business e per pianificare di conseguenza la propria attività.",
@@ -207,6 +215,12 @@
     "role": "Ruolo",
     "impact": "Impatto",
     "learnMore": "Scopri di più",
+    "images": [
+      {
+        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/d845b4f2-b16d-4c94-bdf0-364a3ebdf4d0.png",
+        "alt": "Data-driven digital management tools"
+      }
+    ],
     "content": {
       "intro": "La gestione esternalizzata o 'outsourced management' è la pratica di affidare a esperti esterni all’azienda la gestione di una o più operazioni aziendali o intere funzioni: finanza, digitalizzazione, bandi e gare, operazioni straordinarie, sviluppo di mercato e molto altro. L’obiettivo del committente è quello di ridurre i costi, aumentare l’efficienza e focalizzarsi sul core business delegando esternamente attività dove mancano competenze specifiche.",
       "approach": "Utilizziamo un approccio \"data driven\" e accettiamo contratti sfidanti anche di tipo \"outcome based\", remunerati in base agli indicatori di performance concordati. Questo garantisce che i nostri clienti ricevano risultati tangibili e miglioramenti misurabili.",
@@ -268,6 +282,12 @@
   },
   "socialImpact": {
     "title": "Social Impact and Vision",
+    "images": [
+      {
+        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/cc431b90-c45c-4e9a-b0ab-450b39068096.png",
+        "alt": "Attività di impatto sociale in Nord Africa"
+      }
+    ],
     "description": "L’economia e la finanza fine a se stesse non servono a nulla se non generano un impatto positivo sull’uomo, sulla società e sul pianeta. Questa convinzione mi ha portato a investire gran parte dei miei ricavi in attività con un impatto sociale positivo e misurabile. Non ho mai creduto troppo alla beneficenza fatta da terzi tramite donazioni per questo preferisco dedicare in prima persona una parte del mio tempo ad attività concrete di volontariato locale e di cooperazione internazionale.",
     "backToHome": "Torna alla Home",
     "heroDescription": "L’economia e la finanza fine a se stesse non servono a nulla se non generano un impatto positivo sull’uomo, sulla società e sul pianeta. Questa convinzione mi ha portato a investire gran parte dei miei ricavi in attività con un impatto sociale positivo e misurabile. Non ho mai creduto troppo alla beneficenza fatta da terzi tramite donazioni per questo preferisco dedicare in prima persona una parte del mio tempo ad attività concrete di volontariato locale e di cooperazione internazionale.",

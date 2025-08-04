@@ -1,3 +1,4 @@
+
 // LocaleText type (Sanity localization pattern)
 export const localeText = {
   name: 'localeText',
@@ -8,6 +9,18 @@ export const localeText = {
     { name: 'it', type: 'text', title: 'Italian' }
   ]
 }
+
+// LocaleString type (Sanity localization pattern)
+export const localeString = {
+  name: 'localeString',
+  type: 'object',
+  title: 'Localized String',
+  fields: [
+    { name: 'en', type: 'string', title: 'English' },
+    { name: 'it', type: 'string', title: 'Italian' }
+  ]
+}
+
 // Navigation schema
 export const navigation = {
   name: 'navigation',
@@ -22,17 +35,6 @@ export const navigation = {
   ]
 }
 
-// Locale types (Sanity localization pattern)
-export const localeString = {
-  name: 'localeString',
-  type: 'object',
-  title: 'Localized String',
-  fields: [
-    { name: 'en', type: 'string', title: 'English' },
-    { name: 'it', type: 'string', title: 'Italian' }
-  ]
-}
-
 // Hero schema
 export const hero = {
   name: 'hero',
@@ -40,12 +42,22 @@ export const hero = {
   title: 'Hero',
   fields: [
     { name: 'name', type: 'localeString', title: 'Name' },
+    { name: 'images', type: 'array', title: 'Images', of: [
+      {
+        type: 'image',
+        options: { hotspot: true },
+        fields: [
+          { name: 'alt', type: 'string', title: 'Alt' }
+        ]
+      }
+    ] },
     { name: 'description', type: 'localeText', title: 'Description' },
     { name: 'cta', type: 'localeString', title: 'CTA' },
     { name: 'contact', type: 'localeString', title: 'Contact' },
     { name: 'linkedin', type: 'localeString', title: 'LinkedIn' }
   ]
 }
+
 // About schema
 export const about = {
   name: 'about',
@@ -70,10 +82,6 @@ export const about = {
       { name: 'name', type: 'string', title: 'Name' },
       { name: 'url', type: 'url', title: 'URL' }
     ] }] },
-    { name: 'images', type: 'array', title: 'Images', of: [{ type: 'object', fields: [
-      { name: 'src', type: 'string', title: 'Src' },
-      { name: 'alt', type: 'string', title: 'Alt' }
-    ] }] },
     { name: 'imageDescriptions', type: 'object', title: 'Image Descriptions', fields: [
       { name: 'europeanManagement', type: 'object', title: 'European Management', fields: [
         { name: 'title', type: 'string', title: 'Title' },
@@ -88,12 +96,17 @@ export const about = {
         { name: 'subtitle', type: 'string', title: 'Subtitle' }
       ] }
     ] },
-    { name: 'carouselImages', type: 'array', title: 'Carousel Images', of: [{ type: 'object', fields: [
-      { name: 'src', type: 'string', title: 'Src' },
-      { name: 'alt', type: 'string', title: 'Alt' },
-      { name: 'title', type: 'string', title: 'Title' },
-      { name: 'subtitle', type: 'string', title: 'Subtitle' }
-    ] }] },
+    { name: 'carouselImages', type: 'array', title: 'Carousel Images', of: [
+      {
+        type: 'image',
+        options: { hotspot: true },
+        fields: [
+          { name: 'alt', type: 'string', title: 'Alt' },
+          { name: 'title', type: 'string', title: 'Title' },
+          { name: 'subtitle', type: 'string', title: 'Subtitle' }
+        ]
+      }
+    ] },
     { name: 'organizations', type: 'array', title: 'Organizations', of: [{ type: 'object', fields: [
       { name: 'id', type: 'string', title: 'ID' },
       { name: 'title', type: 'string', title: 'Title' },
@@ -109,6 +122,15 @@ export const publicPolicy = {
   type: 'document',
   title: 'Public Policy',
   fields: [
+    { name: 'images', type: 'array', title: 'Images', of: [
+      {
+        type: 'image',
+        options: { hotspot: true },
+        fields: [
+          { name: 'alt', type: 'string', title: 'Alt' }
+        ]
+      }
+    ] },
     { name: 'title', type: 'localeString', title: 'Title' },
     { name: 'description', type: 'localeText', title: 'Description' },
     { name: 'intro', type: 'localeText', title: 'Intro' },
@@ -135,6 +157,15 @@ export const outsourcedManagement = {
   type: 'document',
   title: 'Outsourced Management',
   fields: [
+    { name: 'images', type: 'array', title: 'Images', of: [
+      {
+        type: 'image',
+        options: { hotspot: true },
+        fields: [
+          { name: 'alt', type: 'string', title: 'Alt' }
+        ]
+      }
+    ] },
     { name: 'title', type: 'localeString', title: 'Title' },
     { name: 'description', type: 'localeText', title: 'Description' },
     { name: 'backToHome', type: 'localeString', title: 'Back To Home' },
@@ -191,6 +222,15 @@ export const socialImpact = {
   type: 'document',
   title: 'Social Impact',
   fields: [
+    { name: 'images', type: 'array', title: 'Images', of: [
+      {
+        type: 'image',
+        options: { hotspot: true },
+        fields: [
+          { name: 'alt', type: 'string', title: 'Alt' }
+        ]
+      }
+    ] },
     { name: 'title', type: 'localeString', title: 'Title' },
     { name: 'description', type: 'localeText', title: 'Description' },
     { name: 'backToHome', type: 'localeString', title: 'Back To Home' },

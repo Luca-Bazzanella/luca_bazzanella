@@ -7,7 +7,7 @@ import ScrollToTop from '@/hooks/ScrollToTop';
 import { getAllConferencesContent } from '@/lib/queries';
 import { GetStaticProps } from 'next';
 import { client } from '@/sanity/client';
-import { allConferencesQuery, navigationQuery } from '@/sanity/queries';
+import { allConferencesQuery, footerQuery, navigationQuery } from '@/sanity/queries';
 
 type AllConferencesProps = {
   content: any;
@@ -161,10 +161,12 @@ const AllConferences = ({ content, locale }: AllConferencesProps) => {
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   const usedLocale = locale || 'it';
   let content;
-  let navigation
+  let navigation;
+  let footer;
   try {
     content = await client.fetch(allConferencesQuery, { locale: usedLocale });
     navigation = await client.fetch(navigationQuery, { locale: usedLocale });
+    footer = await client.fetch(footerQuery);
   } catch (e) {
     content = {};
   }
@@ -172,7 +174,8 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
     props: {
       content: content || {},
       locale: usedLocale,
-      navigation
+      navigation,
+      footer
     },
   };
 };

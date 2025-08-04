@@ -1,5 +1,6 @@
 
 import { Button } from '@/components/ui/button';
+import { getSanityImageUrl } from '@/lib/getSanityImageUrl';
 import { Linkedin, Twitter } from 'lucide-react';
 
 const HeroSection = ({ content, locale }) => {
@@ -39,8 +40,8 @@ const HeroSection = ({ content, locale }) => {
           <div className="relative flex items-center justify-center h-full order-1 lg:order-2">
             <div className="relative z-10 w-full h-full flex items-center justify-center">
               <img 
-                src="https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/1b7e0beb-45ba-40b5-8a81-de8170b13551.png" 
-                alt="Dott. Luca Bazzanella"
+                src={getSanityImageUrl(content?.images?.[0])}
+                alt={content?.images?.[0]?.alt}
                 className="w-full max-w-lg h-full object-cover rounded-3xl shadow-2xl"
               />
             </div>

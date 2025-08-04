@@ -140,9 +140,11 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
   const usedLocale = locale || 'it';
   let content;
   let navigation;
+  let footer;
   try {
     content = await client.fetch(socialImpactQuery, { locale: usedLocale });
     navigation = await client.fetch(navigationQuery, { locale: usedLocale });
+    footer = await client.fetch('*[_type == "footer"][0]');
   } catch (e) {
     content = {};
   }
@@ -150,7 +152,8 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
     props: {
       content: content || {},
       locale: usedLocale,
-      navigation
+      navigation,
+      footer
     },
   };
 };

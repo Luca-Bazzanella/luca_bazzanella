@@ -1,5 +1,6 @@
 
 import { Leaf, Target, Globe, Zap, ExternalLink } from 'lucide-react';
+import { getSanityImageUrl } from '@/lib/getSanityImageUrl';
 import Link from 'next/link';
 
 const SocialImpactSection = ({ content, locale }) => {
@@ -52,12 +53,16 @@ const SocialImpactSection = ({ content, locale }) => {
             </div>
             
             <div>
-              <div className="aspect-video bg-slate-100 rounded-xl overflow-hidden mb-8">
-                <img
-                  src="./lovable-uploads/cc431b90-c45c-4e9a-b0ab-450b39068096.png"
-                  alt="Social impact activities in North Africa"
-                  className="w-full h-full object-cover"
-                />
+              <div className="aspect-video bg-slate-100 rounded-xl overflow-hidden mb-8 flex items-center justify-center">
+                {getSanityImageUrl(content?.images?.[0]) ? (
+                  <img
+                    src={getSanityImageUrl(content?.images?.[0])}
+                    alt={content?.images?.[0]?.alt || 'Social Impact'}
+                    className="w-full h-full object-cover"
+                  />
+                ) : (
+                  <div className="text-slate-400 text-center py-12">No image available</div>
+                )}
               </div>
             </div>
           </div>

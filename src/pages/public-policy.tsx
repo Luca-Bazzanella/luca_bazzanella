@@ -5,7 +5,7 @@ import { ArrowLeft, ExternalLink, Code, Database, Zap } from 'lucide-react';
 import { GetStaticProps } from 'next';
 import ScrollToTop from '@/hooks/ScrollToTop';
 import { client } from '@/sanity/client';
-import { navigationQuery, publicPolicyQuery } from '@/sanity/queries';
+import { footerQuery, navigationQuery, publicPolicyQuery } from '@/sanity/queries';
 
 type PublicPolicyProps = {
   content: any;
@@ -120,9 +120,11 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
   const usedLocale = locale || 'it';
   const content = await client.fetch(publicPolicyQuery, { locale: usedLocale});
   const navigation = await client.fetch(navigationQuery, { locale: usedLocale });
+  const footer = await client.fetch(footerQuery);
   return {
     props: {
       content,
+      footer,
       locale: usedLocale,
       navigation
     },

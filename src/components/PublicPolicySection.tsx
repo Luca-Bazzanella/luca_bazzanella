@@ -1,6 +1,7 @@
 
 import { ExternalLink } from 'lucide-react';
 import Link from 'next/link';
+import { getSanityImageUrl } from '@/lib/getSanityImageUrl';
 
 const PublicPolicySection = ({ content, locale }) => {
   return (
@@ -40,10 +41,10 @@ const PublicPolicySection = ({ content, locale }) => {
               </div>
               
               <Link 
-                href="/public-policy" 
+                href="/" 
                 className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium"
               >
-                {content?.publicPolicy?.learnMore?.[locale] ?? content?.publicPolicy?.learnMore ?? 'Learn More'}
+                {content?.publicPolicy?.backToHome?.[locale] ?? content?.publicPolicy?.backToHome ?? 'Back to Home'}
                 <ExternalLink className="h-4 w-4 ml-1" />
               </Link>
             </div>
@@ -51,8 +52,8 @@ const PublicPolicySection = ({ content, locale }) => {
             <div>
               <div className="aspect-video bg-slate-100 rounded-xl overflow-hidden mb-6">
                 <img
-                  src="./lovable-uploads/0b83ced8-5fdd-4d8a-956e-211fbcb1e621.png"
-                  alt="Public policy digital solutions"
+                  src={getSanityImageUrl(content?.images?.[0])}
+                  alt={content?.publicPolicy?.images?.[0]?.alt || 'Public Policy'}
                   className="w-full h-full object-cover"
                 />
               </div>

@@ -1,6 +1,7 @@
 
 import { ExternalLink } from 'lucide-react';
 import Link from 'next/link';
+import { getSanityImageUrl } from '@/lib/getSanityImageUrl';
 
 const OutsourcedManagementSection = ({ content, locale }) => {
   return (
@@ -29,10 +30,10 @@ const OutsourcedManagementSection = ({ content, locale }) => {
               </div>
               
               <Link 
-                href="/outsourced-management"
+                href="/" 
                 className="inline-flex items-center text-blue-600 hover:text-blue-700 font-medium"
               >
-                {content?.learnMore?.[locale] || 'Learn More'}
+                {content?.backToHome?.[locale] || content?.backToHome || 'Back to Home'}
                 <ExternalLink className="h-4 w-4 ml-1" />
               </Link>
             </div>
@@ -40,8 +41,8 @@ const OutsourcedManagementSection = ({ content, locale }) => {
             <div>
               <div className="bg-slate-100 rounded-xl overflow-hidden mb-6">
                 <img
-                  src="./lovable-uploads/d845b4f2-b16d-4c94-bdf0-364a3ebdf4d0.png"
-                  alt="Data-driven digital management tools"
+                  src={getSanityImageUrl(content?.images?.[0])}
+                  alt={content?.images?.[0]?.alt}
                   className="w-full h-full object-cover"
                 />
               </div>

@@ -2,25 +2,13 @@
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
 import { Target, TrendingUp, Users, Lightbulb, Globe, Rocket, ExternalLink } from 'lucide-react';
 import Autoplay from "embla-carousel-autoplay";
+import { getSanityImageUrl } from '@/lib/getSanityImageUrl';
 
 const AboutSection = ({ content, locale }) => {
-  // Enhanced images array combining content images and carousel images
-  const enhancedImages = [
-    ...(content?.images ?? []).map((image, index) => {
-      const keys = Object.keys(content?.imageDescriptions ?? {});
-      const descriptionKey = keys[index];
-      // Get the localized description object, fallback to empty object
-      const descriptionObj = content?.imageDescriptions?.[descriptionKey]?.[locale] || {};
-      return {
-        src: image.src,
-        alt: image.alt,
-        title: descriptionObj.title || '',
-        subtitle: descriptionObj.subtitle || '',
-      };
-    }),
-    ...(content?.carouselImages ?? [])
-  ];
-
+  const enhancedImages = (content?.carouselImages ?? []).map((image) => ({
+    ...image,
+    src: getSanityImageUrl(image)
+  }));
   return (
     <>
       <section id="about" className="py-4 md:py-8 bg-gradient-to-br from-slate-50 to-blue-50/30">

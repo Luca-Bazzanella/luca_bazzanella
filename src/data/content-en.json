@@ -1,13 +1,19 @@
 {
   "navigation": {
     "management": "Outsourced Management",
-    "policy": "Public Policy",
+    "policy": "Public Policy", 
     "socialImpact": "Social Impact",
     "name": "Dr. Luca Bazzanella",
     "baseUrl": "https://european-management-institute.github.io/luca_bazzanella"
   },
   "hero": {
     "name": "Luca Bazzanella",
+    "images": [
+      {
+        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/1b7e0beb-45ba-40b5-8a81-de8170b13551.png",
+        "alt": "Dott. Luca Bazzanella"
+      }
+    ],
     "description": "Trentino manager, born in 1991, with a background as an advisor within the European Parliament. Specialized in outsourced business management and process digitalization with particular experience in public policy analysis and institutional relations. Always interested in social issues, he is president of the Ermetes scs cooperative and the Sustainable Economy Association, a non-profit organization engaged in international projects with particular focus on North Africa and advocacy actions in favor of new technologies for decarbonization. From 2019 to 2021 Head of the Europe Office of Confcommercio Trentino, the main Category Association in Italy for small and medium enterprises, and since 2020 administrator and operational director of the consulting company European Management Institute. He previously held various political coordination roles at regional and national level in Forza Italia – PDL, leaving all positions in December 2022. Always interested in finding the right balance between business efficiency and social impact.",
     "cta": "Discover my work",
     "contact": "Contact",
@@ -18,12 +24,6 @@
     "name": "Luca Bazzanella",
     "description1": "Trentino manager, born in 1991, with a background as an advisor within the European Parliament. Specialized in outsourced business management and process digitalization with particular experience in public policy analysis and institutional relations.",
     "description2": "Since 2016 President of the Sustainable Economy Association, a non-profit organization engaged in international projects with focus on North Africa and advocacy actions for sustainable technologies and decarbonization. Always interested in finding the right balance between business efficiency and social impact.",
-    "stats": {
-      "experience": "Years Experience",
-      "projects": "Completed Projects",
-      "conferences": "Conferences",
-      "countries": "Countries"
-    },
     "currentRoles": "Current Positions",
     "roles": [
       "Director - European Management Institute",
@@ -50,16 +50,6 @@
       {
         "name": "Cooperativa Ermetes",
         "url": "https://www.ermetes.it/"
-      }
-    ],
-    "images": [
-      {
-        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/06797e83-b04d-4211-a8ef-13b5a23fa472.png",
-        "alt": "European Management Institute"
-      },
-      {
-        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/0b83ced8-5fdd-4d8a-956e-211fbcb1e621.png",
-        "alt": "Sustainable Economy Association"
       }
     ],
     "imageDescriptions": {
@@ -124,6 +114,18 @@
         "alt": "Networking Event",
         "title": "Professional Networking",
         "subtitle": "High-profile business networking event"
+      },
+      {
+        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/06797e83-b04d-4211-a8ef-13b5a23fa472.png",
+        "alt": "European Management Institute",
+        "title": "European Management Institute",
+        "subtitle": "Conference at Gallerie Venue"
+      },
+      {
+        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/0b83ced8-5fdd-4d8a-956e-211fbcb1e621.png",
+        "alt": "Sustainable Economy Association",
+        "title": "Sustainable Economy Association",
+        "subtitle": "High-profile business networking event"
       }
     ],
     "organizations": [
@@ -138,8 +140,8 @@
         "id": "ermetes",
         "title": "Cooperativa Ermetes SCS",
         "role": "President",
-        "description": "A Trentino-based cooperative with a prevalent mutualistic purpose that supports the employment of disadvantaged individuals through targeted training and fieldwork activities.",
-        "approach": "Under the new presidency and management, a new system for measuring social impact was introduced, along with a 'C-level' corporate management system aimed at bringing efficiency and competitiveness by proactively and more directly involving all worker-members.",
+          "description": "A Trentino-based cooperative with a prevalent mutualistic purpose that supports the employment of disadvantaged individuals through targeted training and fieldwork activities.",
+          "approach": "Under the new presidency and management, a new system for measuring social impact was introduced, along with a 'C-level' corporate management system aimed at bringing efficiency and competitiveness by proactively and more directly involving all worker-members.",
         "link": "https://www.ermetes.it"
       },
       {
@@ -153,6 +155,12 @@
   },
   "publicPolicy": {
     "title": "Public Policy",
+    "images": [
+      {
+        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/0b83ced8-5fdd-4d8a-956e-211fbcb1e621.png",
+        "alt": "Public policy digital solutions"
+      }
+    ],
     "description": "Public policy analysis is the activity carried out by specialized experts who systematically study government strategies, decisions, and actions, with the aim of assessing their effectiveness, efficiency, and impact on their clients' interests. Companies rely on these professionals, for example, to better understand the risks and opportunities arising from current or future political and legislative changes, to simulate their impact on business models, and to plan their operations accordingly.",
     "backToHome": "Back to Home",
     "heroTitle": "Public Policy",
@@ -202,6 +210,12 @@
     "role": "Role",
     "impact": "Impact",
     "learnMore": "Learn more",
+    "images": [
+      {
+        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/d845b4f2-b16d-4c94-bdf0-364a3ebdf4d0.png",
+        "alt": "Data-driven digital management tools"
+      }
+    ],
     "content": {
       "intro": "Outsourced management is the practice of entrusting one or more business operations or entire functions—such as finance, digitalization, tenders and bids, extraordinary transactions, market development, and more—to external experts outside the company. The client’s goal is to reduce costs, increase efficiency, and focus on the core business by delegating activities that require specialized skills not available in-house.",
       "approach": "We use a \"data driven\" approach and accept challenging contracts including \"outcome based\" types, compensated based on agreed performance indicators. This ensures that our clients receive tangible results and measurable improvements.",
@@ -263,45 +277,25 @@
   },
   "socialImpact": {
     "title": "Social Impact and Vision",
+    "images": [
+      {
+        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/cc431b90-c45c-4e9a-b0ab-450b39068096.png",
+        "alt": "Social impact activities in North Africa"
+      }
+    ],
     "description": "Economy and finance, in and of themselves, are meaningless unless they generate a positive impact on people, society, and the planet. This belief has led me to invest a large part of my income in activities with a positive and measurable social impact. I’ve never fully believed in charity carried out by third parties through donations; for this reason, I prefer to personally dedicate part of my time to concrete local volunteer work and international cooperation initiatives.",
     "backToHome": "Back to Home",
     "heroDescription": "Economy and finance, in and of themselves, are meaningless unless they generate a positive impact on people, society, and the planet. This belief has led me to invest a large part of my income in activities with a positive and measurable social impact. I’ve never fully believed in charity carried out by third parties through donations; for this reason, I prefer to personally dedicate part of my time to concrete local volunteer work and international cooperation initiatives.",
     "ourImpact": "Our Impact",
     "organizations": "Organizations",
-    "keyProjectsTitle": "Key Projects",
+    "keyProjects": "Key Projects",
     "joinOurMission": "Join Our Social Impact Mission",
     "joinOurMissionDescription": "Contact us to learn more about our social impact initiatives and how you can contribute to sustainable development.",
     "visitSEA": "Visit Sustainable Economy Association",
     "environmentalSustainability": "Environmental Sustainability",
     "internationalProjects": "International Projects",
     "communityDevelopment": "Community Development",
-    "impact": "Projects and initiatives dedicated to environmental sustainability, circular economy and technological innovation for decarbonization with particular focus on North Africa and international development.",
-    "learnMore": "Learn more",
-    "keyProjects": [
-      {
-        "title": "Partnership Agreement with the Province of Rehamna",
-        "role": "Partner",
-        "description": "Memorandum signed in 2019 between Sustainable Economy Association and the Province of Rehamna for a 10-hectare pilot project to combat desertification, including agricultural research, a dedicated contact point, and collaboration with the Green Energy Park center."
-      },
-      {
-        "title": "Shams al Atlas",
-        "role": "President",
-        "description": "Inauguration of the 'Shams al Atlas' socio-educational center in Sid El Mokhtar, renovated and reopened despite pandemic challenges. The three-floor facility includes spaces for training, sports, and community meetings."
-      },
-      {
-        "title": "Cooperativa Ermetes SCS",
-        "role": "President",
-        "description": "Trentino cooperative that supports the employment integration of disadvantaged personnel through targeted training and hands-on activities."
-      }
-    ],
-    "keyProjectsList": [
-      {
-        "description": "Memorandum signed in 2019 between Sustainable Economy Association and the Province of Rehamna for a 10-hectare pilot project to combat desertification, including agricultural research, a dedicated contact point, and collaboration with the Green Energy Park center."
-      },
-      {
-        "description": "Inauguration of the 'Shams al Atlas' socio-educational center in Sid El Mokhtar, renovated and reopened despite pandemic challenges. The three-floor facility includes spaces for training, sports, and community meetings."
-      }
-    ],
+    "sustainabilityDescription": "Economy and finance, in and of themselves, are meaningless unless they generate a positive impact on people, society, and the planet. This belief has led me to invest a large part of my income in activities with a positive and measurable social impact. I’ve never fully believed in charity carried out by third parties through donations; for this reason, I prefer to personally dedicate part of my time to concrete local volunteer work and international cooperation initiatives.",
     "organizationsList": [
       {
         "title": "Sustainable Economy Association",
