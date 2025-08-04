@@ -220,7 +220,7 @@ const socialImpactDoc = {
   _type: 'socialImpact',
   title: localizeSection('socialImpact', ['title']).title,
   description: localizeSection('socialImpact', ['description']).description,
-  backToHome: localizeSection('socialåImpact', ['backToHome']).backToHome,
+  backToHome: localizeSection('socialImpact', ['backToHome']).backToHome,
   heroDescription: localizeSection('socialImpact', ['heroDescription']).heroDescription,
   ourImpact: localizeSection('socialImpact', ['ourImpact']).ourImpact,
   organizations: localizeSection('socialImpact', ['organizations']).organizations,
@@ -249,6 +249,9 @@ const socialImpactDoc = {
   })) : undefined,
   projects: Array.isArray(en.socialImpact.projects) ? (en.socialImpact.projects || []).map((p, i) => ({
     _key: `siproj2_${i}_${Math.random().toString(36).substr(2, 6)}`,
+    title: { en: p.title || '', it: it.socialImpact.projects?.[i]?.title || '' },
+    role: { en: p.role || '', it: it.socialImpact.projects?.[i]?.role || '' },
+    impact: { en: p.impact || '', it: it.socialImpact.projects?.[i]?.impact || '' },
     link: p.link,
     description: { en: p.description || '', it: it.socialImpact.projects?.[i]?.description || '' }
   })) : undefined,

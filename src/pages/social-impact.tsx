@@ -27,14 +27,14 @@ const SocialImpact = ({ content, locale }: SocialImpactProps) => {
               className="flex items-center text-green-600 hover:text-green-700 mb-8 transition-colors"
             >
               <ArrowLeft className="h-4 w-4 mr-2" />
-              {content?.socialImpact?.backToHome?.[locale] || content?.socialImpact?.backToHome || 'Back to Home'}
+              {content?.backToHome?.[locale] || content?.backToHome || 'Back to Home'}
             </a>
             <div className="max-w-4xl">
               <h1 className="text-4xl md:text-6xl font-serif font-bold text-slate-900 mb-6">
-                {content?.socialImpact?.title?.[locale] || content?.socialImpact?.title || 'Social Impact'}
+                {content?.title?.[locale] || content?.title || 'Social Impact'}
               </h1>
               <p className="text-xl text-slate-700 leading-relaxed mb-8">
-                {content?.socialImpact?.heroDescription?.[locale] || content?.socialImpact?.heroDescription || ''}
+                {content?.heroDescription?.[locale] || content?.heroDescription || ''}
               </p>
             </div>
           </div>
@@ -45,29 +45,29 @@ const SocialImpact = ({ content, locale }: SocialImpactProps) => {
             <div className="bg-white rounded-xl shadow-lg p-8 mb-16">
               <div className="grid lg:grid-cols-2 gap-12">
                 <div>
-                  <h3 className="text-3xl font-bold text-slate-900 mb-6 text-left">{content?.socialImpact?.ourImpact?.[locale] || content?.socialImpact?.ourImpact || ''}</h3>
+                  <h3 className="text-3xl font-bold text-slate-900 mb-6 text-left">{content?.ourImpact?.[locale] || content?.ourImpact || ''}</h3>
                   <p className="text-slate-700 leading-relaxed mb-6">
-                    {content?.socialImpact?.impact?.[locale] || content?.socialImpact?.impact || ''}
+                    {content?.impact?.[locale] || content?.impact || ''}
                   </p>
                   <div className="flex flex-wrap gap-4">
                     <div className="flex items-center text-green-600">
                       <Leaf className="h-5 w-5 mr-2" />
-                      <span className="font-medium">{content?.socialImpact?.environmentalSustainability?.[locale] || content?.socialImpact?.environmentalSustainability || ''}</span>
+                      <span className="font-medium">{content?.environmentalSustainability?.[locale] || content?.environmentalSustainability || ''}</span>
                     </div>
                     <div className="flex items-center text-green-600">
                       <Globe className="h-5 w-5 mr-2" />
-                      <span className="font-medium">{content?.socialImpact?.internationalProjects?.[locale] || content?.socialImpact?.internationalProjects || ''}</span>
+                      <span className="font-medium">{content?.internationalProjects?.[locale] || content?.internationalProjects || ''}</span>
                     </div>
                     <div className="flex items-center text-green-600">
                       <Target className="h-5 w-5 mr-2" />
-                      <span className="font-medium">{content?.socialImpact?.communityDevelopment?.[locale] || content?.socialImpact?.communityDevelopment || ''}</span>
+                      <span className="font-medium">{content?.communityDevelopment?.[locale] || content?.communityDevelopment || ''}</span>
                     </div>
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-slate-900 mb-6 text-left">{content?.socialImpact?.organizations?.[locale] || content?.socialImpact?.organizations || ''}</h3>
+                  <h3 className="text-2xl font-bold text-slate-900 mb-6 text-left">{content?.organizations?.[locale] || content?.organizations || ''}</h3>
                   <div className="space-y-4">
-                    {(content?.socialImpact?.organizationsList ?? []).map((org: any, index: number) => (
+                    {(content?.organizationsList ?? []).map((org: any, index: number) => (
                       <div key={index} className="border-l-4 border-green-600 pl-4">
                     <h4 className="font-semibold text-slate-900 mb-2">{org.title?.[locale] || org.title || ''}</h4>
                     <p className="text-slate-600 text-sm">{org.description?.[locale] || org.description || ''}</p>
@@ -79,9 +79,9 @@ const SocialImpact = ({ content, locale }: SocialImpactProps) => {
             </div>
             {/* Key Projects */}
             <div className="bg-white rounded-xl shadow-lg p-8 mb-16">
-              <h3 className="text-3xl font-bold text-slate-900 mb-8 text-left">{content?.socialImpact?.keyProjectsTitle?.[locale] || content?.socialImpact?.keyProjectsTitle || ''}</h3>
+              <h3 className="text-3xl font-bold text-slate-900 mb-8 text-left">{content?.keyProjectsTitle?.[locale] || content?.keyProjectsTitle || ''}</h3>
               <div className="grid md:grid-cols-2 gap-8">
-                {(content?.socialImpact?.projects ?? []).map((project: any, index: number) => (
+                {(content?.projects ?? []).map((project: any, index: number) => (
                   <div key={index} className="border border-slate-200 rounded-lg p-6">
                     <div className="flex items-start mb-4">
                       <div className="p-2 bg-green-100 rounded-lg mr-3 flex-shrink-0">
@@ -115,9 +115,9 @@ const SocialImpact = ({ content, locale }: SocialImpactProps) => {
             </div>
             {/* CTA Section */}
             <div className="bg-gradient-to-r from-green-600 to-green-700 rounded-2xl p-12 text-center text-white">
-              <h3 className="text-3xl font-bold mb-4">{content?.socialImpact?.joinOurMission?.[locale] || content?.socialImpact?.joinOurMission || ''}</h3>
+              <h3 className="text-3xl font-bold mb-4">{content?.joinOurMission?.[locale] || content?.joinOurMission || ''}</h3>
               <p className="text-xl text-green-100 mb-8 max-w-2xl mx-auto">
-                {content?.socialImpact?.joinOurMissionDescription?.[locale] || content?.socialImpact?.joinOurMissionDescription || ''}
+                {content?.joinOurMissionDescription?.[locale] || content?.joinOurMissionDescription || ''}
               </p>
               <a 
                 href="https://www.sustainableeconomy.eu" 
@@ -125,7 +125,7 @@ const SocialImpact = ({ content, locale }: SocialImpactProps) => {
                 rel="noopener noreferrer"
                 className="inline-flex items-center bg-white text-green-600 font-medium px-8 py-3 rounded-lg hover:bg-green-50 transition-colors"
               >
-                {content?.socialImpact?.visitSEA?.[locale] || content?.socialImpact?.visitSEA || ''}
+                {content?.visitSEA?.[locale] || content?.visitSEA || ''}
                 <ExternalLink className="h-4 w-4 ml-2" />
               </a>
             </div>
