@@ -6,7 +6,7 @@ import Link from 'next/link';
 const SocialImpactSection = ({ content, locale }) => {
 
   // Take only the first 4 projects
-  const featuredProjects = (content?.keyProjects ?? []).slice(0, 4);
+  const featuredProjects = (content?.projects ?? []).slice(0, 3);
   return (
     <section id="social-impact" className="py-16 bg-gradient-to-br from-white to-slate-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
