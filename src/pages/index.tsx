@@ -42,6 +42,7 @@ export async function getStaticProps() {
 }
 
 const Index = ({ hero, about, outsourcedManagement, publicPolicy, socialImpact, conferences, navigation, footer, locale, setLocale }) => {
+  console.log(about)
   return (
     <div className="min-h-screen">
       <HeroSection content={hero} locale={locale} />

@@ -141,14 +141,23 @@ async function buildAboutDoc() {
       url: link.url || ''
     })) : undefined,
     carouselImages,
-    organizations: Array.isArray(en.about.organizations) ? (en.about.organizations || []).map((org, i) => ({
-      _key: `org_${i}_${Math.random().toString(36).substr(2, 6)}`,
-      id: org.id || '',
-      title: org.title || '',
-      role: org.role || '',
-      description: org.description || '',
-      link: org.link || ''
-    })) : undefined
+    organizations: Array.isArray(en.about.organizations) && Array.isArray(it.about.organizations)
+      ? (en.about.organizations || []).map((org, i) => ({
+          _key: `org_${i}_${Math.random().toString(36).substr(2, 6)}`,
+          id: org.id || '',
+          title: org.title || '',
+          role: org.role || '',
+          description: {
+            en: org.description || '',
+            it: it.about.organizations?.[i]?.description || ''
+          },
+          approach: {
+            en: org.approach || '',
+            it: it.about.organizations?.[i]?.approach || ''
+          },
+          link: org.link || ''
+        }))
+      : undefined
   };
 }
 
