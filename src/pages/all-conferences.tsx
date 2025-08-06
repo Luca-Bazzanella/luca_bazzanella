@@ -1,10 +1,6 @@
-
-import Navigation from '@/components/Navigation';
-import Footer from '@/components/Footer';
 import { ArrowLeft, Calendar, MapPin, Users, ExternalLink } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import ScrollToTop from '@/hooks/ScrollToTop';
-import { getAllConferencesContent } from '@/lib/queries';
 import { GetStaticProps } from 'next';
 import { client } from '@/sanity/client';
 import { allConferencesQuery, footerQuery, navigationQuery } from '@/sanity/queries';
@@ -41,7 +37,7 @@ const AllConferences = ({ content, locale }: AllConferencesProps) => {
         </section>
         {/* Featured Conferences */}
         <section>
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-slate-900 mb-12 mt-12">{content?.featuredTitle?.[locale] || content?.featuredTitle || ''}</h2>
             <Card className="glass-effect border-0 shadow-lg">
               <CardContent className="p-8">
@@ -95,11 +91,10 @@ const AllConferences = ({ content, locale }: AllConferencesProps) => {
         </section>
         {/* All Conferences Grid */}
         <section className="bg-slate-50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-slate-900 mb-12 mt-12">{content?.allTitle?.[locale] || content?.allTitle || ''}</h2>
-            <div className="grid md:grid-cols-2 gap-8">
               {content?.allConferences?.map((conference: any, index: number) => (
-                <Card key={index} className="glass-effect hover-scale border-0 shadow-lg">
+                <Card key={index} className="glass-effect hover-scale border-0 shadow-lg rounded-none">
                   <CardContent className="p-8">
                     <div className="flex items-start justify-between mb-6">
                       <div className="flex-1">
@@ -150,7 +145,6 @@ const AllConferences = ({ content, locale }: AllConferencesProps) => {
                   </CardContent>
                 </Card>
               ))}
-            </div>
           </div>
         </section>
       </main>

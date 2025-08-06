@@ -68,22 +68,6 @@ export const about = {
   fields: [
     { name: 'title', type: 'localeString', title: 'Title' },
     { name: 'name', type: 'localeString', title: 'Name' },
-    { name: 'description1', type: 'localeText', title: 'Description 1' },
-    { name: 'description2', type: 'localeText', title: 'Description 2' },
-    { name: 'currentRoles', type: 'localeString', title: 'Current Roles' },
-    { name: 'roles', type: 'array', title: 'Roles', of: [{ type: 'object', fields: [
-      { name: 'en', type: 'string', title: 'English' },
-      { name: 'it', type: 'string', title: 'Italian' }
-    ] }] },
-    { name: 'skills', type: 'localeString', title: 'Skills' },
-    { name: 'skillsList', type: 'array', title: 'Skills List', of: [{ type: 'object', fields: [
-      { name: 'en', type: 'string', title: 'English' },
-      { name: 'it', type: 'string', title: 'Italian' }
-    ] }] },
-    { name: 'externalLinks', type: 'array', title: 'External Links', of: [{ type: 'object', fields: [
-      { name: 'name', type: 'string', title: 'Name' },
-      { name: 'url', type: 'url', title: 'URL' }
-    ] }] },
     { name: 'carouselImages', type: 'array', title: 'Carousel Images', of: [
       {
         type: 'image',
@@ -126,12 +110,6 @@ export const publicPolicy = {
     { name: 'backToHome', type: 'localeString', title: 'Back To Home' },
     { name: 'heroTitle', type: 'localeString', title: 'Hero Title' },
     { name: 'heroDescription', type: 'localeText', title: 'Hero Description' },
-    { name: 'policyInnovation', type: 'localeString', title: 'Policy Innovation' },
-    { name: 'ourServices', type: 'localeString', title: 'Our Services' },
-    { name: 'keyProjects', type: 'localeString', title: 'Key Projects' },
-    { name: 'readyToTransform', type: 'localeString', title: 'Ready To Transform' },
-    { name: 'readyToTransformDescription', type: 'localeText', title: 'Ready To Transform Description' },
-    { name: 'visitEMI', type: 'localeString', title: 'Visit EMI' },
     { name: 'learnMore', type: 'localeString', title: 'Learn More' },
     { name: 'projects', type: 'array', title: 'Projects', of: [{ type: 'object', fields: [
       { name: 'link', type: 'url', title: 'Link' }
@@ -158,16 +136,6 @@ export const outsourcedManagement = {
     { name: 'description', type: 'localeText', title: 'Description' },
     { name: 'backToHome', type: 'localeString', title: 'Back To Home' },
     { name: 'heroDescription', type: 'localeText', title: 'Hero Description' },
-    { name: 'managementExcellence', type: 'localeString', title: 'Management Excellence' },
-    { name: 'ourServices', type: 'localeString', title: 'Our Services' },
-    { name: 'keyProjectsAchievements', type: 'localeString', title: 'Key Projects Achievements' },
-    { name: 'professionalInsights', type: 'localeString', title: 'Professional Insights' },
-    { name: 'readyToTransform', type: 'localeString', title: 'Ready To Transform' },
-    { name: 'readyToTransformDescription', type: 'localeText', title: 'Ready To Transform Description' },
-    { name: 'visitEMI', type: 'localeString', title: 'Visit EMI' },
-    { name: 'outcomeBasedSolutions', type: 'localeString', title: 'Outcome Based Solutions' },
-    { name: 'dataDrivenApproach', type: 'localeString', title: 'Data Driven Approach' },
-    { name: 'executiveTraining', type: 'localeString', title: 'Executive Training' },
     { name: 'role', type: 'localeString', title: 'Role' },
     { name: 'impact', type: 'localeString', title: 'Impact' },
     { name: 'learnMore', type: 'localeString', title: 'Learn More' },
@@ -223,46 +191,12 @@ export const socialImpact = {
     { name: 'description', type: 'localeText', title: 'Description' },
     { name: 'backToHome', type: 'localeString', title: 'Back To Home' },
     { name: 'heroDescription', type: 'localeText', title: 'Hero Description' },
-    { name: 'ourImpact', type: 'localeString', title: 'Our Impact' },
-    { name: 'organizations', type: 'localeString', title: 'Organizations' },
-    { name: 'keyProjectsTitle', type: 'localeString', title: 'Key Projects Title' },
-    { name: 'keyProjects', type: 'array', title: 'Key Projects', of: [{ type: 'object', fields: [
-      { name: 'description', type: 'localeText', title: 'Description' }
-    ] }] },
-    { name: 'joinOurMission', type: 'localeString', title: 'Join Our Mission' },
-    { name: 'joinOurMissionDescription', type: 'localeText', title: 'Join Our Mission Description' },
-    { name: 'visitSEA', type: 'localeString', title: 'Visit SEA' },
-    { name: 'environmentalSustainability', type: 'localeString', title: 'Environmental Sustainability' },
-    { name: 'internationalProjects', type: 'localeString', title: 'International Projects' },
-    { name: 'communityDevelopment', type: 'localeString', title: 'Community Development' },
     { name: 'impact', type: 'localeText', title: 'Impact' },
-    { name: 'organizationsList', type: 'array', title: 'Organizations List', of: [{ type: 'object', fields: [
-      { name: 'description', type: 'localeText', title: 'Description' }
-    ] }] },
     { name: 'projects', type: 'array', title: 'Projects', of: [{ type: 'object', fields: [
       { name: 'link', type: 'url', title: 'Link' },
       { name: 'description', type: 'localeText', title: 'Description' }
     ] }] },
     { name: 'learnMore', type: 'localeString', title: 'Learn More' }
-  ]
-}
-
-// Conferences schema
-export const conferences = {
-  name: 'conferences',
-  type: 'document',
-  title: 'Conferences',
-  fields: [
-    { name: 'title', type: 'localeString', title: 'Title' },
-    { name: 'subtitle', type: 'localeString', title: 'Subtitle' },
-    { name: 'viewAllText', type: 'localeString', title: 'View All Text' },
-    { name: 'featuredConferences', type: 'array', title: 'Featured Conferences', of: [{ type: 'object', fields: [
-      { name: 'title', type: 'localeString', title: 'Title' },
-      { name: 'date', type: 'localeString', title: 'Date' },
-      { name: 'location', type: 'localeString', title: 'Location' },
-      { name: 'description', type: 'localeText', title: 'Description' }
-    ] }] },
-    { name: 'allConferencesLink', type: 'localeString', title: 'All Conferences Link' }
   ]
 }
 
@@ -319,7 +253,6 @@ export const schemaTypes = [
   publicPolicy,
   outsourcedManagement,
   socialImpact,
-  conferences,
   allConferences,
   footer,
   localeString,

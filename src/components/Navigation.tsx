@@ -16,6 +16,7 @@ const Navigation = ({ content, locale, setLocale }) => {
     { name: content?.management?.[locale] || 'Management', href: '/outsourced-management' },
     { name: content?.policy?.[locale] || 'Policy', href: '/public-policy' },
     { name: content?.socialImpact?.[locale] || 'Social Impact', href: '/social-impact' },
+    { name: content?.conferences?.[locale] || 'Conferences', href: '/all-conferences' },
   ];
 
   const toggleLocale = () => {

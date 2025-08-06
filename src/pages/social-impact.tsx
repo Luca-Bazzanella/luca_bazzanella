@@ -6,6 +6,8 @@ import { GetStaticProps } from 'next';
 import ScrollToTop from '@/hooks/ScrollToTop';
 import { client } from '@/sanity/client';
 import { navigationQuery, socialImpactQuery } from '@/sanity/queries';
+import { getSanityImageUrl } from '@/lib/getSanityImageUrl';
+import Link from 'next/link';
 
 
 type SocialImpactProps = {
@@ -22,7 +24,7 @@ const SocialImpact = ({ content, locale }: SocialImpactProps) => {
         {/* Hero Section */}
         <section className="py-20 bg-gradient-to-br from-slate-50 to-green-50/30">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <a 
+            <a
               href={baseUrl}
               className="flex items-center text-green-600 hover:text-green-700 mb-8 transition-colors"
             >
@@ -40,94 +42,39 @@ const SocialImpact = ({ content, locale }: SocialImpactProps) => {
           </div>
         </section>
         {/* Content Section */}
-        <section className="py-16">
+        <section id="social-impact" className="py-16 bg-gradient-to-br from-white to-slate-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="bg-white rounded-xl shadow-lg p-8 mb-16">
+            <div className="bg-white rounded-xl shadow-lg p-8">
               <div className="grid lg:grid-cols-2 gap-12">
                 <div>
-                  <h3 className="text-3xl font-bold text-slate-900 mb-6 text-left">{content?.ourImpact?.[locale] || content?.ourImpact || ''}</h3>
-                  <p className="text-slate-700 leading-relaxed mb-6">
-                    {content?.impact?.[locale] || content?.impact || ''}
+                  <p className="text-slate-700 leading-relaxed mb-8">
+                    {content?.impact?.[locale] || ''}
                   </p>
-                  <div className="flex flex-wrap gap-4">
-                    <div className="flex items-center text-green-600">
-                      <Leaf className="h-5 w-5 mr-2" />
-                      <span className="font-medium">{content?.environmentalSustainability?.[locale] || content?.environmentalSustainability || ''}</span>
-                    </div>
-                    <div className="flex items-center text-green-600">
-                      <Globe className="h-5 w-5 mr-2" />
-                      <span className="font-medium">{content?.internationalProjects?.[locale] || content?.internationalProjects || ''}</span>
-                    </div>
-                    <div className="flex items-center text-green-600">
-                      <Target className="h-5 w-5 mr-2" />
-                      <span className="font-medium">{content?.communityDevelopment?.[locale] || content?.communityDevelopment || ''}</span>
-                    </div>
+                  <div>
+                    <Link
+                      href="/social-impact"
+                      className="inline-flex items-center text-green-600 hover:text-green-700 font-medium"
+                    >
+                      {content?.learnMore?.[locale] || 'Learn More'}
+                      <ExternalLink className="h-4 w-4 ml-1" />
+                    </Link>
                   </div>
                 </div>
+
                 <div>
-                  <h3 className="text-2xl font-bold text-slate-900 mb-6 text-left">{content?.organizations?.[locale] || content?.organizations || ''}</h3>
-                  <div className="space-y-4">
-                    {(content?.organizationsList ?? []).map((org: any, index: number) => (
-                      <div key={index} className="border-l-4 border-green-600 pl-4">
-                    <h4 className="font-semibold text-slate-900 mb-2">{org.title?.[locale] || org.title || ''}</h4>
-                    <p className="text-slate-600 text-sm">{org.description?.[locale] || org.description || ''}</p>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* Key Projects */}
-            <div className="bg-white rounded-xl shadow-lg p-8 mb-16">
-              <h3 className="text-3xl font-bold text-slate-900 mb-8 text-left">{content?.keyProjectsTitle?.[locale] || content?.keyProjectsTitle || ''}</h3>
-              <div className="grid md:grid-cols-2 gap-8">
-                {(content?.projects ?? []).map((project: any, index: number) => (
-                  <div key={index} className="border border-slate-200 rounded-lg p-6">
-                    <div className="flex items-start mb-4">
-                      <div className="p-2 bg-green-100 rounded-lg mr-3 flex-shrink-0">
-                        {index % 4 === 0 && <Leaf className="h-4 w-4 text-green-600" />}
-                        {index % 4 === 1 && <Target className="h-4 w-4 text-green-600" />}
-                        {index % 4 === 2 && <Globe className="h-4 w-4 text-green-600" />}
-                        {index % 4 === 3 && <Zap className="h-4 w-4 text-green-600" />}
-                      </div>
-                      <div className="flex-1">
-                        <h4 className="text-xl font-bold text-slate-900 mb-2">{project.title?.[locale] || project.title || ''}</h4>
-                        <p className="text-sm text-green-600 font-medium mb-2">{project.role?.[locale] || project.role || ''}</p>
-                      </div>
-                    </div>
-                    <p className="text-slate-600 leading-relaxed mb-4">
-                    {project.description?.[locale] || project.description || ''}
-                    </p>
-                    {project.link && (
-                      <a 
-                        href={project.link} 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center text-green-600 hover:text-green-700 font-medium"
-                      >
-                        Learn more
-                        <ExternalLink className="h-4 w-4 ml-1" />
-                      </a>
+                  <div className="aspect-video bg-slate-100 rounded-xl overflow-hidden mb-8 flex items-center justify-center">
+                    {getSanityImageUrl(content?.images?.[0]) ? (
+                      <img
+                        src={getSanityImageUrl(content?.images?.[0])}
+                        alt={content?.images?.[0]?.alt || 'Social Impact'}
+                        className="w-full h-full object-cover"
+                      />
+                    ) : (
+                      <div className="text-slate-400 text-center py-12">No image available</div>
                     )}
                   </div>
-                ))}
+                </div>
               </div>
-            </div>
-            {/* CTA Section */}
-            <div className="bg-gradient-to-r from-green-600 to-green-700 rounded-2xl p-12 text-center text-white">
-              <h3 className="text-3xl font-bold mb-4">{content?.joinOurMission?.[locale] || content?.joinOurMission || ''}</h3>
-              <p className="text-xl text-green-100 mb-8 max-w-2xl mx-auto">
-                {content?.joinOurMissionDescription?.[locale] || content?.joinOurMissionDescription || ''}
-              </p>
-              <a 
-                href="https://www.sustainableeconomy.eu" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="inline-flex items-center bg-white text-green-600 font-medium px-8 py-3 rounded-lg hover:bg-green-50 transition-colors"
-              >
-                {content?.visitSEA?.[locale] || content?.visitSEA || ''}
-                <ExternalLink className="h-4 w-4 ml-2" />
-              </a>
             </div>
           </div>
         </section>

@@ -3,6 +3,7 @@
     "management": "Management esternalizzato",
     "policy": "Politiche Pubbliche", 
     "socialImpact": "Impatto Sociale",
+    "conferences": "Conferenze",
     "name": "dott. Luca Bazzanella",
     "baseUrl": "https://european-management-institute.github.io/luca_bazzanella"
   },
@@ -22,36 +23,6 @@
   "about": {
     "title": "Chi è",
     "name": "Luca Bazzanella",
-    "description1": "Manager trentino, classe 1991, con un background come advisor all'interno del Parlamento Europeo. Specializzato in gestione aziendale esternalizzata e digitalizzazione di processi con particolare esperienza nell'analisi delle politiche pubbliche e relazioni istituzionali.",
-    "description2": "Dal 2016 Presidente della Sustainable Economy Association, organizzazione no profit impegnata in progetti internazionali con focus su Nord Africa e azioni di advocacy in campo ambientale. Da sempre interessato a trovare il giusto compromesso tra efficienza aziendale e impatto sociale.",
-    "currentRoles": "Incarichi Attuali",
-    "roles": [
-      "Direttore - European Management Institute",
-      "Presidente - Sustainable Economy Association ODV",
-      "Presidente - Cooperativa Ermetes SCS"
-    ],
-    "skills": "Competenze Principali",
-    "skillsList": [
-      "Management esternalizzato",
-      "Digitalizzazione processi",
-      "Politiche pubbliche",
-      "Relazioni istituzionali",
-      "Partenariati pubblico-privati"
-    ],
-    "externalLinks": [
-      {
-        "name": "European Management Institute",
-        "url": "https://www.europeanmanagement.eu/"
-      },
-      {
-        "name": "Sustainable Economy Association",
-        "url": "https://www.sustainableeconomy.eu/"
-      },
-      {
-        "name": "Cooperativa Ermetes",
-        "url": "https://www.ermetes.it/"
-      }
-    ],
     "carouselImages": [
       {
         "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/3c48d014-5dac-4244-a390-2011f5f4917f.png",
@@ -149,55 +120,16 @@
     ],
     "description": "L’analisi delle politiche pubbliche è l’attività svolta da esperti specializzati di studio sistematico delle strategie, decisioni e azioni dei governi, con lo scopo di valutarne l’efficacia, l’efficienza e l’impatto sugli interessi dei propri clienti. Le aziende si avvalgono di questi professionisti ad esempio per essere più consapevoli sui rischi e sulle opportunità derivanti da cambiamenti politici e legislativi già in atto o futuri, per simularne l'impatto sui propri modelli di business e per poter pianificare di conseguenza la propria attività.",
     "intro": "L’analisi delle politiche pubbliche è l’attività svolta da esperti specializzati di studio sistematico delle strategie, decisioni e azioni dei governi, con lo scopo di valutarne l’efficacia, l’efficienza e l’impatto sugli interessi dei propri clienti.",
-    "approach": "Le aziende si avvalgono di questi professionisti per essere più consapevoli sui rischi e sulle opportunità derivanti da cambiamenti politici e legislativi già in atto o futuri, per simularne l'impatto sui propri modelli di business e per pianificare di conseguenza la propria attività.",
     "backToHome": "Torna alla Home",
     "heroTitle": "Public policy",
     "heroDescription": "L’analisi delle politiche pubbliche è l’attività svolta da esperti specializzati di studio sistematico delle strategie, decisioni e azioni dei governi, con lo scopo di valutarne l’efficacia, l’efficienza e l’impatto sugli interessi dei propri clienti. Le aziende si avvalgono di questi professionisti ad esempio per essere più consapevoli sui rischi e sulle opportunità derivanti da cambiamenti politici e legislativi già in atto o futuri, per simularne l'impatto sui propri modelli di business e per poter pianificare di conseguenza la propria attività.",
-    "policyInnovation": "Innovazione delle Politiche",
-    "ourServices": "I Nostri Servizi",
-    "keyProjects": "Progetti Chiave",
-    "readyToTransform": "Pronto a Trasformare i Tuoi Servizi Pubblici?",
-    "readyToTransformDescription": "Contattaci per discutere di come le nostre soluzioni per le politiche pubbliche possano migliorare il coinvolgimento dei cittadini e l'efficienza amministrativa.",
-    "visitEMI": "Visita European Management Institute",
-    "learnMore": "Scopri di più",
-    "projects": [
-      {
-        "title": "European Digital Innovation Hub DIPS",
-        "description": "Progetto DIPS - Digitalizzazione e Innovazione dei Servizi Pubblici in collaborazione con FBK, UNITN, HIT, Confindustria e FTC per supportare la digitalizzazione delle PMI e l'innovazione dei servizi pubblici.",
-        "link": "https://european-digital-innovation-hubs.ec.europa.eu/edih-catalogue/dips"
-      },
-      {
-        "title": "Integrazione Software EMI",
-        "description": "Sviluppo di soluzioni digitali integrate per l'efficienza della pubblica amministrazione e il miglioramento dei servizi ai cittadini attraverso processi automatizzati e decisioni basate sui dati.",
-        "link": "https://www.europeanmanagement.eu"
-      },
-      {
-        "title": "Analisi Partenariato Pubblico-Privato",
-        "description": "Analisi strategica e consulenza sui framework PPP per infrastrutture pubbliche e fornitura di servizi, con focus su sviluppo sostenibile e ottimizzazione dell'efficienza.",
-        "link": "https://agenda2030.provincia.tn.it/In-evidenza/Il-Partenariato-Pubblico-Privato-per-uno-sviluppo-sostenibile-del-Trentino"
-      },
-      {
-        "title": "Supporto Implementazione PNRR",
-        "description": "Consulenza e supporto strategico per l'implementazione del PNRR (Piano Nazionale di Ripresa e Resilienza) in Trentino, con focus su opportunità e strategie di mitigazione dei rischi.",
-        "link": "https://www.ufficiostampa.provincia.tn.it/Comunicati/PNRR-in-Trentino-tra-opportunita-e-rischi-la-conferenza"
-      }
-    ]
+    "learnMore": "Scopri di più"
   },
   "outsourcedManagement": {
     "title": "Management Esternalizzato",
     "description": "Viviamo in un'epoca di cambiamenti economici, sociali e tecnologici epocali che necessitano di nuove competenze e rapiditá d'azione. Fattori complessi da ottenere senza i corretti investimenti e con il solo utilizzo di risorse interne.",
     "backToHome": "Torna alla Home",
     "heroDescription": "Viviamo in un'epoca di cambiamenti economici, sociali e tecnologici epocali che necessitano di nuove competenze e rapiditá d'azione. Fattori complessi da ottenere senza i corretti investimenti e con il solo utilizzo di risorse interne.",
-    "managementExcellence": "Eccellenza Manageriale",
-    "ourServices": "I Nostri Servizi",
-    "keyProjectsAchievements": "Progetti Chiave e Risultati",
-    "professionalInsights": "Approfondimenti Professionali",
-    "readyToTransform": "Pronto a Trasformare la Tua Azienda?",
-    "readyToTransformDescription": "Contattaci per discutere di come le nostre soluzioni di management esterno possano aiutare la tua organizzazione a raggiungere i suoi obiettivi attraverso strategie basate sui dati e approcci orientati ai risultati.",
-    "visitEMI": "Visita European Management Institute",
-    "outcomeBasedSolutions": "Soluzioni orientate ai risultati",
-    "dataDrivenApproach": "Approccio basato sui dati",
-    "executiveTraining": "Formazione executive",
     "role": "Ruolo",
     "impact": "Impatto",
     "learnMore": "Scopri di più",
@@ -209,62 +141,8 @@
     ],
     "content": {
       "intro": "La gestione esternalizzata o 'outsourced management' è la pratica di affidare a esperti esterni all’azienda la gestione di una o più operazioni aziendali o intere funzioni: finanza, digitalizzazione, bandi e gare, operazioni straordinarie, sviluppo di mercato e molto altro. L’obiettivo del committente è quello di ridurre i costi, aumentare l’efficienza e focalizzarsi sul core business delegando esternamente attività dove mancano competenze specifiche.",
-      "approach": "Utilizziamo un approccio \"data driven\" e accettiamo contratti sfidanti anche di tipo \"outcome based\", remunerati in base agli indicatori di performance concordati. Questo garantisce che i nostri clienti ricevano risultati tangibili e miglioramenti misurabili.",
-      "services": [
-        {
-          "title": "Management Strategico",
-          "description": "Pianificazione strategica completa e supporto all'esecuzione per PMI che cercano di scalare e ottimizzare le operazioni."
-        },
-        {
-          "title": "Trasformazione Digitale",
-          "description": "Digitalizzazione end-to-end dei processi aziendali per migliorare efficienza e competitività."
-        },
-        {
-          "title": "Formazione Executive",
-          "description": "Programmi formativi personalizzati per manager e alti funzionari sia nel settore pubblico che privato."
-        }
-      ],
-      "projects": [
-        {
-          "title": "Progetto Carbontrack",
-          "description": "Piattaforma digitale per la misurazione e il tracciamento delle emissioni di CO₂ nella logistica internazionale."
-        },
-        {
-          "title": "Digitalizzazione Ermetes Edilizia",
-          "description": "Digitalizzazione per l'efficienza nella gestione e nelle operazioni del settore edilizio."
-        }
-      ]
-    },
-    "projects": [
-      {
-        "title": "Programma Formativo Governo Mozambico",
-        "description": "Progettazione e implementazione di un programma formativo completo per funzionari pubblici incentrato su \"Partenariato Pubblico-Privato per lo Sviluppo Locale\". Il programma ha rafforzato le capacità istituzionali e migliorato i framework di governance, contribuendo direttamente al miglioramento dell'erogazione dei servizi pubblici e alle iniziative di sviluppo economico.",
-        "role": "Consulente Principal e Progettista del Programma",
-        "impact": "Formati oltre 50 funzionari governativi, stabilito framework PPP",
-        "link": "https://www.mudarbeira.org/it/o-projetto-it/"
-      },
-      {
-        "title": "Progetti Ship 24 Green e Carbontrack",
-        "description": "Guidato lo sviluppo di soluzioni digitali integrate per misurare, tracciare e ridurre l'impatto ambientale nella logistica internazionale. Creato piattaforme complete per la misurazione delle emissioni di CO₂ con sistemi di reporting automatizzati, consentendo alle aziende di raggiungere significativi traguardi di decarbonizzazione.",
-        "role": "Coordinatore Progetto (2021-2022)",
-        "impact": "Ridotte le emissioni logistiche del 25%, automatizzato il reporting per oltre 100 aziende",
-        "link": "https://www.europeanmanagement.eu"
-      },
-      {
-        "title": "Trasformazione Cooperativa Ermetes",
-        "description": "Rivoluzionato la struttura gestionale della Cooperativa Ermetes SCS implementando un sistema di gestione aziendale \"C-level\" con bonus basati sulle performance e misurazione completa dell'impatto sociale. La trasformazione ha migliorato l'efficienza operativa mantenendo il focus sulla missione sociale della cooperativa.",
-        "role": "Presidente e Consulente Strategico (2024-presente)",
-        "impact": "Aumento del 40% nel successo dei inserimenti, migliorata soddisfazione lavoratori",
-        "link": "https://www.ermetes.it/"
-      },
-      {
-        "title": "Coordinamento ATI Dolomiti Grow",
-        "description": "Fornito coordinamento completo e supporto nelle relazioni istituzionali per una startup pionieristica trentina nel settore della cannabis terapeutica. Gestito conformità normativa, strategie di sviluppo aziendale e coinvolgimento stakeholder per posizionare l'azienda per contratti di produzione statale di cannabis.",
-        "role": "Coordinatore Relazioni Istituzionali (2022-presente)",
-        "impact": "Ottenute approvazioni normative, stabilite partnership governative",
-        "link": "https://www.ildolomiti.it/economia/2022/la-startup-trentina-che-vuole-produrre-la-cannabis-terapeutica-di-stato"
-      }
-    ]
+      "approach": "Utilizziamo un approccio \"data driven\" e accettiamo contratti sfidanti anche di tipo \"outcome based\", remunerati in base agli indicatori di performance concordati. Questo garantisce che i nostri clienti ricevano risultati tangibili e miglioramenti misurabili."
+    }
   },
   "socialImpact": {
     "title": "Social Impact and Vision",
@@ -277,201 +155,9 @@
     "description": "L’economia e la finanza fine a se stesse non servono a nulla se non generano un impatto positivo sull’uomo, sulla società e sul pianeta. Questa convinzione mi ha portato a investire gran parte dei miei ricavi in attività con un impatto sociale positivo e misurabile. Non ho mai creduto troppo alla beneficenza fatta da terzi tramite donazioni per questo preferisco dedicare in prima persona una parte del mio tempo ad attività concrete di volontariato locale e di cooperazione internazionale.",
     "backToHome": "Torna alla Home",
     "heroDescription": "L’economia e la finanza fine a se stesse non servono a nulla se non generano un impatto positivo sull’uomo, sulla società e sul pianeta. Questa convinzione mi ha portato a investire gran parte dei miei ricavi in attività con un impatto sociale positivo e misurabile. Non ho mai creduto troppo alla beneficenza fatta da terzi tramite donazioni per questo preferisco dedicare in prima persona una parte del mio tempo ad attività concrete di volontariato locale e di cooperazione internazionale.",
-    "ourImpact": "Il Nostro Impatto",
     "organizations": "Organizzazioni",
-    "keyProjectsTitle": "Progetti Chiave",
-    "keyProjects": [
-      {
-        "title": "Accordo di Partenariato con la Provincia di Rehamna",
-        "role": "Partner",
-        "description": "Protocollo d’intesa siglato nel 2019 tra Sustainable Economy Association e la provincia di Rehamna per un progetto pilota di lotta alla desertificazione su 10 ettari, con ricerca agricola, un contact point dedicato e collaborazione con il centro Green Energy Park."
-      },
-      {
-        "title": "Shams al Atlas",
-        "role": "Presidente",
-        "description": "Inaugurazione del centro socio-formativo 'Shams al Atlas' a Sid El Mokhtar, ristrutturato e riattivato nonostante le difficoltà della pandemia. La struttura su tre piani ospita spazi per formazione, sport e incontri associativi."
-      },
-      {
-        "title": "Cooperativa Ermetes SCS",
-        "role": "Presidente",
-        "description": "Cooperativa Trentina che supporta l’inserimento nel lavoro di personale svantaggiato tramite formazione mirata e attività sul campo."
-      }
-    ],
-    "joinOurMission": "Unisciti alla Nostra Missione di Impatto Sociale",
-    "joinOurMissionDescription": "Contattaci per saperne di più sulle nostre iniziative di impatto sociale e su come puoi contribuire allo sviluppo sostenibile.",
-    "visitSEA": "Visita Sustainable Economy Association",
-    "environmentalSustainability": "Sostenibilità Ambientale",
-    "internationalProjects": "Progetti Internazionali",
-    "communityDevelopment": "Sviluppo Comunitario",
     "impact": "L’economia e la finanza fine a se stesse non servono a nulla se non generano un impatto positivo sull’uomo, sulla società e sul pianeta. Questa convinzione mi ha portato a investire gran parte dei miei ricavi in attività con un impatto sociale positivo e misurabile. Non ho mai creduto troppo alla beneficenza fatta da terzi tramite donazioni per questo preferisco dedicare in prima persona una parte del mio tempo ad attività concrete di volontariato locale e di cooperazione internazionale.",
-    "organizationsList": [
-      {
-        "title": "Sustainable Economy Association",
-        "description": "Organizzazione no profit focalizzata su tecnologie sostenibili e sviluppo internazionale."
-      },
-      {
-        "title": "Cooperativa Ermetes",
-        "description": "Supporto all'integrazione professionale attraverso approcci sociali innovativi."
-      },
-      {
-        "title": "Rete Conferenze",
-        "description": "Organizzazione di conferenze ed eventi su impatto sociale e sostenibilità."
-      }
-    ],
-    "projects": [
-      {
-        "title": "Accordo di Partenariato con la Provincia di Rehamna",
-        "role": "Partner",
-        "description": "Siglato a Ben Guerir in data 15.11.2019 un protocollo d’intesa e un documento di partenariato pubblico-privato tra la Sustainable Economy Association e la provincia di Rehamna. Il progetto ha come obiettivo principale la realizzazione di un modello sperimentale di lotta alla desertificazione e impatto sociale che, se applicato, compreso e replicato, permetterebbe il recupero e l’utilizzo produttivo di numerosi terreni abbandonati e in fase di desertificazione. L’accordo contempla: la realizzazione di un modello pilota locale su 10 ettari; una fase di 'co-research and development' nelle tecnologie agricole; la realizzazione di un 'contact point' dedicato; collaborazione e sinergia con il vicino centro di ricerca 'Green Energy Park'.",
-        "link": "https://www.sustainableeconomy.eu/progetti/siglato-un-nuovo-accordo-di-partenariato-per-lo-sviluppo-agricolo-sostenibile-con-la-provincia-di-rehamna-marocco/"
-      },
-      {
-        "title": "Ricostruzione Centro Sociale Shams Al-Atlas",
-        "role": "Presidente",
-        "description": "Organizzazione no profit impegnata in conferenze su tecnologie sostenibili e azioni di advocacy per la decarbonizzazione con focus su progetti internazionali in Nord Africa.",
-        "link": "https://www.sustainableeconomy.eu/progetti/lavori-in-corso-per-il-rifacimento-del-centro-socio-formativo-shams-al-atlas/"
-      },
-      {
-        "title": "Cooperativa Ermetes SCS",
-        "role": "Presidente",
-        "description": "Cooperativa Trentina che supporta l’inserimento nel lavoro di personale svantaggiato tramite formazione mirata e attività sul campo."
-      },
-      {
-        "title": "Progetto Sperimentale Deserto Verde Marocco",
-        "role": "Coordinatore Progetto (2020-2025)",
-        "description": "Progetto sperimentale innovativo per il rinverdimento del deserto e lo sviluppo dell'agricoltura sostenibile in Marocco, implementando tecnologie all'avanguardia per il ripristino ambientale e l'empowerment comunitario.",
-        "link": "https://www.sustainableeconomy.eu/progetti/progetto-sperimentale-deserto-verde-marocco-2020-2025/"
-      },
-      {
-        "title": "Conferenza Fundraising e Credito Alternativo",
-        "role": "Organizzatore Conferenza (2022)",
-        "description": "Organizzato conferenza completa su strategie di fundraising e soluzioni di credito alternativo per organizzazioni del terzo settore e imprese di interesse comunitario, promuovendo l'innovazione finanziaria per l'impatto sociale.",
-        "link": "https://www.sustainableeconomy.eu/eventi/conferenza-fundraising-e-credito-alternativo-per-il-terzo-settore-e-le-icc/"
-      },
-      {
-        "title": "Conferenza Stampa Cantine Ferrari",
-        "role": "Coordinatore Evento (2022)",
-        "description": "Coordinato conferenza stampa di alto profilo presso le Cantine Ferrari con focus su pratiche aziendali sostenibili e responsabilità sociale d'impresa nel settore del lusso.",
-        "link": "https://www.sustainableeconomy.eu/eventi/comunicato-stampa-conferenza-31-05-2022-cantine-ferrari-trento/"
-      },
-      {
-        "title": "Green Energy Innovation Hub",
-        "role": "Co-progettazione (2024)",
-        "description": "Ideazione e sviluppo di hub per l'innovazione energetica in collaborazione con Siram-Veolia SPA e Trentino Sviluppo."
-      },
-      {
-        "title": "Ship 24 Green e Carbontrack",
-        "role": "Capoprogetto (2021-2022)",
-        "description": "Progetti per la decarbonizzazione della logistica internazionale attraverso soluzioni digitali innovative per la misurazione e riduzione delle emissioni."
-      }
-    ],
     "learnMore": "Scopri di più sul nostro lavoro per la sostenibilità"
-  },
-  "conferences": {
-    "title": "Conferenze &",
-    "subtitle": "Speaking",
-    "viewAllText": "Vedi Tutte le Conferenze",
-    "featuredConferences": [
-      {
-        "title": "Sostenibilità e mobilità elettrica urbana",
-        "subtitle": "Esperienze e casi a confronto",
-        "location": "Villa Madruzzo",
-        "description": "Conferenza che esplora soluzioni di mobilità urbana sostenibile, confrontando diverse iniziative di trasporto elettrico e il loro impatto ambientale sullo sviluppo urbano.",
-        "links": [
-          {
-            "name": "Sustainable Economy",
-            "url": "https://www.sustainableeconomy.eu/progetti/conferenza-sostenibilita-e-mobilita-elettrica-urbana-esperienze-e-casi-aconfronto/"
-          }
-        ]
-      },
-      {
-        "title": "Sostenibilità nel trasporto ferroviario",
-        "subtitle": "Quali prospettive per il treno delle Dolomiti?",
-        "location": "Palazzo Perlerhof",
-        "description": "Analisi dei sistemi di trasporto ferroviario sostenibile nelle regioni montane, esaminando il potenziale per un turismo ecologico e la connettività regionale attraverso il progetto del treno delle Dolomiti.",
-        "links": [
-          {
-            "name": "Sustainable Economy",
-            "url": "https://www.sustainableeconomy.eu/progetti/sostenibilita-nel-trasporto-ferroviario-quali-prospettive-per-il-trenodelle-dolomiti/"
-          }
-        ]
-      },
-      {
-        "title": "Green is not left",
-        "subtitle": "Conferenza stampa Parlamento Europeo",
-        "location": "Brussels",
-        "description": "Conferenza stampa del Parlamento Europeo che affronta le politiche ambientali da una prospettiva trasversale, sfidando gli stereotipi politici nel discorso sulla sostenibilità.",
-        "videoId": "cfM3aVlyXCY",
-        "links": [
-          {
-            "name": "TG Video",
-            "url": "https://www.youtube.com/watch?v=cfM3aVlyXCY"
-          },
-          {
-            "name": "CagliariPad",
-            "url": "https://www.cagliaripad.it/394624/europa-conferenza-green-is-not-left-lambiente-non-e-di-sinistra-a-bruxelles/"
-          },
-          {
-            "name": "Informazione.it",
-            "url": "https://www.informazione.it/c/74E3E8CC-4B26-4441-9943-D5B8B214CD5F/SFIDE-GLOBALI-GREEN-IS-NOT-LEFT-L-AMBIENTE-NON-e-DI-SINISTRA"
-          },
-          {
-            "name": "SEA",
-            "url": "https://www.sustainableeconomy.eu/progetti/conferenza-stampa-green-is-not-left/"
-          }
-        ]
-      },
-      {
-        "title": "Il futuro della mobilità sostenibile in Trentino",
-        "subtitle": "MUSE",
-        "location": "MUSE, Trento",
-        "description": "Conferenza internazionale al MUSE che esamina il futuro della mobilità sostenibile in Trentino, con presentazioni di esperti su soluzioni innovative di trasporto.",
-        "videoId": "WTpy8q6fPdQ",
-        "links": [
-          {
-            "name": "SEA",
-            "url": "https://www.sustainableeconomy.eu/progetti/conferenza-pubblica-il-futuro-della-mobilita-sostenibile/"
-          },
-          {
-            "name": "PAT",
-            "url": "https://www.ufficiostampa.provincia.tn.it/Comunicati/Mobility-il-futuro-della-mobilita-sostenibile-in-Trentino-domani-una-conferenza-al-Muse-con-esperti-internazionali"
-          },
-          {
-          "name": "YouTube Video",
-          "url": "https://www.youtube.com/watch?v=WTpy8q6fPdQ&t=2s&ab_channel=SustainableEconomyAssociation"
-        }
-        ]
-      },
-      {
-        "title": "Il Partenariato Pubblico Privato per uno sviluppo sostenibile del Trentino",
-        "subtitle": "Palazzo Roccabruna",
-        "description": "Discussione sui partenariati pubblico-privati come strumento strategico per lo sviluppo sostenibile in Trentino, esplorando modelli di collaborazione tra istituzioni e imprese.",
-        "videoId": "hLtzAH29ti8",
-        "links": [
-          {
-          "name": "Link PAT",
-          "url": "https://agenda2030.provincia.tn.it/In-evidenza/Il-Partenariato-Pubblico-Privato-per-uno-sviluppo-sostenibile-del-Trentino"
-          },
-          {
-            "name": "Link Confcommercio",
-            "url": "https://unione.tn.it/notizia/il-partenariato-pubblico-privato-per-uno-sviluppo-sostenibile-del-trentino"
-          },
-          {
-            "name": "Locandina PDF",
-            "url": "https://unione.tn.it/sites/default/files/inline-files/Locandina%20Partenariato%20pubblico%20privato.pdf"
-          },
-          {
-            "name": "YouTube Intervento Luca Bazzanella",
-            "url": "https://www.youtube.com/watch?v=hLtzAH29ti8&pp=ygUWbHVjYSBiYXp6YW5lbGxhIHRyZW50bw%3D%3D"
-          },
-          {
-            "name": "YouTube Video diretta",
-            "url": "https://www.youtube.com/watch?v=nVIz903jFKY&t=80s&ab_channel=ConfcommercioTrentino%C2%A0"
-          }
-        ]
-      }
-    ],
-    "allConferencesLink": "/all-conferences"
   },
   "allConferences": {
     "title": "Tutte le Conferenze",
@@ -697,51 +383,11 @@
       }
     ]
   },
-  "videos": {
-    "title": "Video",
-    "subtitle": "Selezionati",
-    "description": "Guarda interviste e discussioni su strategia aziendale, sostenibilità e leadership da conferenze e interventi pubblici.",
-    "channelDescription": "Iscriviti al mio canale YouTube per più approfondimenti su strategia aziendale e sostenibilità",
-    "visitChannel": "Visita il Canale YouTube",
-    "videos": [
-      {
-        "title": "Leadership Strategica nel Business Moderno",
-        "description": "Approfondimenti su strategie di leadership efficaci per l'ambiente aziendale dinamico di oggi.",
-        "videoId": "hLtzAH29ti8"
-      },
-      {
-        "title": "Sostenibilità nella Strategia Aziendale",
-        "description": "Come integrare pratiche sostenibili nella strategia aziendale principale.",
-        "videoId": "dQw4w9WgXcQ"
-      },
-      {
-        "title": "Best Practices per la Gestione dell'Innovazione",
-        "description": "Metodologie comprovate per gestire l'innovazione nelle organizzazioni.",
-        "videoId": "dQw4w9WgXcQ"
-      },
-      {
-        "title": "Il Percorso della Trasformazione Digitale",
-        "description": "Navigare le complessità della trasformazione digitale nel business.",
-        "videoId": "dQw4w9WgXcQ"
-      },
-      {
-        "title": "Il Futuro della Consulenza Aziendale",
-        "description": "Esplorare trend emergenti e l'evoluzione della consulenza manageriale.",
-        "videoId": "dQw4w9WgXcQ"
-      }
-    ]
-  },
   "footer": {
-    "description": "Consulente manageriale, speaker ed esperto di sostenibilità dedicato a trasformare le aziende per un futuro migliore.",
-    "services": "Servizi",
-    "servicesList": [
-      "Consulenza Manageriale",
-      "Conferenze e Speaking",
-      "Sostenibilità",
-      "Management Esternalizzato"
-    ],
+    "description": "Manager trentino classe 1991 specializzato in gestione aziende e digitale con particolare esperienza nell'ambito delle politiche pubbliche.",
     "contacts": "Contatti",
-    "location": "Trento, Italy",
+    "learnMore": "Per saperne di piu sui progetti e per essere contattato clicca QUI",
+    "location": "Trento, Italy, Bruxelles, Roma",
     "copyright": "2025 Sintija Birgele. Tutti i diritti riservati."
   }
 }

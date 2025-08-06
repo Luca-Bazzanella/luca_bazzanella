@@ -3,55 +3,9 @@
     "management": "Outsourced Management",
     "policy": "Public Policy", 
     "socialImpact": "Social Impact",
+    "conferences": "Conferences",
     "name": "Dr. Luca Bazzanella",
-    "baseUrl": "https://european-management-institute.github.io/luca_bazzanella"
-  },
-  "hero": {
-    "name": "Luca Bazzanella",
-    "images": [
-      {
-        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/1b7e0beb-45ba-40b5-8a81-de8170b13551.png",
-        "alt": "Dott. Luca Bazzanella"
-      }
-    ],
-    "description": "Trentino manager, born in 1991, with a background as an advisor within the European Parliament. Specialized in outsourced business management and process digitalization with particular experience in public policy analysis and institutional relations. Always interested in social issues, he is president of the Ermetes scs cooperative and the Sustainable Economy Association, a non-profit organization engaged in international projects with particular focus on North Africa and advocacy actions in favor of new technologies for decarbonization. From 2019 to 2021 Head of the Europe Office of Confcommercio Trentino, the main Category Association in Italy for small and medium enterprises, and since 2020 administrator and operational director of the consulting company European Management Institute. He previously held various political coordination roles at regional and national level in Forza Italia – PDL, leaving all positions in December 2022. Always interested in finding the right balance between business efficiency and social impact.",
-    "cta": "Discover my work",
-    "contact": "Contact",
-    "linkedin": "LinkedIn"
-  },
-  "about": {
-    "title": "Who is",
-    "name": "Luca Bazzanella",
-    "description1": "Trentino manager, born in 1991, with a background as an advisor within the European Parliament. Specialized in outsourced business management and process digitalization with particular experience in public policy analysis and institutional relations.",
-    "description2": "Since 2016 President of the Sustainable Economy Association, a non-profit organization engaged in international projects with focus on North Africa and advocacy actions for sustainable technologies and decarbonization. Always interested in finding the right balance between business efficiency and social impact.",
-    "currentRoles": "Current Positions",
-    "roles": [
-      "Director - European Management Institute",
-      "President - Sustainable Economy Association ODV",
-      "President - Cooperativa Ermetes SCS"
-    ],
-    "skills": "Core Competencies",
-    "skillsList": [
-      "Outsourced management",
-      "Process digitalization",
-      "Public policies",
-      "Institutional relations",
-      "Public-private partnerships"
-    ],
-    "externalLinks": [
-      {
-        "name": "European Management Institute",
-        "url": "https://www.europeanmanagement.eu/"
-      },
-      {
-        "name": "Sustainable Economy Association",
-        "url": "https://www.sustainableeconomy.eu/"
-      },
-      {
-        "name": "Cooperativa Ermetes",
-        "url": "https://www.ermetes.it/"
-      }
-    ],
+    "baseUrl": "https://european-management-institute.github.io/luca_bazzanella",
     "carouselImages": [
       {
         "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/3c48d014-5dac-4244-a390-2011f5f4917f.png",
@@ -151,48 +105,14 @@
     "backToHome": "Back to Home",
     "heroTitle": "Public Policy",
     "heroDescription": "Public policy analysis is the activity carried out by specialized experts who systematically study government strategies, decisions, and actions, with the aim of assessing their effectiveness, efficiency, and impact on their clients' interests. Companies rely on these professionals, for example, to better understand the risks and opportunities arising from current or future political and legislative changes, to simulate their impact on business models, and to plan their operations accordingly.",
-    "policyInnovation": "Policy Innovation",
-    "ourServices": "Our Services",
-    "keyProjects": "Key Projects",
-    "readyToTransform": "Ready to Transform Your Public Services?",
-    "readyToTransformDescription": "Contact us to discuss how our public policy solutions can improve citizen engagement and administrative efficiency.",
-    "visitEMI": "Visit European Management Institute",
     "learnMore": "Learn more",
-    "projects": [
-      {
-        "title": "European Digital Innovation Hub DIPS",
-        "description": "Project DIPS - Digitalization and Innovation of Public Services in collaboration with FBK, UNITN, HIT, Confindustria and FTC to support SME digitalization and public service innovation.",
-        "link": "https://european-digital-innovation-hubs.ec.europa.eu/edih-catalogue/dips"
-      },
-      {
-        "title": "EMI Software Integration",
-        "description": "Development of integrated digital solutions for public administration efficiency and citizen services enhancement through automated processes and data-driven decision making.",
-        "link": "https://www.europeanmanagement.eu"
-      },
-      {
-        "title": "PNRR Implementation Support",
-        "description": "Consultation and strategic support for PNRR (National Recovery and Resilience Plan) implementation in Trentino, focusing on opportunities and risk mitigation strategies.",
-        "link": "https://www.ufficiostampa.provincia.tn.it/Comunicati/PNRR-in-Trentino-tra-opportunita-e-rischi-la-conferenza"
-      }
-    ],
-    "intro": "Business process digitalization represents a fundamental strategic lever for the evolution of modern organizations. Through the implementation of advanced technological solutions, we support companies in comprehensive digital transformation.",
-    "approach": "Our approach is based on analyzing existing processes, identifying areas for improvement and implementing customized digital solutions that guarantee measurable and sustainable results over time."
+    "intro": "Business process digitalization represents a fundamental strategic lever for the evolution of modern organizations. Through the implementation of advanced technological solutions, we support companies in comprehensive digital transformation."
   },
   "outsourcedManagement": {
     "title": "Outsourced Management",
     "description": "We live in an era of epochal economic, social and technological changes that require new skills and speed of action. Complex factors to obtain without the right investments and using only internal resources.",
     "backToHome": "Back to Home",
     "heroDescription": "We live in an era of epochal economic, social and technological changes that require new skills and speed of action. Complex factors to obtain without the right investments and using only internal resources.",
-    "managementExcellence": "Management Excellence",
-    "ourServices": "Our Services",
-    "keyProjectsAchievements": "Key Projects & Achievements",
-    "professionalInsights": "Professional Insights",
-    "readyToTransform": "Ready to Transform Your Business?",
-    "readyToTransformDescription": "Contact us to discuss how our outsourced management solutions can help your organization achieve its goals through data-driven strategies and outcome-based approaches.",
-    "visitEMI": "Visit European Management Institute",
-    "outcomeBasedSolutions": "Outcome-based solutions",
-    "dataDrivenApproach": "Data-driven approach",
-    "executiveTraining": "Executive training",
     "role": "Role",
     "impact": "Impact",
     "learnMore": "Learn more",
@@ -204,31 +124,7 @@
     ],
     "content": {
       "intro": "Outsourced management is the practice of entrusting one or more business operations or entire functions—such as finance, digitalization, tenders and bids, extraordinary transactions, market development, and more—to external experts outside the company. The client’s goal is to reduce costs, increase efficiency, and focus on the core business by delegating activities that require specialized skills not available in-house.",
-      "approach": "We use a \"data driven\" approach and accept challenging contracts including \"outcome based\" types, compensated based on agreed performance indicators. This ensures that our clients receive tangible results and measurable improvements.",
-      "services": [
-        {
-          "title": "Strategic Management",
-          "description": "Comprehensive strategic planning and execution support for SMEs looking to scale and optimize operations."
-        },
-        {
-          "title": "Digital Transformation",
-          "description": "End-to-end digitalization of business processes to improve efficiency and competitiveness."
-        },
-        {
-          "title": "Executive Training",
-          "description": "Customized training programs for managers and senior officials in both public and private sectors."
-        }
-      ],
-      "projects": [
-        {
-          "title": "Carbontrack Project",
-          "description": "Digital platform for measuring and tracking CO₂ emissions in international logistics."
-        },
-        {
-          "title": "Ermetes Construction Digitalization",
-          "description": "Digitalization for efficiency in construction sector management and operations."
-        }
-      ]
+      "approach": "We use a \"data driven\" approach and accept challenging contracts including \"outcome based\" types, compensated based on agreed performance indicators. This ensures that our clients receive tangible results and measurable improvements."
     },
     "projects": [
       {
@@ -272,152 +168,7 @@
     "description": "Economy and finance, in and of themselves, are meaningless unless they generate a positive impact on people, society, and the planet. This belief has led me to invest a large part of my income in activities with a positive and measurable social impact. I’ve never fully believed in charity carried out by third parties through donations; for this reason, I prefer to personally dedicate part of my time to concrete local volunteer work and international cooperation initiatives.",
     "backToHome": "Back to Home",
     "heroDescription": "Economy and finance, in and of themselves, are meaningless unless they generate a positive impact on people, society, and the planet. This belief has led me to invest a large part of my income in activities with a positive and measurable social impact. I’ve never fully believed in charity carried out by third parties through donations; for this reason, I prefer to personally dedicate part of my time to concrete local volunteer work and international cooperation initiatives.",
-    "ourImpact": "Our Impact",
-    "organizations": "Organizations",
-    "keyProjects": "Key Projects",
-    "joinOurMission": "Join Our Social Impact Mission",
-    "joinOurMissionDescription": "Contact us to learn more about our social impact initiatives and how you can contribute to sustainable development.",
-    "visitSEA": "Visit Sustainable Economy Association",
-    "environmentalSustainability": "Environmental Sustainability",
-    "internationalProjects": "International Projects",
-    "communityDevelopment": "Community Development",
-    "sustainabilityDescription": "Economy and finance, in and of themselves, are meaningless unless they generate a positive impact on people, society, and the planet. This belief has led me to invest a large part of my income in activities with a positive and measurable social impact. I’ve never fully believed in charity carried out by third parties through donations; for this reason, I prefer to personally dedicate part of my time to concrete local volunteer work and international cooperation initiatives.",
-    "organizationsList": [
-      {
-        "title": "Sustainable Economy Association",
-        "description": "Non-profit organization focused on sustainable technology and international development."
-      },
-      {
-        "title": "Cooperativa Ermetes",
-        "description": "Supporting professional integration through innovative social approaches."
-      },
-      {
-        "title": "Conference Network",
-        "description": "Organizing conferences and events on social impact and sustainability."
-      }
-    ],
-    "projects": [
-      {
-        "title": "Partnership Agreement with the Province of Rehamna",
-        "role": "Partner",
-        "description": "On November 15, 2019, in Ben Guerir, a memorandum of understanding and a public-private partnership document were signed between the Sustainable Economy Association and the Province of Rehamna. The project’s main goal is to develop an experimental model to combat desertification and create social impact, which, if applied, understood, and replicated, would allow the recovery and productive use of many abandoned and desertifying lands. The partnership agreement includes: the creation of a local pilot model on 10 hectares; a phase of 'co-research and development' in agricultural technologies; establishment of a dedicated 'contact point'; collaboration and synergy with the nearby 'Green Energy Park' research center.",
-        "link": "https://www.sustainableeconomy.eu/progetti/siglato-un-nuovo-accordo-di-partenariato-per-lo-sviluppo-agricolo-sostenibile-con-la-provincia-di-rehamna-marocco/"
-      },
-      {
-        "title": "Shams Al-Atlas Social Center Reconstruction",
-        "role": "President",
-        "description": "Non-profit organization engaged in conferences on sustainable technologies and advocacy actions for decarbonization, with a focus on international projects in North Africa.",
-        "link": "https://www.sustainableeconomy.eu/progetti/lavori-in-corso-per-il-rifacimento-del-centro-socio-formativo-shams-al-atlas/"
-      },
-      {
-        "title": "Cooperativa Ermetes SCS",
-        "role": "President",
-        "description": "Trentino cooperative that supports the employment integration of disadvantaged personnel through targeted training and hands-on activities.",
-        "link": "http://ermetes.it/"
-      },
-      {
-        "title": "Green Desert Morocco Experimental Project",
-        "role": "Project Coordinator (2020-2025)",
-        "description": "Innovative experimental project for desert greening and sustainable agriculture development in Morocco, implementing cutting-edge technologies for environmental restoration and community empowerment.",
-        "link": "https://www.sustainableeconomy.eu/progetti/progetto-sperimentale-deserto-verde-marocco-2020-2025/"
-      },
-      {
-        "title": "Fundraising and Alternative Credit Conference",
-        "role": "Conference Organizer (2022)",
-        "description": "Organized comprehensive conference on fundraising strategies and alternative credit solutions for third sector organizations and community interest companies, fostering financial innovation for social impact.",
-        "link": "https://www.sustainableeconomy.eu/eventi/conferenza-fundraising-e-credito-alternativo-per-il-terzo-settore-e-le-icc/"
-      },
-      {
-        "title": "Ferrari Cellars Press Conference",
-        "role": "Event Coordinator (2022)",
-        "description": "Coordinated high-profile press conference at Ferrari Cellars focusing on sustainable business practices and corporate social responsibility in the luxury sector.",
-        "link": "https://www.sustainableeconomy.eu/eventi/comunicato-stampa-conferenza-31-05-2022-cantine-ferrari-trento/"
-      },
-      {
-        "title": "Green Energy Innovation Hub",
-        "role": "Co-design (2024)",
-        "description": "Conception and development of energy innovation hub in collaboration with Siram-Veolia SPA and Trentino Sviluppo."
-      },
-      {
-        "title": "Ship 24 Green and Carbontrack",
-        "role": "Project Leader (2021-2022)",
-        "description": "Projects for decarbonization of international logistics through innovative digital solutions for emissions measurement and reduction."
-      }
-    ]
-  },
-  "conferences": {
-    "title": "Conferences &",
-    "subtitle": "Speaking",
-    "viewAllText": "View All Conferences",
-    "featuredConferences": [
-      {
-        "title": "Urban electric mobility sustainability",
-        "subtitle": "Experiences and cases compared",
-        "location": "Villa Madruzzo",
-        "description": "Conference exploring sustainable urban mobility solutions, comparing different electric transportation initiatives and their environmental impact on city development.",
-        "links": [
-          {
-            "name": "Sustainable Economy",
-            "url": "https://www.sustainableeconomy.eu/progetti/conferenza-sostenibilita-e-mobilita-elettrica-urbana-esperienze-e-casi-aconfronto/"
-          }
-        ]
-      },
-      {
-        "title": "Sustainability in railway transport",
-        "subtitle": "What prospects for the Dolomites train?",
-        "location": "Palazzo Perlerhof",
-        "description": "Analysis of sustainable railway transport systems in mountainous regions, examining the potential for eco-friendly tourism and regional connectivity through the Dolomites train project.",
-        "links": [
-          {
-            "name": "Sustainable Economy",
-            "url": "https://www.sustainableeconomy.eu/progetti/sostenibilita-nel-trasporto-ferroviario-quali-prospettive-per-il-trenodelle-dolomiti/"
-          }
-        ]
-      },
-      {
-        "title": "Green is not left",
-        "subtitle": "European Parliament press conference",
-        "location": "Brussels",
-        "description": "European Parliament press conference addressing environmental policies from a cross-party perspective, challenging political stereotypes in sustainability discourse.",
-        "videoId": "cfM3aVlyXCY",
-        "links": [
-          {
-            "name": "TG Video",
-            "url": "https://www.youtube.com/watch?v=cfM3aVlyXCY"
-          },
-          {
-            "name": "CagliariPad",
-            "url": "https://www.cagliaripad.it/394624/europa-conferenza-green-is-not-left-lambiente-non-e-di-sinistra-a-bruxelles/"
-          },
-          {
-            "name": "Informazione.it",
-            "url": "https://www.informazione.it/c/74E3E8CC-4B26-4441-9943-D5B8B214CD5F/SFIDE-GLOBALI-GREEN-IS-NOT-LEFT-L-AMBIENTE-NON-e-DI-SINISTRA"
-          },
-          {
-            "name": "SEA",
-            "url": "https://www.sustainableeconomy.eu/progetti/conferenza-stampa-green-is-not-left/"
-          }
-        ]
-      },
-      {
-        "title": "The future of sustainable mobility in Trentino",
-        "subtitle": "MUSE",
-        "location": "MUSE, Trento",
-        "description": "International conference at MUSE examining the future of sustainable mobility in Trentino, featuring expert presentations on innovative transportation solutions.",
-        "videoId": "WTpy8q6fPdQ",
-        "links": [
-          {
-            "name": "SEA",
-            "url": "https://www.sustainableeconomy.eu/progetti/conferenza-pubblica-il-futuro-della-mobilita-sostenibile/"
-          },
-          {
-            "name": "PAT",
-            "url": "https://www.ufficiostampa.provincia.tn.it/Comunicati/Mobility-il-futuro-della-mobilita-sostenibile-in-Trentino-domani-una-conferenza-al-Muse-con-esperti-internazionali"
-          }
-        ]
-      }
-    ],
-    "allConferencesLink": "/all-conferences"
+    "sustainabilityDescription": "Economy and finance, in and of themselves, are meaningless unless they generate a positive impact on people, society, and the planet. This belief has led me to invest a large part of my income in activities with a positive and measurable social impact. I’ve never fully believed in charity carried out by third parties through donations; for this reason, I prefer to personally dedicate part of my time to concrete local volunteer work and international cooperation initiatives."
   },
   "allConferences": {
     "title": "All Conferences",
@@ -646,16 +397,10 @@
     ]
   },
   "footer": {
-    "description": "Management consultant, speaker and sustainability expert dedicated to transforming companies for a better future.",
-    "services": "Services",
-    "servicesList": [
-      "Management Consulting",
-      "Conferences and Speaking",
-      "Sustainability",
-      "Outsourced Management"
-    ],
+    "description": "Trentino manager born in 1991 specialized in business and digital management with particular experience in public policies.",
     "contacts": "Contacts",
-    "location": "Trento, Italy",
+    "learnMore": "Per saperne di piu sui progetti e per essere contattato clicca QUI",
+    "location": "Trento, Italy, Bruxelles, Roma",
     "copyright": "2025 Sintija Birgele. All rights reserved."
   }
 }

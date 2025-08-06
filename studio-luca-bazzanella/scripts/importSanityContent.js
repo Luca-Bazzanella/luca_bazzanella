@@ -10,6 +10,7 @@ const client = createClient({
   projectId: 'n2d0sl08',
   dataset: 'production',
   useCdn: false,
+  token: 'skpwbeuQWiNMuxm49TAklm3VSE7p2UEiQaxlFvRiSeTH4Z0Juh8HuKwkBrRnSukQxKGbweKX9GFMhl1SL0AdYSSOtR795xz0MNraOdmWGjdyD8MzoRba6PHvtdVogR1frHFf3Eis2QRCpcP6pHsraL9x3XoEJ4zub52Msl2FgFcSPdjo7EvF',
   apiVersion: '2023-08-01' // Specify Sanity API version
 });
 
@@ -79,13 +80,14 @@ const navigationDoc = {
   management: localizeSection('navigation', ['management']).management,
   policy: localizeSection('navigation', ['policy']).policy,
   socialImpact: localizeSection('navigation', ['socialImpact']).socialImpact,
+  conferences: localizeSection('navigation', ['conferences']).conferences,
   name: localizeSection('navigation', ['name']).name,
   baseUrl: en.navigation.baseUrl
 };
 
 // Prepare hero document (all keys)
 async function buildHeroDoc() {
-  const images = Array.isArray(en.hero.images)
+  const images = (en.hero && Array.isArray(en.hero.images))
     ? await uploadImages(en.hero.images, path.join(__dirname, '../public/lovable-uploads'))
     : [];
   return {
@@ -121,25 +123,6 @@ async function buildAboutDoc() {
     _type: 'about',
     title: localizeSection('about', ['title']).title,
     name: localizeSection('about', ['name']).name,
-    description1: localizeSection('about', ['description1']).description1,
-    description2: localizeSection('about', ['description2']).description2,
-    currentRoles: localizeSection('about', ['currentRoles']).currentRoles,
-    roles: Array.isArray(en.about.roles) && Array.isArray(it.about.roles) ? (en.about.roles || []).map((role, i) => ({
-      _key: `role_${i}_${Math.random().toString(36).substr(2, 6)}`,
-      en: role,
-      it: it.about.roles[i] || ''
-    })) : undefined,
-    skills: localizeSection('about', ['skills']).skills,
-    skillsList: Array.isArray(en.about.skillsList) && Array.isArray(it.about.skillsList) ? (en.about.skillsList || []).map((skill, i) => ({
-      _key: `skill_${i}_${Math.random().toString(36).substr(2, 6)}`,
-      en: skill,
-      it: it.about.skillsList[i] || ''
-    })) : undefined,
-    externalLinks: Array.isArray(en.about.externalLinks) ? (en.about.externalLinks || []).map((link, i) => ({
-      _key: `extlink_${i}_${Math.random().toString(36).substr(2, 6)}`,
-      name: link.name || '',
-      url: link.url || ''
-    })) : undefined,
     carouselImages,
     organizations: Array.isArray(en.about.organizations) && Array.isArray(it.about.organizations)
       ? (en.about.organizations || []).map((org, i) => ({
@@ -175,30 +158,11 @@ async function buildPublicPolicyDoc() {
     title: localizeSection('publicPolicy', ['title']).title,
     description: localizeSection('publicPolicy', ['description']).description,
     intro: localizeSection('publicPolicy', ['intro']).intro,
-    approach: localizeSection('publicPolicy', ['approach']).approach,
     backToHome: localizeSection('publicPolicy', ['backToHome']).backToHome,
     heroTitle: localizeSection('publicPolicy', ['heroTitle']).heroTitle,
     heroDescription: localizeSection('publicPolicy', ['heroDescription']).heroDescription,
-    policyInnovation: localizeSection('publicPolicy', ['policyInnovation']).policyInnovation,
-    ourServices: localizeSection('publicPolicy', ['ourServices']).ourServices,
-    keyProjects: localizeSection('publicPolicy', ['keyProjects']).keyProjects,
-    readyToTransform: localizeSection('publicPolicy', ['readyToTransform']).readyToTransform,
-    readyToTransformDescription: localizeSection('publicPolicy', ['readyToTransformDescription']).readyToTransformDescription,
-    visitEMI: localizeSection('publicPolicy', ['visitEMI']).visitEMI,
     learnMore: localizeSection('publicPolicy', ['learnMore']).learnMore,
-    images,
-    projects: Array.isArray(en.publicPolicy.projects) ? (en.publicPolicy.projects || []).map((p, i) => ({
-      _key: `pproj_${i}_${Math.random().toString(36).substr(2, 6)}`,
-      link: p.link || '',
-      title: {
-        en: p.title || '',
-        it: it.publicPolicy.projects?.[i]?.title || ''
-      },
-      description: {
-        en: p.description || '',
-        it: it.publicPolicy.projects?.[i]?.description || ''
-      }
-    })) : undefined
+    images
   };
 }
 
@@ -217,56 +181,10 @@ async function buildOutsourcedManagementDoc() {
     description: localizeSection('outsourcedManagement', ['description']).description,
     backToHome: localizeSection('outsourcedManagement', ['backToHome']).backToHome,
     heroDescription: localizeSection('outsourcedManagement', ['heroDescription']).heroDescription,
-    managementExcellence: localizeSection('outsourcedManagement', ['managementExcellence']).managementExcellence,
-    ourServices: localizeSection('outsourcedManagement', ['ourServices']).ourServices,
-    keyProjectsAchievements: localizeSection('outsourcedManagement', ['keyProjectsAchievements']).keyProjectsAchievements,
-    professionalInsights: localizeSection('outsourcedManagement', ['professionalInsights']).professionalInsights,
-    readyToTransform: localizeSection('outsourcedManagement', ['readyToTransform']).readyToTransform,
-    readyToTransformDescription: localizeSection('outsourcedManagement', ['readyToTransformDescription']).readyToTransformDescription,
-    visitEMI: localizeSection('outsourcedManagement', ['visitEMI']).visitEMI,
-    outcomeBasedSolutions: localizeSection('outsourcedManagement', ['outcomeBasedSolutions']).outcomeBasedSolutions,
-    dataDrivenApproach: localizeSection('outsourcedManagement', ['dataDrivenApproach']).dataDrivenApproach,
-    executiveTraining: localizeSection('outsourcedManagement', ['executiveTraining']).executiveTraining,
     role: localizeSection('outsourcedManagement', ['role']).role,
     impact: localizeSection('outsourcedManagement', ['impact']).impact,
     learnMore: localizeSection('outsourcedManagement', ['learnMore']).learnMore,
-    images,
-    content: en.outsourcedManagement.content && it.outsourcedManagement.content ? {
-      intro: en.outsourcedManagement.content?.intro && it.outsourcedManagement.content?.intro ? { en: en.outsourcedManagement.content.intro, it: it.outsourcedManagement.content.intro } : undefined,
-      approach: en.outsourcedManagement.content?.approach && it.outsourcedManagement.content?.approach ? { en: en.outsourcedManagement.content.approach, it: it.outsourcedManagement.content.approach } : undefined,
-      services: Array.isArray(en.outsourcedManagement.content?.services) && Array.isArray(it.outsourcedManagement.content?.services)
-        ? (en.outsourcedManagement.content.services || []).map((s, i) => ({
-            _key: `omservice_${i}_${Math.random().toString(36).substr(2, 6)}`,
-            title: {
-              en: s.title || '',
-              it: it.outsourcedManagement.content.services[i]?.title || ''
-            },
-            description: {
-              en: s.description || '',
-              it: it.outsourcedManagement.content.services[i]?.description || ''
-            }
-          }))
-        : [],
-      projects: Array.isArray(en.outsourcedManagement.content?.projects) && Array.isArray(it.outsourcedManagement.content?.projects) ? (en.outsourcedManagement.content.projects || []).map((p, i) => ({
-        _key: `omproj_${i}_${Math.random().toString(36).substr(2, 6)}`,
-        en: {
-          title: p.title || '',
-          description: p.description || ''
-        },
-        it: {
-          title: it.outsourcedManagement.content.projects[i]?.title || '',
-          description: it.outsourcedManagement.content.projects[i]?.description || ''
-        }
-      })) : undefined
-    } : undefined,
-    projects: Array.isArray(en.outsourcedManagement.projects) ? (en.outsourcedManagement.projects || []).map((p, i) => ({
-      _key: `omproj2_${i}_${Math.random().toString(36).substr(2, 6)}`,
-      title: p.title || '',
-      description: p.description || '',
-      role: p.role || '',
-      impact: p.impact || '',
-      link: p.link || ''
-    })) : undefined
+    images
   };
 }
 
@@ -285,68 +203,11 @@ async function buildSocialImpactDoc() {
     description: localizeSection('socialImpact', ['description']).description,
     backToHome: localizeSection('socialImpact', ['backToHome']).backToHome,
     heroDescription: localizeSection('socialImpact', ['heroDescription']).heroDescription,
-    ourImpact: localizeSection('socialImpact', ['ourImpact']).ourImpact,
-    organizations: localizeSection('socialImpact', ['organizations']).organizations,
-    keyProjectsTitle: localizeSection('socialImpact', ['keyProjectsTitle']).keyProjectsTitle,
     images,
-    keyProjects: Array.isArray(en.socialImpact.keyProjects) && Array.isArray(it.socialImpact.keyProjects) ? (en.socialImpact.keyProjects || []).map((kp, i) => ({
-      _key: `siproj_${i}_${Math.random().toString(36).substr(2, 6)}`,
-      title: {
-        en: kp.title || '',
-        it: it.socialImpact.keyProjects?.[i]?.title || ''
-      },
-      description: {
-        en: kp.description || '',
-        it: it.socialImpact.keyProjects?.[i]?.description || ''
-      }
-    })) : undefined,
-    joinOurMission: localizeSection('socialImpact', ['joinOurMission']).joinOurMission,
-    joinOurMissionDescription: localizeSection('socialImpact', ['joinOurMissionDescription']).joinOurMissionDescription,
-    visitSEA: localizeSection('socialImpact', ['visitSEA']).visitSEA,
-    environmentalSustainability: localizeSection('socialImpact', ['environmentalSustainability']).environmentalSustainability,
-    internationalProjects: localizeSection('socialImpact', ['internationalProjects']).internationalProjects,
-    communityDevelopment: localizeSection('socialImpact', ['communityDevelopment']).communityDevelopment,
     impact: localizeSection('socialImpact', ['impact']).impact,
-    organizationsList: Array.isArray(en.socialImpact.organizationsList) ? (en.socialImpact.organizationsList || []).map((org, i) => ({
-      _key: `orglist_${i}_${Math.random().toString(36).substr(2, 6)}`,
-      description: { en: org.description, it: it.socialImpact.organizationsList?.[i]?.description || '' }
-    })) : undefined,
-    projects: Array.isArray(en.socialImpact.projects) ? (en.socialImpact.projects || []).map((p, i) => ({
-      _key: `siproj2_${i}_${Math.random().toString(36).substr(2, 6)}`,
-      title: { en: p.title || '', it: it.socialImpact.projects?.[i]?.title || '' },
-      role: { en: p.role || '', it: it.socialImpact.projects?.[i]?.role || '' },
-      impact: { en: p.impact || '', it: it.socialImpact.projects?.[i]?.impact || '' },
-      link: p.link,
-      description: { en: p.description || '', it: it.socialImpact.projects?.[i]?.description || '' }
-    })) : undefined,
+    // Removed unused 'projects' field as it is not present in the JSON files
     learnMore: localizeSection('socialImpact', ['learnMore']).learnMore
   };
-};
-
-
-const conferencesDoc = {
-  _id: 'conferences-single',
-  _type: 'conferences',
-  title: localizeSection('conferences', ['title']).title,
-  subtitle: localizeSection('conferences', ['subtitle']).subtitle,
-  viewAllText: localizeSection('conferences', ['viewAllText']).viewAllText,
-  featuredConferences: Array.isArray(en.conferences.featuredConferences) && Array.isArray(it.conferences.featuredConferences) ? (en.conferences.featuredConferences || []).map((fc, i) => ({
-    _key: `conf_${i}_${Math.random().toString(36).substr(2, 6)}`,
-    title: { en: fc.title || '', it: it.conferences.featuredConferences?.[i]?.title || '' },
-    subtitle: { en: fc.subtitle || '', it: it.conferences.featuredConferences?.[i]?.subtitle || '' },
-    date: { en: fc.date || '', it: it.conferences.featuredConferences?.[i]?.date || '' },
-    location: { en: fc.location || '', it: it.conferences.featuredConferences?.[i]?.location || '' },
-    attendees: { en: fc.attendees || '', it: it.conferences.featuredConferences?.[i]?.attendees || '' },
-    topic: { en: fc.topic || '', it: it.conferences.featuredConferences?.[i]?.topic || '' },
-    videoId: { en: fc.videoId || '', it: it.conferences.featuredConferences?.[i]?.videoId || '' },
-    description: { en: fc.description || '', it: it.conferences.featuredConferences?.[i]?.description || '' },
-    links: Array.isArray(fc.links) ? fc.links.map((link, linkIdx) => ({
-      _key: `link_${linkIdx}_${Math.random().toString(36).substr(2, 6)}`,
-      name: link.name || '',
-      url: link.url || ''
-    })) : []
-  })) : undefined,
-  allConferencesLink: localizeSection('conferences', ['allConferencesLink']).allConferencesLink
 };
 
 const allConferencesDoc = {
@@ -359,22 +220,7 @@ const allConferencesDoc = {
   allTitle: localizeSection('allConferences', ['allTitle']).allTitle,
   attendees: localizeSection('allConferences', ['attendees']).attendees,
   learnMore: localizeSection('allConferences', ['learnMore']).learnMore,
-  featuredConferences: Array.isArray(en.allConferences.featuredConferences) && Array.isArray(it.allConferences.featuredConferences) ? (en.allConferences.featuredConferences || []).map((fc, i) => ({
-    _key: `allconf_${i}_${Math.random().toString(36).substr(2, 6)}`,
-    title: { en: fc.title || '', it: it.allConferences.featuredConferences?.[i]?.title || '' },
-    subtitle: { en: fc.subtitle || '', it: it.allConferences.featuredConferences?.[i]?.subtitle || '' },
-    date: { en: fc.date || '', it: it.allConferences.featuredConferences?.[i]?.date || '' },
-    location: { en: fc.location || '', it: it.allConferences.featuredConferences?.[i]?.location || '' },
-    attendees: { en: fc.attendees || '', it: it.allConferences.featuredConferences?.[i]?.attendees || '' },
-    topic: { en: fc.topic || '', it: it.allConferences.featuredConferences?.[i]?.topic || '' },
-    videoId: { en: fc.videoId || '', it: it.allConferences.featuredConferences?.[i]?.videoId || '' },
-    description: { en: fc.description || '', it: it.allConferences.featuredConferences?.[i]?.description || '' },
-    links: Array.isArray(fc.links) ? fc.links.map((link, linkIdx) => ({
-      _key: `link_${linkIdx}_${Math.random().toString(36).substr(2, 6)}`,
-      name: link.name || '',
-      url: link.url || ''
-    })) : []
-  })) : undefined,
+  // Removed unused 'featuredConferences' field as it is not present in the JSON files
   allConferences: Array.isArray(en.allConferences.allConferences) && Array.isArray(it.allConferences.allConferences) ? (en.allConferences.allConferences || []).map((ac, i) => ({
     _key: `allconfitem_${i}_${Math.random().toString(36).substr(2, 6)}`,
     title: { en: ac.title || '', it: it.allConferences.allConferences?.[i]?.title || '' },
@@ -425,8 +271,6 @@ async function uploadDocs() {
     await client.createOrReplace(outsourcedManagementDoc);
     const socialImpactDoc = await buildSocialImpactDoc();
     await client.createOrReplace(socialImpactDoc);
-    // Sustainability import removed
-    await client.createOrReplace(conferencesDoc);
     await client.createOrReplace(allConferencesDoc);
     await client.createOrReplace(footerDoc);
     console.log('Documents imported successfully!');

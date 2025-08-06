@@ -35,9 +35,7 @@ const Footer = ({ content, locale }) => {
             <div className="space-y-3 text-gray-400">
               <div className="flex items-center">
                 <Mail className="h-4 w-4 mr-2 text-luca-blue-400" />
-                <a href="mailto:lucabazzanella.tn@gmail.com" className="hover:text-luca-blue-400 transition-colors">
-                  lucabazzanella.tn@gmail.com
-                </a>
+                 <span>{content?.learnMore?.[locale] || content?.learnMore || ''}</span>
               </div>
               <div className="flex items-center">
                 <MapPin className="h-4 w-4 mr-2 text-luca-blue-400" />
