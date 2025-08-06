@@ -1,8 +1,6 @@
 import { useState, useEffect } from 'react';
 
 // Import only the videos files that we want to keep separate
-import videosIt from '../data/it/videos.json';
-import videosEn from '../data/en/videos.json';
 
 // Keep existing large files for other sections
 import contentIt from '../data/content-it.json';
@@ -16,10 +14,8 @@ export const useLanguage = () => {
   // Compose content using main files for most content, separate files only for videos
   const content = language === 'it' ? {
     ...contentIt,
-    videos: videosIt,
   } : {
     ...contentEn,
-    videos: videosEn,
   };
 
   const toggleLanguage = () => {
