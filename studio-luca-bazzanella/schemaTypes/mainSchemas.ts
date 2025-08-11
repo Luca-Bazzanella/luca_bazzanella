@@ -30,6 +30,7 @@ export const navigation = {
     { name: 'management', type: 'localeString', title: 'Management' },
     { name: 'policy', type: 'localeString', title: 'Policy' },
     { name: 'socialImpact', type: 'localeString', title: 'Social Impact' },
+    { name: 'conferences', type: 'localeString', title: 'Conferences' },
     { name: 'name', type: 'localeString', title: 'Name' },
     { name: 'baseUrl', type: 'url', title: 'Base URL' }
   ]
@@ -54,7 +55,6 @@ export const hero = {
       }
     ] },
     { name: 'description', type: 'localeText', title: 'Description' },
-    { name: 'cta', type: 'localeString', title: 'CTA' },
     { name: 'contact', type: 'localeString', title: 'Contact' },
     { name: 'linkedin', type: 'localeString', title: 'LinkedIn' }
   ]
@@ -105,15 +105,10 @@ export const publicPolicy = {
       }
     ] },
     { name: 'title', type: 'localeString', title: 'Title' },
-    { name: 'description', type: 'localeText', title: 'Description' },
     { name: 'intro', type: 'localeText', title: 'Intro' },
-    { name: 'approach', type: 'localeText', title: 'Approach' },
     { name: 'backToHome', type: 'localeString', title: 'Back To Home' },
     { name: 'heroTitle', type: 'localeString', title: 'Hero Title' },
-    { name: 'heroDescription', type: 'localeText', title: 'Hero Description' },
-    { name: 'projects', type: 'array', title: 'Projects', of: [{ type: 'object', fields: [
-      { name: 'link', type: 'url', title: 'Link' }
-    ] }] }
+    { name: 'heroDescription', type: 'localeText', title: 'Header Description' }
   ]
 }
 
@@ -135,7 +130,7 @@ export const outsourcedManagement = {
     { name: 'title', type: 'localeString', title: 'Title' },
     { name: 'description', type: 'localeText', title: 'Description' },
     { name: 'backToHome', type: 'localeString', title: 'Back To Home' },
-    { name: 'heroDescription', type: 'localeText', title: 'Hero Description' },
+    { name: 'heroDescription', type: 'localeText', title: 'Header Description' },
     { name: 'role', type: 'localeString', title: 'Role' },
     { name: 'impact', type: 'localeString', title: 'Impact' },
     { name: 'content', type: 'object', title: 'Content', fields: [
@@ -164,7 +159,7 @@ export const socialImpact = {
     ] },
     { name: 'title', type: 'localeString', title: 'Title' },
     { name: 'backToHome', type: 'localeString', title: 'Back To Home' },
-    { name: 'heroDescription', type: 'localeText', title: 'Hero Description' },
+    { name: 'heroDescription', type: 'localeText', title: 'Header Description' },
     { name: 'impact', type: 'localeText', title: 'Impact' },
     { name: 'projects', type: 'array', title: 'Projects', of: [{ type: 'object', fields: [
       { name: 'link', type: 'url', title: 'Link' },
@@ -197,11 +192,6 @@ export const footer = {
   title: 'Footer',
   fields: [
     { name: 'description', type: 'localeText', title: 'Description' },
-    { name: 'services', type: 'localeString', title: 'Services' },
-    { name: 'servicesList', type: 'array', title: 'Services List', of: [{ type: 'object', fields: [
-      { name: 'en', type: 'string', title: 'English' },
-      { name: 'it', type: 'string', title: 'Italian' }
-    ] }] },
     { name: 'contacts', type: 'localeString', title: 'Contacts' },
     { name: 'location', type: 'localeString', title: 'Location' },
     { name: 'copyright', type: 'localeString', title: 'Copyright' }

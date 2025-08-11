@@ -138,7 +138,6 @@ async function buildHeroDoc() {
     name: localizeSection('hero', ['name']).name,
     images,
     description: localizeSection('hero', ['description']).description,
-    cta: localizeSection('hero', ['cta']).cta,
     contact: localizeSection('hero', ['contact']).contact,
     linkedin: localizeSection('hero', ['linkedin']).linkedin
   };
@@ -199,7 +198,6 @@ async function buildPublicPolicyDoc() {
     _id: 'publicPolicy-single',
     _type: 'publicPolicy',
     title: localizeSection('publicPolicy', ['title']).title,
-    description: localizeSection('publicPolicy', ['description']).description,
     intro: localizeSection('publicPolicy', ['intro']).intro,
     backToHome: localizeSection('publicPolicy', ['backToHome']).backToHome,
     heroTitle: localizeSection('publicPolicy', ['heroTitle']).heroTitle,
@@ -221,7 +219,6 @@ async function buildOutsourcedManagementDoc() {
     _type: 'outsourcedManagement',
     title: localizeSection('outsourcedManagement', ['title']).title,
     backToHome: localizeSection('outsourcedManagement', ['backToHome']).backToHome,
-    heroDescription: localizeSection('outsourcedManagement', ['heroDescription']).heroDescription,
     role: localizeSection('outsourcedManagement', ['role']).role,
     impact: localizeSection('outsourcedManagement', ['impact']).impact,
     content: {
@@ -256,6 +253,7 @@ async function buildSocialImpactDoc() {
 const allConferencesDoc = {
   _id: 'allConferences-single',
   _type: 'allConferences',
+  title: localizeSection('allConferences', ['title']).title,
   attendees: localizeSection('allConferences', ['attendees']).attendees,
   learnMore: localizeSection('allConferences', ['learnMore']).learnMore,
   allConferences: Array.isArray(en.allConferences.allConferences) && Array.isArray(it.allConferences.allConferences) ? (en.allConferences.allConferences || []).map((ac, i) => ({

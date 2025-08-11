@@ -1,7 +1,7 @@
 {
   "navigation": {
     "management": "Outsourced Management",
-    "policy": "Public Policy",
+    "policy": "Public Policy", 
     "socialImpact": "Social Impact",
     "conferences": "Conferences",
     "name": "Dr. Luca Bazzanella",
@@ -15,7 +15,7 @@
         "alt": "Dott. Luca Bazzanella"
       }
     ],
-    "description": "Trentino manager, born in 1991, with a background as an advisor within the European Parliament. Specialized in outsourced business management and process digitalization with particular experience in public policy analysis and institutional relations. Always interested in social issues, he is president of the Ermetes scs cooperative and the Sustainable Economy Association, a non-profit organization engaged in international projects with particular focus on North Africa and advocacy actions in favor of new technologies for decarbonization. From 2019 to 2021 Head of the Europe Office of Confcommercio Trentino, the main Category Association in Italy for small and medium enterprises, and since 2020 administrator and operational director of the consulting company European Management Institute. He previously held various political coordination roles at regional and national level in Forza Italia – PDL, leaving all positions in December 2022. Always interested in finding the right balance between business efficiency and social impact.",
+    "description": "Italian manager, born in 1991, with a background as an advisor within the European Parliament. Specialized in outsourced business management and ICT, with particular experience in public policy analysis and institutional relations. Always interested in social sector, he is the president of the Sustainable Economy Association, a non-profit organization engaged in international projects with a special focus on North Africa and advocacy actions in favor of new technologies for decarbonization and president of Ermetes, a social cooperative construction company. From 2019 to 2021, he served as Head of the Europe Office for Confcommercio Trentino, the leading Italian association for small and medium-sized enterprises, and since 2020, he has been an administrator and operational director of the consulting firm European Management Institute. In the past, he held various political coordination roles at regional and national levels within Forza Italia – PDL, leaving all positions in December 2022. He has always been keen on finding the right balance between corporate efficiency and social impact.",
     "contact": "Contact",
     "linkedin": "LinkedIn"
   },
@@ -111,8 +111,8 @@
         "id": "ermetes",
         "title": "Cooperativa Ermetes SCS",
         "role": "President",
-        "description": "A Trentino-based cooperative with a prevalent mutualistic purpose that supports the employment of disadvantaged individuals through targeted training and fieldwork activities.",
-        "approach": "Under the new presidency and management, a new system for measuring social impact was introduced, along with a 'C-level' corporate management system aimed at bringing efficiency and competitiveness by proactively and more directly involving all worker-members.",
+          "description": "A Trentino-based cooperative with a prevalent mutualistic purpose that supports the employment of disadvantaged individuals through targeted training and fieldwork activities.",
+          "approach": "Under the new presidency and management, a new system for measuring social impact was introduced, along with a 'C-level' corporate management system aimed at bringing efficiency and competitiveness by proactively and more directly involving all worker-members.",
         "link": "https://www.ermetes.it"
       },
       {
@@ -140,7 +140,6 @@
   "outsourcedManagement": {
     "title": "Outsourced Management",
     "backToHome": "Back to Home",
-    "heroDescription": "We live in an era of epochal economic, social and technological changes that require new skills and speed of action. Complex factors to obtain without the right investments and using only internal resources.",
     "role": "Role",
     "impact": "Impact",
     "images": [
@@ -169,8 +168,10 @@
     "sustainabilityDescription": "Economy and finance, in and of themselves, are meaningless unless they generate a positive impact on people, society, and the planet. This belief has led me to invest a large part of my income in activities with a positive and measurable social impact. I’ve never fully believed in charity carried out by third parties through donations; for this reason, I prefer to personally dedicate part of my time to concrete local volunteer work and international cooperation initiatives."
   },
   "allConferences": {
+    "backToHome": "Back to Home",
     "attendees": "attendees",
     "learnMore": "Learn more",
+    "title": "All Conferences",
     "allConferences": [
       {
         "title": "Railway Bypass Noise and Vibrations Lot 3A",
@@ -328,8 +329,8 @@
   },
   "contactForm": {
     "contactBanner": "To get in touch to know more about",
-    "clickHere": "click here",
     "thankYou": "Thank you for your submission!",
+    "clickHere": "click here",
     "firstName": "First Name",
     "lastName": "Last Name",
     "email": "Email",
@@ -341,6 +342,6 @@
     "description": "Trentino manager born in 1991 specialized in business and digital management with particular experience in public policies.",
     "contacts": "Contacts",
     "location": "Trento, Italy, Bruxelles, Roma",
-    "copyright": "Developed by Sintija Birgele. All rights reserved by European Management Institute"
+    "copyright": "All rights reserved by Luca Bazzanella. Developed by Sintija Birgele."
   }
 }

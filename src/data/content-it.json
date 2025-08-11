@@ -1,7 +1,7 @@
 {
   "navigation": {
     "management": "Management esternalizzato",
-    "policy": "Politiche Pubbliche",
+    "policy": "Politiche Pubbliche", 
     "socialImpact": "Impatto Sociale",
     "conferences": "Conferenze",
     "name": "dott. Luca Bazzanella",
@@ -16,7 +16,6 @@
       }
     ],
     "description": "Manager trentino, classe 1991, con un background come advisor all'interno del Parlamento Europeo. Specializzato in gestione aziendale esternalizzata e digitalizzazione di processi con particolare esperienza nell'analisi delle politiche pubbliche e relazioni istituzionali. Da sempre interessato al sociale è presidente della cooperativa Ermetes scs e della Sustainable Economy Association, organizzazione no profit impegnata in progetti internazionali con particolare focus sul Nord Africa e in azioni di advocacy a favore delle nuove tecnologie per la decarbonizzazione. Dal 2019 al 2021 Responsabile dell'Ufficio Europa di Confcommercio Trentino, la principale Associazione di Categoria in Italia per piccole e medie imprese e dal 2020 amministratore e direttore operativo della società di consulenza European Management Institute. Ricopre in passato vari ruoli di coordinamento politico a livello regionale e nazionale in Forza Italia – PDL lasciando ogni incarico nel dicembre 2022. Da sempre interessato a trovare il giusto compromesso tra efficienza aziendale e impatto sociale.",
-    "cta": "Scopri il mio lavoro",
     "contact": "Contatti",
     "linkedin": "LinkedIn"
   },
@@ -24,6 +23,20 @@
     "title": "Chi è",
     "name": "Luca Bazzanella",
     "keyActivities": "Attività Chiave",
+    "externalLinks": [
+      {
+        "name": "European Management Institute",
+        "url": "https://www.europeanmanagement.eu/"
+      },
+      {
+        "name": "Sustainable Economy Association",
+        "url": "https://www.sustainableeconomy.eu/"
+      },
+      {
+        "name": "Cooperativa Ermetes",
+        "url": "https://www.ermetes.it/"
+      }
+    ],
     "carouselImages": [
       {
         "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/3c48d014-5dac-4244-a390-2011f5f4917f.png",
@@ -119,7 +132,6 @@
         "alt": "Soluzioni digitali per le politiche pubbliche"
       }
     ],
-    "description": "L’analisi delle politiche pubbliche è l’attività svolta da esperti specializzati di studio sistematico delle strategie, decisioni e azioni dei governi, con lo scopo di valutarne l’efficacia, l’efficienza e l’impatto sugli interessi dei propri clienti. Le aziende si avvalgono di questi professionisti ad esempio per essere più consapevoli sui rischi e sulle opportunità derivanti da cambiamenti politici e legislativi già in atto o futuri, per simularne l'impatto sui propri modelli di business e per poter pianificare di conseguenza la propria attività.",
     "intro": "L’analisi delle politiche pubbliche è l’attività svolta da esperti specializzati di studio sistematico delle strategie, decisioni e azioni dei governi, con lo scopo di valutarne l’efficacia, l’efficienza e l’impatto sugli interessi dei propri clienti.",
     "backToHome": "Torna alla Home",
     "heroTitle": "Public policy",
@@ -140,7 +152,37 @@
     "content": {
       "intro": "La gestione esternalizzata o 'outsourced management' è la pratica di affidare a esperti esterni all’azienda la gestione di una o più operazioni aziendali o intere funzioni: finanza, digitalizzazione, bandi e gare, operazioni straordinarie, sviluppo di mercato e molto altro. L’obiettivo del committente è quello di ridurre i costi, aumentare l’efficienza e focalizzarsi sul core business delegando esternamente attività dove mancano competenze specifiche.",
       "approach": "Utilizziamo un approccio \"data driven\" e accettiamo contratti sfidanti anche di tipo \"outcome based\", remunerati in base agli indicatori di performance concordati. Questo garantisce che i nostri clienti ricevano risultati tangibili e miglioramenti misurabili."
-    }
+    },
+    "projects": [
+      {
+        "title": "Programma Formativo Governo Mozambico",
+        "description": "Progettazione e implementazione di un programma formativo completo per funzionari pubblici incentrato su \"Partenariato Pubblico-Privato per lo Sviluppo Locale\". Il programma ha rafforzato le capacità istituzionali e migliorato i framework di governance, contribuendo direttamente al miglioramento dell'erogazione dei servizi pubblici e alle iniziative di sviluppo economico.",
+        "role": "Consulente Principal e Progettista del Programma",
+        "impact": "Formati oltre 50 funzionari governativi, stabilito framework PPP",
+        "link": "https://www.mudarbeira.org/it/o-projetto-it/"
+      },
+      {
+        "title": "Progetti Ship 24 Green e Carbontrack",
+        "description": "Guidato lo sviluppo di soluzioni digitali integrate per misurare, tracciare e ridurre l'impatto ambientale nella logistica internazionale. Creato piattaforme complete per la misurazione delle emissioni di CO₂ con sistemi di reporting automatizzati, consentendo alle aziende di raggiungere significativi traguardi di decarbonizzazione.",
+        "role": "Coordinatore Progetto (2021-2022)",
+        "impact": "Ridotte le emissioni logistiche del 25%, automatizzato il reporting per oltre 100 aziende",
+        "link": "https://www.europeanmanagement.eu"
+      },
+      {
+        "title": "Trasformazione Cooperativa Ermetes",
+        "description": "Rivoluzionato la struttura gestionale della Cooperativa Ermetes SCS implementando un sistema di gestione aziendale \"C-level\" con bonus basati sulle performance e misurazione completa dell'impatto sociale. La trasformazione ha migliorato l'efficienza operativa mantenendo il focus sulla missione sociale della cooperativa.",
+        "role": "Presidente e Consulente Strategico (2024-presente)",
+        "impact": "Aumento del 40% nel successo dei inserimenti, migliorata soddisfazione lavoratori",
+        "link": "https://www.ermetes.it/"
+      },
+      {
+        "title": "Coordinamento ATI Dolomiti Grow",
+        "description": "Fornito coordinamento completo e supporto nelle relazioni istituzionali per una startup pionieristica trentina nel settore della cannabis terapeutica. Gestito conformità normativa, strategie di sviluppo aziendale e coinvolgimento stakeholder per posizionare l'azienda per contratti di produzione statale di cannabis.",
+        "role": "Coordinatore Relazioni Istituzionali (2022-presente)",
+        "impact": "Ottenute approvazioni normative, stabilite partnership governative",
+        "link": "https://www.ildolomiti.it/economia/2022/la-startup-trentina-che-vuole-produrre-la-cannabis-terapeutica-di-stato"
+      }
+    ]
   },
   "socialImpact": {
     "title": "Social Impact and Vision",
@@ -153,12 +195,13 @@
     "description": "L’economia e la finanza fine a se stesse non servono a nulla se non generano un impatto positivo sull’uomo, sulla società e sul pianeta. Questa convinzione mi ha portato a investire gran parte dei miei ricavi in attività con un impatto sociale positivo e misurabile. Non ho mai creduto troppo alla beneficenza fatta da terzi tramite donazioni per questo preferisco dedicare in prima persona una parte del mio tempo ad attività concrete di volontariato locale e di cooperazione internazionale.",
     "backToHome": "Torna alla Home",
     "heroDescription": "L’economia e la finanza fine a se stesse non servono a nulla se non generano un impatto positivo sull’uomo, sulla società e sul pianeta. Questa convinzione mi ha portato a investire gran parte dei miei ricavi in attività con un impatto sociale positivo e misurabile. Non ho mai creduto troppo alla beneficenza fatta da terzi tramite donazioni per questo preferisco dedicare in prima persona una parte del mio tempo ad attività concrete di volontariato locale e di cooperazione internazionale.",
-    "organizations": "Organizzazioni",
     "impact": "L’economia e la finanza fine a se stesse non servono a nulla se non generano un impatto positivo sull’uomo, sulla società e sul pianeta. Questa convinzione mi ha portato a investire gran parte dei miei ricavi in attività con un impatto sociale positivo e misurabile. Non ho mai creduto troppo alla beneficenza fatta da terzi tramite donazioni per questo preferisco dedicare in prima persona una parte del mio tempo ad attività concrete di volontariato locale e di cooperazione internazionale."
   },
   "allConferences": {
+    "backToHome": "Torna alla Home",
     "attendees": "partecipanti",
     "learnMore": "Scopri di più",
+    "title": "Tutte le conferenze",
     "allConferences": [
       {
         "title": "Bypass ferroviario rumori e vibrazioni lotto 3A",
@@ -218,15 +261,15 @@
         "topic": "Incontro di monitoraggio e discussione pubblica sulla ridefinizione dei fondi strutturali europei per i settori economici locali.",
         "link": "https://www.youtube.com/watch?v=1_0FOnf7V40",
         "links": [
-          {
-            "name": "YouTube Video",
-            "url": "https://www.youtube.com/watch?v=1_0FOnf7V40&pp=ygUWbHVjYSBiYXp6YW5lbGxhIHRyZW50bw%3D%3D"
-          },
-          {
-            "name": "Facebook Video",
-            "url": "https://www.facebook.com/watch/?v=573766943245518"
-          }
-        ]
+        {
+          "name": "YouTube Video",
+          "url": "https://www.youtube.com/watch?v=1_0FOnf7V40&pp=ygUWbHVjYSBiYXp6YW5lbGxhIHRyZW50bw%3D%3D"
+        },
+        {
+          "name": "Facebook Video",
+          "url": "https://www.facebook.com/watch/?v=573766943245518"
+        }
+      ]
       },
       {
         "title": "Il Partenariato Pubblico Privato per uno sviluppo sostenibile del Trentino",
@@ -235,10 +278,10 @@
         "attendees": "60+",
         "topic": "Strategie ed esempi di partenariati pubblico-privati per sostenere lo sviluppo sostenibile in Trentino.",
         "link": "https://unione.tn.it/notizia/il-partenariato-pubblico-privato-per-uno-sviluppo-sostenibile-del-trentino",
-        "links": [
+                "links": [
           {
-            "name": "Link PAT",
-            "url": "https://agenda2030.provincia.tn.it/In-evidenza/Il-Partenariato-Pubblico-Privato-per-uno-sviluppo-sostenibile-del-Trentino"
+          "name": "Link PAT",
+          "url": "https://agenda2030.provincia.tn.it/In-evidenza/Il-Partenariato-Pubblico-Privato-per-uno-sviluppo-sostenibile-del-Trentino"
           },
           {
             "name": "Link Confcommercio",
@@ -292,27 +335,27 @@
         "topic": "Evento educativo di lancio che coinvolge studenti delle scuole superiori nella co-progettazione di città future sostenibili e resilienti.",
         "link": "https://www.cci.tn.it/contest-smart-city-del-futuro/",
         "links": [
-          {
-            "name": "Link PAT",
-            "url": "https://educazioneambientale.provincia.tn.it/Catalogo-del-sistema-provinciale/Contest-Smart-City-del-Futuro"
-          },
-          {
-            "name": "Link CCI",
-            "url": "https://www.cci.tn.it/contest-smart-city-del-futuro/"
-          },
-          {
-            "name": "Adigetto Article",
-            "url": "https://www.ladigetto.it/interno/133319-la-premiazione-si-e-tenuta-stamattina-al-muse.html"
-          },
-          {
-            "name": "Voce Trentino Article",
-            "url": "https://www.lavocedeltrentino.it/2023/02/15/la-smart-city-del-futuro-ideata-e-progettata-dagli-studenti-trentini-venerdi-via-al-contest-nelle-scuole/"
-          },
-          {
-            "name": "Link SEA",
-            "url": "https://www.sustainableeconomy.eu/progetti/inaugurato-al-muse-il-contest-tra-istituti-scolastici-smart-city-del-futuro/"
-          }
-        ]
+        {
+          "name": "Link PAT",
+          "url": "https://educazioneambientale.provincia.tn.it/Catalogo-del-sistema-provinciale/Contest-Smart-City-del-Futuro"
+        },
+        {
+          "name": "Link CCI",
+          "url": "https://www.cci.tn.it/contest-smart-city-del-futuro/"
+        },
+        {
+          "name": "Adigetto Article",
+          "url": "https://www.ladigetto.it/interno/133319-la-premiazione-si-e-tenuta-stamattina-al-muse.html"
+        },
+        {
+          "name": "Voce Trentino Article",
+          "url": "https://www.lavocedeltrentino.it/2023/02/15/la-smart-city-del-futuro-ideata-e-progettata-dagli-studenti-trentini-venerdi-via-al-contest-nelle-scuole/"
+        },
+        {
+          "name": "Link SEA",
+          "url": "https://www.sustainableeconomy.eu/progetti/inaugurato-al-muse-il-contest-tra-istituti-scolastici-smart-city-del-futuro/"
+        }
+      ]
       },
       {
         "title": "Confronto politico dal vivo all’americana: Sviluppo Sostenibile in Trentino",
@@ -325,7 +368,7 @@
     ]
   },
   "contactForm": {
-    "contactBanner": "Per metterti in contatto per saperne di più",
+    "contactBanner": "Se metterti in contatto e saperne di più",
     "clickHere": "clicca qui",
     "thankYou": "Grazie per la tua richiesta!",
     "firstName": "Nome",
@@ -339,6 +382,6 @@
     "description": "Manager trentino classe 1991 specializzato in gestione aziende e digitale con particolare esperienza nell'ambito delle politiche pubbliche.",
     "contacts": "Contatti",
     "location": "Trento, Italy, Bruxelles, Roma",
-    "copyright": "Sviluppato da Sintija Birgele. Tutti i diritti riservati all'European Management Institute."
+    "copyright": "Tutti i diritti riservati all'Luca Bazzanella. Sviluppato da Sintija Birgele."
   }
 }

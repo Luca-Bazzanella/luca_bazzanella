@@ -26,30 +26,21 @@ const OutsourcedManagement = ({ content, locale, contactForm }: OutsourcedManage
               {content?.backToHome?.[locale] || content?.backToHome || 'Back to Home'}
             </a>
             <div className="w-full">
-              <h1 className="text-4xl md:text-6xl font-serif font-bold text-slate-900 mb-6">
+              <h1 className="text-4xl md:text-6xl font-serif font-bold text-slate-900 mb-8">
                 {content?.title?.[locale] || content?.title || 'Outsourced Management'}
               </h1>
               <div className="flex flex-col md:flex-row gap-8 items-stretch w-full">
-                <div className="flex-1 flex items-start">
-                  <p className="text-xl text-slate-700 leading-relaxed text-justify">
-                    {content?.content?.intro?.[locale] || content?.intro || ''}
-                  </p>
-                </div>
-                <div className="flex-1 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center">
-                  {getSanityImageUrl(content?.images?.[0]) ? (
-                    <img
-                      src={getSanityImageUrl(content?.images?.[0])}
-                      alt={content?.images?.[0]?.alt || 'Outsourced Management'}
-                      className="w-full"
-                      style={{ width: '100%', objectFit: 'contain' }}
-                    />
-                  ) : (
-                    <div className="text-slate-400 text-center py-12">No image available</div>
-                  )}
+                <div className="flex-1 flex items-start justify-left">
+                  <div className="max-w-3xl w-full ml-0">
+                    <p className="text-xl text-slate-700 leading-relaxed text-justify text-left">
+                      {content?.content?.intro?.[locale] || content?.intro || ''}
+                    </p>
+                    <div className="mt-8 text-left">
+                      <ContactForm locale={locale} buttonLabel="click here" formStrings={contactForm} className="w-full text-left" />
+                    </div>
+                  </div>
                 </div>
               </div>
-              {/* Contact form block */}
-              <ContactForm locale={locale} buttonLabel="click here" formStrings={contactForm} />
             </div>
           </div>
         </section>
