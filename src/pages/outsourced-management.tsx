@@ -10,8 +10,9 @@ import Link from 'next/link';
 type OutsourcedManagementProps = {
   content: any;
   locale: string;
+  contact: any;
 };
-const OutsourcedManagement = ({ content, locale, contactForm }: OutsourcedManagementProps & { contactForm: any }) => {
+const OutsourcedManagement = ({ content, locale, contact }: OutsourcedManagementProps & { contactForm: any }) => {
   return (
     <div className="min-h-screen">
       <main className="pt-16">
@@ -36,7 +37,7 @@ const OutsourcedManagement = ({ content, locale, contactForm }: OutsourcedManage
                       {content?.content?.intro?.[locale] || content?.intro || ''}
                     </p>
                     <div className="mt-8 text-left">
-                      <ContactForm locale={locale} buttonLabel="click here" formStrings={contactForm} className="w-full text-left" />
+                      <ContactForm locale={locale} buttonLabel="click here" formStrings={contact} className="w-full text-left" />
                     </div>
                   </div>
                 </div>
@@ -54,7 +55,7 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
   const content = await client.fetch(outsourcedManagementQuery, { locale: usedLocale });
   const footer = await client.fetch(footerQuery);
   const navigation = await client.fetch(navigationQuery, { locale: usedLocale });
-  const contactForm = await client.fetch(contactQuery);
+  const contact = await client.fetch(contactQuery);
   
   return {
     props: {
@@ -62,7 +63,7 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
       footer,
       locale: usedLocale,
       navigation,
-      contactForm
+      contact
     },
   };
 };

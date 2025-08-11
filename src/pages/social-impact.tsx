@@ -12,10 +12,10 @@ type SocialImpactProps = {
   locale: string;
   navigation: any;
   footer: any;
-  contactForm: any;
+  contact: any;
 };
 
-const SocialImpact = ({ content, locale, navigation, footer, contactForm }: SocialImpactProps) => {
+const SocialImpact = ({ content, locale, contact }: SocialImpactProps) => {
   const baseUrl = 'https://european-management-institute.github.io/luca_bazzanella';
   return (
     <div className="min-h-screen">
@@ -41,7 +41,7 @@ const SocialImpact = ({ content, locale, navigation, footer, contactForm }: Soci
                       {content?.heroDescription?.[locale] || content?.heroDescription || ''}
                     </p>
                     <div className="mt-8 text-left">
-                      <ContactForm locale={locale} buttonLabel="click here" formStrings={contactForm} className="w-full text-left" />
+                      <ContactForm locale={locale} buttonLabel="click here" formStrings={contact} className="w-full text-left" />
                     </div>
                   </div>
                 </div>
@@ -59,12 +59,12 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
   let content;
   let navigation;
   let footer;
-  let contactForm;
+  let contact;
   try {
     content = await client.fetch(socialImpactQuery, { locale: usedLocale });
     navigation = await client.fetch(navigationQuery, { locale: usedLocale });
     footer = await client.fetch('*[_type == "footer"][0]');
-    contactForm = await client.fetch(contactQuery, { locale: usedLocale });
+    contact = await client.fetch(contactQuery);
     
   } catch (e) {
     content = {};
@@ -75,7 +75,7 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
       locale: usedLocale,
       navigation,
       footer,
-      contactForm
+      contact
     },
   };
 };
