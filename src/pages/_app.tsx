@@ -16,6 +16,8 @@ function MyApp({ Component, pageProps }: AppProps) {
   const [locale, setLocale] = useState('it');
   const navigationContent = pageProps?.navigation ?? {};
   const footerContent = pageProps?.footer ?? {};
+  const contactForm = pageProps?.contactForm ?? {};
+
   // Pass locale and setLocale to all pages
   return (
     <QueryClientProvider client={queryClient}>
@@ -24,7 +26,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <Sonner />
         <Navigation content={navigationContent} locale={locale} setLocale={setLocale} />
         <Component {...pageProps} locale={locale} setLocale={setLocale} />
-  <Footer content={footerContent} locale={locale} contactBanner={pageProps?.contactForm?.contactBanner} />
+        <Footer content={{ ...footerContent, ...contactForm }} locale={locale} contactBanner={pageProps?.contactForm?.contactBanner} />
       </TooltipProvider>
     </QueryClientProvider>
   );
