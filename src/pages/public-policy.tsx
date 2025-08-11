@@ -1,9 +1,5 @@
-
-import Navigation from '@/components/Navigation';
-import Footer from '@/components/Footer';
 import { ArrowLeft } from 'lucide-react';
 import { GetStaticProps } from 'next';
-import ScrollToTop from '@/hooks/ScrollToTop';
 import { client } from '@/sanity/client';
 import { contactQuery, footerQuery, navigationQuery, publicPolicyQuery } from '@/sanity/queries';
 import { getSanityImageUrl } from '@/lib/getSanityImageUrl';
@@ -18,7 +14,6 @@ type PublicPolicyProps = {
 
 const PublicPolicy = ({ content, locale, navigation, footer, contactForm }: PublicPolicyProps) => {
   const baseUrl = 'https://european-management-institute.github.io/luca_bazzanella';
-  ScrollToTop();
   return (
     <div className="min-h-screen">
       <main className="pt-16">
@@ -61,7 +56,6 @@ const PublicPolicy = ({ content, locale, navigation, footer, contactForm }: Publ
           </div>
         </section>
       </main>
-  <Footer content={footer} locale={locale} />
     </div>
   );
 };

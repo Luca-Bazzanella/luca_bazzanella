@@ -6,10 +6,12 @@ interface ContactFormProps {
   buttonLabel?: string;
   locale?: string;
   formStrings?: any;
+  hideBanner?: boolean;
+  className?: string;
 }
 
-const ContactForm: React.FC<ContactFormProps> = ({ buttonLabel = 'click here', locale = 'it', formStrings }) => {
-  const [showForm, setShowForm] = useState(false);
+const ContactForm: React.FC<ContactFormProps> = ({ buttonLabel = 'click here', locale = 'it', formStrings, hideBanner }) => {
+  const [showForm, setShowForm] = useState(hideBanner ? true : false);
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -70,26 +72,28 @@ const ContactForm: React.FC<ContactFormProps> = ({ buttonLabel = 'click here', l
   };
 
   return (
-  <div className="mt-6 p-3 border border-gray-200 rounded-2xl shadow-lg text-center bg-white flex flex-col justify-center items-center h-full">
-      <div className="text-lg font-medium text-gray-900">
-  {getString('contactBanner') || 'To get in touch to know more about'}{' '}
-        <button
-          type="button"
-          className="inline-block underline text-black hover:text-gray-700 font-semibold"
-          onClick={() => setShowForm(!showForm)}
-        >
-          {buttonLabel}
-        </button>
-      </div>
+    <div className={hideBanner ? "" : "mt-6 p-3 border border-gray-200 rounded-2xl shadow-lg text-center bg-white flex flex-col justify-center items-center h-full"}>
+      {!hideBanner && (
+        <div className="text-lg font-medium text-gray-900">
+          {getString('contactBanner') || 'To get in touch to know more about'}{' '}
+          <button
+            type="button"
+            className="inline-block underline text-black hover:text-gray-700 font-semibold"
+            onClick={() => setShowForm(!showForm)}
+          >
+            {buttonLabel}
+          </button>
+        </div>
+      )}
       {showForm && (
         <div className={submitted ? `` : 'mx-auto max-w-md bg-white rounded-lg shadow-lg p-6 mt-6'}>
           {submitted ? (
-      <div>{getString('thankYou') || 'Thank you for your submission!'}</div>
+            <div>{getString('thankYou') || 'Thank you for your submission!'}</div>
           ) : (
             <form className="space-y-6" onSubmit={handleSubmit}>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
-            <label htmlFor="firstName" className="block text-sm font-semibold text-gray-900 text-left">{getString('firstName') || 'First Name'}</label>
+                  <label htmlFor="firstName" className="block text-sm font-semibold text-gray-900 text-left">{getString('firstName') || 'First Name'}</label>
                   <input
                     id="firstName"
                     name="firstName"
@@ -101,7 +105,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ buttonLabel = 'click here', l
                   />
                 </div>
                 <div>
-            <label htmlFor="lastName" className="block text-sm font-semibold text-gray-900 text-left">{getString('lastName') || 'Last Name'}</label>
+                  <label htmlFor="lastName" className="block text-sm font-semibold text-gray-900 text-left">{getString('lastName') || 'Last Name'}</label>
                   <input
                     id="lastName"
                     name="lastName"
@@ -114,7 +118,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ buttonLabel = 'click here', l
                 </div>
               </div>
               <div>
-          <label htmlFor="email" className="block text-sm font-semibold text-gray-900 text-left">{getString('email') || 'Email'}</label>
+                <label htmlFor="email" className="block text-sm font-semibold text-gray-900 text-left">{getString('email') || 'Email'}</label>
                 <input
                   id="email"
                   name="email"
@@ -126,7 +130,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ buttonLabel = 'click here', l
                 />
               </div>
               <div>
-          <label htmlFor="description" className="block text-sm font-semibold text-gray-900 text-left">{getString('message') || 'Message'}</label>
+                <label htmlFor="description" className="block text-sm font-semibold text-gray-900 text-left">{getString('message') || 'Message'}</label>
                 <textarea
                   id="description"
                   name="description"
@@ -143,7 +147,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ buttonLabel = 'click here', l
                 className="block w-full rounded-md bg-blue-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xs hover:bg-blue-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
                 disabled={loading}
               >
-          {loading ? (getString('submitting') || 'Submitting...') : (getString('submit') || 'Submit')}
+                {loading ? (getString('submitting') || 'Submitting...') : (getString('submit') || 'Submit')}
               </button>
             </form>
           )}

@@ -1,6 +1,5 @@
 import { ArrowLeft, Calendar, MapPin, Users, ExternalLink } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
-import ScrollToTop from '@/hooks/ScrollToTop';
 import { GetStaticProps } from 'next';
 import { client } from '@/sanity/client';
 import { allConferencesQuery, footerQuery, navigationQuery } from '@/sanity/queries';
@@ -11,7 +10,6 @@ type AllConferencesProps = {
 };
 
 const AllConferences = ({ content, locale }: AllConferencesProps) => {
-  ScrollToTop();
   return (
     <div className="min-h-screen">
       <main className="pt-16">

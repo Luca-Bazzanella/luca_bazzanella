@@ -1,9 +1,6 @@
 
-import Navigation from '@/components/Navigation';
-import Footer from '@/components/Footer';
 import { ArrowLeft } from 'lucide-react';
 import ContactForm from '@/components/ContactForm';
-import ScrollToTop from '@/hooks/ScrollToTop';
 import { GetStaticProps } from 'next';
 import { client } from '@/sanity/client';
 import { contactQuery, footerQuery, navigationQuery, outsourcedManagementQuery } from '@/sanity/queries';
@@ -15,10 +12,6 @@ type OutsourcedManagementProps = {
   locale: string;
 };
 const OutsourcedManagement = ({ content, locale, contactForm }: OutsourcedManagementProps & { contactForm: any }) => {
-  ScrollToTop();
-// ...existing code...
-
-  console.log(content)
   return (
     <div className="min-h-screen">
       <main className="pt-16">

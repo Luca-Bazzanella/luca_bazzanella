@@ -24,7 +24,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <Sonner />
         <Navigation content={navigationContent} locale={locale} setLocale={setLocale} />
         <Component {...pageProps} locale={locale} setLocale={setLocale} />
-        <Footer content={footerContent} locale={locale} />
+  <Footer content={footerContent} locale={locale} contactBanner={pageProps?.contactForm?.contactBanner} />
       </TooltipProvider>
     </QueryClientProvider>
   );

@@ -1,9 +1,6 @@
 
-import Navigation from '@/components/Navigation';
-import Footer from '@/components/Footer';
 import { ArrowLeft } from 'lucide-react';
 import { GetStaticProps } from 'next';
-import ScrollToTop from '@/hooks/ScrollToTop';
 import { client } from '@/sanity/client';
 import { contactQuery, navigationQuery, socialImpactQuery } from '@/sanity/queries';
 import { getSanityImageUrl } from '@/lib/getSanityImageUrl';
@@ -20,7 +17,6 @@ type SocialImpactProps = {
 
 const SocialImpact = ({ content, locale, navigation, footer, contactForm }: SocialImpactProps) => {
   const baseUrl = 'https://european-management-institute.github.io/luca_bazzanella';
-  ScrollToTop();
   return (
     <div className="min-h-screen">
       <main className="pt-16">
@@ -63,7 +59,6 @@ const SocialImpact = ({ content, locale, navigation, footer, contactForm }: Soci
           </div>
         </section>
       </main>
-      <Footer content={footer} locale={locale} />
     </div>
   );
 };

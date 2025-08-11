@@ -1,7 +1,34 @@
 
 import { Linkedin, Mail, MapPin } from 'lucide-react';
+import { useState, useMemo } from 'react';
+import ContactForm from '@/components/ContactForm';
 
-const Footer = ({ content, locale }) => {
+interface FooterProps {
+  content: any;
+  locale: string;
+  contactBanner?: any;
+}
+
+const Footer = ({ content, locale, contactBanner }: FooterProps) => {
+  const [showModal, setShowModal] = useState(false);
+  const baseFormStrings = useMemo(() => {
+    // Use the same logic as ContactForm for fallback
+    let strings = content?.contactForm || {};
+    if (!strings) {
+      strings = {};
+    }
+    return strings;
+  }, [content]);
+
+  const MemoizedContactForm = useMemo(() => (
+    <ContactForm
+      locale={locale}
+      buttonLabel=""
+      formStrings={baseFormStrings}
+      hideBanner
+      className="p-0 bg-transparent border-none shadow-none rounded-none"
+    />
+  ), [locale, baseFormStrings]);
 
   return (
     <footer className="bg-gray-950 text-white py-12">
@@ -35,7 +62,30 @@ const Footer = ({ content, locale }) => {
             <div className="space-y-3 text-gray-400">
               <div className="flex items-center">
                 <Mail className="h-4 w-4 mr-2 text-luca-blue-400" />
-                 <span>{content?.learnMore?.[locale] || content?.learnMore || ''}</span>
+                <div className="text-gray-400 leading-relaxed">
+                  {content?.contactBanner?.[locale] || content?.contactBanner?.en || 'To get in touch to know more about'}{' '}
+                  <button
+                    type="button"
+                    className="inline-block underline hover:text-gray-300 text-gray-400 leading-relaxed"
+                    onClick={() => setShowModal(true)}
+                  >
+                    click here
+                  </button>
+                  {showModal && (
+                    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-60">
+                      <div className="bg-white rounded-xl shadow-lg p-6 max-w-lg w-full relative">
+                        <button
+                          className="absolute top-2 right-2 text-gray-500 hover:text-gray-700 text-xl font-bold"
+                          onClick={() => setShowModal(false)}
+                          aria-label="Close"
+                        >
+                          &times;
+                        </button>
+                        {MemoizedContactForm}
+                      </div>
+                    </div>
+                  )}
+                </div>
               </div>
               <div className="flex items-center">
                 <MapPin className="h-4 w-4 mr-2 text-luca-blue-400" />
@@ -51,6 +101,6 @@ const Footer = ({ content, locale }) => {
       </div>
     </footer>
   );
-};
+}
 
 export default Footer;
