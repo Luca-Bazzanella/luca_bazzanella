@@ -11,7 +11,8 @@ import {
   socialImpactQuery,
   conferencesQuery,
   navigationQuery,
-  footerQuery
+  footerQuery,
+  contactQuery
 } from '@/sanity/queries';
 
 export async function getStaticProps() {
@@ -19,12 +20,14 @@ export async function getStaticProps() {
   const about = await client.fetch(aboutQuery);
   const navigation = await client.fetch(navigationQuery);
   const footer = await client.fetch(footerQuery);
+  const contact = await client.fetch(contactQuery);
   return {
     props: {
       hero,
       about,
       navigation,
-      footer
+      footer,
+      contact
     }
   };
 }

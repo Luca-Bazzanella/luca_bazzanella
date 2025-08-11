@@ -69,7 +69,7 @@ const Footer = ({ content, locale, contactBanner }: FooterProps) => {
                     className="inline-block underline hover:text-gray-300 text-gray-400 leading-relaxed"
                     onClick={() => setShowModal(true)}
                   >
-                    click here
+                    {content?.clickHere?.[locale] || content?.clickHere?.en || 'click here'}
                   </button>
                   {showModal && (
                     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-60">
