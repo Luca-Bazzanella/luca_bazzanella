@@ -68,12 +68,12 @@ const AboutSection = ({ content, locale }) => {
                   </div>
                 </div>
                 <div className="space-y-4 mb-6 flex-grow">
-                  <p className="text-slate-600 text-sm leading-relaxed">
+                  <p className="text-slate-600 text-sm leading-relaxed text-justify">
                     {typeof org.description === 'object'
                       ? org.description?.[locale] || org.description?.en || org.description?.it || ''
                       : org.description || ''}
                   </p>
-                  <p className="text-slate-500 text-sm leading-relaxed">
+                  <p className="text-slate-500 text-sm leading-relaxed text-justify">
                     {typeof org.approach === 'object'
                       ? org.approach?.[locale] || org.approach?.en || org.approach?.it || ''
                       : org.approach || ''}
