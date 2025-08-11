@@ -127,17 +127,12 @@ export const outsourcedManagement = {
       }
     ] },
     { name: 'title', type: 'localeString', title: 'Title' },
-    { name: 'description', type: 'localeText', title: 'Description' },
     { name: 'backToHome', type: 'localeString', title: 'Back To Home' },
-    { name: 'heroDescription', type: 'localeText', title: 'Header Description' },
     { name: 'role', type: 'localeString', title: 'Role' },
     { name: 'impact', type: 'localeString', title: 'Impact' },
     { name: 'content', type: 'object', title: 'Content', fields: [
       { name: 'intro', type: 'localeText', title: 'Intro' },
-    ] },
-    { name: 'projects', type: 'array', title: 'Projects', of: [{ type: 'object', fields: [
-      { name: 'link', type: 'url', title: 'Link' }
-    ] }] }
+    ] }
   ]
 }
 
@@ -159,7 +154,6 @@ export const socialImpact = {
     { name: 'title', type: 'localeString', title: 'Title' },
     { name: 'backToHome', type: 'localeString', title: 'Back To Home' },
     { name: 'heroDescription', type: 'localeText', title: 'Header Description' },
-    { name: 'impact', type: 'localeText', title: 'Impact' },
     { name: 'projects', type: 'array', title: 'Projects', of: [{ type: 'object', fields: [
       { name: 'link', type: 'url', title: 'Link' },
       { name: 'description', type: 'localeText', title: 'Description' }
@@ -172,6 +166,7 @@ export const allConferences = {
   name: 'allConferences',
   type: 'document',
   fields: [
+    { name: 'title', type: 'localeString', title: 'Title' },
     { name: 'backToHome', type: 'localeString', title: 'Back To Home' },
     { name: 'attendees', type: 'localeString', title: 'Attendees' },
     { name: 'learnMore', type: 'localeString', title: 'Learn More' },

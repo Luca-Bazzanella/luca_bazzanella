@@ -276,14 +276,6 @@ const footerDoc = {
   _id: 'footer-single',
   _type: 'footer',
   description: localizeSection('footer', ['description']).description,
-  services: localizeSection('footer', ['services']).services,
-  servicesList: Array.isArray(en.footer.servicesList) && Array.isArray(it.footer.servicesList)
-    ? (en.footer.servicesList || []).map((s, i) => ({
-        _key: `service_${i}_${Math.random().toString(36).substr(2, 6)}`,
-        en: s.en || '',
-        it: s.it || ''
-      }))
-    : undefined,
   contacts: localizeSection('footer', ['contacts']).contacts,
   location: localizeSection('footer', ['location']).location,
   copyright: localizeSection('footer', ['copyright']).copyright
