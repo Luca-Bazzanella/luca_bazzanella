@@ -55,6 +55,7 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
   const footer = await client.fetch(footerQuery);
   const navigation = await client.fetch(navigationQuery, { locale: usedLocale });
   const contactForm = await client.fetch(contactQuery);
+  
   return {
     props: {
       content,

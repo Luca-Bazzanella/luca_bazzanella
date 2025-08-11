@@ -2,7 +2,7 @@ import { ArrowLeft, Calendar, MapPin, Users, ExternalLink } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { GetStaticProps } from 'next';
 import { client } from '@/sanity/client';
-import { allConferencesQuery, footerQuery, navigationQuery } from '@/sanity/queries';
+import { allConferencesQuery, contactQuery, footerQuery, navigationQuery } from '@/sanity/queries';
 
 type AllConferencesProps = {
   content: any;
@@ -91,10 +91,12 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
   let content;
   let navigation;
   let footer;
+  let contact;
   try {
     content = await client.fetch(allConferencesQuery, { locale: usedLocale });
     navigation = await client.fetch(navigationQuery, { locale: usedLocale });
     footer = await client.fetch(footerQuery);
+    contact = await client.fetch(contactQuery, { locale: usedLocale });
   } catch (e) {
     content = {};
   }
@@ -103,7 +105,8 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
       content: content || {},
       locale: usedLocale,
       navigation,
-      footer
+      footer,
+      contact
     },
   };
 };

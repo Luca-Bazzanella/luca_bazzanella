@@ -12,7 +12,7 @@ type PublicPolicyProps = {
   contactForm: any;
 };
 
-const PublicPolicy = ({ content, locale, navigation, footer, contactForm }: PublicPolicyProps) => {
+const PublicPolicy = ({ content, locale, contactForm }: PublicPolicyProps) => {
   const baseUrl = 'https://european-management-institute.github.io/luca_bazzanella';
   return (
     <div className="min-h-screen">
@@ -55,7 +55,7 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
   const content = await client.fetch(publicPolicyQuery, { locale: usedLocale });
   const navigation = await client.fetch(navigationQuery, { locale: usedLocale });
   const footer = await client.fetch(footerQuery);
-  const contactForm = await client.fetch(contactQuery, { locale: usedLocale });
+  const contactForm = await client.fetch(contactQuery);
   return {
     props: {
       content,

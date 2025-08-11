@@ -29,7 +29,6 @@ const Footer = ({ content, locale, contactBanner }: FooterProps) => {
       className="p-0 bg-transparent border-none shadow-none rounded-none"
     />
   ), [locale, baseFormStrings]);
-
   return (
     <footer className="bg-gray-950 text-white py-12">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">

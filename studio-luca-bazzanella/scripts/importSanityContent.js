@@ -197,7 +197,6 @@ async function buildPublicPolicyDoc() {
     _id: 'publicPolicy-single',
     _type: 'publicPolicy',
     title: localizeSection('publicPolicy', ['title']).title,
-    intro: localizeSection('publicPolicy', ['intro']).intro,
     backToHome: localizeSection('publicPolicy', ['backToHome']).backToHome,
     heroTitle: localizeSection('publicPolicy', ['heroTitle']).heroTitle,
     heroDescription: localizeSection('publicPolicy', ['heroDescription']).heroDescription,

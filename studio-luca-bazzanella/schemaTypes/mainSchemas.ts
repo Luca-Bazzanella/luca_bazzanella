@@ -105,7 +105,6 @@ export const publicPolicy = {
       }
     ] },
     { name: 'title', type: 'localeString', title: 'Title' },
-    { name: 'intro', type: 'localeText', title: 'Intro' },
     { name: 'backToHome', type: 'localeString', title: 'Back To Home' },
     { name: 'heroTitle', type: 'localeString', title: 'Hero Title' },
     { name: 'heroDescription', type: 'localeText', title: 'Header Description' }

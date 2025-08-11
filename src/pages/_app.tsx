@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   const [locale, setLocale] = useState('it');
   const navigationContent = pageProps?.navigation ?? {};
   const footerContent = pageProps?.footer ?? {};
-  const contactForm = pageProps?.contact ?? {};
+  const contactForm = pageProps?.contactForm ?? {};
 
   // Pass locale and setLocale to all pages
   return (
