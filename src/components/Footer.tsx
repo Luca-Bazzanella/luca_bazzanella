@@ -9,7 +9,7 @@ interface FooterProps {
   contactBanner?: any;
 }
 
-const Footer = ({ content, locale, contactBanner }: FooterProps) => {
+const Footer = ({ content, locale }: FooterProps) => {
   const [showModal, setShowModal] = useState(false);
   const baseFormStrings = useMemo(() => {
     // Use the same logic as ContactForm for fallback
