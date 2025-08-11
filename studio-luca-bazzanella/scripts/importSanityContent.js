@@ -243,8 +243,7 @@ async function buildSocialImpactDoc() {
     title: localizeSection('socialImpact', ['title']).title,
     backToHome: localizeSection('socialImpact', ['backToHome']).backToHome,
     heroDescription: localizeSection('socialImpact', ['heroDescription']).heroDescription,
-    images,
-    impact: localizeSection('socialImpact', ['impact']).impact
+    images
   };
 };
 
