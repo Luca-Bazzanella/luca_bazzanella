@@ -11,6 +11,7 @@ interface ContactFormProps {
 }
 
 const ContactForm: React.FC<ContactFormProps> = ({ buttonLabel = 'click here', locale = 'it', formStrings, hideBanner }) => {
+
   const [showForm, setShowForm] = useState(hideBanner ? true : false);
   const [formData, setFormData] = useState({
     firstName: '',
@@ -28,7 +29,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ buttonLabel = 'click here', l
     const content = locale === 'en' ? contentEN : contentIT;
     strings = content?.contactForm || {};
   }
-  
+
   // Helper to get localized string from Sanity schema
   const getString = (key: string) => {
     if (strings && typeof strings[key] === 'object' && strings[key] !== null) {
@@ -81,7 +82,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ buttonLabel = 'click here', l
             className="inline-block underline text-black hover:text-gray-700 font-semibold"
             onClick={() => setShowForm(!showForm)}
           >
-            {buttonLabel}
+            {getString('clickHere')}
           </button>
         </div>
       )}

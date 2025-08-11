@@ -1,7 +1,7 @@
 {
   "navigation": {
     "management": "Outsourced Management",
-    "policy": "Public Policy", 
+    "policy": "Public Policy",
     "socialImpact": "Social Impact",
     "conferences": "Conferences",
     "name": "Dr. Luca Bazzanella",
@@ -111,8 +111,8 @@
         "id": "ermetes",
         "title": "Cooperativa Ermetes SCS",
         "role": "President",
-          "description": "A Trentino-based cooperative with a prevalent mutualistic purpose that supports the employment of disadvantaged individuals through targeted training and fieldwork activities.",
-          "approach": "Under the new presidency and management, a new system for measuring social impact was introduced, along with a 'C-level' corporate management system aimed at bringing efficiency and competitiveness by proactively and more directly involving all worker-members.",
+        "description": "A Trentino-based cooperative with a prevalent mutualistic purpose that supports the employment of disadvantaged individuals through targeted training and fieldwork activities.",
+        "approach": "Under the new presidency and management, a new system for measuring social impact was introduced, along with a 'C-level' corporate management system aimed at bringing efficiency and competitiveness by proactively and more directly involving all worker-members.",
         "link": "https://www.ermetes.it"
       },
       {
@@ -328,6 +328,7 @@
   },
   "contactForm": {
     "contactBanner": "To get in touch to know more about",
+    "clickHere": "click here",
     "thankYou": "Thank you for your submission!",
     "firstName": "First Name",
     "lastName": "Last Name",
@@ -339,7 +340,6 @@
   "footer": {
     "description": "Trentino manager born in 1991 specialized in business and digital management with particular experience in public policies.",
     "contacts": "Contacts",
-    "learnMore": "Per saperne di piu sui progetti e per essere contattato clicca QUI",
     "location": "Trento, Italy, Bruxelles, Roma",
     "copyright": "Developed by Sintija Birgele. All rights reserved by European Management Institute"
   }

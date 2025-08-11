@@ -1,7 +1,7 @@
 {
   "navigation": {
     "management": "Management esternalizzato",
-    "policy": "Politiche Pubbliche", 
+    "policy": "Politiche Pubbliche",
     "socialImpact": "Impatto Sociale",
     "conferences": "Conferenze",
     "name": "dott. Luca Bazzanella",
@@ -218,15 +218,15 @@
         "topic": "Incontro di monitoraggio e discussione pubblica sulla ridefinizione dei fondi strutturali europei per i settori economici locali.",
         "link": "https://www.youtube.com/watch?v=1_0FOnf7V40",
         "links": [
-        {
-          "name": "YouTube Video",
-          "url": "https://www.youtube.com/watch?v=1_0FOnf7V40&pp=ygUWbHVjYSBiYXp6YW5lbGxhIHRyZW50bw%3D%3D"
-        },
-        {
-          "name": "Facebook Video",
-          "url": "https://www.facebook.com/watch/?v=573766943245518"
-        }
-      ]
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=1_0FOnf7V40&pp=ygUWbHVjYSBiYXp6YW5lbGxhIHRyZW50bw%3D%3D"
+          },
+          {
+            "name": "Facebook Video",
+            "url": "https://www.facebook.com/watch/?v=573766943245518"
+          }
+        ]
       },
       {
         "title": "Il Partenariato Pubblico Privato per uno sviluppo sostenibile del Trentino",
@@ -235,10 +235,10 @@
         "attendees": "60+",
         "topic": "Strategie ed esempi di partenariati pubblico-privati per sostenere lo sviluppo sostenibile in Trentino.",
         "link": "https://unione.tn.it/notizia/il-partenariato-pubblico-privato-per-uno-sviluppo-sostenibile-del-trentino",
-                "links": [
+        "links": [
           {
-          "name": "Link PAT",
-          "url": "https://agenda2030.provincia.tn.it/In-evidenza/Il-Partenariato-Pubblico-Privato-per-uno-sviluppo-sostenibile-del-Trentino"
+            "name": "Link PAT",
+            "url": "https://agenda2030.provincia.tn.it/In-evidenza/Il-Partenariato-Pubblico-Privato-per-uno-sviluppo-sostenibile-del-Trentino"
           },
           {
             "name": "Link Confcommercio",
@@ -292,27 +292,27 @@
         "topic": "Evento educativo di lancio che coinvolge studenti delle scuole superiori nella co-progettazione di città future sostenibili e resilienti.",
         "link": "https://www.cci.tn.it/contest-smart-city-del-futuro/",
         "links": [
-        {
-          "name": "Link PAT",
-          "url": "https://educazioneambientale.provincia.tn.it/Catalogo-del-sistema-provinciale/Contest-Smart-City-del-Futuro"
-        },
-        {
-          "name": "Link CCI",
-          "url": "https://www.cci.tn.it/contest-smart-city-del-futuro/"
-        },
-        {
-          "name": "Adigetto Article",
-          "url": "https://www.ladigetto.it/interno/133319-la-premiazione-si-e-tenuta-stamattina-al-muse.html"
-        },
-        {
-          "name": "Voce Trentino Article",
-          "url": "https://www.lavocedeltrentino.it/2023/02/15/la-smart-city-del-futuro-ideata-e-progettata-dagli-studenti-trentini-venerdi-via-al-contest-nelle-scuole/"
-        },
-        {
-          "name": "Link SEA",
-          "url": "https://www.sustainableeconomy.eu/progetti/inaugurato-al-muse-il-contest-tra-istituti-scolastici-smart-city-del-futuro/"
-        }
-      ]
+          {
+            "name": "Link PAT",
+            "url": "https://educazioneambientale.provincia.tn.it/Catalogo-del-sistema-provinciale/Contest-Smart-City-del-Futuro"
+          },
+          {
+            "name": "Link CCI",
+            "url": "https://www.cci.tn.it/contest-smart-city-del-futuro/"
+          },
+          {
+            "name": "Adigetto Article",
+            "url": "https://www.ladigetto.it/interno/133319-la-premiazione-si-e-tenuta-stamattina-al-muse.html"
+          },
+          {
+            "name": "Voce Trentino Article",
+            "url": "https://www.lavocedeltrentino.it/2023/02/15/la-smart-city-del-futuro-ideata-e-progettata-dagli-studenti-trentini-venerdi-via-al-contest-nelle-scuole/"
+          },
+          {
+            "name": "Link SEA",
+            "url": "https://www.sustainableeconomy.eu/progetti/inaugurato-al-muse-il-contest-tra-istituti-scolastici-smart-city-del-futuro/"
+          }
+        ]
       },
       {
         "title": "Confronto politico dal vivo all’americana: Sviluppo Sostenibile in Trentino",
@@ -325,7 +325,8 @@
     ]
   },
   "contactForm": {
-    "contactBanner": "Per metterti in contatto per saperne di più clicca qui",
+    "contactBanner": "Per metterti in contatto per saperne di più",
+    "clickHere": "clicca qui",
     "thankYou": "Grazie per la tua richiesta!",
     "firstName": "Nome",
     "lastName": "Cognome",

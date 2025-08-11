@@ -214,6 +214,7 @@ export const contactForm = {
   title: 'Contact Form',
   fields: [
     { name: 'contactBanner', type: 'localeString', title: 'Contact Banner' },
+  { name: 'clickHere', type: 'localeString', title: 'Click Here Link' },
     { name: 'thankYou', type: 'localeString', title: 'Thank You Message' },
     { name: 'firstName', type: 'localeString', title: 'First Name' },
     { name: 'lastName', type: 'localeString', title: 'Last Name' },

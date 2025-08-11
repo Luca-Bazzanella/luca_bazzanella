@@ -61,6 +61,10 @@ const contactFormDoc = {
     en: en.contactForm?.contactBanner || '',
     it: it.contactForm?.contactBanner || ''
   },
+  clickHere: {
+    en: en.contactForm?.clickHere || '',
+    it: it.contactForm?.clickHere || ''
+  },
   thankYou: {
     en: en.contactForm?.thankYou || '',
     it: it.contactForm?.thankYou || ''
