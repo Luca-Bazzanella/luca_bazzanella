@@ -1,6 +1,5 @@
 
 import { Linkedin, Mail, MapPin } from 'lucide-react';
-import { Twitter } from 'lucide-react';
 import { useState, useMemo } from 'react';
 import ContactForm from '@/components/ContactForm';
 
