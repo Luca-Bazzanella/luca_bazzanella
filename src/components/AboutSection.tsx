@@ -54,7 +54,7 @@ const AboutSection = ({ content, locale }) => {
 
           {/* Key Activities Header */}
           <div className="mb-12">
-            <h2 className="text-3xl font-bold text-slate-800 mb-6">{content?.keyActivities?.[locale] || 'Key Activities'}</h2>
+            <h2 className="text-3xl font-bold text-slate-800 mb-6 pl-8 lg:pl-0">{content?.keyActivities?.[locale] || 'Key Activities'}</h2>
           </div>
 
           {/* Organizations Cards */}

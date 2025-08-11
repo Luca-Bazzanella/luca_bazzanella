@@ -170,7 +170,10 @@ async function buildAboutDoc() {
           _key: `org_${i}_${Math.random().toString(36).substr(2, 6)}`,
           id: org.id || '',
           title: org.title || '',
-          role: org.role || '',
+          role: {
+            en: org.role || '',
+            it: it.about.organizations?.[i]?.role || ''
+          },
           description: {
             en: org.description || '',
             it: it.about.organizations?.[i]?.description || ''

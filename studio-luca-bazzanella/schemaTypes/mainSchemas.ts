@@ -83,7 +83,7 @@ export const about = {
     { name: 'organizations', type: 'array', title: 'Organizations', of: [{ type: 'object', fields: [
       { name: 'id', type: 'string', title: 'ID' },
       { name: 'title', type: 'string', title: 'Title' },
-      { name: 'role', type: 'string', title: 'Role' },
+      { name: 'role', type: 'localeString', title: 'Role' },
       { name: 'link', type: 'url', title: 'Link' }
     ] }] }
   ]
