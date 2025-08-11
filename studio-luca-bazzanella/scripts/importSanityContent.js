@@ -10,6 +10,7 @@ const client = createClient({
   projectId: 'n2d0sl08',
   dataset: 'production',
   useCdn: false,
+  token: 'skpwbeuQWiNMuxm49TAklm3VSE7p2UEiQaxlFvRiSeTH4Z0Juh8HuKwkBrRnSukQxKGbweKX9GFMhl1SL0AdYSSOtR795xz0MNraOdmWGjdyD8MzoRba6PHvtdVogR1frHFf3Eis2QRCpcP6pHsraL9x3XoEJ4zub52Msl2FgFcSPdjo7EvF',
   apiVersion: '2023-08-01' // Specify Sanity API version
 });
 
@@ -51,6 +52,44 @@ async function uploadImages(imageList, baseDir) {
 // Load JSON files
 const en = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/content-en.json'), 'utf8'));
 const it = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/content-it.json'), 'utf8'));
+
+// Prepare contactForm document
+const contactFormDoc = {
+  _id: 'contactForm-single',
+  _type: 'contactForm',
+  contactBanner: {
+    en: en.contactForm?.contactBanner || '',
+    it: it.contactForm?.contactBanner || ''
+  },
+  thankYou: {
+    en: en.contactForm?.thankYou || '',
+    it: it.contactForm?.thankYou || ''
+  },
+  firstName: {
+    en: en.contactForm?.firstName || '',
+    it: it.contactForm?.firstName || ''
+  },
+  lastName: {
+    en: en.contactForm?.lastName || '',
+    it: it.contactForm?.lastName || ''
+  },
+  email: {
+    en: en.contactForm?.email || '',
+    it: it.contactForm?.email || ''
+  },
+  message: {
+    en: en.contactForm?.message || '',
+    it: it.contactForm?.message || ''
+  },
+  submitting: {
+    en: en.contactForm?.submitting || '',
+    it: it.contactForm?.submitting || ''
+  },
+  submit: {
+    en: en.contactForm?.submit || '',
+    it: it.contactForm?.submit || ''
+  }
+};
 
 // Helper to localize a string field
 function localizeString(key) {
@@ -122,6 +161,7 @@ async function buildAboutDoc() {
     _type: 'about',
     title: localizeSection('about', ['title']).title,
     name: localizeSection('about', ['name']).name,
+    keyActivities: localizeSection('about', ['keyActivities']).keyActivities,
     carouselImages,
     organizations: Array.isArray(en.about.organizations) && Array.isArray(it.about.organizations)
       ? (en.about.organizations || []).map((org, i) => ({
@@ -160,7 +200,6 @@ async function buildPublicPolicyDoc() {
     backToHome: localizeSection('publicPolicy', ['backToHome']).backToHome,
     heroTitle: localizeSection('publicPolicy', ['heroTitle']).heroTitle,
     heroDescription: localizeSection('publicPolicy', ['heroDescription']).heroDescription,
-    learnMore: localizeSection('publicPolicy', ['learnMore']).learnMore,
     images
   };
 }
@@ -177,12 +216,16 @@ async function buildOutsourcedManagementDoc() {
     _id: 'outsourcedManagement-single',
     _type: 'outsourcedManagement',
     title: localizeSection('outsourcedManagement', ['title']).title,
-    description: localizeSection('outsourcedManagement', ['description']).description,
     backToHome: localizeSection('outsourcedManagement', ['backToHome']).backToHome,
     heroDescription: localizeSection('outsourcedManagement', ['heroDescription']).heroDescription,
     role: localizeSection('outsourcedManagement', ['role']).role,
     impact: localizeSection('outsourcedManagement', ['impact']).impact,
-    learnMore: localizeSection('outsourcedManagement', ['learnMore']).learnMore,
+    content: {
+      intro: {
+        en: en.outsourcedManagement?.content?.intro || '',
+        it: it.outsourcedManagement?.content?.intro || ''
+      }
+    },
     images
   };
 }
@@ -199,31 +242,21 @@ async function buildSocialImpactDoc() {
     _id: 'socialImpact-single',
     _type: 'socialImpact',
     title: localizeSection('socialImpact', ['title']).title,
-    description: localizeSection('socialImpact', ['description']).description,
     backToHome: localizeSection('socialImpact', ['backToHome']).backToHome,
     heroDescription: localizeSection('socialImpact', ['heroDescription']).heroDescription,
     images,
-    impact: localizeSection('socialImpact', ['impact']).impact,
-    // Removed unused 'projects' field as it is not present in the JSON files
-    learnMore: localizeSection('socialImpact', ['learnMore']).learnMore
+    impact: localizeSection('socialImpact', ['impact']).impact
   };
 };
 
 const allConferencesDoc = {
   _id: 'allConferences-single',
   _type: 'allConferences',
-  title: localizeSection('allConferences', ['title']).title,
-  subtitle: localizeSection('allConferences', ['subtitle']).subtitle,
-  backToHome: localizeSection('allConferences', ['backToHome']).backToHome,
-  featuredTitle: localizeSection('allConferences', ['featuredTitle']).featuredTitle,
-  allTitle: localizeSection('allConferences', ['allTitle']).allTitle,
   attendees: localizeSection('allConferences', ['attendees']).attendees,
   learnMore: localizeSection('allConferences', ['learnMore']).learnMore,
-  // Removed unused 'featuredConferences' field as it is not present in the JSON files
   allConferences: Array.isArray(en.allConferences.allConferences) && Array.isArray(it.allConferences.allConferences) ? (en.allConferences.allConferences || []).map((ac, i) => ({
     _key: `allconfitem_${i}_${Math.random().toString(36).substr(2, 6)}`,
     title: { en: ac.title || '', it: it.allConferences.allConferences?.[i]?.title || '' },
-    subtitle: { en: ac.subtitle || '', it: it.allConferences.allConferences?.[i]?.subtitle || '' },
     date: { en: ac.date || '', it: it.allConferences.allConferences?.[i]?.date || '' },
     location: { en: ac.location || '', it: it.allConferences.allConferences?.[i]?.location || '' },
     attendees: { en: ac.attendees || '', it: it.allConferences.allConferences?.[i]?.attendees || '' },
@@ -272,6 +305,7 @@ async function uploadDocs() {
     await client.createOrReplace(socialImpactDoc);
     await client.createOrReplace(allConferencesDoc);
     await client.createOrReplace(footerDoc);
+    await client.createOrReplace(contactFormDoc);
     console.log('Documents imported successfully!');
   } catch (err) {
     console.error('Error importing documents:', err);

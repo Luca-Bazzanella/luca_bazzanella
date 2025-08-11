@@ -46,7 +46,7 @@ const Footer = ({ content, locale }) => {
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-          <p>&copy; {content?.copyright?.[locale] || content?.copyright || ''}</p>
+          <p>{content?.copyright?.[locale] || content?.copyright || ''}</p>
         </div>
       </div>
     </footer>

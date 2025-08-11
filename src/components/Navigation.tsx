@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-import { Menu, X, Globe } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
@@ -37,7 +37,11 @@ const Navigation = ({ content, locale, setLocale }) => {
               onClick={toggleLocale}
               className="flex items-center text-sm font-medium text-slate-700 hover:text-slate-900 transition-colors px-3 py-1 border border-slate-300 rounded-md"
             >
-              <Globe className="h-4 w-4 mr-2" />
+              {locale === 'it' ? (
+                <span className="mr-2" role="img" aria-label="UK flag">🇬🇧</span>
+              ) : (
+                <span className="mr-2" role="img" aria-label="Italy flag">🇮🇹</span>
+              )}
               {locale === 'it' ? 'EN' : 'IT'}
             </button>
           </div>

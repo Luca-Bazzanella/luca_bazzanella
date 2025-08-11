@@ -54,7 +54,7 @@ const AboutSection = ({ content, locale }) => {
 
           {/* Key Activities Header */}
           <div className="mb-12">
-            <h2 className="text-3xl font-bold text-slate-800 mb-6">Key Activities</h2>
+            <h2 className="text-3xl font-bold text-slate-800 mb-6">{content?.keyActivities?.[locale] || 'Key Activities'}</h2>
           </div>
 
           {/* Organizations Cards */}
@@ -73,7 +73,7 @@ const AboutSection = ({ content, locale }) => {
                       ? org.description?.[locale] || org.description?.en || org.description?.it || ''
                       : org.description || ''}
                   </p>
-                  <p className="text-slate-500 text-sm leading-relaxed italic">
+                  <p className="text-slate-500 text-sm leading-relaxed">
                     {typeof org.approach === 'object'
                       ? org.approach?.[locale] || org.approach?.en || org.approach?.it || ''
                       : org.approach || ''}

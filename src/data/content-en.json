@@ -5,7 +5,38 @@
     "socialImpact": "Social Impact",
     "conferences": "Conferences",
     "name": "Dr. Luca Bazzanella",
-    "baseUrl": "https://european-management-institute.github.io/luca_bazzanella",
+    "baseUrl": "https://european-management-institute.github.io/luca_bazzanella"
+  },
+  "hero": {
+    "name": "Luca Bazzanella",
+    "images": [
+      {
+        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/1b7e0beb-45ba-40b5-8a81-de8170b13551.png",
+        "alt": "Dott. Luca Bazzanella"
+      }
+    ],
+    "description": "Trentino manager, born in 1991, with a background as an advisor within the European Parliament. Specialized in outsourced business management and process digitalization with particular experience in public policy analysis and institutional relations. Always interested in social issues, he is president of the Ermetes scs cooperative and the Sustainable Economy Association, a non-profit organization engaged in international projects with particular focus on North Africa and advocacy actions in favor of new technologies for decarbonization. From 2019 to 2021 Head of the Europe Office of Confcommercio Trentino, the main Category Association in Italy for small and medium enterprises, and since 2020 administrator and operational director of the consulting company European Management Institute. He previously held various political coordination roles at regional and national level in Forza Italia – PDL, leaving all positions in December 2022. Always interested in finding the right balance between business efficiency and social impact.",
+    "contact": "Contact",
+    "linkedin": "LinkedIn"
+  },
+  "about": {
+    "title": "Who is",
+    "name": "Luca Bazzanella",
+    "keyActivities": "Key Activities",
+    "externalLinks": [
+      {
+        "name": "European Management Institute",
+        "url": "https://www.europeanmanagement.eu/"
+      },
+      {
+        "name": "Sustainable Economy Association",
+        "url": "https://www.sustainableeconomy.eu/"
+      },
+      {
+        "name": "Cooperativa Ermetes",
+        "url": "https://www.ermetes.it/"
+      }
+    ],
     "carouselImages": [
       {
         "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/3c48d014-5dac-4244-a390-2011f5f4917f.png",
@@ -72,7 +103,7 @@
       {
         "id": "european-management",
         "title": "European Management Institute",
-        "role": "Director and Chairman of the Board of Directors",
+        "role": "General director",
         "description": "A consulting firm specialized in outsourced management, public policy analysis, and corporate efficiency. It offers selected clients high value-added solutions that are rarely available on the market. European Management has made its mark in the business consulting market by using 'outcome-based' contracts as a competitive tool, which reduce client risk by tying compensation to the actual achievement of agreed-upon business performance targets.",
         "link": "https://www.europeanmanagement.eu/"
       },
@@ -101,21 +132,17 @@
         "alt": "Public policy digital solutions"
       }
     ],
-    "description": "Public policy analysis is the activity carried out by specialized experts who systematically study government strategies, decisions, and actions, with the aim of assessing their effectiveness, efficiency, and impact on their clients' interests. Companies rely on these professionals, for example, to better understand the risks and opportunities arising from current or future political and legislative changes, to simulate their impact on business models, and to plan their operations accordingly.",
     "backToHome": "Back to Home",
     "heroTitle": "Public Policy",
     "heroDescription": "Public policy analysis is the activity carried out by specialized experts who systematically study government strategies, decisions, and actions, with the aim of assessing their effectiveness, efficiency, and impact on their clients' interests. Companies rely on these professionals, for example, to better understand the risks and opportunities arising from current or future political and legislative changes, to simulate their impact on business models, and to plan their operations accordingly.",
-    "learnMore": "Learn more",
     "intro": "Business process digitalization represents a fundamental strategic lever for the evolution of modern organizations. Through the implementation of advanced technological solutions, we support companies in comprehensive digital transformation."
   },
   "outsourcedManagement": {
     "title": "Outsourced Management",
-    "description": "We live in an era of epochal economic, social and technological changes that require new skills and speed of action. Complex factors to obtain without the right investments and using only internal resources.",
     "backToHome": "Back to Home",
     "heroDescription": "We live in an era of epochal economic, social and technological changes that require new skills and speed of action. Complex factors to obtain without the right investments and using only internal resources.",
     "role": "Role",
     "impact": "Impact",
-    "learnMore": "Learn more",
     "images": [
       {
         "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/d845b4f2-b16d-4c94-bdf0-364a3ebdf4d0.png",
@@ -125,37 +152,7 @@
     "content": {
       "intro": "Outsourced management is the practice of entrusting one or more business operations or entire functions—such as finance, digitalization, tenders and bids, extraordinary transactions, market development, and more—to external experts outside the company. The client’s goal is to reduce costs, increase efficiency, and focus on the core business by delegating activities that require specialized skills not available in-house.",
       "approach": "We use a \"data driven\" approach and accept challenging contracts including \"outcome based\" types, compensated based on agreed performance indicators. This ensures that our clients receive tangible results and measurable improvements."
-    },
-    "projects": [
-      {
-        "title": "Government of Mozambique Training Program",
-        "description": "Designed and implemented a comprehensive training program for public officials focused on \"Public-Private Partnership for Local Development\". The program strengthened institutional capacity and improved governance frameworks, directly contributing to enhanced public service delivery and economic development initiatives.",
-        "role": "Lead Consultant & Program Designer",
-        "impact": "Trained 50+ government officials, established PPP framework",
-        "link": "https://www.mudarbeira.org/it/o-projetto-it/"
-      },
-      {
-        "title": "Ship 24 Green & Carbontrack Projects",
-        "description": "Led the development of integrated digital solutions for measuring, tracking, and reducing environmental impact in international logistics. Created comprehensive CO₂ emission measurement platforms with automated reporting systems, enabling companies to achieve significant decarbonization milestones.",
-        "role": "Project Coordinator (2021-2022)",
-        "impact": "Reduced logistics emissions by 25%, automated reporting for 100+ companies",
-        "link": "https://www.europeanmanagement.eu"
-      },
-      {
-        "title": "Cooperativa Ermetes Transformation",
-        "description": "Revolutionized the management structure of Cooperativa Ermetes SCS by implementing a \"C-level\" business management system with performance-based bonuses and comprehensive social impact measurement. The transformation enhanced operational efficiency while maintaining the cooperative's social mission focus.",
-        "role": "President & Strategic Advisor (2024-present)",
-        "impact": "40% increase in placement success, improved worker satisfaction",
-        "link": "https://www.ermetes.it/"
-      },
-      {
-        "title": "ATI Dolomiti Grow Coordination",
-        "description": "Provided comprehensive coordination and institutional relations support for a pioneering Trentino startup in the therapeutic cannabis sector. Managed regulatory compliance, business development strategies, and stakeholder engagement to position the company for state cannabis production contracts.",
-        "role": "Institutional Relations Coordinator (2022-present)",
-        "impact": "Secured regulatory approvals, established government partnerships",
-        "link": "https://www.ildolomiti.it/economia/2022/la-startup-trentina-che-vuole-produrre-la-cannabis-terapeutica-di-stato"
-      }
-    ]
+    }
   },
   "socialImpact": {
     "title": "Social Impact and Vision",
@@ -168,79 +165,12 @@
     "description": "Economy and finance, in and of themselves, are meaningless unless they generate a positive impact on people, society, and the planet. This belief has led me to invest a large part of my income in activities with a positive and measurable social impact. I’ve never fully believed in charity carried out by third parties through donations; for this reason, I prefer to personally dedicate part of my time to concrete local volunteer work and international cooperation initiatives.",
     "backToHome": "Back to Home",
     "heroDescription": "Economy and finance, in and of themselves, are meaningless unless they generate a positive impact on people, society, and the planet. This belief has led me to invest a large part of my income in activities with a positive and measurable social impact. I’ve never fully believed in charity carried out by third parties through donations; for this reason, I prefer to personally dedicate part of my time to concrete local volunteer work and international cooperation initiatives.",
+    "organizations": "Organizations",
     "sustainabilityDescription": "Economy and finance, in and of themselves, are meaningless unless they generate a positive impact on people, society, and the planet. This belief has led me to invest a large part of my income in activities with a positive and measurable social impact. I’ve never fully believed in charity carried out by third parties through donations; for this reason, I prefer to personally dedicate part of my time to concrete local volunteer work and international cooperation initiatives."
   },
   "allConferences": {
-    "title": "All Conferences",
-    "subtitle": "A comprehensive overview of conferences, events and speaking engagements on sustainability, management and innovation.",
-    "backToHome": "Back to Home",
-    "featuredTitle": "Featured Conferences",
-    "allTitle": "All Conferences & Events",
     "attendees": "attendees",
     "learnMore": "Learn more",
-    "featuredConferences": [
-      {
-        "title": "Sustainability and Urban Electric Mobility. Experiences and Case Studies Compared",
-        "subtitle": "Villa Madruzzo Conference",
-        "date": "2018",
-        "location": "Villa Madruzzo, Trento",
-        "attendees": "100+",
-        "description": "Conference dedicated to the electrification of urban transport and the sharing of European case studies. Sector experts discussed sustainable solutions for urban mobility.",
-        "videoId": null,
-        "links": [
-          {
-            "name": "Sustainable Economy",
-            "url": "https://www.sustainableeconomy.eu/progetti/conferenza-sostenibilita-e-mobilita-elettrica-urbana-esperienze-e-casi-a-confronto/"
-          }
-        ]
-      },
-      {
-        "title": "Green is not left",
-        "subtitle": "European Parliament",
-        "date": "2019",
-        "location": "Brussels",
-        "attendees": "50+",
-        "description": "Press conference on the risk of politicizing environmental issues and the need for pragmatic solutions. Insight on the concept of institutional greenwashing.",
-        "videoId": "cfM3aVlyXCY",
-        "links": [
-          {
-            "name": "Informazione.it",
-            "url": "https://www.informazione.it/c/74E3E8CC-4B26-4441-9943-D5B8B214CD5F/SFIDE-GLOBALI-GREEN-IS-NOT-LEFT-L-AMBIENTE-NON-e-DI-SINISTRA"
-          },
-          {
-            "name": "Cagliari Pad",
-            "url": "https://www.cagliaripad.it/394624/europa-conferenza-green-is-not-left-lambiente-non-e-di-sinistra-a-bruxelles/"
-          },
-          {
-            "name": "YouTube Video Conferenza Stampa",
-            "url": "https://www.youtube.com/watch?v=cfM3aVlyXCY"
-          },
-          {
-            "name": "Sustainable Economy Association - Conferenza Stampa",
-            "url": "https://www.sustainableeconomy.eu/progetti/conferenza-stampa-green-is-not-left/"
-          },
-          {
-            "name": "YouTube Video dichiarazioni",
-            "url": "https://www.youtube.com/watch?v=lseWzO_fOWs&t=20s&ab_channel=SustainableEconomyAssociation"
-          }
-        ]
-      },
-      {
-        "title": "The Future of Sustainable Mobility in Trentino",
-        "subtitle": "MUSE Conference",
-        "date": "2022",
-        "location": "MUSE, Trento",
-        "attendees": "150+",
-        "description": "Public conference on sustainable solutions for alpine mobility, focusing on hydrogen and cogeneration. Participation of institutional and technological stakeholders.",
-        "videoId": "WTpy8q6fPdQ",
-        "links": [
-          {
-            "name": "SEA",
-            "url": "https://www.youtube.com/watch?v=WTpy8q6fPdQ&t=2s"
-          }
-        ]
-      }
-    ],
     "allConferences": [
       {
         "title": "Railway Bypass Noise and Vibrations Lot 3A",
@@ -396,11 +326,21 @@
       }
     ]
   },
+  "contactForm": {
+    "contactBanner": "To get in touch to know more about",
+    "thankYou": "Thank you for your submission!",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "message": "Message",
+    "submitting": "Submitting...",
+    "submit": "Submit"
+  },
   "footer": {
     "description": "Trentino manager born in 1991 specialized in business and digital management with particular experience in public policies.",
     "contacts": "Contacts",
     "learnMore": "Per saperne di piu sui progetti e per essere contattato clicca QUI",
     "location": "Trento, Italy, Bruxelles, Roma",
-    "copyright": "2025 Sintija Birgele. All rights reserved."
+    "copyright": "Developed by Sintija Birgele. All rights reserved by European Management Institute"
   }
 }

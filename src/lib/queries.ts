@@ -7,20 +7,6 @@ export async function getAllConferencesContent(locale: string = 'en') {
         backToHome,
         title,
         subtitle,
-        featuredTitle,
-        featuredConferences[] {
-          title,
-          subtitle,
-          date,
-          location,
-          attendees,
-          description,
-          links[] {
-            name,
-            url
-          }
-        },
-        allTitle,
         allConferences[] {
           title,
           date,
@@ -33,8 +19,7 @@ export async function getAllConferencesContent(locale: string = 'en') {
             url
           }
         },
-        attendees,
-        learnMore
+        attendees
       }
     }
   `;

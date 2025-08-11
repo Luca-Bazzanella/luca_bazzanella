@@ -22,6 +22,7 @@
   "about": {
     "title": "Who is",
     "name": "Luca Bazzanella",
+    "keyActivities": "Key Activities",
     "externalLinks": [
       {
         "name": "European Management Institute",
@@ -102,7 +103,7 @@
       {
         "id": "european-management",
         "title": "European Management Institute",
-        "role": "Director and Chairman of the Board of Directors",
+        "role": "General director",
         "description": "A consulting firm specialized in outsourced management, public policy analysis, and corporate efficiency. It offers selected clients high value-added solutions that are rarely available on the market. European Management has made its mark in the business consulting market by using 'outcome-based' contracts as a competitive tool, which reduce client risk by tying compensation to the actual achievement of agreed-upon business performance targets.",
         "link": "https://www.europeanmanagement.eu/"
       },
@@ -131,21 +132,17 @@
         "alt": "Public policy digital solutions"
       }
     ],
-    "description": "Public policy analysis is the activity carried out by specialized experts who systematically study government strategies, decisions, and actions, with the aim of assessing their effectiveness, efficiency, and impact on their clients' interests. Companies rely on these professionals, for example, to better understand the risks and opportunities arising from current or future political and legislative changes, to simulate their impact on business models, and to plan their operations accordingly.",
     "backToHome": "Back to Home",
     "heroTitle": "Public Policy",
     "heroDescription": "Public policy analysis is the activity carried out by specialized experts who systematically study government strategies, decisions, and actions, with the aim of assessing their effectiveness, efficiency, and impact on their clients' interests. Companies rely on these professionals, for example, to better understand the risks and opportunities arising from current or future political and legislative changes, to simulate their impact on business models, and to plan their operations accordingly.",
-    "learnMore": "Learn more",
     "intro": "Business process digitalization represents a fundamental strategic lever for the evolution of modern organizations. Through the implementation of advanced technological solutions, we support companies in comprehensive digital transformation."
   },
   "outsourcedManagement": {
     "title": "Outsourced Management",
-    "description": "We live in an era of epochal economic, social and technological changes that require new skills and speed of action. Complex factors to obtain without the right investments and using only internal resources.",
     "backToHome": "Back to Home",
     "heroDescription": "We live in an era of epochal economic, social and technological changes that require new skills and speed of action. Complex factors to obtain without the right investments and using only internal resources.",
     "role": "Role",
     "impact": "Impact",
-    "learnMore": "Learn more",
     "images": [
       {
         "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/d845b4f2-b16d-4c94-bdf0-364a3ebdf4d0.png",
@@ -172,76 +169,9 @@
     "sustainabilityDescription": "Economy and finance, in and of themselves, are meaningless unless they generate a positive impact on people, society, and the planet. This belief has led me to invest a large part of my income in activities with a positive and measurable social impact. I’ve never fully believed in charity carried out by third parties through donations; for this reason, I prefer to personally dedicate part of my time to concrete local volunteer work and international cooperation initiatives."
   },
   "allConferences": {
-    "title": "All Conferences",
-    "subtitle": "A comprehensive overview of conferences, events and speaking engagements on sustainability, management and innovation.",
     "backToHome": "Back to Home",
-    "featuredTitle": "Featured Conferences",
-    "allTitle": "All Conferences & Events",
     "attendees": "attendees",
     "learnMore": "Learn more",
-    "featuredConferences": [
-      {
-        "title": "Sustainability and Urban Electric Mobility. Experiences and Case Studies Compared",
-        "subtitle": "Villa Madruzzo Conference",
-        "date": "2018",
-        "location": "Villa Madruzzo, Trento",
-        "attendees": "100+",
-        "description": "Conference dedicated to the electrification of urban transport and the sharing of European case studies. Sector experts discussed sustainable solutions for urban mobility.",
-        "videoId": null,
-        "links": [
-          {
-            "name": "Sustainable Economy",
-            "url": "https://www.sustainableeconomy.eu/progetti/conferenza-sostenibilita-e-mobilita-elettrica-urbana-esperienze-e-casi-a-confronto/"
-          }
-        ]
-      },
-      {
-        "title": "Green is not left",
-        "subtitle": "European Parliament",
-        "date": "2019",
-        "location": "Brussels",
-        "attendees": "50+",
-        "description": "Press conference on the risk of politicizing environmental issues and the need for pragmatic solutions. Insight on the concept of institutional greenwashing.",
-        "videoId": "cfM3aVlyXCY",
-        "links": [
-          {
-            "name": "Informazione.it",
-            "url": "https://www.informazione.it/c/74E3E8CC-4B26-4441-9943-D5B8B214CD5F/SFIDE-GLOBALI-GREEN-IS-NOT-LEFT-L-AMBIENTE-NON-e-DI-SINISTRA"
-          },
-          {
-            "name": "Cagliari Pad",
-            "url": "https://www.cagliaripad.it/394624/europa-conferenza-green-is-not-left-lambiente-non-e-di-sinistra-a-bruxelles/"
-          },
-          {
-            "name": "YouTube Video Conferenza Stampa",
-            "url": "https://www.youtube.com/watch?v=cfM3aVlyXCY"
-          },
-          {
-            "name": "Sustainable Economy Association - Conferenza Stampa",
-            "url": "https://www.sustainableeconomy.eu/progetti/conferenza-stampa-green-is-not-left/"
-          },
-          {
-            "name": "YouTube Video dichiarazioni",
-            "url": "https://www.youtube.com/watch?v=lseWzO_fOWs&t=20s&ab_channel=SustainableEconomyAssociation"
-          }
-        ]
-      },
-      {
-        "title": "The Future of Sustainable Mobility in Trentino",
-        "subtitle": "MUSE Conference",
-        "date": "2022",
-        "location": "MUSE, Trento",
-        "attendees": "150+",
-        "description": "Public conference on sustainable solutions for alpine mobility, focusing on hydrogen and cogeneration. Participation of institutional and technological stakeholders.",
-        "videoId": "WTpy8q6fPdQ",
-        "links": [
-          {
-            "name": "SEA",
-            "url": "https://www.youtube.com/watch?v=WTpy8q6fPdQ&t=2s"
-          }
-        ]
-      }
-    ],
     "allConferences": [
       {
         "title": "Railway Bypass Noise and Vibrations Lot 3A",
@@ -397,11 +327,21 @@
       }
     ]
   },
+  "contactForm": {
+    "contactBanner": "To get in touch to know more about",
+    "thankYou": "Thank you for your submission!",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "message": "Message",
+    "submitting": "Submitting...",
+    "submit": "Submit"
+  },
   "footer": {
     "description": "Trentino manager born in 1991 specialized in business and digital management with particular experience in public policies.",
     "contacts": "Contacts",
     "learnMore": "Per saperne di piu sui progetti e per essere contattato clicca QUI",
     "location": "Trento, Italy, Bruxelles, Roma",
-    "copyright": "2025 Sintija Birgele. All rights reserved."
+    "copyright": "Developed by Sintija Birgele. All rights reserved by European Management Institute"
   }
 }

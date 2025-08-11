@@ -23,6 +23,7 @@
   "about": {
     "title": "Chi è",
     "name": "Luca Bazzanella",
+    "keyActivities": "Attività Chiave",
     "carouselImages": [
       {
         "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/3c48d014-5dac-4244-a390-2011f5f4917f.png",
@@ -89,7 +90,7 @@
       {
         "id": "european-management",
         "title": "European Management Institute",
-        "role": "Direttore e Presidente CDA",
+        "role": "Direttore",
         "description": "Azienda di consulenza specializzata in management esternalizzato, analisi delle politiche pubbliche ed efficienza aziendale. Offre a clienti selezionati soluzioni ad alto valore aggiunto difficilmente reperibili sul mercato. European Management si è fatta spazio nel mercato della consulenza aziendale utilizzando come strumenti di competitività contratti di tipo 'outcome based' che riducono i rischi dei clienti ovvero remunerati in base all’effettivo raggiunto di specifiche performance aziendali concordate.",
         "link": "https://www.europeanmanagement.eu/"
       },
@@ -122,17 +123,14 @@
     "intro": "L’analisi delle politiche pubbliche è l’attività svolta da esperti specializzati di studio sistematico delle strategie, decisioni e azioni dei governi, con lo scopo di valutarne l’efficacia, l’efficienza e l’impatto sugli interessi dei propri clienti.",
     "backToHome": "Torna alla Home",
     "heroTitle": "Public policy",
-    "heroDescription": "L’analisi delle politiche pubbliche è l’attività svolta da esperti specializzati di studio sistematico delle strategie, decisioni e azioni dei governi, con lo scopo di valutarne l’efficacia, l’efficienza e l’impatto sugli interessi dei propri clienti. Le aziende si avvalgono di questi professionisti ad esempio per essere più consapevoli sui rischi e sulle opportunità derivanti da cambiamenti politici e legislativi già in atto o futuri, per simularne l'impatto sui propri modelli di business e per poter pianificare di conseguenza la propria attività.",
-    "learnMore": "Scopri di più"
+    "heroDescription": "L’analisi delle politiche pubbliche è l’attività svolta da esperti specializzati di studio sistematico delle strategie, decisioni e azioni dei governi, con lo scopo di valutarne l’efficacia, l’efficienza e l’impatto sugli interessi dei propri clienti. Le aziende si avvalgono di questi professionisti ad esempio per essere più consapevoli sui rischi e sulle opportunità derivanti da cambiamenti politici e legislativi già in atto o futuri, per simularne l'impatto sui propri modelli di business e per poter pianificare di conseguenza la propria attività."
   },
   "outsourcedManagement": {
     "title": "Management Esternalizzato",
-    "description": "Viviamo in un'epoca di cambiamenti economici, sociali e tecnologici epocali che necessitano di nuove competenze e rapiditá d'azione. Fattori complessi da ottenere senza i corretti investimenti e con il solo utilizzo di risorse interne.",
     "backToHome": "Torna alla Home",
     "heroDescription": "Viviamo in un'epoca di cambiamenti economici, sociali e tecnologici epocali che necessitano di nuove competenze e rapiditá d'azione. Fattori complessi da ottenere senza i corretti investimenti e con il solo utilizzo di risorse interne.",
     "role": "Ruolo",
     "impact": "Impatto",
-    "learnMore": "Scopri di più",
     "images": [
       {
         "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/d845b4f2-b16d-4c94-bdf0-364a3ebdf4d0.png",
@@ -156,68 +154,11 @@
     "backToHome": "Torna alla Home",
     "heroDescription": "L’economia e la finanza fine a se stesse non servono a nulla se non generano un impatto positivo sull’uomo, sulla società e sul pianeta. Questa convinzione mi ha portato a investire gran parte dei miei ricavi in attività con un impatto sociale positivo e misurabile. Non ho mai creduto troppo alla beneficenza fatta da terzi tramite donazioni per questo preferisco dedicare in prima persona una parte del mio tempo ad attività concrete di volontariato locale e di cooperazione internazionale.",
     "organizations": "Organizzazioni",
-    "impact": "L’economia e la finanza fine a se stesse non servono a nulla se non generano un impatto positivo sull’uomo, sulla società e sul pianeta. Questa convinzione mi ha portato a investire gran parte dei miei ricavi in attività con un impatto sociale positivo e misurabile. Non ho mai creduto troppo alla beneficenza fatta da terzi tramite donazioni per questo preferisco dedicare in prima persona una parte del mio tempo ad attività concrete di volontariato locale e di cooperazione internazionale.",
-    "learnMore": "Scopri di più sul nostro lavoro per la sostenibilità"
+    "impact": "L’economia e la finanza fine a se stesse non servono a nulla se non generano un impatto positivo sull’uomo, sulla società e sul pianeta. Questa convinzione mi ha portato a investire gran parte dei miei ricavi in attività con un impatto sociale positivo e misurabile. Non ho mai creduto troppo alla beneficenza fatta da terzi tramite donazioni per questo preferisco dedicare in prima persona una parte del mio tempo ad attività concrete di volontariato locale e di cooperazione internazionale."
   },
   "allConferences": {
-    "title": "Tutte le Conferenze",
-    "subtitle": "Una panoramica completa di conferenze, eventi e interventi pubblici su sostenibilità, management e innovazione.",
-    "backToHome": "Torna alla Home",
-    "featuredTitle": "Conferenze in Evidenza",
-    "allTitle": "Tutte le Conferenze ed Eventi",
     "attendees": "partecipanti",
     "learnMore": "Scopri di più",
-    "featuredConferences": [
-      {
-        "title": "Sostenibilità e mobilità elettrica urbana. Esperienze e casi a confronto",
-        "subtitle": "Villa Madruzzo Conference",
-        "date": "2018",
-        "location": "Villa Madruzzo, Trento",
-        "attendees": "100+",
-        "description": "Conferenza dedicata all’elettrificazione del trasporto urbano e alla condivisione di casi studio europei. Esperti del settore hanno discusso soluzioni sostenibili per la mobilità urbana.",
-        "videoId": null,
-        "links": [
-          {
-            "name": "Sustainable Economy",
-            "url": "https://www.sustainableeconomy.eu/progetti/conferenza-sostenibilita-e-mobilita-elettrica-urbana-esperienze-e-casi-a-confronto/"
-          }
-        ]
-      },
-      {
-        "title": "Green is not left",
-        "subtitle": "European Parliament",
-        "date": "2019",
-        "location": "Bruxelles",
-        "attendees": "50+",
-        "description": "Conferenza stampa sul rischio di politicizzazione dei temi ambientali e la necessità di soluzioni pragmatiche. Approfondimento sul concetto di greenwashing istituzionale.",
-        "videoId": "cfM3aVlyXCY",
-        "links": [
-          {
-            "name": "TG Video",
-            "url": "https://www.youtube.com/watch?v=cfM3aVlyXCY"
-          },
-          {
-            "name": "SEA",
-            "url": "https://www.sustainableeconomy.eu/progetti/conferenza-stampa-green-is-not-left/"
-          }
-        ]
-      },
-      {
-        "title": "Il futuro della mobilità sostenibile in Trentino",
-        "subtitle": "MUSE Conference",
-        "date": "2022",
-        "location": "MUSE, Trento",
-        "attendees": "150+",
-        "description": "Conferenza pubblica sulle soluzioni sostenibili per la mobilità alpina, con focus su idrogeno e cogenerazione. Partecipazione di attori istituzionali e tecnologici.",
-        "videoId": "WTpy8q6fPdQ",
-        "links": [
-          {
-            "name": "SEA",
-            "url": "https://www.youtube.com/watch?v=WTpy8q6fPdQ&t=2s"
-          }
-        ]
-      }
-    ],
     "allConferences": [
       {
         "title": "Bypass ferroviario rumori e vibrazioni lotto 3A",
@@ -383,11 +324,21 @@
       }
     ]
   },
+  "contactForm": {
+    "contactBanner": "Per metterti in contatto per saperne di più clicca qui",
+    "thankYou": "Grazie per la tua richiesta!",
+    "firstName": "Nome",
+    "lastName": "Cognome",
+    "email": "Email",
+    "message": "Messaggio",
+    "submitting": "Invio in corso...",
+    "submit": "Invia"
+  },
   "footer": {
     "description": "Manager trentino classe 1991 specializzato in gestione aziende e digitale con particolare esperienza nell'ambito delle politiche pubbliche.",
     "contacts": "Contatti",
     "learnMore": "Per saperne di piu sui progetti e per essere contattato clicca QUI",
     "location": "Trento, Italy, Bruxelles, Roma",
-    "copyright": "2025 Sintija Birgele. Tutti i diritti riservati."
+    "copyright": "Sviluppato da Sintija Birgele. Tutti i diritti riservati all'European Management Institute."
   }
 }

@@ -9,3 +9,4 @@ export const conferencesQuery = `*[_type == "conferences"][0]`;
 export const allConferencesQuery = `*[_type == "allConferences"][0]`;
 export const navigationQuery = `*[_type == "navigation"][0]`;
 export const footerQuery = `*[_type == "footer"][0]`;
+export const contactQuery = '*[_type == "contactForm"][0]';

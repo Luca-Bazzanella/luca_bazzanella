@@ -25,7 +25,7 @@ export const localeString = {
 export const navigation = {
   name: 'navigation',
   type: 'document',
-  title: 'Navigation',
+  title: 'Header',
   fields: [
     { name: 'management', type: 'localeString', title: 'Management' },
     { name: 'policy', type: 'localeString', title: 'Policy' },
@@ -39,7 +39,7 @@ export const navigation = {
 export const hero = {
   name: 'hero',
   type: 'document',
-  title: 'Hero',
+  title: 'Home Page Description, Links, Photo',
   fields: [
     { name: 'name', type: 'localeString', title: 'Name' },
     { name: 'images', type: 'array', title: 'Images', of: [
@@ -64,10 +64,11 @@ export const hero = {
 export const about = {
   name: 'about',
   type: 'document',
-  title: 'About',
+  title: 'Key Activities And Image Carousel',
   fields: [
     { name: 'title', type: 'localeString', title: 'Title' },
     { name: 'name', type: 'localeString', title: 'Name' },
+    { name: 'keyActivities', type: 'localeString', title: 'Key Activities' },
     { name: 'carouselImages', type: 'array', title: 'Carousel Images', of: [
       {
         type: 'image',
@@ -110,7 +111,6 @@ export const publicPolicy = {
     { name: 'backToHome', type: 'localeString', title: 'Back To Home' },
     { name: 'heroTitle', type: 'localeString', title: 'Hero Title' },
     { name: 'heroDescription', type: 'localeText', title: 'Hero Description' },
-    { name: 'learnMore', type: 'localeString', title: 'Learn More' },
     { name: 'projects', type: 'array', title: 'Projects', of: [{ type: 'object', fields: [
       { name: 'link', type: 'url', title: 'Link' }
     ] }] }
@@ -138,33 +138,8 @@ export const outsourcedManagement = {
     { name: 'heroDescription', type: 'localeText', title: 'Hero Description' },
     { name: 'role', type: 'localeString', title: 'Role' },
     { name: 'impact', type: 'localeString', title: 'Impact' },
-    { name: 'learnMore', type: 'localeString', title: 'Learn More' },
     { name: 'content', type: 'object', title: 'Content', fields: [
       { name: 'intro', type: 'localeText', title: 'Intro' },
-      { name: 'approach', type: 'localeText', title: 'Approach' },
-      { name: 'services', type: 'array', title: 'Services', of: [{ type: 'localeString' }] },
-      { name: 'projects', type: 'array', title: 'Projects', of: [{ type: 'object', fields: [
-        {
-          name: 'en',
-          type: 'object',
-          title: 'English',
-          fields: [
-            { name: 'title', type: 'string', title: 'Title' },
-            { name: 'description', type: 'text', title: 'Description' },
-            { name: 'link', type: 'url', title: 'Link' }
-          ]
-        },
-        {
-          name: 'it',
-          type: 'object',
-          title: 'Italian',
-          fields: [
-            { name: 'title', type: 'string', title: 'Title' },
-            { name: 'description', type: 'text', title: 'Description' },
-            { name: 'link', type: 'url', title: 'Link' }
-          ]
-        }
-      ] }] }
     ] },
     { name: 'projects', type: 'array', title: 'Projects', of: [{ type: 'object', fields: [
       { name: 'link', type: 'url', title: 'Link' }
@@ -188,15 +163,13 @@ export const socialImpact = {
       }
     ] },
     { name: 'title', type: 'localeString', title: 'Title' },
-    { name: 'description', type: 'localeText', title: 'Description' },
     { name: 'backToHome', type: 'localeString', title: 'Back To Home' },
     { name: 'heroDescription', type: 'localeText', title: 'Hero Description' },
     { name: 'impact', type: 'localeText', title: 'Impact' },
     { name: 'projects', type: 'array', title: 'Projects', of: [{ type: 'object', fields: [
       { name: 'link', type: 'url', title: 'Link' },
       { name: 'description', type: 'localeText', title: 'Description' }
-    ] }] },
-    { name: 'learnMore', type: 'localeString', title: 'Learn More' }
+    ] }] }
   ]
 }
 
@@ -204,21 +177,10 @@ export const socialImpact = {
 export const allConferences = {
   name: 'allConferences',
   type: 'document',
-  title: 'All Conferences',
   fields: [
-    { name: 'title', type: 'localeString', title: 'Title' },
-    { name: 'subtitle', type: 'localeString', title: 'Subtitle' },
     { name: 'backToHome', type: 'localeString', title: 'Back To Home' },
-    { name: 'featuredTitle', type: 'localeString', title: 'Featured Title' },
-    { name: 'allTitle', type: 'localeString', title: 'All Title' },
     { name: 'attendees', type: 'localeString', title: 'Attendees' },
     { name: 'learnMore', type: 'localeString', title: 'Learn More' },
-    { name: 'featuredConferences', type: 'array', title: 'Featured Conferences', of: [{ type: 'object', fields: [
-      { name: 'title', type: 'localeString', title: 'Title' },
-      { name: 'date', type: 'localeString', title: 'Date' },
-      { name: 'location', type: 'localeString', title: 'Location' },
-      { name: 'description', type: 'localeText', title: 'Description' }
-    ] }] },
     { name: 'allConferences', type: 'array', title: 'All Conferences', of: [{ type: 'object', fields: [
       { name: 'title', type: 'localeString', title: 'Title' },
       { name: 'date', type: 'localeString', title: 'Date' },
@@ -246,6 +208,22 @@ export const footer = {
   ]
 }
 
+export const contactForm = {
+  name: 'contactForm',
+  type: 'document',
+  title: 'Contact Form',
+  fields: [
+    { name: 'contactBanner', type: 'localeString', title: 'Contact Banner' },
+    { name: 'thankYou', type: 'localeString', title: 'Thank You Message' },
+    { name: 'firstName', type: 'localeString', title: 'First Name' },
+    { name: 'lastName', type: 'localeString', title: 'Last Name' },
+    { name: 'email', type: 'localeString', title: 'Email' },
+    { name: 'message', type: 'localeString', title: 'Message' },
+    { name: 'submitting', type: 'localeString', title: 'Submitting' },
+    { name: 'submit', type: 'localeString', title: 'Submit Button' }
+  ]
+};
+
 export const schemaTypes = [
   navigation,
   hero,
@@ -255,6 +233,7 @@ export const schemaTypes = [
   socialImpact,
   allConferences,
   footer,
+  contactForm,
   localeString,
   localeText
 ];
