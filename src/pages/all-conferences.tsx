@@ -96,7 +96,7 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
     content = await client.fetch(allConferencesQuery, { locale: usedLocale });
     navigation = await client.fetch(navigationQuery, { locale: usedLocale });
     footer = await client.fetch(footerQuery);
-    contact = await client.fetch(contactQuery, { locale: usedLocale });
+    contact = await client.fetch(contactQuery);
   } catch (e) {
     content = {};
   }
