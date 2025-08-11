@@ -38,9 +38,25 @@ const Navigation = ({ content, locale, setLocale }) => {
               className="flex items-center text-sm font-medium text-slate-700 hover:text-slate-900 transition-colors px-3 py-1 border border-slate-300 rounded-md"
             >
               {locale === 'it' ? (
-                <span className="mr-2" role="img" aria-label="UK flag">🇬🇧</span>
+                <span className="mr-2" aria-label="UK flag">
+                  <svg width="16" height="11" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="20" height="14" rx="2" fill="#012169"/>
+                    <path d="M0 0L20 14M20 0L0 14" stroke="white" strokeWidth="2"/>
+                    <path d="M0 0L20 14M20 0L0 14" stroke="#C8102E" strokeWidth="1"/>
+                    <rect x="8" width="4" height="14" fill="white"/>
+                    <rect y="5" width="20" height="4" fill="white"/>
+                    <rect x="8.75" width="2.5" height="14" fill="#C8102E"/>
+                    <rect y="5.75" width="20" height="2.5" fill="#C8102E"/>
+                  </svg>
+                </span>
               ) : (
-                <span className="mr-2" role="img" aria-label="Italy flag">🇮🇹</span>
+                <span className="mr-2" aria-label="Italy flag">
+                  <svg width="16" height="11" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="20" height="14" rx="2" fill="#F5F5F5"/>
+                    <rect width="6.67" height="14" rx="2" fill="#008C45"/>
+                    <rect x="13.33" width="6.67" height="14" rx="2" fill="#CD212A"/>
+                  </svg>
+                </span>
               )}
               {locale === 'it' ? 'EN' : 'IT'}
             </button>

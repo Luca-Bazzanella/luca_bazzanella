@@ -16,7 +16,6 @@
       }
     ],
     "description": "Manager trentino, classe 1991, con un background come advisor all'interno del Parlamento Europeo. Specializzato in gestione aziendale esternalizzata e digitalizzazione di processi con particolare esperienza nell'analisi delle politiche pubbliche e relazioni istituzionali. Da sempre interessato al sociale è presidente della cooperativa Ermetes scs e della Sustainable Economy Association, organizzazione no profit impegnata in progetti internazionali con particolare focus sul Nord Africa e in azioni di advocacy a favore delle nuove tecnologie per la decarbonizzazione. Dal 2019 al 2021 Responsabile dell'Ufficio Europa di Confcommercio Trentino, la principale Associazione di Categoria in Italia per piccole e medie imprese e dal 2020 amministratore e direttore operativo della società di consulenza European Management Institute. Ricopre in passato vari ruoli di coordinamento politico a livello regionale e nazionale in Forza Italia – PDL lasciando ogni incarico nel dicembre 2022. Da sempre interessato a trovare il giusto compromesso tra efficienza aziendale e impatto sociale.",
-    "cta": "Scopri il mio lavoro",
     "contact": "Contatti",
     "linkedin": "LinkedIn"
   },
@@ -202,6 +201,7 @@
     "backToHome": "Torna alla Home",
     "attendees": "partecipanti",
     "learnMore": "Scopri di più",
+    "title": "Tutte le conferenze",
     "allConferences": [
       {
         "title": "Bypass ferroviario rumori e vibrazioni lotto 3A",
@@ -368,7 +368,7 @@
     ]
   },
   "contactForm": {
-    "contactBanner": "Per metterti in contatto per saperne di più",
+    "contactBanner": "Se metterti in contatto e saperne di più",
     "clickHere": "clicca qui",
     "thankYou": "Grazie per la tua richiesta!",
     "firstName": "Nome",
@@ -382,6 +382,6 @@
     "description": "Manager trentino classe 1991 specializzato in gestione aziende e digitale con particolare esperienza nell'ambito delle politiche pubbliche.",
     "contacts": "Contatti",
     "location": "Trento, Italy, Bruxelles, Roma",
-    "copyright": "Sviluppato da Sintija Birgele. Tutti i diritti riservati all'European Management Institute."
+    "copyright": "Tutti i diritti riservati all'Luca Bazzanella. Sviluppato da Sintija Birgele."
   }
 }

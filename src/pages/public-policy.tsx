@@ -32,26 +32,17 @@ const PublicPolicy = ({ content, locale, navigation, footer, contactForm }: Publ
                 {content?.heroTitle?.[locale] || content?.heroTitle || 'Public Policy'}
               </h1>
               <div className="flex flex-col md:flex-row gap-8 items-stretch w-full">
-                <div className="flex-1 flex items-start">
-                  <p className="text-xl text-slate-700 leading-relaxed text-justify">
-                    {content?.heroDescription?.[locale] || content?.heroDescription || ''}
-                  </p>
-                </div>
-                <div className="flex-1 bg-slate-100 rounded-xl overflow-hidden flex items-center justify-center">
-                  {getSanityImageUrl(content?.images?.[0]) ? (
-                    <img
-                      src={getSanityImageUrl(content?.images?.[0])}
-                      alt={content?.images?.[0]?.alt || 'Public Policy'}
-                      className="w-full"
-                      style={{ width: '100%', height: '260px', objectFit: 'cover' }}
-                    />
-                  ) : (
-                    <div className="text-slate-400 text-center py-12">No image available</div>
-                  )}
+                <div className="flex-1 flex items-start justify-left">
+                  <div className="max-w-3xl w-full ml-0">
+                    <p className="text-xl text-slate-700 leading-relaxed text-justify text-left">
+                      {content?.heroDescription?.[locale] || content?.heroDescription || ''}
+                    </p>
+                    <div className="mt-8 text-left">
+                      <ContactForm locale={locale} buttonLabel="click here" formStrings={contactForm} className="w-full text-left" />
+                    </div>
+                  </div>
                 </div>
               </div>
-              {/* Contact form block */}
-              <ContactForm locale={locale} buttonLabel="click here" formStrings={contactForm} />
             </div>
           </div>
         </section>
