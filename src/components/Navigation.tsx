@@ -32,13 +32,36 @@ const Navigation = ({ content, locale, setLocale }) => {
             <Link href="/" className="font-serif text-xl font-semibold text-slate-900 hover:text-slate-700 transition-colors">
             {content?.name?.[locale] || 'Home'}
             </Link>
-            {/* Language selector next to logo */}
-            <button
-              onClick={toggleLocale}
-              className="flex items-center text-sm font-medium text-slate-700 hover:text-slate-900 transition-colors px-3 py-1 border border-slate-300 rounded-md"
-            >
-              {locale === 'it' ? (
-                <span className="mr-2" aria-label="UK flag">
+            {/* Language switcher: flags and codes side by side */}
+            <div className="flex items-center space-x-1 rounded-md p-1">
+              {/* IT Option */}
+              <button
+                onClick={() => setLocale && setLocale('it')}
+                className={`flex items-center px-2 py-1 rounded-md text-sm font-medium transition-colors focus:outline-none ${
+                  locale === 'it' ? 'bg-white shadow text-blue-700 cursor-default' : 'hover:bg-slate-200 text-slate-700'
+                }`}
+                disabled={locale === 'it'}
+                aria-current={locale === 'it' ? 'true' : undefined}
+              >
+                <span className="mr-1" aria-label="Italy flag">
+                  <svg width="16" height="11" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="20" height="14" rx="2" fill="#F5F5F5"/>
+                    <rect width="6.67" height="14" rx="2" fill="#008C45"/>
+                    <rect x="13.33" width="6.67" height="14" rx="2" fill="#CD212A"/>
+                  </svg>
+                </span>
+                IT
+              </button>
+              {/* EN Option */}
+              <button
+                onClick={() => setLocale && setLocale('en')}
+                className={`flex items-center px-2 py-1 rounded-md text-sm font-medium transition-colors focus:outline-none ${
+                  locale === 'en' ? 'bg-white shadow text-blue-700 cursor-default' : 'hover:bg-slate-200 text-slate-700'
+                }`}
+                disabled={locale === 'en'}
+                aria-current={locale === 'en' ? 'true' : undefined}
+              >
+                <span className="mr-1" aria-label="UK flag">
                   <svg width="16" height="11" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect width="20" height="14" rx="2" fill="#012169"/>
                     <path d="M0 0L20 14M20 0L0 14" stroke="white" strokeWidth="2"/>
@@ -49,17 +72,9 @@ const Navigation = ({ content, locale, setLocale }) => {
                     <rect y="5.75" width="20" height="2.5" fill="#C8102E"/>
                   </svg>
                 </span>
-              ) : (
-                <span className="mr-2" aria-label="Italy flag">
-                  <svg width="16" height="11" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="20" height="14" rx="2" fill="#F5F5F5"/>
-                    <rect width="6.67" height="14" rx="2" fill="#008C45"/>
-                    <rect x="13.33" width="6.67" height="14" rx="2" fill="#CD212A"/>
-                  </svg>
-                </span>
-              )}
-              {locale === 'it' ? 'EN' : 'IT'}
-            </button>
+                EN
+              </button>
+            </div>
           </div>
           
           {/* Desktop Navigation */}
