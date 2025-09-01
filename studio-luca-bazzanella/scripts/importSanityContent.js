@@ -221,10 +221,6 @@ async function buildAboutDoc() {
             en: org.description || '',
             it: it.about.organizations?.[i]?.description || ''
           },
-          approach: {
-            en: org.approach || '',
-            it: it.about.organizations?.[i]?.approach || ''
-          },
           link: org.link || ''
         }))
       : undefined

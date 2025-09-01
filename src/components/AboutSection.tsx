@@ -38,29 +38,24 @@ const AboutSection = ({ content, locale, outsourcedManagement, publicPolicy, con
         <div className="max-w-7xl mx-auto px-0 md:px-4 sm:px-6 lg:px-8">
           {/* Key Activities Header */}
           <div className="mb-12">
-            <h2 className="text-3xl font-bold text-slate-800 mb-6 pl-8 lg:pl-0">{content?.navigation?.activity?.[locale] || content?.navigation?.activity || 'Activity'}</h2>
+            <h2 className="text-3xl font-bold text-slate-800 mb-6 pl-8 lg:pl-2">{content?.navigation?.activity?.[locale] || content?.navigation?.activity || 'Activity'}</h2>
           </div>
 
           {/* Organizations Cards */}
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 mb-16" id="activity">
             {(content?.organizations ?? []).map((org) => (
-              <div key={org.id} id={org.id} className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col">
+              <div key={org.id} id={org.id} className="bg-white p-8 pt-5 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col">
                 <div className="mb-6">
-                  <h3 className="text-xl font-bold text-slate-800 mb-2">{org.title?.[locale] || org.title || ''}</h3>
-                  <div className="text-sm font-medium text-blue-600 bg-blue-50 px-3 py-1 rounded-full inline-block">
+                  <div className="text-sm mb-3 font-medium text-blue-600 bg-blue-50 px-3 py-1 rounded-full inline-block">
                     {org.role?.[locale] || org.role || ''}
                   </div>
+                  <h3 className="text-xl font-bold text-slate-800 mb-2">{org.title?.[locale] || org.title || ''}</h3>
                 </div>
                 <div className="space-y-4 mb-6 flex-grow">
-                  <p className="text-slate-600 text-sm leading-relaxed text-justify">
+                  <p className=" text-slate-700 leading-relaxed font-light text-justify text-justify">
                     {typeof org.description === 'object'
                       ? org.description?.[locale] || org.description?.en || org.description?.it || ''
                       : org.description || ''}
-                  </p>
-                  <p className="text-slate-500 text-sm leading-relaxed text-justify">
-                    {typeof org.approach === 'object'
-                      ? org.approach?.[locale] || org.approach?.en || org.approach?.it || ''
-                      : org.approach || ''}
                   </p>
                 </div>
                 <a
@@ -79,10 +74,10 @@ const AboutSection = ({ content, locale, outsourcedManagement, publicPolicy, con
           {/* Two-column blocks for Outsourced Management and Public Policy */}
           <div className="w-full bg-white py-16 mb-16" id="specialization">
             <div className="max-w-7xl mx-auto px-0 md:px-8">
-              <h2 className="text-3xl font-bold text-slate-800 mb-10 pl-2 lg:pl-0">
+              <h2 className="text-3xl font-bold text-slate-800 mb-4">
                 {content?.navigation?.specialization?.[locale] || content?.navigation?.specialization || 'Specialization'}
               </h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                 <OutsourcedManagementBlock content={outsourcedManagement} locale={locale} contact={contact} />
                 <PublicPolicyBlock content={publicPolicy} locale={locale} contact={contact} />
               </div>
