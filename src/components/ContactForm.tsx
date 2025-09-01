@@ -73,7 +73,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ buttonLabel = 'click here', l
   };
 
   return (
-    <div className={hideBanner ? "" : "mt-6 p-3 border border-gray-200 rounded-2xl shadow-lg text-center bg-white flex flex-col justify-center items-center h-full"}>
+    <div className={hideBanner ? "" : "rounded-2xl bg-white flex flex-col justify-center h-full"}>
       {!hideBanner && (
         <div className="text-lg font-medium text-gray-900">
           {getString('contactBanner') || 'To get in touch to know more about'}{' '}
@@ -87,7 +87,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ buttonLabel = 'click here', l
         </div>
       )}
       {showForm && (
-        <div className={submitted ? `` : 'mx-auto max-w-md bg-white rounded-lg shadow-lg p-6 mt-6'}>
+        <div className={submitted ? `` : 'mx-auto max-w-md bg-white rounded-lg p-6 mt-6'}>
           {submitted ? (
             <div>{getString('thankYou') || 'Thank you for your submission!'}</div>
           ) : (

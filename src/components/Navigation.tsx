@@ -13,10 +13,10 @@ const Navigation = ({ content, locale, setLocale }) => {
   };
 
   const menuItems = [
-    { name: content?.management?.[locale] || 'Management', href: '/outsourced-management' },
-    { name: content?.policy?.[locale] || 'Policy', href: '/public-policy' },
-    { name: content?.socialImpact?.[locale] || 'Social Impact', href: '/social-impact' },
-    { name: content?.conferences?.[locale] || 'Conferences', href: '/all-conferences' },
+    { name: content?.vision?.[locale] || 'Vision', href: '#vision' },
+    { name: content?.activity?.[locale] || 'Activity', href: '#activity' },
+    { name: content?.specialization?.[locale] || 'Specialization', href: '#specialization' },
+    { name: content?.conferences?.[locale] || 'Conferences', href: '#conferences' },
   ];
 
   const toggleLocale = () => {

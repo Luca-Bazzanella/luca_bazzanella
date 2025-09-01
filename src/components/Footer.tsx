@@ -121,7 +121,7 @@ const Footer = ({ content, locale }: FooterProps) => {
                       }
                       return (
                         <>
-                          <span>{firstLine}</span>
+                          <span>&copy; {firstLine}</span>
                           <br />
                           <span className="italic text-sm">{renderedSecondLine}</span>
                         </>

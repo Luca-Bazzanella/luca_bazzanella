@@ -10,6 +10,7 @@ const client = createClient({
   projectId: 'n2d0sl08',
   dataset: 'production',
   useCdn: false,
+  token: 'skHrAoAOiwXHG3kvjB4JT18tT1usAbOyeSpaU6vhyncJab0PyIxLqC43xEoIfbbWLRAUuYRjxnazPDj2ta59HIIBnD48EMXQvukLCOFuD1GtypYoCJY5W8jtSDhuLrh1jFArOVlMQ7XsewDlqNx5WXxTI32XYS6RlEW0BZQmH1DE6bTeckuC',
   apiVersion: '2023-08-01' // Specify Sanity API version
 });
 
@@ -17,15 +18,25 @@ const client = createClient({
 async function uploadImages(imageList, baseDir) {
   const uploaded = [];
   for (const img of imageList) {
-    const filename = img.src?.split('/').pop();
+    let filename = img.src?.split('/').pop();
+    // Decode URL-encoded filenames to match local files
+    if (filename) {
+      try {
+        filename = decodeURIComponent(filename);
+      } catch (e) {
+        // fallback to original if decode fails
+      }
+    }
     const filePath = filename ? path.join(baseDir, filename) : null;
     let assetRef = null;
     if (filePath && fs.existsSync(filePath)) {
       try {
-        const asset = await client.assets.upload('image', fs.createReadStream(filePath), {
-          filename,
-          label: img.alt || ''
-        });
+        // Only set label if not empty, otherwise omit
+        const uploadOptions = { filename };
+        if (img.alt && img.alt.trim() !== '') {
+          uploadOptions.label = img.alt;
+        }
+        const asset = await client.assets.upload('image', fs.createReadStream(filePath), uploadOptions);
         assetRef = { _type: 'reference', _ref: asset._id };
       } catch (err) {
         console.error('Image upload failed:', img.src, err);
@@ -51,6 +62,20 @@ async function uploadImages(imageList, baseDir) {
 // Load JSON files
 const en = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/content-en.json'), 'utf8'));
 const it = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/content-it.json'), 'utf8'));
+
+// Prepare vision document (all keys)
+const visionDoc = {
+  _id: 'vision-single',
+  _type: 'vision',
+  title: {
+    en: en.vision?.title || '',
+    it: it.vision?.title || ''
+  },
+  text: {
+    en: en.vision?.text || '',
+    it: it.vision?.text || ''
+  }
+};
 
 // Prepare contactForm document
 const contactFormDoc = {
@@ -118,9 +143,9 @@ function localizeSection(sectionName, keys) {
 const navigationDoc = {
   _id: 'navigation-single',
   _type: 'navigation',
-  management: localizeSection('navigation', ['management']).management,
-  policy: localizeSection('navigation', ['policy']).policy,
-  socialImpact: localizeSection('navigation', ['socialImpact']).socialImpact,
+  vision: localizeSection('navigation', ['vision']).vision,
+  activity: localizeSection('navigation', ['activity']).activity,
+  specialization: localizeSection('navigation', ['specialization']).specialization,
   conferences: localizeSection('navigation', ['conferences']).conferences,
   name: localizeSection('navigation', ['name']).name,
   baseUrl: en.navigation.baseUrl
@@ -144,26 +169,45 @@ async function buildHeroDoc() {
 
 // Prepare about document (all keys)
 async function buildAboutDoc() {
-  // Use carouselImages directly from JSON
-  // Add _key to all carouselImages
+  // Use new carouselImages object structure: { image, link, topic, title }
   let carouselImagesArr = Array.isArray(en.about.carouselImages)
     ? en.about.carouselImages.map((img, i) => ({
-        // Always preserve all fields, even if src is missing
-        alt: img.alt || '',
-        title: img.title || '',
-        subtitle: img.subtitle || '',
-        src: img.src || '',
+        image: img.image || null, // This should be the image object or src
+        link: img.link || '',
+        topic: (typeof img.topic === 'object' && (img.topic.en || img.topic.it))
+          ? img.topic
+          : { en: img.topic || '', it: (it.about.carouselImages?.[i]?.topic || '') },
+        title: (typeof img.title === 'object' && (img.title.en || img.title.it))
+          ? img.title
+          : { en: img.title || '', it: (it.about.carouselImages?.[i]?.title || '') },
         _key: img._key || `carousel_${i}_${Math.random().toString(36).substr(2, 6)}`
       }))
     : [];
-  // Always call uploadImages, even if some entries have missing src
-  const carouselImages = await uploadImages(carouselImagesArr, path.join(__dirname, '../public/lovable-uploads'));
+
+  // Upload images and replace the image field with the uploaded asset reference
+  const uploadedImages = await uploadImages(
+    carouselImagesArr.map(img => ({
+      src: typeof img.image === 'string' ? img.image : img.image?.src || '',
+      alt: img.title?.en || '',
+      _key: img._key
+    })),
+    path.join(__dirname, '../public/lovable-uploads')
+  );
+
+  // Merge uploaded image asset refs back into carouselImagesArr
+  const carouselImages = carouselImagesArr.map((img, i) => ({
+    image: uploadedImages[i] || null,
+    link: img.link,
+    topic: img.topic,
+    title: img.title,
+    _key: img._key
+  }));
+
   return {
     _id: 'about-single',
     _type: 'about',
     title: localizeSection('about', ['title']).title,
     name: localizeSection('about', ['name']).name,
-    keyActivities: localizeSection('about', ['keyActivities']).keyActivities,
     carouselImages,
     organizations: Array.isArray(en.about.organizations) && Array.isArray(it.about.organizations)
       ? (en.about.organizations || []).map((org, i) => ({
@@ -286,20 +330,21 @@ const footerDoc = {
 // Upload documents to Sanity
 async function uploadDocs() {
   try {
-    await client.createOrReplace(navigationDoc);
-    const heroDoc = await buildHeroDoc();
-    await client.createOrReplace(heroDoc);
-    const aboutDoc = await buildAboutDoc();
-    await client.createOrReplace(aboutDoc);
-    const publicPolicyDoc = await buildPublicPolicyDoc();
-    await client.createOrReplace(publicPolicyDoc);
-    const outsourcedManagementDoc = await buildOutsourcedManagementDoc();
-    await client.createOrReplace(outsourcedManagementDoc);
-    const socialImpactDoc = await buildSocialImpactDoc();
-    await client.createOrReplace(socialImpactDoc);
-    await client.createOrReplace(allConferencesDoc);
-    await client.createOrReplace(footerDoc);
-    await client.createOrReplace(contactFormDoc);
+  await client.createOrReplace(navigationDoc);
+  const heroDoc = await buildHeroDoc();
+  await client.createOrReplace(heroDoc);
+  const aboutDoc = await buildAboutDoc();
+  await client.createOrReplace(aboutDoc);
+  await client.createOrReplace(visionDoc);
+  const publicPolicyDoc = await buildPublicPolicyDoc();
+  await client.createOrReplace(publicPolicyDoc);
+  const outsourcedManagementDoc = await buildOutsourcedManagementDoc();
+  await client.createOrReplace(outsourcedManagementDoc);
+  const socialImpactDoc = await buildSocialImpactDoc();
+  await client.createOrReplace(socialImpactDoc);
+  await client.createOrReplace(allConferencesDoc);
+  await client.createOrReplace(footerDoc);
+  await client.createOrReplace(contactFormDoc);
     console.log('Documents imported successfully!');
   } catch (err) {
     console.error('Error importing documents:', err);

@@ -1,9 +1,9 @@
 {
   "navigation": {
-    "management": "Outsourced Management",
-    "policy": "Public Policy", 
-    "socialImpact": "Social Impact",
-    "conferences": "Conferences",
+    "vision": "Vision",
+    "activity": "Activity",
+    "specialization": "Specialization",
+    "conferences": "Conferences and Meetings",
     "name": "Dr. Luca Bazzanella",
     "baseUrl": "https://european-management-institute.github.io/luca_bazzanella"
   },
@@ -19,10 +19,13 @@
     "contact": "Contact",
     "linkedin": "LinkedIn"
   },
+  "vision": {
+    "title": "Vision",
+    "text": "Economy and finance for their own sake are useless if they do not generate a positive impact on people, society, and the planet. This belief leads me to invest a large part of the company's revenues each year in activities with a positive and measurable social impact."
+  },
   "about": {
     "title": "Who is",
     "name": "Luca Bazzanella",
-    "keyActivities": "Key Activities",
     "externalLinks": [
       {
         "name": "European Management Institute",
@@ -37,66 +40,67 @@
         "url": "https://www.ermetes.it/"
       }
     ],
+    
     "carouselImages": [
       {
-        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/3c48d014-5dac-4244-a390-2011f5f4917f.png",
-        "alt": "Media Interview at Conference",
-        "title": "Media Coverage",
-        "subtitle": "Television interview during conference event"
+        "title": "Railway Bypass Noise and Vibrations Lot 3A",
+        "image": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/Bypass%20effetti%20vibrazionali%20e%20tecniche%20di%20mitigazione.png",
+        "link": "https://corridoiodelbrennero.provincia.tn.it/content/download/2170/23270/version/1/file/Locandina+ordini.pdf",
+        "topic": "Informative conference on vibration impacts and mitigation techniques related to the Trento railway bypass project."
       },
       {
-        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/0ff9547c-a290-4d02-9230-b56db457a5da.png",
-        "alt": "European Parliament Meeting",
-        "title": "European Parliament",
-        "subtitle": "Official meeting with EU representatives"
+        "title": "Sustainability and Urban Electric Mobility. Experiences and Case Studies Compared",
+        "image": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/project.ElectricMobility.02.jpg",
+        "link": "https://www.sustainableeconomy.eu/progetti/conferenza-sostenibilita-e-mobilita-elettrica-urbana-esperienze-e-casi-a-confronto/",
+        "topic": "Conference on sustainable electric urban mobility, featuring expert panels and best practices from European cities."
       },
       {
-        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/87e71afe-46ae-4a4c-8838-97af8a8d9357.png",
-        "alt": "European Parliament Collaboration",
-        "title": "International Cooperation",
-        "subtitle": "Meeting with Nobel Peace Prize winner at European Parliament"
+        "title": "Sustainability in Railway Transport. What Prospects for the Dolomites Train?",
+        "image": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/project.Railway.01.jpeg",
+        "link": "https://www.sustainableeconomy.eu/progetti/sostenibilita-nel-trasporto-ferroviario-quali-prospettive-per-il-treno-delle-dolomiti/",
+        "topic": "Exploring hydrogen-powered trains, circular economy in railway infrastructure, and sustainable transport innovation in Trentino."
       },
       {
-        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/97abf5a8-c17f-4bd6-bc05-8bfeb2c3962f.png",
-        "alt": "Professional Portrait",
-        "title": "Leadership Profile",
-        "subtitle": "Professional representation and networking"
+        "title": "European Parliament Press Conference 'Green is not left'",
+        "image": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/project.GreenIsNotLeft.png",
+        "link": "https://www.sustainableeconomy.eu/progetti/conferenza-stampa-green-is-not-left/",
+        "topic": "Press conference addressing depoliticization of environmental issues and promoting pragmatic approaches to sustainability."
       },
       {
-        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/06797e83-b04d-4211-a8ef-13b5a23fa472.png",
-        "alt": "Conference at Gallerie Venue",
-        "title": "Business Conference",
-        "subtitle": "Speaking at Gallerie venue business event"
+        "title": "The Future of Sustainable Mobility in Trentino",
+        "image": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/Futuro%20della%20Mobilit%C3%A0%20Sostenibile%20-%2021:02:2019%20.png",
+        "link": "https://www.youtube.com/watch?v=WTpy8q6fPdQ&t=2s",
+        "topic": "Event showcasing hydrogen-powered trains, urban energy transition, and innovations in mobility with national and local stakeholders."
       },
       {
-        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/3932719d-5527-45ed-b9a5-fa4418b6e9a3.png",
-        "alt": "High-Level Diplomatic Meeting",
-        "title": "Diplomatic Relations",
-        "subtitle": "Strategic meeting with political leaders"
+        "title": "FESR / FSE Oversight Commission Confcommercio Trentino",
+        "image": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/Studiamo una ridefinizione dei fondi Europei per il Trentino.png",
+        "link": "https://www.youtube.com/watch?v=1_0FOnf7V40",
+        "topic": "Oversight meeting and public discussion on the redefinition of European structural funds for local economic sectors."
       },
       {
-        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/eb2e8793-572c-4b65-a042-7a8f863f0165.png",
-        "alt": "Venice Film Festival Event",
-        "title": "Venice Film Festival",
-        "subtitle": "Exclusive cocktail party during film festival"
+        "title": "Public-Private Partnership for Sustainable Development in Trentino",
+        "image": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/Partenariato Pubblico Privato in Trentino.png",
+        "link": "https://unione.tn.it/notizia/il-partenariato-pubblico-privato-per-uno-sviluppo-sostenibile-del-trentino",
+        "topic": "Strategies and examples of public-private partnerships to support sustainable development in Trentino."
       },
       {
-        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/efd483a6-8573-4ab1-a16a-dc8e325e3ee1.png",
-        "alt": "Networking Event",
-        "title": "Professional Networking",
-        "subtitle": "High-profile business networking event"
+        "title": "Public-Private Partnership: An Opportunity for SMEs and Local Authorities",
+        "image": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/8753dece-6e38-48a2-bd4a-63e561d3b76d.png",
+        "link": "https://www.youtube.com/watch?v=nVIz903jFKY",
+        "topic": "Online seminar showcasing real-life PPP cases to foster local investments and SME participation."
       },
       {
-        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/06797e83-b04d-4211-a8ef-13b5a23fa472.png",
-        "alt": "European Management Institute",
-        "title": "European Management Institute",
-        "subtitle": "Conference at Gallerie Venue"
+        "title": "PNRR in Trentino Between Opportunities and Risks",
+        "image": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/PNRR%20in%20Trentino%20tra%20opportunit%C3%A0%20e%20rischi.png",
+        "link": "https://www.youtube.com/watch?v=l8D61N_3-HA",
+        "topic": "Debate on local impacts and challenges in implementing Italy’s recovery plan for sustainable and digital transitions."
       },
       {
-        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/0b83ced8-5fdd-4d8a-956e-211fbcb1e621.png",
-        "alt": "Sustainable Economy Association",
-        "title": "Sustainable Economy Association",
-        "subtitle": "High-profile business networking event"
+        "title": "Inauguration of the Smart City of the Future Contest",
+        "image": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/Inaugurazione contest Smart City del Futuro.jpg",
+        "link": "https://www.cci.tn.it/contest-smart-city-del-futuro/",
+        "topic": "Educational launch event encouraging high school students to co-design sustainable and resilient future cities."
       }
     ],
     "organizations": [

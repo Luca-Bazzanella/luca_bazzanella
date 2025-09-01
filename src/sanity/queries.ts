@@ -1,3 +1,4 @@
+export const visionQuery = `*[_type == "vision"][0]`;
 // Centralized GROQ queries for all Sanity documents
 
 export const heroQuery = `*[_type == "hero"][0]`;

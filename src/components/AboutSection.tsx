@@ -3,62 +3,46 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import { Target, TrendingUp, Users, Lightbulb, Globe, Rocket, ExternalLink } from 'lucide-react';
 import Autoplay from "embla-carousel-autoplay";
 import { getSanityImageUrl } from '@/lib/getSanityImageUrl';
+import OutsourcedManagementBlock from '@/components/OutsourcedManagementBlock';
+import PublicPolicyBlock from '@/components/PublicPolicyBlock';
 
-const AboutSection = ({ content, locale }) => {
-  const enhancedImages = (content?.carouselImages ?? []).map((image) => ({
-    ...image,
-    src: getSanityImageUrl(image)
-  }));
+const AboutSection = ({ content, locale, outsourcedManagement, publicPolicy, contact }) => {
+  // Use allConferences for carousel images, titles, and links
+  const enhancedImages = (content?.carouselImages ?? [])
+    .filter(conf => conf.image && conf.title && conf.link)
+    .map((conf) => {
+      // Support locale-aware title and topic (object or string)
+      const title = typeof conf.title === 'object' ? (conf.title[locale] || conf.title.en || conf.title.it || '') : conf.title;
+      const topic = typeof conf.topic === 'object' ? (conf.topic[locale] || conf.topic.en || conf.topic.it || '') : (conf.topic || '');
+      // Handle both Sanity asset object and string URL for image
+      let src = '';
+      if (typeof conf.image === 'string') {
+        src = conf.image;
+      } else if (conf.image && conf.image.asset && conf.image.asset._ref) {
+        // Use getSanityImageUrl if available, otherwise fallback
+        src = getSanityImageUrl ? getSanityImageUrl(conf.image) : '';
+      } else if (conf.image && conf.image.src) {
+        src = conf.image.src;
+      }
+      return {
+        src,
+        alt: title,
+        title,
+        subtitle: topic,
+        link: conf.link
+      };
+    });
   return (
     <>
       <section id="about" className="py-4 md:py-8 bg-gradient-to-br from-slate-50 to-blue-50/30">
         <div className="max-w-7xl mx-auto px-0 md:px-4 sm:px-6 lg:px-8">
-          {/* Enhanced Carousel with navigation controls */}
-          <div className="mb-8 md:mb-16 relative">
-            <Carousel
-              opts={{
-                align: "start",
-                loop: true,
-                slidesToScroll: 1,
-              }}
-              plugins={[
-                Autoplay({
-                  delay: 3000,
-                }),
-              ]}
-              className="relative"
-            >
-              <CarouselContent className="ml-0 md:-ml-4">
-                {enhancedImages.map((image, index) => (
-                  <CarouselItem key={index} className="pl-0 md:pl-4 basis-full md:basis-1/3">
-                    <div className="relative group/image overflow-hidden">
-                      <img 
-                        src={image.src}
-                        alt={image.alt}
-                        className="w-full h-48 md:h-64 object-cover rounded-none md:rounded-2xl shadow-lg transition-all duration-700 ease-out group-hover/image:shadow-2xl group-hover/image:scale-105 object-[70%_20%] lg:object-[75%_25%]"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent rounded-none md:rounded-2xl opacity-0 group-hover/image:opacity-100 transition-all duration-500 ease-out">
-                        <div className="absolute bottom-4 left-4 text-white transform translate-y-4 group-hover/image:translate-y-0 transition-transform duration-500 ease-out">
-                          <p className="text-sm font-semibold mb-1">{image.title}</p>
-                          <p className="text-xs opacity-90">{image.subtitle}</p>
-                        </div>
-                      </div>
-                    </div>
-                  </CarouselItem>
-                ))}
-              </CarouselContent>
-              <CarouselPrevious className="absolute left-2 md:left-0 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white shadow-lg border-0 h-8 w-8 md:h-10 md:w-10" />
-              <CarouselNext className="absolute right-2 md:right-0 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white shadow-lg border-0 h-8 w-8 md:h-10 md:w-10" />
-            </Carousel>
-          </div>
-
           {/* Key Activities Header */}
           <div className="mb-12">
-            <h2 className="text-3xl font-bold text-slate-800 mb-6 pl-8 lg:pl-0">{content?.keyActivities?.[locale] || 'Key Activities'}</h2>
+            <h2 className="text-3xl font-bold text-slate-800 mb-6 pl-8 lg:pl-0">{content?.navigation?.activity?.[locale] || content?.navigation?.activity || 'Activity'}</h2>
           </div>
 
           {/* Organizations Cards */}
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 mb-16" id="activity">
             {(content?.organizations ?? []).map((org) => (
               <div key={org.id} id={org.id} className="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col">
                 <div className="mb-6">
@@ -79,7 +63,7 @@ const AboutSection = ({ content, locale }) => {
                       : org.approach || ''}
                   </p>
                 </div>
-                <a 
+                <a
                   href={org.link}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -90,6 +74,64 @@ const AboutSection = ({ content, locale }) => {
                 </a>
               </div>
             ))}
+          </div>
+
+          {/* Two-column blocks for Outsourced Management and Public Policy */}
+          <div className="w-full bg-white py-16 mb-16" id="specialization">
+            <div className="max-w-7xl mx-auto px-0 md:px-8">
+              <h2 className="text-3xl font-bold text-slate-800 mb-10 pl-2 lg:pl-0">
+                {content?.navigation?.specialization?.[locale] || content?.navigation?.specialization || 'Specialization'}
+              </h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <OutsourcedManagementBlock content={outsourcedManagement} locale={locale} contact={contact} />
+                <PublicPolicyBlock content={publicPolicy} locale={locale} contact={contact} />
+              </div>
+            </div>
+          </div>
+          {/* Enhanced Carousel with navigation controls */}
+          <div className="mb-8 md:mb-16 relative" id="conferences">
+            <a href="/all-conferences" target="_blank" rel="noopener noreferrer" className="group">
+              <h2 className="text-3xl font-bold text-slate-800 mb-10 pl-2 lg:pl-0 transition-colors duration-200 group-hover:underline">
+                {content?.navigation?.conferences?.[locale] || content?.navigation?.conferences || 'Conferences'}
+              </h2>
+            </a>
+            <Carousel
+              opts={{
+                align: "start",
+                loop: true,
+                slidesToScroll: 1,
+              }}
+              plugins={[
+                Autoplay({
+                  delay: 3000,
+                }),
+              ]}
+              className="relative"
+            >
+              <CarouselContent className="ml-0 md:-ml-4">
+                {enhancedImages.map((image, index) => (
+                  <CarouselItem key={index} className="pl-0 md:pl-4 basis-full md:basis-1/3">
+                    <a href={image.link} target="_blank" rel="noopener noreferrer" className="block">
+                      <div className="relative group/image overflow-hidden">
+                        <img
+                          src={image.src}
+                          alt={image.alt}
+                          className="w-full h-48 md:h-64 object-cover rounded-none md:rounded-2xl shadow-lg transition-all duration-700 ease-out group-hover/image:shadow-2xl group-hover/image:scale-105 object-[70%_20%] lg:object-[75%_25%]"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent rounded-none md:rounded-2xl opacity-0 group-hover/image:opacity-100 transition-all duration-500 ease-out">
+                          <div className="absolute bottom-4 left-4 text-white transform translate-y-4 group-hover/image:translate-y-0 transition-transform duration-500 ease-out">
+                            <p className="text-sm font-semibold mb-1">{image.title}</p>
+                            <p className="text-xs opacity-90">{image.subtitle}</p>
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+                  </CarouselItem>
+                ))}
+              </CarouselContent>
+              <CarouselPrevious className="absolute left-2 md:left-0 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white shadow-lg border-0 h-8 w-8 md:h-10 md:w-10" />
+              <CarouselNext className="absolute right-2 md:right-0 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white shadow-lg border-0 h-8 w-8 md:h-10 md:w-10" />
+            </Carousel>
           </div>
         </div>
       </section>

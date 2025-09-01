@@ -1,9 +1,9 @@
 {
   "navigation": {
-    "management": "Management esternalizzato",
-    "policy": "Politiche Pubbliche", 
-    "socialImpact": "Impatto Sociale",
-    "conferences": "Conferenze",
+    "vision": "Visione",
+    "activity": "Attività",
+    "specialization": "Specializzazione",
+    "conferences": "Conferenze e Incontri",
     "name": "dott. Luca Bazzanella",
     "baseUrl": "https://european-management-institute.github.io/luca_bazzanella"
   },
@@ -19,10 +19,13 @@
     "contact": "Contatti",
     "linkedin": "LinkedIn"
   },
+  "vision": {
+    "title": "Visione",
+    "text": "L’economia e la finanza fine a se stesse non servono a nulla se non generano un impatto positivo sull’uomo, sulla società e sul pianeta. Questa convinzione mi porta a investire ogni anno gran parte dei ricavi aziendali in attività con un impatto sociale positivo e misurabile."
+  },
   "about": {
     "title": "Chi è",
     "name": "Luca Bazzanella",
-    "keyActivities": "Attività Chiave",
     "externalLinks": [
       {
         "name": "European Management Institute",
@@ -39,64 +42,64 @@
     ],
     "carouselImages": [
       {
-        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/3c48d014-5dac-4244-a390-2011f5f4917f.png",
-        "alt": "Intervista media alla conferenza",
-        "title": "Copertura mediatica",
-        "subtitle": "Intervista televisiva durante evento conferenziale"
+        "title": "Bypass ferroviario rumori e vibrazioni lotto 3A",
+        "image": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/Bypass%20effetti%20vibrazionali%20e%20tecniche%20di%20mitigazione.png",
+        "link": "https://corridoiodelbrennero.provincia.tn.it/content/download/2170/23270/version/1/file/Locandina+ordini.pdf",
+        "topic": "Conferenza informativa sugli impatti delle vibrazioni e le tecniche di mitigazione legate al progetto di bypass ferroviario di Trento."
       },
       {
-        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/0ff9547c-a290-4d02-9230-b56db457a5da.png",
-        "alt": "Incontro Parlamento Europeo",
-        "title": "Parlamento Europeo",
-        "subtitle": "Incontro ufficiale con rappresentanti UE"
+        "title": "Sostenibilità e mobilità elettrica urbana. Esperienze e casi a confronto",
+        "image": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/project.ElectricMobility.02.jpg",
+        "link": "https://www.sustainableeconomy.eu/progetti/conferenza-sostenibilita-e-mobilita-elettrica-urbana-esperienze-e-casi-a-confronto/",
+        "topic": "Conferenza sulla mobilità urbana elettrica sostenibile, con tavoli di esperti e casi di best practice europei."
       },
       {
-        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/87e71afe-46ae-4a4c-8838-97af8a8d9357.png",
-        "alt": "Collaborazione Parlamento Europeo",
-        "title": "Cooperazione internazionale",
-        "subtitle": "Incontro con Premio Nobel per la Pace al Parlamento Europeo"
+        "title": "Sostenibilità nel trasporto ferroviario. Quali prospettive per il treno delle Dolomiti?",
+        "image": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/project.Railway.01.jpeg",
+        "link": "https://www.sustainableeconomy.eu/progetti/sostenibilita-nel-trasporto-ferroviario-quali-prospettive-per-il-treno-delle-dolomiti/",
+        "topic": "Esplorazione di treni a idrogeno, economia circolare nelle infrastrutture ferroviarie e innovazioni nel trasporto sostenibile in Trentino."
       },
       {
-        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/97abf5a8-c17f-4bd6-bc05-8bfeb2c3962f.png",
-        "alt": "Ritratto professionale",
-        "title": "Profilo leadership",
-        "subtitle": "Rappresentanza professionale e networking"
+        "title": "Parlamento Europeo conferenza stampa 'Green is not left'",
+        "image": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/project.GreenIsNotLeft.png",
+        "link": "https://www.sustainableeconomy.eu/progetti/conferenza-stampa-green-is-not-left/",
+        "topic": "Conferenza stampa sulla depoliticizzazione delle tematiche ambientali e la promozione di approcci pragmatici alla sostenibilità."
       },
       {
-        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/06797e83-b04d-4211-a8ef-13b5a23fa472.png",
-        "alt": "Conferenza presso Gallerie Venue",
-        "title": "Conferenza business",
-        "subtitle": "Intervento presso evento aziendale Gallerie"
+        "title": "Il futuro della mobilità sostenibile in Trentino",
+        "image": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/Futuro%20della%20Mobilit%C3%A0%20Sostenibile%20-%2021:02:2019%20.png",
+        "link": "https://www.youtube.com/watch?v=WTpy8q6fPdQ&t=2s",
+        "topic": "Evento che presenta treni a idrogeno, transizione energetica urbana e innovazioni nella mobilità con stakeholder nazionali e locali."
       },
       {
-        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/3932719d-5527-45ed-b9a5-fa4418b6e9a3.png",
-        "alt": "Incontro diplomatico di alto livello",
-        "title": "Relazioni diplomatiche",
-        "subtitle": "Incontro strategico con leader politici"
+        "title": "Commissione di Vigilanza FESR / FSE Confcommercio Trentino",
+        "image": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/Studiamo una ridefinizione dei fondi Europei per il Trentino.png",
+        "link": "https://www.youtube.com/watch?v=1_0FOnf7V40",
+        "topic": "Incontro di monitoraggio e discussione pubblica sulla ridefinizione dei fondi strutturali europei per i settori economici locali."
       },
       {
-        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/eb2e8793-572c-4b65-a042-7a8f863f0165.png",
-        "alt": "Evento Festival del Cinema di Venezia",
-        "title": "Festival del Cinema di Venezia",
-        "subtitle": "Cocktail party esclusivo durante il festival"
+        "title": "Il Partenariato Pubblico Privato per uno sviluppo sostenibile del Trentino",
+        "image": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/Partenariato Pubblico Privato in Trentino.png",
+        "link": "https://unione.tn.it/notizia/il-partenariato-pubblico-privato-per-uno-sviluppo-sostenibile-del-trentino",
+        "topic": "Strategie ed esempi di partenariati pubblico-privati per sostenere lo sviluppo sostenibile in Trentino."
       },
       {
-        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/efd483a6-8573-4ab1-a16a-dc8e325e3ee1.png",
-        "alt": "Evento networking",
-        "title": "Networking professionale",
-        "subtitle": "Evento di networking aziendale di alto profilo"
+        "title": "Il Partenariato Pubblico Privato: un’opportunità per PMI ed enti locali",
+        "image": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/8753dece-6e38-48a2-bd4a-63e561d3b76d.png",
+        "link": "https://www.youtube.com/watch?v=nVIz903jFKY",
+        "topic": "Seminario online che presenta casi concreti di PPP per favorire investimenti locali e la partecipazione delle PMI."
       },
       {
-        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/06797e83-b04d-4211-a8ef-13b5a23fa472.png",
-        "alt": "European Management Institute",
-        "title": "European Management Institute",
-        "subtitle": "Conference at Gallerie Venue"
+        "title": "PNRR in Trentino tra opportunità e rischi",
+        "image": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/PNRR%20in%20Trentino%20tra%20opportunit%C3%A0%20e%20rischi.png",
+        "link": "https://www.youtube.com/watch?v=l8D61N_3-HA",
+        "topic": "Dibattito sugli impatti locali e le sfide nell’attuazione del piano di ripresa italiano per le transizioni sostenibili e digitali."
       },
       {
-        "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/0b83ced8-5fdd-4d8a-956e-211fbcb1e621.png",
-        "alt": "Sustainable Economy Association",
-        "title": "Sustainable Economy Association",
-        "subtitle": "Evento di networking aziendale di alto profilo"
+        "title": "Inaugurazione contest Smart City del Futuro",
+        "image": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/Inaugurazione contest Smart City del Futuro.jpg",
+        "link": "https://www.cci.tn.it/contest-smart-city-del-futuro/",
+        "topic": "Evento educativo di lancio che coinvolge studenti delle scuole superiori nella co-progettazione di città future sostenibili e resilienti."
       }
     ],
     "organizations": [
@@ -134,7 +137,7 @@
     ],
     "backToHome": "Torna alla Home",
     "heroTitle": "Public policy",
-    "heroDescription": "L’analisi delle politiche pubbliche è l’attività svolta da esperti specializzati di studio sistematico delle strategie, decisioni e azioni dei governi, con lo scopo di valutarne l’efficacia, l’efficienza e l’impatto sugli interessi dei propri clienti. Le aziende si avvalgono di questi professionisti ad esempio per essere più consapevoli sui rischi e sulle opportunità derivanti da cambiamenti politici e legislativi già in atto o futuri, per simularne l'impatto sui propri modelli di business e per poter pianificare di conseguenza la propria attività."
+    "heroDescription": "L’analisi delle politiche pubbliche è un'attività di monitoraggio sistematico delle strategie politiche e istituzionali svolta da aziende specializzate o professionisti spesso su incarico di grandi aziende o gruppi di interesse. L'obiettivo dei committenti è quello di essere più consapevoli sui rischi e sulle opportunità derivanti da cambiamenti politici e legislativi in atto o futuri, simularne l'impatto sui propri modelli di business e poter pianificare di conseguenza attività e investimenti."
   },
   "outsourcedManagement": {
     "title": "Management Esternalizzato",
@@ -149,7 +152,7 @@
       }
     ],
     "content": {
-      "intro": "La gestione esternalizzata o 'outsourced management' è la pratica di affidare a esperti esterni all’azienda la gestione di una o più operazioni aziendali o intere funzioni: finanza, digitalizzazione, bandi e gare, operazioni straordinarie, sviluppo di mercato e molto altro. L’obiettivo del committente è quello di ridurre i costi, aumentare l’efficienza e focalizzarsi sul core business delegando esternamente attività dove mancano competenze specifiche.",
+      "intro": "LLa gestione aziendale esternalizzata è una pratica, adottata principalmente da grandi imprese in fase di crescita o cambiamento, che scelgono di affidare a manager esperti esterni o aziende specializzate la gestione chiavi in mano di progetti o il raggiungimento di specifici obiettivi: operazioni straordinarie, finanza, sviluppo di mercato, bandi/commesse, digitalizzazione e molto altro. L’obiettivo è quello di aumentare l’efficienza e focalizzare l'attenzione sul core business.",
       "approach": "Utilizziamo un approccio \"data driven\" e accettiamo contratti sfidanti anche di tipo \"outcome based\", remunerati in base agli indicatori di performance concordati. Questo garantisce che i nostri clienti ricevano risultati tangibili e miglioramenti misurabili."
     },
     "projects": [
@@ -380,6 +383,6 @@
     "description": "Manager trentino classe 1991 specializzato in gestione aziende e digitale con particolare esperienza nell'ambito delle politiche pubbliche.",
     "contacts": "Contatti",
     "location": "Trento, Italy, Bruxelles, Roma",
-    "copyright": "Tutti i diritti riservati all'Luca Bazzanella. Sviluppato da Sintija Birgele."
+    "copyright": "Luca Bazzanella - tutti i diritti riservati. Sviluppato da Sintija Birgele."
   }
 }

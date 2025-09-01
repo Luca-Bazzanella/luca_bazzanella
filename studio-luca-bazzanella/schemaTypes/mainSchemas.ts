@@ -1,3 +1,13 @@
+// Vision schema
+export const vision = {
+  name: 'vision',
+  type: 'document',
+  title: 'Vision Section',
+  fields: [
+    { name: 'title', type: 'localeString', title: 'Title' },
+    { name: 'text', type: 'localeText', title: 'Text' }
+  ]
+}
 
 // LocaleText type (Sanity localization pattern)
 export const localeText = {
@@ -27,9 +37,9 @@ export const navigation = {
   type: 'document',
   title: 'Header',
   fields: [
-    { name: 'management', type: 'localeString', title: 'Management' },
-    { name: 'policy', type: 'localeString', title: 'Policy' },
-    { name: 'socialImpact', type: 'localeString', title: 'Social Impact' },
+    { name: 'vision', type: 'localeString', title: 'Vision' },
+    { name: 'activity', type: 'localeString', title: 'Activity' },
+    { name: 'specialization', type: 'localeString', title: 'Specialization' },
     { name: 'conferences', type: 'localeString', title: 'Conferences' },
     { name: 'name', type: 'localeString', title: 'Name' },
     { name: 'baseUrl', type: 'url', title: 'Base URL' }
@@ -68,15 +78,14 @@ export const about = {
   fields: [
     { name: 'title', type: 'localeString', title: 'Title' },
     { name: 'name', type: 'localeString', title: 'Name' },
-    { name: 'keyActivities', type: 'localeString', title: 'Key Activities' },
     { name: 'carouselImages', type: 'array', title: 'Carousel Images', of: [
       {
-        type: 'image',
-        options: { hotspot: true },
+        type: 'object',
         fields: [
-          { name: 'alt', type: 'string', title: 'Alt' },
-          { name: 'title', type: 'string', title: 'Title' },
-          { name: 'subtitle', type: 'string', title: 'Subtitle' }
+          { name: 'image', type: 'url', title: 'Image URL' },
+          { name: 'link', type: 'url', title: 'Link' },
+          { name: 'topic', type: 'localeString', title: 'Topic' },
+          { name: 'title', type: 'localeString', title: 'Title' }
         ]
       }
     ] },
@@ -213,6 +222,7 @@ export const schemaTypes = [
   navigation,
   hero,
   about,
+  vision,
   publicPolicy,
   outsourcedManagement,
   socialImpact,
