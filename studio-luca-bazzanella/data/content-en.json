@@ -108,22 +108,22 @@
         "id": "european-management",
         "title": "European Management Institute",
         "role": "General director",
-        "description": "A consulting firm specialized in outsourced management, public policy analysis, and corporate efficiency. It offers selected clients high value-added solutions that are rarely available on the market. European Management has made its mark in the business consulting market by using 'outcome-based' contracts as a competitive tool, which reduce client risk by tying compensation to the actual achievement of agreed-upon business performance targets.",
+        "description": "A consulting firm specialized in outsourced management, business efficiency, and public policy analysis. European Management has established itself in the business consulting market by using 'outcome-based' contracts as a competitive tool, which reduce client risk by tying compensation to the actual achievement of specific agreed business performance targets.",
         "link": "https://www.europeanmanagement.eu/"
       },
       {
         "id": "ermetes",
         "title": "Cooperativa Ermetes SCS",
         "role": "President",
-          "description": "A Trentino-based cooperative with a prevalent mutualistic purpose that supports the employment of disadvantaged individuals through targeted training and fieldwork activities.",
-          "approach": "Under the new presidency and management, a new system for measuring social impact was introduced, along with a 'C-level' corporate management system aimed at bringing efficiency and competitiveness by proactively and more directly involving all worker-members.",
+        "description": "A Trentino-based cooperative with a mutualistic purpose that supports the employment of worker-members through construction and maintenance activities. Under the new presidency and management, a new system for measuring social impact and a 'C-level' corporate management system were introduced, aiming to bring efficiency and competitiveness by directly and proactively involving all worker-members.",
+        "approach": "Under the new presidency and management, a new system for measuring social impact and a 'C-level' corporate management system were introduced, aiming to bring efficiency and competitiveness by directly and proactively involving all worker-members.",
         "link": "https://www.ermetes.it"
       },
       {
         "id": "sustainable-economy",
         "title": "Sustainable Economy Association ODV",
         "role": "President",
-        "description": "A non-profit organization founded in 2016 in Brussels and later developed in Italy, starting from Trentino where it has its main headquarters. Its mission is to rethink territorial development, public policies, and, more broadly, economic growth from a sustainable perspective, in contrast to the theory of 'happy degrowth' typical of ideological environmentalism. It organizes conferences, advocacy actions, and participates in European and international projects.",
+        "description": "A non-profit organization founded in 2016 in Brussels and later developed in Italy, starting from Trentino where it has its main headquarters. Its mission is to rethink territorial development and, more generally, economic growth from a sustainable perspective, in contrast to the theory of 'happy degrowth' typical of ideological environmentalism. It organizes conferences, advocacy actions, and participates in European and international projects.",
         "link": "https://www.sustainableeconomy.eu/"
       }
     ]
@@ -133,12 +133,12 @@
     "images": [
       {
         "src": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/0b83ced8-5fdd-4d8a-956e-211fbcb1e621.png",
-        "alt": "Public policy digital solutions"
+        "alt": "Digital solutions for public policy"
       }
     ],
     "backToHome": "Back to Home",
     "heroTitle": "Public Policy",
-    "heroDescription": "Public policy analysis is the activity carried out by specialized experts who systematically study government strategies, decisions, and actions, with the aim of assessing their effectiveness, efficiency, and impact on their clients' interests. Companies rely on these professionals, for example, to better understand the risks and opportunities arising from current or future political and legislative changes, to simulate their impact on business models, and to plan their operations accordingly."
+    "heroDescription": "Public policy analysis is a systematic monitoring activity of political and institutional strategies carried out by specialized companies or professionals, often on behalf of large companies or interest groups. The goal is to be more aware of the risks and opportunities arising from current or future political and legislative changes, to simulate their impact on business models, and to plan activities and investments accordingly."
   },
   "outsourcedManagement": {
     "title": "Outsourced Management",
@@ -152,8 +152,8 @@
       }
     ],
     "content": {
-      "intro": "Outsourced management is the practice of entrusting one or more business operations or entire functions—such as finance, digitalization, tenders and bids, extraordinary transactions, market development, and more—to external experts outside the company. The client’s goal is to reduce costs, increase efficiency, and focus on the core business by delegating activities that require specialized skills not available in-house.",
-      "approach": "We use a \"data driven\" approach and accept challenging contracts including \"outcome based\" types, compensated based on agreed performance indicators. This ensures that our clients receive tangible results and measurable improvements."
+      "intro": "Outsourced management is a practice, mainly adopted by large companies in phases of growth or change, that choose to entrust experienced external managers or specialized companies with turnkey project management or the achievement of specific objectives: extraordinary operations, finance, market development, tenders/contracts, digitalization, and much more. The goal is to increase efficiency and focus attention on the core business.",
+      "approach": "We use a data-driven approach and accept challenging contracts, including outcome-based types, compensated according to agreed performance indicators. This ensures our clients receive tangible results and measurable improvements."
     }
   },
   "socialImpact": {
