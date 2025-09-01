@@ -117,13 +117,15 @@ const Footer = ({ content, locale }: FooterProps) => {
                     if (dotIndex !== -1) {
                       const firstLine = copyright.slice(0, dotIndex + 1);
                       const secondLine = copyright.slice(dotIndex + 1).trim();
-                      // Check if secondLine starts with 'Sintija Birgele'
                       const sintija = 'Sintija Birgele';
                       let renderedSecondLine;
-                      if (secondLine.startsWith(sintija)) {
+                      if (secondLine.includes(sintija)) {
+                        const before = secondLine.slice(0, secondLine.indexOf(sintija));
+                        const after = secondLine.slice(secondLine.indexOf(sintija) + sintija.length);
                         renderedSecondLine = (
                           <>
-                            <a href="https://de.linkedin.com/in/sintija-birgele" target="_blank" rel="noopener noreferrer" className="underline text-gray-400 hover:text-gray-200">{sintija}</a>{secondLine.slice(sintija.length)}
+                            {before}
+                            <a href="https://de.linkedin.com/in/sintija-birgele" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-200">{sintija}</a>{after}
                           </>
                         );
                       } else {
