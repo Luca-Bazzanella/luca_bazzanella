@@ -6,7 +6,7 @@ import { Linkedin, Instagram } from 'lucide-react';
 const HeroSection = ({ content, locale }) => {
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-50 via-blue-50/30 to-slate-100">
+    <section id="home" className="relative min-h-screen flex items-right justify-right bg-gradient-to-br from-slate-50 via-blue-50/30 to-slate-100">
       
   <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-0 mt-0 mb-auto lg:mt-[10rem]">
         <div className="grid lg:grid-cols-2 gap-16 items-stretch">
@@ -58,7 +58,7 @@ const HeroSection = ({ content, locale }) => {
                 className="w-full max-w-lg h-full object-cover rounded-3xl shadow-2xl"
               />
             </div>
-            <div className="absolute -inset-6 bg-gradient-to-r from-luca-blue-600/20 to-luca-earth-600/20 rounded-3xl blur-2xl"></div>
+            <div className="bg-gradient-to-r from-luca-blue-600/20 to-luca-earth-600/20 rounded-3xl blur-2xl"></div>
           </div>
         </div>
       </div>
