@@ -10,7 +10,6 @@ const client = createClient({
   projectId: 'n2d0sl08',
   dataset: 'production',
   useCdn: false,
-  token: 'skHrAoAOiwXHG3kvjB4JT18tT1usAbOyeSpaU6vhyncJab0PyIxLqC43xEoIfbbWLRAUuYRjxnazPDj2ta59HIIBnD48EMXQvukLCOFuD1GtypYoCJY5W8jtSDhuLrh1jFArOVlMQ7XsewDlqNx5WXxTI32XYS6RlEW0BZQmH1DE6bTeckuC',
   apiVersion: '2023-08-01' // Specify Sanity API version
 });
 
