@@ -1,7 +1,7 @@
 
 import { Button } from '@/components/ui/button';
 import { getSanityImageUrl } from '@/lib/getSanityImageUrl';
-import { Linkedin } from 'lucide-react';
+import { Linkedin, Instagram } from 'lucide-react';
 
 const HeroSection = ({ content, locale }) => {
 
@@ -37,6 +37,15 @@ const HeroSection = ({ content, locale }) => {
                   </svg>
                 </span>
                 X.com
+              </Button>
+              <Button
+                variant="outline"
+                size="lg"
+                className="border border-slate-300 bg-white hover:bg-slate-50 text-slate-700 hover:text-slate-900 px-6 py-4 rounded-lg font-medium transition-all duration-200"
+                onClick={() => window.open('https://instagram.com/luca_bazzanella', '_blank')}
+              >
+                <Instagram className="h-4 w-4 mr-2" />
+                Instagram
               </Button>
             </div>
           </div>

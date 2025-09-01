@@ -1,5 +1,5 @@
 
-import { Linkedin, Mail, MapPin } from 'lucide-react';
+import { Linkedin, Mail, MapPin, Instagram } from 'lucide-react';
 import { useState, useMemo } from 'react';
 import ContactForm from '@/components/ContactForm';
 
@@ -42,20 +42,30 @@ const Footer = ({ content, locale }: FooterProps) => {
             </p>
             <div className="flex space-x-4 mt-6">
               <a
-                  href="https://twitter.com/lucabazzanella"
-                  className="w-10 h-10 bg-luca-blue-600 hover:bg-luca-blue-700 rounded-full flex items-center justify-center transition-colors duration-200"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <span className="block w-5 h-5">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" fill="currentColor" width="20" height="20">
-                      <path d="M 5.9199219 6 L 20.582031 27.375 L 6.2304688 44 L 9.4101562 44 L 21.986328 29.421875 L 31.986328 44 L 44 44 L 28.681641 21.669922 L 42.199219 6 L 39.029297 6 L 27.275391 19.617188 L 17.933594 6 L 5.9199219 6 z M 9.7167969 8 L 16.880859 8 L 40.203125 42 L 33.039062 42 L 9.7167969 8 z"></path>
-                    </svg>
-                  </span>
+                href="https://twitter.com/lucabazzanella"
+                className="w-10 h-10 bg-luca-blue-600 hover:bg-luca-blue-700 rounded-full flex items-center justify-center transition-colors duration-200"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="block w-5 h-5">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" fill="currentColor" width="20" height="20">
+                    <path d="M 5.9199219 6 L 20.582031 27.375 L 6.2304688 44 L 9.4101562 44 L 21.986328 29.421875 L 31.986328 44 L 44 44 L 28.681641 21.669922 L 42.199219 6 L 39.029297 6 L 27.275391 19.617188 L 17.933594 6 L 5.9199219 6 z M 9.7167969 8 L 16.880859 8 L 40.203125 42 L 33.039062 42 L 9.7167969 8 z"></path>
+                  </svg>
+                </span>
+              </a>
+              <a
+                href="https://instagram.com/luca_bazzanella"
+                className="w-10 h-10 bg-luca-blue-600 hover:bg-luca-blue-700 rounded-full flex items-center justify-center transition-colors duration-200"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Instagram className="h-5 w-5" />
               </a>
               <a
                 href="https://linkedin.com/in/lucabazzanella"
                 className="w-10 h-10 bg-luca-blue-600 hover:bg-luca-blue-700 rounded-full flex items-center justify-center transition-colors duration-200"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <Linkedin className="h-5 w-5" />
               </a>
