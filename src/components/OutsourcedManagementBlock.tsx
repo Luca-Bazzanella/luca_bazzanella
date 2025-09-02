@@ -5,7 +5,7 @@ const OutsourcedManagementBlock = ({ content, locale, contact }) => (
     <h3 className="text-xl font-bold text-slate-800 mb-4 self-start">
       {content?.title?.[locale] || content?.title || 'Outsourced Management'}
     </h3>
-    <p className="text-lg text-slate-700 leading-relaxed font-light text-justify [word-spacing: -2px] mb-6 self-start">
+    <p className="text-lg text-slate-700 leading-relaxed font-light text-justify [word-spacing: -2px] mb-4 self-start">
       {content?.content?.intro?.[locale] || content?.intro || ''}
     </p>
     <div>

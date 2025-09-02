@@ -34,7 +34,7 @@ const AboutSection = ({ content, locale, outsourcedManagement, publicPolicy, con
     });
   return (
     <>
-      <section id="about" className="py-4 pt-8 bg-gradient-to-br from-slate-50 to-blue-50/30 pb-0">
+      <section id="about" className="pt-4 bg-gradient-to-br from-slate-50 to-blue-50/30">
         <div className="max-w-7xl mx-auto px-0 md:px-4 sm:px-6 lg:px-8">
           {/* Key Activities Header */}
           <div className="md:mb-6">
@@ -44,14 +44,14 @@ const AboutSection = ({ content, locale, outsourcedManagement, publicPolicy, con
           {/* Organizations Cards */}
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-2 md:gap-12" id="activity">
             {(content?.organizations ?? []).map((org) => (
-              <div key={org.id} id={org.id} className="bg-white p-4 lg:p-8 pt-5 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col">
-                <div className="mb-6">
+              <div key={org.id} id={org.id} className="bg-white p-4 lg:p-6 pt-5 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col">
+                <div>
                   <div className="text-sm mb-3 font-medium text-blue-600 bg-blue-50 px-3 py-1 rounded-full inline-block">
                     {org.role?.[locale] || org.role || ''}
                   </div>
                   <h3 className="text-xl font-bold text-slate-800 mb-2">{org.title?.[locale] || org.title || ''}</h3>
                 </div>
-                <div className="space-y-4 mb-6 flex-grow">
+                <div className="space-y-4 mb-4 flex-grow">
                   <p className=" text-slate-700 leading-relaxed font-light text-justify [word-spacing: -2px] text-justify [word-spacing: -2px]">
                     {typeof org.description === 'object'
                       ? org.description?.[locale] || org.description?.en || org.description?.it || ''
@@ -72,12 +72,12 @@ const AboutSection = ({ content, locale, outsourcedManagement, publicPolicy, con
           </div>
 
           {/* Two-column blocks for Outsourced Management and Public Policy */}
-          <div className="w-full bg-white py-16 pb-4 px-4" id="specialization">
-            <div className="max-w-7xl mx-auto px-0 md:px-8">
+          <div className="w-full px-4 md:px-0 py-16 py-4 pb-0" id="specialization">
+            <div className="max-w-7xl mx-auto px-0">
               <h2 className="text-3xl font-bold text-slate-800 mb-4">
                 {content?.navigation?.specialization?.[locale] || content?.navigation?.specialization || 'Specialization'}
               </h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 md:gap-8 md:grid-cols-2">
                 <OutsourcedManagementBlock content={outsourcedManagement} locale={locale} contact={contact} />
                 <PublicPolicyBlock content={publicPolicy} locale={locale} contact={contact} />
               </div>
@@ -86,7 +86,7 @@ const AboutSection = ({ content, locale, outsourcedManagement, publicPolicy, con
           {/* Enhanced Carousel with navigation controls */}
           <div className="md:mb-16 relative" id="conferences">
             <a href="/all-conferences" target="_blank" rel="noopener noreferrer" className="group">
-              <h2 className="text-3xl font-bold text-slate-800 mb-10 pl-2 lg:pl-0 transition-colors duration-200 group-hover:underline">
+              <h2 className="text-3xl font-bold text-slate-800 mb-4 pl-4 lg:pl-0 transition-colors duration-200 group-hover:underline">
                 {content?.navigation?.conferences?.[locale] || content?.navigation?.conferences || 'Conferences'}
               </h2>
             </a>
@@ -101,22 +101,22 @@ const AboutSection = ({ content, locale, outsourcedManagement, publicPolicy, con
                   delay: 3000,
                 }),
               ]}
-              className="relative"
+              className="relative h-88 md:h-88"
             >
               <CarouselContent className="ml-0 md:-ml-4">
                 {enhancedImages.map((image, index) => (
                   <CarouselItem key={index} className="pl-0 md:pl-4 basis-full md:basis-1/3">
-                    <a href={image.link} target="_blank" rel="noopener noreferrer" className="block">
-                      <div className="relative group/image overflow-hidden">
+                    <a href={image.link} target="_blank" rel="noopener noreferrer" className="block h-full">
+                      <div className="relative group/image overflow-hidden h-full min-h-full">
                         <img
                           src={image.src}
                           alt={image.alt}
-                          className="w-full h-48 md:h-64 object-cover rounded-none md:rounded-2xl shadow-lg transition-all duration-700 ease-out group-hover/image:shadow-2xl group-hover/image:scale-105 object-[70%_20%] lg:object-[75%_25%]"
+                          className="w-full h-full min-h-full object-cover rounded-none md:rounded-2xl shadow-lg transition-all duration-700 ease-out group-hover/image:shadow-2xl group-hover/image:scale-105 object-[70%_20%] lg:object-[75%_25%]"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent rounded-none md:rounded-2xl opacity-0 group-hover/image:opacity-100 transition-all duration-500 ease-out">
                           <div className="absolute bottom-4 left-4 text-white transform translate-y-4 group-hover/image:translate-y-0 transition-transform duration-500 ease-out">
                             <p className="text-sm font-semibold mb-1">{image.title}</p>
-                            <p className="text-xs opacity-90">{image.subtitle}</p>
+                            {/* <p className="text-xs opacity-90">{image.subtitle}</p> */}
                           </div>
                         </div>
                       </div>

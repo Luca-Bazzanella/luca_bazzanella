@@ -35,7 +35,7 @@ const Footer = ({ content, locale }: FooterProps) => {
         <div className="grid md:grid-cols-2 gap-8">
           <div>
             <h3 className="text-2xl font-serif font-semibold text-luca-blue-400 mb-4">
-              Luca Bazzanella
+              Luca Bazzanella.
             </h3>
             <p className="text-gray-400 leading-relaxed">
               {content?.description?.[locale] || ''}
@@ -75,8 +75,8 @@ const Footer = ({ content, locale }: FooterProps) => {
           <div>
             <h4 className="text-lg font-semibold text-white mb-4">{content?.footer?.[locale]?.contacts || content?.footer?.contacts?.[locale] || content?.footer?.contacts || 'Contacts'}</h4>
             <div className="space-y-3 text-gray-400">
-              <div className="flex items-center">
-                <Mail className="h-4 w-4 mr-2 text-luca-blue-400" />
+              <div className="flex items-top">
+                <Mail className="h-4 w-4 mr-2 text-luca-blue-400 mt-2" />
                 <div className="text-gray-400 leading-relaxed">
                   {content?.contactBanner?.[locale] || content?.contactBanner?.en || 'To get in touch to know more about'}{' '}
                   <button
@@ -125,7 +125,7 @@ const Footer = ({ content, locale }: FooterProps) => {
                         renderedSecondLine = (
                           <>
                             {before}
-                            <a href="https://de.linkedin.com/in/sintija-birgele" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-200">{sintija}</a>{after}
+                            <a href="https://de.linkedin.com/in/sintija-birgele" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-200 underline">{sintija}</a>{after}
                           </>
                         );
                       } else {
