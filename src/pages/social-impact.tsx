@@ -37,7 +37,7 @@ const SocialImpact = ({ content, locale, contact }: SocialImpactProps) => {
               <div className="flex flex-col md:flex-row gap-8 items-stretch w-full">
                 <div className="flex-1 flex items-start justify-left">
                   <div className="max-w-3xl w-full ml-0">
-                    <p className="text-xl text-slate-700 leading-relaxed text-justify text-left">
+                    <p className="text-xl text-slate-700 leading-relaxed text-justify [word-spacing: -2px] text-left">
                       {content?.heroDescription?.[locale] || content?.heroDescription || ''}
                     </p>
                     <div className="mt-8 text-left">

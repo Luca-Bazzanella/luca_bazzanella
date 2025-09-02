@@ -75,7 +75,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ buttonLabel = 'click here', l
   return (
     <div className={hideBanner ? "" : "rounded-2xl bg-white flex flex-col justify-center h-full"}>
       {!hideBanner && (
-        <div className="text-lg text-slate-700 leading-relaxed font-regular text-justify mb-6">
+        <div className="text-lg text-slate-700 leading-relaxed font-regular text-justify [word-spacing: -2px] mb-6">
           {getString('contactBanner') || 'To get in touch to know more about'}{' '}
           <button
             type="button"

@@ -37,14 +37,19 @@ const Navigation = ({ content, locale, setLocale }) => {
               {/* IT Option */}
               <button
                 onClick={() => setLocale && setLocale('it')}
-                className={`flex items-center px-2 py-1 rounded-md text-sm font-medium transition-colors focus:outline-none ${
-                  locale === 'it' ? 'bg-white shadow text-blue-700 cursor-default' : 'hover:bg-slate-200 text-slate-700'
-                }`}
+                className={`flex items-center px-2 py-1 rounded-md text-sm font-semibold transition-all focus:outline-none
+                  ${locale === 'it'
+                    ? 'bg-white shadow-[0_0_0_4px_rgba(37,99,235,0.15),0_4px_24px_rgba(37,99,235,0.15)] text-blue-700 cursor-default scale-105 font-bold underline underline-offset-4'
+                    : 'hover:bg-slate-200 text-slate-700'}
+                `}
                 disabled={locale === 'it'}
                 aria-current={locale === 'it' ? 'true' : undefined}
               >
                 <span className="mr-1" aria-label="Italy flag">
-                  <svg width="16" height="11" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg
+                    width="16" height="11" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    style={locale === 'it' ? { borderBottom: '2px solid #2563eb', borderRadius: '2px' } : {}}
+                  >
                     <rect width="20" height="14" rx="2" fill="#F5F5F5"/>
                     <rect width="6.67" height="14" rx="2" fill="#008C45"/>
                     <rect x="13.33" width="6.67" height="14" rx="2" fill="#CD212A"/>
@@ -55,14 +60,19 @@ const Navigation = ({ content, locale, setLocale }) => {
               {/* EN Option */}
               <button
                 onClick={() => setLocale && setLocale('en')}
-                className={`flex items-center px-2 py-1 rounded-md text-sm font-medium transition-colors focus:outline-none ${
-                  locale === 'en' ? 'bg-white shadow text-blue-700 cursor-default' : 'hover:bg-slate-200 text-slate-700'
-                }`}
+                className={`flex items-center px-2 py-1 rounded-md text-sm font-semibold transition-all focus:outline-none
+                  ${locale === 'en'
+                    ? 'bg-white shadow-[0_0_0_4px_rgba(37,99,235,0.15),0_4px_24px_rgba(37,99,235,0.15)] text-blue-700 cursor-default scale-105 font-bold underline underline-offset-4'
+                    : 'hover:bg-slate-200 text-slate-700'}
+                `}
                 disabled={locale === 'en'}
                 aria-current={locale === 'en' ? 'true' : undefined}
               >
                 <span className="mr-1" aria-label="UK flag">
-                  <svg width="16" height="11" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <svg
+                    width="16" height="11" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    style={locale === 'en' ? { borderBottom: '2px solid #2563eb', borderRadius: '2px' } : {}}
+                  >
                     <rect width="20" height="14" rx="2" fill="#012169"/>
                     <path d="M0 0L20 14M20 0L0 14" stroke="white" strokeWidth="2"/>
                     <path d="M0 0L20 14M20 0L0 14" stroke="#C8102E" strokeWidth="1"/>

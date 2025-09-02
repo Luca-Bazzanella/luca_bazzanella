@@ -34,17 +34,17 @@ const AboutSection = ({ content, locale, outsourcedManagement, publicPolicy, con
     });
   return (
     <>
-      <section id="about" className="py-4 md:py-8 bg-gradient-to-br from-slate-50 to-blue-50/30">
+      <section id="about" className="py-4 pt-8 bg-gradient-to-br from-slate-50 to-blue-50/30 pb-0">
         <div className="max-w-7xl mx-auto px-0 md:px-4 sm:px-6 lg:px-8">
           {/* Key Activities Header */}
-          <div className="mb-12">
-            <h2 className="text-3xl font-bold text-slate-800 mb-6 pl-8 lg:pl-2">{content?.navigation?.activity?.[locale] || content?.navigation?.activity || 'Activity'}</h2>
+          <div className="md:mb-6">
+            <h2 className="text-3xl font-bold text-slate-800 pl-4 md:pl-8 lg:pl-2">{content?.navigation?.activity?.[locale] || content?.navigation?.activity || 'Activity'}</h2>
           </div>
 
           {/* Organizations Cards */}
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 mb-16" id="activity">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-2 md:gap-12" id="activity">
             {(content?.organizations ?? []).map((org) => (
-              <div key={org.id} id={org.id} className="bg-white p-8 pt-5 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col">
+              <div key={org.id} id={org.id} className="bg-white p-4 lg:p-8 pt-5 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col">
                 <div className="mb-6">
                   <div className="text-sm mb-3 font-medium text-blue-600 bg-blue-50 px-3 py-1 rounded-full inline-block">
                     {org.role?.[locale] || org.role || ''}
@@ -52,7 +52,7 @@ const AboutSection = ({ content, locale, outsourcedManagement, publicPolicy, con
                   <h3 className="text-xl font-bold text-slate-800 mb-2">{org.title?.[locale] || org.title || ''}</h3>
                 </div>
                 <div className="space-y-4 mb-6 flex-grow">
-                  <p className=" text-slate-700 leading-relaxed font-light text-justify text-justify">
+                  <p className=" text-slate-700 leading-relaxed font-light text-justify [word-spacing: -2px] text-justify [word-spacing: -2px]">
                     {typeof org.description === 'object'
                       ? org.description?.[locale] || org.description?.en || org.description?.it || ''
                       : org.description || ''}
@@ -72,19 +72,19 @@ const AboutSection = ({ content, locale, outsourcedManagement, publicPolicy, con
           </div>
 
           {/* Two-column blocks for Outsourced Management and Public Policy */}
-          <div className="w-full bg-white py-16 mb-16" id="specialization">
+          <div className="w-full bg-white py-16 pb-4 px-4" id="specialization">
             <div className="max-w-7xl mx-auto px-0 md:px-8">
               <h2 className="text-3xl font-bold text-slate-800 mb-4">
                 {content?.navigation?.specialization?.[locale] || content?.navigation?.specialization || 'Specialization'}
               </h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <OutsourcedManagementBlock content={outsourcedManagement} locale={locale} contact={contact} />
                 <PublicPolicyBlock content={publicPolicy} locale={locale} contact={contact} />
               </div>
             </div>
           </div>
           {/* Enhanced Carousel with navigation controls */}
-          <div className="mb-8 md:mb-16 relative" id="conferences">
+          <div className="md:mb-16 relative" id="conferences">
             <a href="/all-conferences" target="_blank" rel="noopener noreferrer" className="group">
               <h2 className="text-3xl font-bold text-slate-800 mb-10 pl-2 lg:pl-0 transition-colors duration-200 group-hover:underline">
                 {content?.navigation?.conferences?.[locale] || content?.navigation?.conferences || 'Conferences'}
