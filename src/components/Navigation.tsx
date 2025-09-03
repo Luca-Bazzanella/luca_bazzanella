@@ -39,7 +39,7 @@ const Navigation = ({ content, locale, setLocale }) => {
                 onClick={() => setLocale && setLocale('it')}
                 className={`flex items-center px-2 py-1 rounded-md text-sm font-semibold transition-all focus:outline-none
                   ${locale === 'it'
-                    ? 'bg-white shadow-[0_0_0_4px_rgba(37,99,235,0.15),0_4px_24px_rgba(37,99,235,0.15)] text-blue-700 cursor-default scale-105 font-bold underline underline-offset-4'
+                    ? 'bg-white text-blue-700 cursor-default scale-105 font-bold underline underline-offset-4 border border-gray-800 border-[1px]'
                     : 'hover:bg-slate-200 text-slate-700'}
                 `}
                 disabled={locale === 'it'}
@@ -48,7 +48,6 @@ const Navigation = ({ content, locale, setLocale }) => {
                 <span className="mr-1" aria-label="Italy flag">
                   <svg
                     width="16" height="11" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg"
-                    style={locale === 'it' ? { borderBottom: '2px solid #2563eb', borderRadius: '2px' } : {}}
                   >
                     <rect width="20" height="14" rx="2" fill="#F5F5F5"/>
                     <rect width="6.67" height="14" rx="2" fill="#008C45"/>
@@ -62,7 +61,7 @@ const Navigation = ({ content, locale, setLocale }) => {
                 onClick={() => setLocale && setLocale('en')}
                 className={`flex items-center px-2 py-1 rounded-md text-sm font-semibold transition-all focus:outline-none
                   ${locale === 'en'
-                    ? 'bg-white shadow-[0_0_0_4px_rgba(37,99,235,0.15),0_4px_24px_rgba(37,99,235,0.15)] text-blue-700 cursor-default scale-105 font-bold underline underline-offset-4'
+                    ? 'bg-white text-blue-700 cursor-default scale-105 font-bold underline underline-offset-4 border border-gray-800 border-[1px]'
                     : 'hover:bg-slate-200 text-slate-700'}
                 `}
                 disabled={locale === 'en'}
@@ -71,7 +70,6 @@ const Navigation = ({ content, locale, setLocale }) => {
                 <span className="mr-1" aria-label="UK flag">
                   <svg
                     width="16" height="11" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg"
-                    style={locale === 'en' ? { borderBottom: '2px solid #2563eb', borderRadius: '2px' } : {}}
                   >
                     <rect width="20" height="14" rx="2" fill="#012169"/>
                     <path d="M0 0L20 14M20 0L0 14" stroke="white" strokeWidth="2"/>

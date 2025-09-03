@@ -34,7 +34,7 @@ const AboutSection = ({ content, locale, outsourcedManagement, publicPolicy, con
     });
   return (
     <>
-      <section id="about" className="pt-4 bg-gradient-to-br from-slate-50 to-blue-50/30">
+      <section id="about" className="py-4 bg-gradient-to-br from-slate-50 to-blue-50/30">
         <div className="max-w-7xl mx-auto px-0 md:px-4 sm:px-6 lg:px-8">
           {/* Key Activities Header */}
           <div className="md:mb-6">
@@ -44,15 +44,15 @@ const AboutSection = ({ content, locale, outsourcedManagement, publicPolicy, con
           {/* Organizations Cards */}
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-2 md:gap-12" id="activity">
             {(content?.organizations ?? []).map((org) => (
-              <div key={org.id} id={org.id} className="bg-white p-4 lg:p-6 pt-5 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col">
+              <div key={org.id} id={org.id} className="bg-white p-4 lg:p-6 pt-4 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col">
                 <div>
-                  <div className="text-sm mb-3 font-medium text-blue-600 bg-blue-50 px-3 py-1 rounded-full inline-block">
+                  <div className="text-sm mb-1 font-medium text-blue-600 bg-blue-50 px-3 py-1 rounded-full inline-block" style={{marginLeft: '-10px'}}>
                     {org.role?.[locale] || org.role || ''}
                   </div>
                   <h3 className="text-xl font-bold text-slate-800 mb-2">{org.title?.[locale] || org.title || ''}</h3>
                 </div>
-                <div className="space-y-4 mb-4 flex-grow">
-                  <p className=" text-slate-700 leading-relaxed font-light text-justify [word-spacing: -2px] text-justify [word-spacing: -2px]">
+                <div className="space-y-4 mb-2 md:mb-0 flex-grow">
+                  <p className=" text-slate-700 leading-relaxed font-light text-justify [word-spacing: -2px] text-justify [word-spacing: -2px] md:mb-1">
                     {typeof org.description === 'object'
                       ? org.description?.[locale] || org.description?.en || org.description?.it || ''
                       : org.description || ''}
@@ -84,7 +84,7 @@ const AboutSection = ({ content, locale, outsourcedManagement, publicPolicy, con
             </div>
           </div>
           {/* Enhanced Carousel with navigation controls */}
-          <div className="md:mb-16 relative" id="conferences">
+          <div className="relative" id="conferences">
             <a href="/all-conferences" target="_blank" rel="noopener noreferrer" className="group">
               <h2 className="text-3xl font-bold text-slate-800 mb-4 pl-4 lg:pl-0 transition-colors duration-200 group-hover:underline">
                 {content?.navigation?.conferences?.[locale] || content?.navigation?.conferences || 'Conferences'}

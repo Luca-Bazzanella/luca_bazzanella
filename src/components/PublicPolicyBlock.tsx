@@ -1,7 +1,7 @@
 import ContactForm from '@/components/ContactForm';
 
 const PublicPolicyBlock = ({ content, locale, contact }) => (
-  <div className="p-0 md:pt-8 flex flex-col h-full w-full justify-start">
+  <div className="p-0 flex flex-col h-full w-full justify-start">
     <h3 className="text-xl font-bold text-slate-800 mb-4">
       {content?.heroTitle?.[locale] || content?.heroTitle || 'Public Policy'}
     </h3>
