@@ -19,7 +19,7 @@ const HeroSection = ({ content, locale }) => {
               <Button 
                 variant="outline" 
                 size="lg" 
-                className="border border-slate-300 bg-white hover:bg-slate-50 text-slate-700 hover:text-slate-900 w-12 h-12 rounded-lg font-medium transition-all duration-200 flex items-center justify-center p-0"
+                className="border border-slate-300 bg-white hover:bg-slate-50 text-slate-700 hover:text-slate-900 w-10 h-10 rounded-lg font-medium transition-all duration-200 flex items-center justify-center p-0"
                 onClick={() => window.open('https://www.linkedin.com/in/luca-bazzanella-b08037b7/', '_blank')}
               >
                 <span className="flex items-center justify-center w-full h-full">
@@ -29,7 +29,7 @@ const HeroSection = ({ content, locale }) => {
               <Button 
                 variant="outline" 
                 size="lg" 
-                className="border border-slate-300 bg-white hover:bg-slate-50 text-slate-700 hover:text-slate-900 w-12 h-12 rounded-lg font-medium transition-all duration-200 flex items-center justify-center p-0"
+                className="border border-slate-300 bg-white hover:bg-slate-50 text-slate-700 hover:text-slate-900 w-10 h-10 rounded-lg font-medium transition-all duration-200 flex items-center justify-center p-0"
                 onClick={() => window.open('https://x.com/LucaBazzanella', '_blank')}
                 aria-label="X (Twitter)"
               >
@@ -42,7 +42,7 @@ const HeroSection = ({ content, locale }) => {
               <Button
                 variant="outline"
                 size="lg"
-                className="border border-slate-300 bg-white hover:bg-slate-50 text-slate-700 hover:text-slate-900 w-12 h-12 rounded-lg font-medium transition-all duration-200 flex items-center justify-center p-0"
+                className="border border-slate-300 bg-white hover:bg-slate-50 text-slate-700 hover:text-slate-900 w-10 h-10 rounded-lg font-medium transition-all duration-200 flex items-center justify-center p-0"
                 onClick={() => window.open('https://instagram.com/luca_bazzanella', '_blank')}
                 aria-label="Instagram"
               >
