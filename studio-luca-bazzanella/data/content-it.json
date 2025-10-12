@@ -42,13 +42,13 @@
     ],
     "carouselImages": [
       {
-        "title": "Bypass ferroviario rumori e vibrazioni lotto 3A",
+        "title": "'Bypass Ferroviario' e moderazione conferenza inaugurale",
         "image": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/Bypass%20effetti%20vibrazionali%20e%20tecniche%20di%20mitigazione.png",
-        "link": "https://corridoiodelbrennero.provincia.tn.it/content/download/2170/23270/version/1/file/Locandina+ordini.pdf",
+        "link": "https://www.youtube.com/live/qzlIxiylCc0",
         "topic": "Conferenza informativa sugli impatti delle vibrazioni e le tecniche di mitigazione legate al progetto di bypass ferroviario di Trento."
       },
       {
-        "title": "Sostenibilità e mobilità elettrica urbana. Esperienze e casi a confronto",
+        "title": "Conferenza 'Sostenibilità e mobilità elettrica urbana. Esperienze e casi a confronto'",
         "image": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/project.ElectricMobility.02.jpg",
         "link": "https://www.sustainableeconomy.eu/progetti/conferenza-sostenibilita-e-mobilita-elettrica-urbana-esperienze-e-casi-a-confronto/",
         "topic": "Conferenza sulla mobilità urbana elettrica sostenibile, con tavoli di esperti e casi di best practice europei."
@@ -60,19 +60,19 @@
         "topic": "Esplorazione di treni a idrogeno, economia circolare nelle infrastrutture ferroviarie e innovazioni nel trasporto sostenibile in Trentino."
       },
       {
-        "title": "Parlamento Europeo conferenza stampa 'Green is not left'",
+        "title": "Conferenza stampa al Parlamento Europeo, Bruxelles 'Green Is Not Left'",
         "image": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/project.GreenIsNotLeft.png",
         "link": "https://www.sustainableeconomy.eu/progetti/conferenza-stampa-green-is-not-left/",
         "topic": "Conferenza stampa sulla depoliticizzazione delle tematiche ambientali e la promozione di approcci pragmatici alla sostenibilità."
       },
       {
-        "title": "Il futuro della mobilità sostenibile in Trentino",
+        "title": "'Il Futuro della Mobilità Sostenibile' Trento, Sustainable Economy Association",
         "image": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/Futuro%20della%20Mobilit%C3%A0%20Sostenibile%20-%2021:02:2019%20.png",
         "link": "https://www.youtube.com/watch?v=WTpy8q6fPdQ&t=2s",
         "topic": "Evento che presenta treni a idrogeno, transizione energetica urbana e innovazioni nella mobilità con stakeholder nazionali e locali."
       },
       {
-        "title": "Commissione di Vigilanza FESR / FSE Confcommercio Trentino",
+        "title": "Trentino Ridefinizione dei fondi strutturali e di investimento europei per la Provincia di Trento Trentino",
         "image": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/Studiamo una ridefinizione dei fondi Europei per il Trentino.png",
         "link": "https://www.youtube.com/watch?v=1_0FOnf7V40",
         "topic": "Incontro di monitoraggio e discussione pubblica sulla ridefinizione dei fondi strutturali europei per i settori economici locali."
@@ -90,7 +90,7 @@
         "topic": "Seminario online che presenta casi concreti di PPP per favorire investimenti locali e la partecipazione delle PMI."
       },
       {
-        "title": "PNRR in Trentino tra opportunità e rischi",
+        "title": "Organizzazione conferenza 'PNRR in Trentino Tra opportunità e rischi'",
         "image": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/PNRR%20in%20Trentino%20tra%20opportunit%C3%A0%20e%20rischi.png",
         "link": "https://www.youtube.com/watch?v=l8D61N_3-HA",
         "topic": "Dibattito sugli impatti locali e le sfide nell’attuazione del piano di ripresa italiano per le transizioni sostenibili e digitali."
@@ -100,6 +100,12 @@
         "image": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/Inaugurazione contest Smart City del Futuro.jpg",
         "link": "https://www.cci.tn.it/contest-smart-city-del-futuro/",
         "topic": "Evento educativo di lancio che coinvolge studenti delle scuole superiori nella co-progettazione di città future sostenibili e resilienti."
+      },
+      {
+        "title": "Internazionale, formatore percorso executive 'Partenariato Pubblico Privato per lo sviluppo locale'",
+        "image": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/IMG_3796-e1544519546652-scaled.jpeg",
+        "link": "https://www.trentinomozambico.org/progetti-cooperazione-internazionale/altri-progetti/capacity-building-istituzionale-a-livello-nazionale/",
+        "topic": "Incarico CCI-Centro Cooperazione Internazionale, formatore percorso executive 'Partenariato Pubblico Privato per lo sviluppo locale' rafforzamento competenze per dirigenti e alti funzionari pubblici Mozambico."
       }
     ],
     "organizations": [
@@ -204,15 +210,15 @@
     "title": "Tutte le conferenze",
     "allConferences": [
       {
-        "title": "Bypass ferroviario rumori e vibrazioni lotto 3A",
+        "title": "'Bypass Ferroviario' e moderazione conferenza inaugurale",
         "date": "2024",
         "location": "Le Gallerie, Trento",
         "attendees": "200+",
         "topic": "Conferenza informativa sugli impatti delle vibrazioni e le tecniche di mitigazione legate al progetto di bypass ferroviario di Trento.",
-        "link": "https://corridoiodelbrennero.provincia.tn.it/content/download/2170/23270/version/1/file/Locandina+ordini.pdf"
+        "link": "https://www.youtube.com/live/qzlIxiylCc0"
       },
       {
-        "title": "Sostenibilità e mobilità elettrica urbana. Esperienze e casi a confronto",
+        "title": "Conferenza 'Sostenibilità e mobilità elettrica urbana. Esperienze e casi a confronto'",
         "date": "2018",
         "location": "Villa Madruzzo, Trento",
         "attendees": "100+",
@@ -228,7 +234,7 @@
         "link": "https://www.sustainableeconomy.eu/progetti/sostenibilita-nel-trasporto-ferroviario-quali-prospettive-per-il-treno-delle-dolomiti/"
       },
       {
-        "title": "Parlamento Europeo conferenza stampa 'Green is not left'",
+        "title": "Conferenza stampa al Parlamento Europeo, Bruxelles 'Green Is Not Left'",
         "date": "2019",
         "location": "Parlamento Europeo, Bruxelles",
         "attendees": "50+",
@@ -246,7 +252,7 @@
         ]
       },
       {
-        "title": "Il futuro della mobilità sostenibile in Trentino",
+        "title": "'Il Futuro della Mobilità Sostenibile' Trento, Sustainable Economy Association",
         "date": "2022",
         "location": "MUSE, Trento",
         "attendees": "150+",
@@ -254,22 +260,22 @@
         "link": "https://www.youtube.com/watch?v=WTpy8q6fPdQ&t=2s"
       },
       {
-        "title": "Commissione di Vigilanza FESR / FSE Confcommercio Trentino",
+        "title": "Trentino Ridefinizione dei fondi strutturali e di investimento europei per la Provincia di Trento Trentino",
         "date": "2020",
         "location": "Trento",
         "attendees": "70+",
         "topic": "Incontro di monitoraggio e discussione pubblica sulla ridefinizione dei fondi strutturali europei per i settori economici locali.",
         "link": "https://www.youtube.com/watch?v=1_0FOnf7V40",
         "links": [
-        {
-          "name": "YouTube Video",
-          "url": "https://www.youtube.com/watch?v=1_0FOnf7V40&pp=ygUWbHVjYSBiYXp6YW5lbGxhIHRyZW50bw%3D%3D"
-        },
-        {
-          "name": "Facebook Video",
-          "url": "https://www.facebook.com/watch/?v=573766943245518"
-        }
-      ]
+          {
+            "name": "YouTube Video",
+            "url": "https://www.youtube.com/watch?v=1_0FOnf7V40&pp=ygUWbHVjYSBiYXp6YW5lbGxhIHRyZW50bw%3D%3D"
+          },
+          {
+            "name": "Facebook Video",
+            "url": "https://www.facebook.com/watch/?v=573766943245518"
+          }
+        ]
       },
       {
         "title": "Il Partenariato Pubblico Privato per uno sviluppo sostenibile del Trentino",
@@ -278,10 +284,10 @@
         "attendees": "60+",
         "topic": "Strategie ed esempi di partenariati pubblico-privati per sostenere lo sviluppo sostenibile in Trentino.",
         "link": "https://unione.tn.it/notizia/il-partenariato-pubblico-privato-per-uno-sviluppo-sostenibile-del-trentino",
-                "links": [
+        "links": [
           {
-          "name": "Link PAT",
-          "url": "https://agenda2030.provincia.tn.it/In-evidenza/Il-Partenariato-Pubblico-Privato-per-uno-sviluppo-sostenibile-del-Trentino"
+            "name": "Link PAT",
+            "url": "https://agenda2030.provincia.tn.it/In-evidenza/Il-Partenariato-Pubblico-Privato-per-uno-sviluppo-sostenibile-del-Trentino"
           },
           {
             "name": "Link Confcommercio",
@@ -310,7 +316,7 @@
         "link": "https://www.youtube.com/watch?v=nVIz903jFKY"
       },
       {
-        "title": "PNRR in Trentino tra opportunità e rischi",
+        "title": "Organizzazione conferenza 'PNRR in Trentino Tra opportunità e rischi'",
         "date": "2022",
         "location": "Cantine Ferrari, Trento",
         "attendees": "100+",
@@ -335,27 +341,27 @@
         "topic": "Evento educativo di lancio che coinvolge studenti delle scuole superiori nella co-progettazione di città future sostenibili e resilienti.",
         "link": "https://www.cci.tn.it/contest-smart-city-del-futuro/",
         "links": [
-        {
-          "name": "Link PAT",
-          "url": "https://educazioneambientale.provincia.tn.it/Catalogo-del-sistema-provinciale/Contest-Smart-City-del-Futuro"
-        },
-        {
-          "name": "Link CCI",
-          "url": "https://www.cci.tn.it/contest-smart-city-del-futuro/"
-        },
-        {
-          "name": "Adigetto Article",
-          "url": "https://www.ladigetto.it/interno/133319-la-premiazione-si-e-tenuta-stamattina-al-muse.html"
-        },
-        {
-          "name": "Voce Trentino Article",
-          "url": "https://www.lavocedeltrentino.it/2023/02/15/la-smart-city-del-futuro-ideata-e-progettata-dagli-studenti-trentini-venerdi-via-al-contest-nelle-scuole/"
-        },
-        {
-          "name": "Link SEA",
-          "url": "https://www.sustainableeconomy.eu/progetti/inaugurato-al-muse-il-contest-tra-istituti-scolastici-smart-city-del-futuro/"
-        }
-      ]
+          {
+            "name": "Link PAT",
+            "url": "https://educazioneambientale.provincia.tn.it/Catalogo-del-sistema-provinciale/Contest-Smart-City-del-Futuro"
+          },
+          {
+            "name": "Link CCI",
+            "url": "https://www.cci.tn.it/contest-smart-city-del-futuro/"
+          },
+          {
+            "name": "Adigetto Article",
+            "url": "https://www.ladigetto.it/interno/133319-la-premiazione-si-e-tenuta-stamattina-al-muse.html"
+          },
+          {
+            "name": "Voce Trentino Article",
+            "url": "https://www.lavocedeltrentino.it/2023/02/15/la-smart-city-del-futuro-ideata-e-progettata-dagli-studenti-trentini-venerdi-via-al-contest-nelle-scuole/"
+          },
+          {
+            "name": "Link SEA",
+            "url": "https://www.sustainableeconomy.eu/progetti/inaugurato-al-muse-il-contest-tra-istituti-scolastici-smart-city-del-futuro/"
+          }
+        ]
       },
       {
         "title": "Confronto politico dal vivo all’americana: Sviluppo Sostenibile in Trentino",
