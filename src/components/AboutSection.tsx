@@ -40,49 +40,6 @@ const AboutSection = ({ content, locale, outsourcedManagement, publicPolicy, con
           <div className="md:mb-6">
             <h2 className="text-3xl font-bold text-slate-800 pl-4 md:pl-8 lg:pl-2">{content?.navigation?.activity?.[locale] || content?.navigation?.activity || 'Activity'}</h2>
           </div>
-
-          {/* Organizations Cards */}
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-2 md:gap-12" id="activity">
-            {(content?.organizations ?? []).map((org) => (
-              <div key={org.id} id={org.id} className="bg-white p-4 lg:p-6 pt-4 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col">
-                <div>
-                  <div className="text-sm mb-1 font-medium text-blue-600 bg-blue-50 px-3 py-1 rounded-full inline-block" style={{marginLeft: '-10px'}}>
-                    {org.role?.[locale] || org.role || ''}
-                  </div>
-                  <h3 className="text-xl font-bold text-slate-800 mb-2">{org.title?.[locale] || org.title || ''}</h3>
-                </div>
-                <div className="space-y-4 mb-2 md:mb-0 flex-grow">
-                  <p className=" text-slate-700 leading-relaxed font-light text-justify [word-spacing: -2px] text-justify [word-spacing: -2px] md:mb-1">
-                    {typeof org.description === 'object'
-                      ? org.description?.[locale] || org.description?.en || org.description?.it || ''
-                      : org.description || ''}
-                  </p>
-                </div>
-                <a
-                  href={org.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium text-sm transition-colors duration-200 mt-auto"
-                >
-                  Learn more
-                  <ExternalLink className="w-4 h-4 ml-1" />
-                </a>
-              </div>
-            ))}
-          </div>
-
-          {/* Two-column blocks for Outsourced Management and Public Policy */}
-          <div className="w-full px-4 md:px-0 py-16 py-4 pb-0" id="specialization">
-            <div className="max-w-7xl mx-auto px-0">
-              <h2 className="text-3xl font-bold text-slate-800 mb-4 mt-4">
-                {content?.navigation?.specialization?.[locale] || content?.navigation?.specialization || 'Specialization'}
-              </h2>
-              <div className="grid grid-cols-1 md:gap-8 md:grid-cols-2">
-                <OutsourcedManagementBlock content={outsourcedManagement} locale={locale} contact={contact} />
-                <PublicPolicyBlock content={publicPolicy} locale={locale} contact={contact} />
-              </div>
-            </div>
-          </div>
           {/* Enhanced Carousel with navigation controls */}
           <div className="relative" id="conferences">
             <a href="/luca_bazzanella/all-conferences" target="_blank" rel="noopener noreferrer" className="group">
@@ -127,6 +84,48 @@ const AboutSection = ({ content, locale, outsourcedManagement, publicPolicy, con
               <CarouselPrevious className="absolute left-2 md:left-0 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white shadow-lg border-0 h-8 w-8 md:h-10 md:w-10" />
               <CarouselNext className="absolute right-2 md:right-0 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white shadow-lg border-0 h-8 w-8 md:h-10 md:w-10" />
             </Carousel>
+          </div>
+          {/* Organizations Cards */}
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-2 md:gap-12" id="activity">
+            {(content?.organizations ?? []).map((org) => (
+              <div key={org.id} id={org.id} className="bg-white p-4 lg:p-6 pt-4 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col">
+                <div>
+                  <div className="text-sm mb-1 font-medium text-blue-600 bg-blue-50 px-3 py-1 rounded-full inline-block" style={{marginLeft: '-10px'}}>
+                    {org.role?.[locale] || org.role || ''}
+                  </div>
+                  <h3 className="text-xl font-bold text-slate-800 mb-2">{org.title?.[locale] || org.title || ''}</h3>
+                </div>
+                <div className="space-y-4 mb-2 md:mb-0 flex-grow">
+                  <p className=" text-slate-700 leading-relaxed font-light text-justify [word-spacing: -2px] text-justify [word-spacing: -2px] md:mb-1">
+                    {typeof org.description === 'object'
+                      ? org.description?.[locale] || org.description?.en || org.description?.it || ''
+                      : org.description || ''}
+                  </p>
+                </div>
+                <a
+                  href={org.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium text-sm transition-colors duration-200 mt-auto"
+                >
+                  Learn more
+                  <ExternalLink className="w-4 h-4 ml-1" />
+                </a>
+              </div>
+            ))}
+          </div>
+
+          {/* Two-column blocks for Outsourced Management and Public Policy */}
+          <div className="w-full px-4 md:px-0 py-16 py-4 pb-0" id="specialization">
+            <div className="max-w-7xl mx-auto px-0">
+              <h2 className="text-3xl font-bold text-slate-800 mb-4 mt-4">
+                {content?.navigation?.specialization?.[locale] || content?.navigation?.specialization || 'Specialization'}
+              </h2>
+              <div className="grid grid-cols-1 md:gap-8 md:grid-cols-2">
+                <OutsourcedManagementBlock content={outsourcedManagement} locale={locale} contact={contact} />
+                <PublicPolicyBlock content={publicPolicy} locale={locale} contact={contact} />
+              </div>
+            </div>
           </div>
         </div>
       </section>

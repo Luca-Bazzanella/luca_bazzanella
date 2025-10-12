@@ -43,7 +43,7 @@ const Index = ({ hero, about, vision, outsourcedManagement, publicPolicy, confer
     <div className="min-h-screen">
       <HeroSection content={hero} locale={locale} />
       <VisionSection content={vision} locale={locale} />
-  <AboutSection content={{...about, navigation}} locale={locale} outsourcedManagement={outsourcedManagement} publicPolicy={publicPolicy} contact={contact} />
+      <AboutSection content={{...about, navigation}} locale={locale} outsourcedManagement={outsourcedManagement} publicPolicy={publicPolicy} contact={contact} />
     </div>
   );
 };
