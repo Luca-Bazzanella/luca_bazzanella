@@ -104,18 +104,7 @@ export const publicPolicy = {
   type: 'document',
   title: 'Public Policy',
   fields: [
-    { name: 'images', type: 'array', title: 'Images', of: [
-      {
-        type: 'image',
-        options: { hotspot: true },
-        fields: [
-          { name: 'alt', type: 'string', title: 'Alt' }
-        ]
-      }
-    ] },
     { name: 'title', type: 'localeString', title: 'Title' },
-    { name: 'backToHome', type: 'localeString', title: 'Back To Home' },
-    { name: 'heroTitle', type: 'localeString', title: 'Hero Title' },
     { name: 'heroDescription', type: 'localeText', title: 'Header Description' }
   ]
 }
@@ -126,47 +115,10 @@ export const outsourcedManagement = {
   type: 'document',
   title: 'Outsourced Management',
   fields: [
-    { name: 'images', type: 'array', title: 'Images', of: [
-      {
-        type: 'image',
-        options: { hotspot: true },
-        fields: [
-          { name: 'alt', type: 'string', title: 'Alt' }
-        ]
-      }
-    ] },
     { name: 'title', type: 'localeString', title: 'Title' },
-    { name: 'backToHome', type: 'localeString', title: 'Back To Home' },
-    { name: 'role', type: 'localeString', title: 'Role' },
-    { name: 'impact', type: 'localeString', title: 'Impact' },
     { name: 'content', type: 'object', title: 'Content', fields: [
       { name: 'intro', type: 'localeText', title: 'Intro' },
     ] }
-  ]
-}
-
-// Social Impact schema
-export const socialImpact = {
-  name: 'socialImpact',
-  type: 'document',
-  title: 'Social Impact',
-  fields: [
-    { name: 'images', type: 'array', title: 'Images', of: [
-      {
-        type: 'image',
-        options: { hotspot: true },
-        fields: [
-          { name: 'alt', type: 'string', title: 'Alt' }
-        ]
-      }
-    ] },
-    { name: 'title', type: 'localeString', title: 'Title' },
-    { name: 'backToHome', type: 'localeString', title: 'Back To Home' },
-    { name: 'heroDescription', type: 'localeText', title: 'Header Description' },
-    { name: 'projects', type: 'array', title: 'Projects', of: [{ type: 'object', fields: [
-      { name: 'link', type: 'url', title: 'Link' },
-      { name: 'description', type: 'localeText', title: 'Description' }
-    ] }] }
   ]
 }
 
@@ -225,7 +177,6 @@ export const schemaTypes = [
   vision,
   publicPolicy,
   outsourcedManagement,
-  socialImpact,
   allConferences,
   footer,
   contactForm,

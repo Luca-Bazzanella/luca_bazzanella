@@ -10,8 +10,6 @@ import {
   visionQuery,
   outsourcedManagementQuery,
   publicPolicyQuery,
-  socialImpactQuery,
-  conferencesQuery,
   navigationQuery,
   footerQuery,
   contactQuery
@@ -40,7 +38,7 @@ export async function getStaticProps() {
   };
 }
 
-const Index = ({ hero, about, vision, outsourcedManagement, publicPolicy, socialImpact, conferences, navigation, footer, contact, locale, setLocale }) => {
+const Index = ({ hero, about, vision, outsourcedManagement, publicPolicy, conferences, navigation, footer, contact, locale, setLocale }) => {
   return (
     <div className="min-h-screen">
       <HeroSection content={hero} locale={locale} />

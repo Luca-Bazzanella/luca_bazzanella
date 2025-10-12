@@ -229,65 +229,28 @@ async function buildAboutDoc() {
 
 // Prepare publicPolicy document (all keys)
 async function buildPublicPolicyDoc() {
-  const policyImages = Array.isArray(en.publicPolicy.images)
-    ? en.publicPolicy.images.map((img, i) => ({ ...img, _key: `ppimg_${i}_${Math.random().toString(36).substr(2, 6)}` }))
-    : [];
-  const images = policyImages.length > 0
-    ? await uploadImages(policyImages, path.join(__dirname, '../public/lovable-uploads'))
-    : [];
   return {
     _id: 'publicPolicy-single',
     _type: 'publicPolicy',
     title: localizeSection('publicPolicy', ['title']).title,
-    backToHome: localizeSection('publicPolicy', ['backToHome']).backToHome,
-    heroTitle: localizeSection('publicPolicy', ['heroTitle']).heroTitle,
-    heroDescription: localizeSection('publicPolicy', ['heroDescription']).heroDescription,
-    images
+    heroDescription: localizeSection('publicPolicy', ['heroDescription']).heroDescription
   };
 }
 
 // Prepare outsourcedManagement document (all keys)
 async function buildOutsourcedManagementDoc() {
-  const omImages = Array.isArray(en.outsourcedManagement.images)
-    ? en.outsourcedManagement.images.map((img, i) => ({ ...img, _key: `omimg_${i}_${Math.random().toString(36).substr(2, 6)}` }))
-    : [];
-  const images = omImages.length > 0
-    ? await uploadImages(omImages, path.join(__dirname, '../public/lovable-uploads'))
-    : [];
   return {
     _id: 'outsourcedManagement-single',
     _type: 'outsourcedManagement',
     title: localizeSection('outsourcedManagement', ['title']).title,
-    backToHome: localizeSection('outsourcedManagement', ['backToHome']).backToHome,
-    role: localizeSection('outsourcedManagement', ['role']).role,
-    impact: localizeSection('outsourcedManagement', ['impact']).impact,
     content: {
       intro: {
         en: en.outsourcedManagement?.content?.intro || '',
         it: it.outsourcedManagement?.content?.intro || ''
       }
-    },
-    images
+    }
   };
 }
-
-// Prepare socialImpact document (all keys)
-async function buildSocialImpactDoc() {
-  const siImages = Array.isArray(en.socialImpact.images)
-    ? en.socialImpact.images.map((img, i) => ({ ...img, _key: `siimg_${i}_${Math.random().toString(36).substr(2, 6)}` }))
-    : [];
-  const images = siImages.length > 0
-    ? await uploadImages(siImages, path.join(__dirname, '../public/lovable-uploads'))
-    : [];
-  return {
-    _id: 'socialImpact-single',
-    _type: 'socialImpact',
-    title: localizeSection('socialImpact', ['title']).title,
-    backToHome: localizeSection('socialImpact', ['backToHome']).backToHome,
-    heroDescription: localizeSection('socialImpact', ['heroDescription']).heroDescription,
-    images
-  };
-};
 
 const allConferencesDoc = {
   _id: 'allConferences-single',
@@ -335,8 +298,6 @@ async function uploadDocs() {
   await client.createOrReplace(publicPolicyDoc);
   const outsourcedManagementDoc = await buildOutsourcedManagementDoc();
   await client.createOrReplace(outsourcedManagementDoc);
-  const socialImpactDoc = await buildSocialImpactDoc();
-  await client.createOrReplace(socialImpactDoc);
   await client.createOrReplace(allConferencesDoc);
   await client.createOrReplace(footerDoc);
   await client.createOrReplace(contactFormDoc);
