@@ -42,6 +42,18 @@
     ],
     "carouselImages": [
       {
+        "title": "Conference 'Energy Transition Towards Sustainable and Smart Cities', 2025",
+        "image": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/1757278858344.jpeg",
+        "link": "https://www.consiglioveneto.it/web/crv/dettaglio?id=73268735&type=comunicato&tab=0&pageTitle=Comunicati%20stampa",
+        "topic": "Venice, September 5, 2025 – The E-novation Foundation and the Sustainable Economy Association promote a high-profile meeting at the Venice Festival dedicated to one of the most current themes: energy and digital transition as a lever to build intelligent and sustainable cities."
+      },
+      {
+        "title": "Conference 'Energy Transition Towards Sustainable and Smart Cities', 2025",
+        "image": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/1757278862210.jpeg",
+        "link": "https://www.youtube.com/watch?v=11zHZHoauB8",
+        "topic": "Venice, September 5, 2025 – The E-novation Foundation and the Sustainable Economy Association promote a high-profile meeting at the Venice Festival dedicated to one of the most current themes: energy and digital transition as a lever to build intelligent and sustainable cities."
+      },
+      {
         "title": "'Railway Bypass' and moderation of the inaugural conference, 2024",
         "image": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/Bypass%20effetti%20vibrazionali%20e%20tecniche%20di%20mitigazione.png",
         "link": "https://www.youtube.com/live/qzlIxiylCc0",
@@ -174,6 +186,74 @@
         "topic": "Informative conference on vibration impacts and mitigation techniques related to the Trento railway bypass project.",
         "link": "https://www.youtube.com/live/qzlIxiylCc0"
       },
+        {
+          "title": "International, executive trainer for the 'Public Private Partnership for Local Development' program",
+          "date": "2024",
+          "location": "Mozambique",
+          "attendees": "100+",
+          "topic": "CCI-International Cooperation Center, executive trainer for the 'Public Private Partnership for Local Development' program, capacity building for managers and senior public officials in Mozambique.",
+          "link": "https://www.trentinomozambico.org/progetti-cooperazione-internazionale/altri-progetti/capacity-building-istituzionale-a-livello-nazionale/",
+          "links": [
+            {
+              "name": "YouTube Video 1",
+              "url": "https://www.youtube.com/watch?v=U741bC5dUVk"
+            },
+            {
+              "name": "YouTube Video 2",
+              "url": "https://www.youtube.com/watch?v=z5zt4k9T2FA"
+            },
+            {
+              "name": "YouTube Video 3",
+              "url": "https://www.youtube.com/watch?v=z5zt4k9T2FA"
+            },
+            {
+              "name": "YouTube Video 4",
+              "url": "https://www.youtube.com/watch?v=CKc0PJ04pTA"
+            },
+            {
+              "name": "YouTube Video 5",
+              "url": "https://www.youtube.com/watch?v=CKc0PJ04pTA"
+            },
+            {
+              "name": "Project MUDAR",
+              "url": "https://www.mudarbeira.org/it/o-projecto-it/"
+            },
+            {
+              "name": "Project Capacity Building",
+              "url": "https://www.trentinomozambico.org/progetti-cooperazione-internazionale/altri-progetti/capacity-building-istituzionale-a-livello-nazionale/"
+            }
+          ]
+        },
+        {
+          "title": "Conference 'Energy Transition Towards Sustainable and Smart Cities'",
+          "date": "2025",
+          "location": "Venice Festival, Venice",
+          "attendees": "150+",
+          "topic": "The E-novation Foundation and the Sustainable Economy Association promote a high-profile meeting at the Venice Festival dedicated to energy and digital transition as a lever to build smart and sustainable cities.",
+          "link": "https://www.consiglioveneto.it/web/crv/dettaglio?id=73268735&type=comunicato&tab=0&pageTitle=Comunicati%20stampa",
+          "links": [
+            {
+              "name": "Ambiente News",
+              "url": "https://ambiente.news/comunicati/al-festival-di-venezia-protagoniste-le-citta-intelligenti-e-sostenibili-per-la-transizione-energetica-e-digitale/"
+            },
+            {
+              "name": "Agipress",
+              "url": "https://www.agipress.it/transizione-energetica-e-digitale-al-festival-di-venezia-protagoniste-le-citta-intelligenti/"
+            },
+            {
+              "name": "Consiglio Veneto (press release)",
+              "url": "https://www.consiglioveneto.it/web/crv/dettaglio?id=73268735&type=comunicato&tab=0&pageTitle=Comunicati%20stampa"
+            },
+            {
+              "name": "Agenparl",
+              "url": "https://agenparl.eu/2025/09/04/transizione-energetica-e-digitale-verso-citta-intelligenti-e-sostenibili/"
+            },
+            {
+              "name": "YouTube Video",
+              "url": "https://www.youtube.com/watch?v=11zHZHoauB8"
+            }
+          ]
+        },
       {
         "title": "Sustainability and Urban Electric Mobility. Experiences and Case Studies Compared",
         "date": "2018",
