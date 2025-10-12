@@ -68,7 +68,7 @@ const AboutSection = ({ content, locale, outsourcedManagement, publicPolicy, con
                         <img
                           src={image.src}
                           alt={image.alt}
-                          className="w-full h-full min-h-full object-cover rounded-none md:rounded-2xl shadow-lg transition-all duration-700 ease-out group-hover/image:shadow-2xl group-hover/image:scale-105 object-left lg:object-[75%_25%]"
+                          className="w-full h-full min-h-full object-cover rounded-none md:rounded-2xl shadow-lg transition-all duration-700 ease-out group-hover/image:shadow-2xl group-hover/image:scale-105 object-[25%_75%] lg:object-[75%_25%]"
                         />
                         <div
                           className={
