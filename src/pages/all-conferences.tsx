@@ -48,7 +48,7 @@ const AllConferences = ({ content, locale }: AllConferencesProps) => {
                 {content?.title?.[locale] || content?.title || 'All Conferences'}
               </h1>
               {sortedConferences.map((conference: any, index: number) => (
-                <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 mb-3 flex flex-col" key={index}>
+                <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 mb-3 flex flex-col" key={index} id={conference.title?.[locale] || conference.title || ''}>
                   <div className="flex items-start justify-between mb-6">
                     <div className="flex-1">
                       <h3 className="text-xl font-serif font-semibold text-slate-900 mb-3">{conference.title?.[locale] || conference.title || ''}</h3>

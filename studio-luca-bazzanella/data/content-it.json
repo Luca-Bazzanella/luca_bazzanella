@@ -42,13 +42,13 @@
     ],
     "carouselImages": [
       {
-        "title": "Conferenza 'Transizione energetica verso città sostenibili e intelligenti', 2025",
+        "title": "Diretta con il presidente Luca Bazzanella dallo Spazio Regione del Veneto, 82° Mostra Internazionale d’arte Cinematografica, 2025",
         "image": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/1757278862210.jpeg",
         "link": "https://www.consiglioveneto.it/web/crv/dettaglio?id=73268735&type=comunicato&tab=0&pageTitle=Comunicati%20stampa",
         "topic": "Venezia, 05 settembre 2025 – La Fondazione E-novation e la Sustainable Economy Association promuovono al Festival di Venezia un incontro di alto profilo dedicato a uno dei temi più attuali: la transizione energetica e digitale come leva per costruire città intelligenti e sostenibili."
       },
       {
-        "title": "Conferenza 'Transizione energetica verso città sostenibili e intelligenti', 2025",
+        "title": "Diretta con il presidente Luca Bazzanella dallo Spazio Regione del Veneto, 82° Mostra Internazionale d’arte Cinematografica, 2025",
         "image": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/1757278858344.jpeg",
         "link": "https://www.youtube.com/watch?v=11zHZHoauB8",
         "topic": "Venezia, 05 settembre 2025 – La Fondazione E-novation e la Sustainable Economy Association promuovono al Festival di Venezia un incontro di alto profilo dedicato a uno dei temi più attuali: la transizione energetica e digitale come leva per costruire città intelligenti e sostenibili."
@@ -68,7 +68,7 @@
       {
         "title": "Inaugurazione contest Smart City del Futuro, 2023",
         "image": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/Inaugurazione contest Smart City del Futuro.jpg",
-        "link": "https://www.cci.tn.it/contest-smart-city-del-futuro/",
+        "link": "https://european-management-institute.github.io/luca_bazzanella/all-conferences/#id=Internazionale,%20formatore%20percorso%20executive%20'Partenariato%20Pubblico%20Privato%20per%20lo%20sviluppo%20locale'",
         "topic": "Evento educativo di lancio che coinvolge studenti delle scuole superiori nella co-progettazione di città future sostenibili e resilienti."
       },
       {
@@ -78,7 +78,7 @@
         "topic": "Dibattito sugli impatti locali e le sfide nell’attuazione del piano di ripresa italiano per le transizioni sostenibili e digitali."
       },
       {
-        "title": "Il Partenariato Pubblico Privato: un’opportunità per PMI ed enti locali, 2021",
+        "title": "Luca Bazzanella Responsabile Ufficio Europa Confcommercio Trentino, Webinar: Il Partenariato Pubblico Privato: un’opportunità per PMI ed enti locali, 2021",
         "image": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/Partenariato Pubblico Privato.png",
         "link": "https://www.youtube.com/watch?v=nVIz903jFKY",
         "topic": "Seminario online che presenta casi concreti di PPP per favorire investimenti locali e la partecipazione delle PMI."
@@ -86,7 +86,7 @@
       {
         "title": "Il Partenariato Pubblico Privato per uno sviluppo sostenibile del Trentino, 2020",
         "image": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/Partenariato Pubblico Privato in Trentino.png",
-        "link": "https://unione.tn.it/notizia/il-partenariato-pubblico-privato-per-uno-sviluppo-sostenibile-del-trentino",
+        "link": "https://unione.tn.it/notizia/perch-torna-attuale-il-tema-del-partenariato-pubblico-privato",
         "topic": "Strategie ed esempi di partenariati pubblico-privati per sostenere lo sviluppo sostenibile in Trentino."
       },
       {
@@ -97,7 +97,7 @@
       },
       {
         "title": "'Il Futuro della Mobilità Sostenibile' Trento, Sustainable Economy Association, 2019",
-        "image": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/Futuro%20della%20Mobilit%C3%A0%20Sostenibile%20-%2021:02:2019%20.png",
+        "image": "https://european-management-institute.github.io/luca_bazzanella/lovable-uploads/fcba496a-27a5-4315-bceb-49a826df902a.jpeg",
         "link": "https://www.youtube.com/watch?v=WTpy8q6fPdQ&t=2s",
         "topic": "Evento che presenta treni a idrogeno, transizione energetica urbana e innovazioni nella mobilità con stakeholder nazionali e locali."
       },
@@ -196,23 +196,15 @@
           "link": "https://www.trentinomozambico.org/progetti-cooperazione-internazionale/altri-progetti/capacity-building-istituzionale-a-livello-nazionale/",
           "links": [
             {
-              "name": "YouTube Video 1",
+              "name": "E-leaarning 1",
               "url": "https://www.youtube.com/watch?v=U741bC5dUVk"
             },
             {
-              "name": "YouTube Video 2",
+              "name": "E-leaarning 2",
               "url": "https://www.youtube.com/watch?v=z5zt4k9T2FA"
             },
             {
-              "name": "YouTube Video 3",
-              "url": "https://www.youtube.com/watch?v=z5zt4k9T2FA"
-            },
-            {
-              "name": "YouTube Video 4",
-              "url": "https://www.youtube.com/watch?v=CKc0PJ04pTA"
-            },
-            {
-              "name": "YouTube Video 5",
+              "name": "E-leaarning 3",
               "url": "https://www.youtube.com/watch?v=CKc0PJ04pTA"
             },
             {
@@ -329,11 +321,11 @@
         "location": "Palazzo Roccabruna, Trento",
         "attendees": "60+",
         "topic": "Strategie ed esempi di partenariati pubblico-privati per sostenere lo sviluppo sostenibile in Trentino.",
-        "link": "https://unione.tn.it/notizia/il-partenariato-pubblico-privato-per-uno-sviluppo-sostenibile-del-trentino",
+        "link": "https://unione.tn.it/notizia/perch-torna-attuale-il-tema-del-partenariato-pubblico-privato",
         "links": [
           {
             "name": "Link Confcommercio",
-            "url": "https://unione.tn.it/notizia/il-partenariato-pubblico-privato-per-uno-sviluppo-sostenibile-del-trentino"
+            "url": "https://unione.tn.it/notizia/perch-torna-attuale-il-tema-del-partenariato-pubblico-privato"
           },
           {
             "name": "YouTube Intervento Luca Bazzanella",
@@ -397,10 +389,6 @@
         "topic": "Evento educativo di lancio che coinvolge studenti delle scuole superiori nella co-progettazione di città future sostenibili e resilienti. Cambiamenti climatici: quali tecnologie per città e comunità resilienti?",
         "link": "https://www.cci.tn.it/contest-smart-city-del-futuro/",
         "links": [
-          {
-            "name": "Link PAT",
-            "url": "https://educazioneambientale.provincia.tn.it/Catalogo-del-sistema-provinciale/Contest-Smart-City-del-Futuro"
-          },
           {
             "name": "Link CCI",
             "url": "https://www.cci.tn.it/contest-smart-city-del-futuro/"

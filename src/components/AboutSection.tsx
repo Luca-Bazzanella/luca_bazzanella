@@ -70,8 +70,14 @@ const AboutSection = ({ content, locale, outsourcedManagement, publicPolicy, con
                           alt={image.alt}
                           className="w-full h-full min-h-full object-cover rounded-none md:rounded-2xl shadow-lg transition-all duration-700 ease-out group-hover/image:shadow-2xl group-hover/image:scale-105 object-[70%_20%] lg:object-[75%_25%]"
                         />
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent rounded-none md:rounded-2xl opacity-0 group-hover/image:opacity-100 transition-all duration-500 ease-out">
-                          <div className="absolute bottom-4 left-4 text-white transform translate-y-4 group-hover/image:translate-y-0 transition-transform duration-500 ease-out">
+                        <div
+                          className={
+                            "absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent rounded-none md:rounded-2xl transition-all duration-500 ease-out" +
+                            " " +
+                            "opacity-100 md:opacity-0 md:group-hover/image:opacity-100"
+                          }
+                        >
+                          <div className="absolute bottom-4 left-4 text-white transform translate-y-0 md:translate-y-4 md:group-hover/image:translate-y-0 transition-transform duration-500 ease-out">
                             <p className="text-sm font-semibold mb-1">{image.title}</p>
                             {/* <p className="text-xs opacity-90">{image.subtitle}</p> */}
                           </div>
@@ -86,7 +92,7 @@ const AboutSection = ({ content, locale, outsourcedManagement, publicPolicy, con
             </Carousel>
           </div>
           {/* Organizations Cards */}
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-2 md:gap-12" id="activity">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-2 md:gap-12 pt-8" id="activity">
             {(content?.organizations ?? []).map((org) => (
               <div key={org.id} id={org.id} className="bg-white p-4 lg:p-6 pt-4 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col">
                 <div>
