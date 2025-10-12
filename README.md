@@ -41,6 +41,8 @@ yarn install
 
 To update the content from JSON files and deploy the Sanity Studio:
 
+> **Important:** The Sanity config file and the import script require a valid Sanity API key for authentication. Make sure your API key is set up in your environment or configuration before running the script.
+
 1. Install `@sanity/client` globally (required for scripts):
 
 	```bash
