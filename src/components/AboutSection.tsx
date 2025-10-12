@@ -86,7 +86,7 @@ const AboutSection = ({ content, locale, outsourcedManagement, publicPolicy, con
           {/* Enhanced Carousel with navigation controls */}
           <div className="relative" id="conferences">
             <a href="/all-conferences" target="_blank" rel="noopener noreferrer" className="group">
-              <h2 className="text-3xl font-bold text-slate-800 mb-4 pl-4 lg:pl-0 transition-colors duration-200 group-hover:underline">
+              <h2 className="text-3xl font-bold text-slate-800 mb-4 pl-4 lg:pl-0 transition-colors duration-200 underline">
                 {content?.navigation?.conferences?.[locale] || content?.navigation?.conferences || 'Conferences'}
               </h2>
             </a>

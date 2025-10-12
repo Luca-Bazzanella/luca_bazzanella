@@ -11,11 +11,30 @@ type AllConferencesProps = {
 
 const AllConferences = ({ content, locale }: AllConferencesProps) => {
   const baseUrl = 'https://european-management-institute.github.io/luca_bazzanella';
+  // Sort conferences by date (latest first)
+  const sortedConferences = (content?.allConferences || []).slice().sort((a: any, b: any) => {
+    // Try to get the date string for the current locale, fallback to default
+    const dateA = a.date?.[locale] || a.date || '';
+    const dateB = b.date?.[locale] || b.date || '';
+    // Parse as Date objects
+    const timeA = Date.parse(dateA);
+    const timeB = Date.parse(dateB);
+    // If both dates are valid, sort descending
+    if (!isNaN(timeA) && !isNaN(timeB)) {
+      return timeB - timeA;
+    }
+    // If only one is valid, put valid first
+    if (!isNaN(timeA)) return -1;
+    if (!isNaN(timeB)) return 1;
+    // Otherwise, keep original order
+    return 0;
+  });
+
   return (
     <div className="min-h-screen">
       <main className="pt-16">
         {/* All Conferences Grid */}
-  <section className="py-20 bg-gradient-to-br from-slate-50 to-green-50/30">
+        <section className="py-20 bg-gradient-to-br from-slate-50 to-green-50/30">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <a
               href={baseUrl}
@@ -28,8 +47,8 @@ const AllConferences = ({ content, locale }: AllConferencesProps) => {
               <h1 className="text-4xl md:text-6xl font-serif font-bold text-slate-900 mb-6">
                 {content?.title?.[locale] || content?.title || 'All Conferences'}
               </h1>
-              {content?.allConferences?.map((conference: any, index: number) => (
-                <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 mb-3 flex flex-col">
+              {sortedConferences.map((conference: any, index: number) => (
+                <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300 mb-3 flex flex-col" key={index}>
                   <div className="flex items-start justify-between mb-6">
                     <div className="flex-1">
                       <h3 className="text-xl font-serif font-semibold text-slate-900 mb-3">{conference.title?.[locale] || conference.title || ''}</h3>
