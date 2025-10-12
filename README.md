@@ -36,7 +36,41 @@ Install dependencies:
 yarn install
 ```
 
-### Development
+
+## Updating Content and Deploying Studio
+
+To update the content from JSON files and deploy the Sanity Studio:
+
+1. Install `@sanity/client` globally (required for scripts):
+
+	```bash
+	npm install -g @sanity/client
+	```
+
+2. Change directory to the studio folder:
+
+	```bash
+	cd studio-luca-bazzanella
+	```
+
+3. Run the import script to update content. This will synchronize your local content with the Sanity backend, including images and all translated fields.
+
+	```bash
+	node scripts/importSanityContent.js
+	```
+
+4. Build the studio:
+
+	```bash
+	npm run build
+	```
+
+5. Deploy the studio:
+
+	```bash
+	npm run deploy
+	```
+
 
 Start the development server with hot reload:
 
