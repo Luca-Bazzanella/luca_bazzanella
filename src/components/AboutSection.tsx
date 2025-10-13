@@ -102,7 +102,7 @@ const AboutSection = ({ content, locale, outsourcedManagement, publicPolicy, con
                   <h3 className="text-xl font-bold text-slate-800 mb-2">{org.title?.[locale] || org.title || ''}</h3>
                 </div>
                 <div className="space-y-4 mb-2 md:mb-0 flex-grow">
-                  <p className=" text-slate-700 leading-relaxed font-light text-justify [word-spacing: -2px] text-justify [word-spacing: -2px] md:mb-1">
+                  <p className=" text-slate-700 leading-loose font-light text-justify [word-spacing: -2px] text-justify [word-spacing: -2px] md:mb-1">
                     {typeof org.description === 'object'
                       ? org.description?.[locale] || org.description?.en || org.description?.it || ''
                       : org.description || ''}
