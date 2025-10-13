@@ -229,11 +229,27 @@ async function buildAboutDoc() {
 
 // Prepare publicPolicy document (all keys)
 async function buildPublicPolicyDoc() {
+  // Build features array from JSON
+  const enFeatures = Array.isArray(en.publicPolicy?.features) ? en.publicPolicy.features : [];
+  const itFeatures = Array.isArray(it.publicPolicy?.features) ? it.publicPolicy.features : [];
+  const features = enFeatures.map((feat, i) => ({
+    _key: feat._key || `feature_${i}_${Math.random().toString(36).substr(2, 6)}`,
+    title: {
+      en: feat.title || '',
+      it: itFeatures[i]?.title || ''
+    },
+    description: {
+      en: feat.description || '',
+      it: itFeatures[i]?.description || ''
+    },
+    icon: feat.icon || '',
+    link: feat.link || ''
+  }));
   return {
     _id: 'publicPolicy-single',
     _type: 'publicPolicy',
     title: localizeSection('publicPolicy', ['title']).title,
-    heroDescription: localizeSection('publicPolicy', ['heroDescription']).heroDescription
+    features
   };
 }
 
