@@ -36,10 +36,6 @@ const AboutSection = ({ content, locale, outsourcedManagement, publicPolicy, con
     <>
       <section id="about" className="py-4 bg-gradient-to-br from-slate-50 to-blue-50/30">
         <div className="max-w-7xl mx-auto px-0 md:px-4 sm:px-6 lg:px-8">
-          {/* Key Activities Header */}
-          <div className="md:mb-6">
-            <h2 className="text-3xl font-bold text-slate-800 pl-4 md:pl-8 lg:pl-2">{content?.navigation?.activity?.[locale] || content?.navigation?.activity || 'Activity'}</h2>
-          </div>
           {/* Enhanced Carousel with navigation controls */}
           <div className="relative" id="conferences">
             <a href="/luca_bazzanella/all-conferences" target="_blank" rel="noopener noreferrer" className="group">
@@ -90,6 +86,10 @@ const AboutSection = ({ content, locale, outsourcedManagement, publicPolicy, con
               <CarouselPrevious className="absolute left-2 md:left-0 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white shadow-lg border-0 h-8 w-8 md:h-10 md:w-10" />
               <CarouselNext className="absolute right-2 md:right-0 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white shadow-lg border-0 h-8 w-8 md:h-10 md:w-10" />
             </Carousel>
+          </div>
+          {/* Key Activities Header */}
+          <div className="mt-6">
+            <h2 className="text-3xl font-bold text-slate-800 pl-4 md:pl-8 lg:pl-2">{content?.navigation?.activity?.[locale] || content?.navigation?.activity || 'Activity'}</h2>
           </div>
           {/* Organizations Cards */}
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-2 md:gap-12 pt-8" id="activity">
