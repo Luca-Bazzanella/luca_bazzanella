@@ -11,7 +11,7 @@ const HeroSection = ({ content, locale }) => {
   <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-0 mt-0 mb-auto lg:mt-[10rem] pb-5">
         <div className="grid lg:grid-cols-2 gap-8 items-stretch">
           <div className="animate-fade-in space-y-8 flex flex-col justify-center order-2 lg:order-1">
-            <p className="text-lg text-slate-700 leading-relaxed font-light max-w-2xl text-justify">
+            <p className="text-lg text-slate-700 leading-loose font-light max-w-2xl text-justify">
               {content?.description?.[locale] || ''}
             </p>
             
