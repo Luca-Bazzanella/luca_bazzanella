@@ -58,7 +58,7 @@ const HeroSection = ({ content, locale }) => {
               <img 
                 src={getSanityImageUrl(content?.images?.[0])}
                 alt={content?.images?.[0]?.alt}
-                className="w-full max-w-lg h-full object-cover rounded-3xl shadow-2xl"
+                className="w-full max-w-lg h-[96%] object-cover rounded-3xl shadow-2xl"
               />
             </div>
             <div className="bg-gradient-to-r from-luca-blue-600/20 to-luca-earth-600/20 rounded-3xl blur-2xl"></div>
