@@ -58,7 +58,25 @@ const AboutSection = ({ content, locale, outsourcedManagement, publicPolicy, con
             >
               <CarouselContent className="ml-0 md:-ml-4">
                 {enhancedImages.map((image, index) => (
-                  <CarouselItem key={index} className="pl-0 md:pl-4 basis-full md:basis-1/3">
+                  <CarouselItem key={index} className="pl-0 md:pl-4 basis-full md:basis-1/3 relative">
+                    {/* Extract date in format DD.MM.YYYY from title, display top right, and remove from title */}
+                    {(() => {
+                      const title = image.title || '';
+                      const dateMatch = title.match(/(\d{2}\.\d{2}\.\d{4})/);
+                      const date = dateMatch ? dateMatch[1] : '';
+                      let cleanedTitle = title;
+                      if (date) {
+                        // Remove date and any preceding comma/spaces
+                        cleanedTitle = cleanedTitle.replace(/,?\s*\d{2}\.\d{2}\.\d{4}/, '');
+                        // Remove trailing comma if present
+                        cleanedTitle = cleanedTitle.replace(/,\s*$/, '');
+                      }
+                      return date ? (
+                        <span className="absolute top-2 right-2 text-xs font-bold bg-blue-600 text-white px-2 py-1 rounded shadow-lg z-20">
+                          {date}
+                        </span>
+                      ) : null;
+                    })()}
                     <a href={image.link} target="_blank" rel="noopener noreferrer" className="block h-full">
                       <div className="relative group/image overflow-hidden h-full min-h-full">
                         <img
@@ -74,7 +92,17 @@ const AboutSection = ({ content, locale, outsourcedManagement, publicPolicy, con
                           }
                         >
                           <div className="absolute bottom-4 left-4 text-white transform translate-y-0 md:translate-y-4 md:group-hover/image:translate-y-0 transition-transform duration-500 ease-out">
-                            <p className="text-sm font-semibold mb-1">{image.title}</p>
+                            <p className="text-sm font-semibold mb-1">{(() => {
+                              const title = image.title || '';
+                              const dateMatch = title.match(/(\d{2}\.\d{2}\.\d{4})/);
+                              const date = dateMatch ? dateMatch[1] : '';
+                              let cleanedTitle = title;
+                              if (date) {
+                                cleanedTitle = cleanedTitle.replace(/,?\s*\d{2}\.\d{2}\.\d{4}/, '');
+                                cleanedTitle = cleanedTitle.replace(/,\s*$/, '');
+                              }
+                              return cleanedTitle;
+                            })()}</p>
                             {/* <p className="text-xs opacity-90">{image.subtitle}</p> */}
                           </div>
                         </div>
