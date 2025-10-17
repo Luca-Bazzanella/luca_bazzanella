@@ -30,7 +30,7 @@ jobs:
         run: yarn install --frozen-lockfile
 
       - name: Build
-        run: yarn build
+        run: yarn build && cp out/index.html out/404.html
       
       - name: Add CNAME file
         run: echo "lucabazzanella.it" > out/CNAME
