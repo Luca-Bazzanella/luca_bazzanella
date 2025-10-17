@@ -1,6 +1,6 @@
 export default {
-  basePath: '/luca_bazzanella',
-  assetPrefix: '/luca_bazzanella/',
+  basePath: '',
+  assetPrefix: '',
   output: 'export',
   trailingSlash: true, // recommended for static export
   // ...other config...
