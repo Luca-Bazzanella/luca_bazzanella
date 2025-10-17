@@ -10,7 +10,7 @@ type AllConferencesProps = {
 };
 
 const AllConferences = ({ content, locale }: AllConferencesProps) => {
-  const baseUrl = 'https://european-management-institute.github.io/luca_bazzanella';
+  const baseUrl = 'https://european-management-institute.github.io/';
   // Sort conferences by date (latest first)
   const sortedConferences = (content?.allConferences || []).slice().sort((a: any, b: any) => {
     // Try to get the date string for the current locale, fallback to default
