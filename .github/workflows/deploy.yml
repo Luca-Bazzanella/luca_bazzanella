@@ -33,7 +33,7 @@ jobs:
         run: yarn build
       
       - name: Add CNAME file
-        run: echo "lucabazzanella.it" > dist/CNAME
+        run: echo "lucabazzanella.it" > out/CNAME
 
       - name: Verify out contents
         run: ls -la ./out
