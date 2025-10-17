@@ -88,10 +88,10 @@ const AboutSection = ({ content, locale, outsourcedManagement, publicPolicy, con
                           className={
                             "absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent rounded-none md:rounded-2xl transition-all duration-500 ease-out" +
                             " " +
-                            "opacity-100 md:opacity-0 md:group-hover/image:opacity-100"
+                            "opacity-100 md:opacity-100"
                           }
                         >
-                          <div className="absolute bottom-4 left-4 text-white transform translate-y-0 md:translate-y-4 md:group-hover/image:translate-y-0 transition-transform duration-500 ease-out">
+                          <div className="absolute bottom-4 left-4 text-white transform translate-y-0 md:translate-y-0 transition-transform duration-500 ease-out">
                             <p className="text-sm font-semibold mb-1">{(() => {
                               const title = image.title || '';
                               const dateMatch = title.match(/(\d{2}\.\d{2}\.\d{4})/);
