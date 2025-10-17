@@ -38,7 +38,7 @@ const AboutSection = ({ content, locale, outsourcedManagement, publicPolicy, con
         <div className="max-w-7xl mx-auto px-0 md:px-4 sm:px-6 lg:px-8">
           {/* Enhanced Carousel with navigation controls */}
           <div className="relative" id="conferences">
-            <a href="/luca_bazzanella/all-conferences" target="_blank" rel="noopener noreferrer" className="group">
+            <a href="/all-conferences" target="_blank" rel="noopener noreferrer" className="group">
               <h2 className="text-3xl font-bold text-slate-800 mb-4 pl-4 lg:pl-0 transition-colors duration-200 underline">
                 {content?.navigation?.conferences?.[locale] || content?.navigation?.conferences || 'Conferences'}
               </h2>
