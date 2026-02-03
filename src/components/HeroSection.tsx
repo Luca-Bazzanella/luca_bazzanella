@@ -6,12 +6,12 @@ import { Linkedin, Instagram } from 'lucide-react';
 const HeroSection = ({ content, locale }) => {
 
   return (
-    <section id="home" className="relative min-h-screen flex items-right justify-right bg-gradient-to-br from-slate-50 via-blue-50/30 to-slate-100">
+    <section id="home" className="relative min-h-screen flex items-right justify-right bg-slate-900">
       
   <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-0 mt-0 mb-auto lg:mt-[10rem] pb-5">
         <div className="grid lg:grid-cols-2 gap-8 items-stretch">
           <div className="animate-fade-in space-y-8 flex flex-col justify-center order-2 lg:order-1">
-            <p className="text-lg text-slate-700 leading-loose font-light max-w-2xl text-justify">
+            <p className="text-lg text-slate-300 leading-loose font-light max-w-2xl text-justify">
               {content?.description?.[locale] || ''}
             </p>
             
@@ -19,7 +19,7 @@ const HeroSection = ({ content, locale }) => {
               <Button 
                 variant="outline" 
                 size="lg" 
-                className="border border-slate-300 bg-white hover:bg-slate-50 text-slate-700 hover:text-slate-900 w-10 h-10 rounded-lg font-medium transition-all duration-200 flex items-center justify-center p-0"
+                className="border border-slate-500 bg-transparent hover:bg-slate-800 text-slate-300 hover:text-white w-10 h-10 rounded-lg font-medium transition-all duration-200 flex items-center justify-center p-0"
                 onClick={() => window.open('https://www.linkedin.com/in/luca-bazzanella-b08037b7/', '_blank')}
               >
                 <span className="flex items-center justify-center w-full h-full">
@@ -29,7 +29,7 @@ const HeroSection = ({ content, locale }) => {
               <Button 
                 variant="outline" 
                 size="lg" 
-                className="border border-slate-300 bg-white hover:bg-slate-50 text-slate-700 hover:text-slate-900 w-10 h-10 rounded-lg font-medium transition-all duration-200 flex items-center justify-center p-0"
+                className="border border-slate-500 bg-transparent hover:bg-slate-800 text-slate-300 hover:text-white w-10 h-10 rounded-lg font-medium transition-all duration-200 flex items-center justify-center p-0"
                 onClick={() => window.open('https://x.com/LucaBazzanella', '_blank')}
                 aria-label="X (Twitter)"
               >
@@ -42,7 +42,7 @@ const HeroSection = ({ content, locale }) => {
               <Button
                 variant="outline"
                 size="lg"
-                className="border border-slate-300 bg-white hover:bg-slate-50 text-slate-700 hover:text-slate-900 w-10 h-10 rounded-lg font-medium transition-all duration-200 flex items-center justify-center p-0"
+                className="border border-slate-500 bg-transparent hover:bg-slate-800 text-slate-300 hover:text-white w-10 h-10 rounded-lg font-medium transition-all duration-200 flex items-center justify-center p-0"
                 onClick={() => window.open('https://instagram.com/luca_bazzanella', '_blank')}
                 aria-label="Instagram"
               >
@@ -54,14 +54,14 @@ const HeroSection = ({ content, locale }) => {
           </div>
 
           <div className="relative flex items-center justify-center h-full order-1 lg:order-2">
+            <div className="absolute inset-0 bg-gradient-to-br from-slate-800 via-slate-900 to-slate-950 rounded-3xl blur-2xl scale-110 -z-10 translate-x-[10px] translate-y-[10px]" aria-hidden />
             <div className="relative z-10 w-full h-full flex items-center justify-center">
               <img 
                 src={getSanityImageUrl(content?.images?.[0])}
                 alt={content?.images?.[0]?.alt}
-                className="w-full max-w-lg h-[95%] object-cover rounded-3xl shadow-2xl"
+                className="w-full max-w-lg h-[95%] object-cover rounded-3xl shadow-2xl ring-2 ring-white/10"
               />
             </div>
-            <div className="bg-gradient-to-r from-luca-blue-600/20 to-luca-earth-600/20 rounded-3xl blur-2xl"></div>
           </div>
         </div>
       </div>
