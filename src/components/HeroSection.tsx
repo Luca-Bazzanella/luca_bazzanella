@@ -54,7 +54,7 @@ const HeroSection = ({ content, locale }) => {
           </div>
 
           <div className="relative flex items-center justify-center h-full order-1 lg:order-2">
-            <div className="absolute inset-0 bg-gradient-to-br from-slate-800 via-slate-900 to-slate-950 rounded-3xl blur-2xl scale-110 -z-10 translate-x-[10px] translate-y-[10px]" aria-hidden />
+            <div className="absolute inset-0 bg-gradient-to-br from-slate-800 via-slate-900 to-slate-950 rounded-3xl blur-2xl scale-110 -z-10 translate-x-[10px] translate-y-[-20px]" aria-hidden />
             <div className="relative z-10 w-full h-full flex items-center justify-center">
               <img 
                 src={getSanityImageUrl(content?.images?.[0])}
