@@ -7,15 +7,14 @@ const HeroSection = ({ content, locale }) => {
 
   return (
     <section id="home" className="relative min-h-screen flex items-right justify-right bg-slate-900">
-      
-  <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-0 mt-0 mb-auto lg:mt-[10rem] pb-5">
-        <div className="grid lg:grid-cols-2 gap-8 items-stretch">
-          <div className="animate-fade-in space-y-8 flex flex-col justify-center order-2 lg:order-1">
-            <p className="text-lg text-slate-300 leading-loose font-light max-w-2xl text-justify">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-0 lg:pb-8 mt-0 mb-auto lg:mt-[10rem] pb-5">
+        <div className="grid lg:grid-cols-2 gap-8 items-stretch min-h-[60vh] lg:min-h-[500px]">
+          {/* Desktop: flex and min-h-full to match image height */}
+          <div className="animate-fade-in space-y-8 flex flex-col justify-center order-2 lg:order-1 h-full min-h-0 lg:min-h-full">
+            <p className="text-xl text-slate-300 leading-loose font-light max-w-2xl text-justify">
               {content?.description?.[locale] || ''}
             </p>
-            
-            <div className="flex gap-3 flex-wrap justify-start items-start" style={{ marginTop: '10px' }}>
+            <div className="flex gap-3 flex-wrap justify-start items-start mt-[10px]">
               <Button 
                 variant="outline" 
                 size="lg" 
@@ -53,8 +52,8 @@ const HeroSection = ({ content, locale }) => {
             </div>
           </div>
 
-          <div className="relative flex items-center justify-center h-full order-1 lg:order-2">
-            <div className="absolute inset-0 bg-gradient-to-br from-slate-800 via-slate-900 to-slate-950 rounded-3xl blur-2xl scale-110 -z-10 translate-x-[10px] translate-y-[-20px]" aria-hidden />
+          <div className="relative flex items-center justify-center h-full order-1 lg:order-2 min-h-0 lg:min-h-full">
+            <div className="absolute inset-0 bg-gradient-to-br from-slate-800 via-slate-900 to-slate-950 rounded-3xl blur-2xl -z-10 translate-y-[-20px] lg:scale-110 lg:translate-x-[10px]" aria-hidden />
             <div className="relative z-10 w-full h-full flex items-center justify-center">
               <img 
                 src={getSanityImageUrl(content?.images?.[0])}
