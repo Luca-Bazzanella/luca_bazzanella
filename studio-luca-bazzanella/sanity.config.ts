@@ -11,7 +11,6 @@ export default defineConfig({
   title: 'Luca Bazzanella',
   projectId: 'n2d0sl08',
   dataset: 'production',
-
   plugins: [structureTool(), visionTool(), media()],
 
   schema: {
