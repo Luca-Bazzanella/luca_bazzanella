@@ -265,7 +265,6 @@ const allConferencesDoc = {
     location: { en: ac.location || '', it: it.allConferences.allConferences?.[i]?.location || '' },
     attendees: { en: ac.attendees || '', it: it.allConferences.allConferences?.[i]?.attendees || '' },
     topic: { en: ac.topic || '', it: it.allConferences.allConferences?.[i]?.topic || '' },
-    videoId: { en: ac.videoId || '', it: it.allConferences.allConferences?.[i]?.videoId || '' },
     description: { en: ac.description || '', it: it.allConferences.allConferences?.[i]?.description || '' },
     link: ac.link || '',
     links: Array.isArray(ac.links) ? ac.links.map((link, linkIdx) => ({

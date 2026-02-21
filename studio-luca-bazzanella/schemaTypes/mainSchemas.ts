@@ -135,6 +135,13 @@ export const allConferences = {
       { name: 'title', type: 'localeString', title: 'Title' },
       { name: 'date', type: 'localeString', title: 'Date' },
       { name: 'location', type: 'localeString', title: 'Location' },
+      { name: 'attendees', type: 'localeString', title: 'Attendees' },
+      { name: 'topic', type: 'localeText', title: 'Topic' },
+      { name: 'link', type: 'url', title: 'Link' },
+      { name: 'links', type: 'array', title: 'Links', of: [{ type: 'object', fields: [
+        { name: 'name', type: 'string', title: 'Name' },
+        { name: 'url', type: 'url', title: 'URL' }
+      ] }] },
       { name: 'description', type: 'localeText', title: 'Description' }
     ] }] }
   ]
